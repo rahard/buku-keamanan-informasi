@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.4)  13 JAN 2017 10:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.4)  13 JAN 2017 10:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -551,7 +551,7 @@ Writing index file keamanan.idx
 LaTeX Warning: Unused global option(s):
     [bahasa].
 
-(./keamanan.aux (./pengantar.aux) (./pendahuluan.aux))
+(./keamanan.aux (./pengantar.aux) (./pendahuluan.aux) (./prinsip.aux))
 \openout1 = `keamanan.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
@@ -700,27 +700,32 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 
 
 ]
-LaTeX Font Info:    Try loading font information for OT1+pplx on input line 9.
+LaTeX Font Info:    Try loading font information for OT1+pplx on input line 16.
+
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1pplx.fd
 File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
 )
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 9.
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 16.
+
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 9.
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 16.
+
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 9.
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 16.
+
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 9.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 16.
+
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
@@ -738,34 +743,51 @@ Overfull \hbox (6.64978pt too wide) in paragraph at lines 2--7
  Teknologi 
  []
 
+LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10> not available
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 18.
 ) [7]
+\openout2 = `prinsip.aux'.
+
+ (./prinsip.tex [8
+
+
+
+]) [9]
 No file keamanan.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 33.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 33.
-(./keamanan.aux (./pengantar.aux) (./pendahuluan.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 33.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 33.
-Package rerunfilecheck Info: File `keamanan.out' has not changed.
-(rerunfilecheck)             Checksum: 52090F1284F28C32AF7CF32FBCDE3B31;188.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 33.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 34.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 34.
+(./keamanan.aux (./pengantar.aux) (./pendahuluan.aux) (./prinsip.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 34.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 34.
+
+
+Package rerunfilecheck Warning: File `keamanan.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `keamanan.out':
+(rerunfilecheck)             Before: DB3DCF474907858D3D033B85170AA18A;682
+(rerunfilecheck)             After:  83A860C4E25A47F3182607EFD28E85C7;1024.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 34.
  ) 
 Here is how much of TeX's memory you used:
- 12349 strings out of 493042
- 176392 string characters out of 6134661
- 265911 words of memory out of 5000000
- 15634 multiletter control sequences out of 15000+600000
- 45246 words of font info for 64 fonts, out of 8000000 for 9000
+ 12384 strings out of 493042
+ 176760 string characters out of 6134661
+ 267274 words of memory out of 5000000
+ 15647 multiletter control sequences out of 15000+600000
+ 52610 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  46i,11n,45p,296b,333s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texlive/2
 015/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2015/tex
-mf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2015/texmf-dist
-/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on keamanan.pdf (7 pages, 41309 bytes).
+mf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2015/texmf-dist
+/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/
+type1/urw/palatino/uplri8a.pfb>
+Output written on keamanan.pdf (9 pages, 58614 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
- 56 compressed objects within 1 object stream
- 11 named destinations out of 1000 (max. 500000)
- 1553 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 103 PDF objects out of 1000 (max. 8388607)
+ 83 compressed objects within 1 object stream
+ 19 named destinations out of 1000 (max. 500000)
+ 1577 words of extra memory for PDF output out of 10000 (max. 10000000)
 
