@@ -1,0 +1,33 @@
+%%\documentclass{tufte-book}
+\documentclass[bahasa]{tufte-book}
+\title{Keamanan Informasi}
+\author{Budi Rahardjo}
+
+\usepackage{graphicx} % Needed to insert images into the document
+\graphicspath{{graphics/}} % Sets the default location of pictures
+\setkeys{Gin}{width=\linewidth,totalheight=\textheight,keepaspectratio} % 
+
+\usepackage{makeidx}
+\makeindex
+
+\begin{document}
+
+
+%%\frontmatter
+%\fbox{\includegraphics[width=1.0\linewidth]{graphics/BR-starting-up.png}}
+%\includegraphics[width=1.0\linewidth]{graphics/BR-starting-up.png}
+
+\maketitle
+
+\tableofcontents
+
+\include{pengantar}
+\include{pendahuluan}
+
+\bibliography{referensi}
+
+%\bibliographystyle{plainnat}
+%\bibliographystyle{alpha}
+\bibliographystyle{plain}
+
+\end{document}
