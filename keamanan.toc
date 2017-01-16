@@ -6,4 +6,5 @@
 \contentsline {section}{Confidentiality}{9}{section*.7}
 \contentsline {section}{Integrity}{9}{section*.8}
 \contentsline {section}{Availability}{9}{section*.9}
+\contentsline {chapter}{Bibliography}{11}{chapter*.10}
 \contentsfinish 
