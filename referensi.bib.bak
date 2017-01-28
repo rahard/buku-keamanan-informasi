@@ -1,49 +1,10 @@
-% This file was created with JabRef 2.9.2.
 % Encoding: UTF-8
 
-@BOOK{howtogetideas,
-  title = {How to Get Ideas},
-  publisher = {Berrett-Koehler Publishers},
-  year = {1996},
-  author = {Jack Foster},
-  owner = {budi},
-  timestamp = {2015.07.18}
+@Book{davidkahn,
+  title     = {Codebreakers},
+  publisher = {Scribner},
+  year      = {1967},
+  author    = {David Kahn},
 }
 
-@BOOK{brooksmythical,
-  title = {The Mythical Man-Month: Essays on Software Engineering, Anniversary
-	Edition (2nd Edition)},
-  publisher = {Addison-Wesley},
-  year = {1974},
-  author = {Frederick P. Brooks Jr.},
-  owner = {Budi},
-  timestamp = {2015.07.28}
-}
-
-@BOOK{artofinnovation,
-  title = {The Art of Innovation},
-  publisher = {Doubleday},
-  year = {2001},
-  author = {Tom Kelley},
-  date-added = {2015-05-25 02:12:09 +0000},
-  date-modified = {2015-05-25 02:15:11 +0000}
-}
-
-@BOOK{22lawsofmarketing,
-  title = {The 22 Immutable Laws of Marketing: Violate Them at Your Own Risk!},
-  publisher = {HarperCollins},
-  year = {1994},
-  author = {Al Ries and Jack Trout},
-  owner = {Budi},
-  timestamp = {2015.08.05}
-}
-
-@BOOK{thiel0to1,
-  title = {Zero to One: Notes on Startups, or How to Build the Future},
-  publisher = {Crown Business},
-  year = {2014},
-  author = {Peter Thiel and Blake Masters},
-  owner = {Budi},
-  timestamp = {2015.12.15}
-}
-
+@Comment{jabref-meta: databaseType:bibtex;}

@@ -90,3 +90,40 @@ Contoh penggunaannya adalah dalam sistem lelang elektronik.
 Implementasi dari aspek ini dapat dilakukan dengan menggunakan
 {\em message authentication code} (dengan menggunakan fungsi {\em hash})
 dan pencatatan (logging).
+
+
+\subsection{Authentication}
+Proses {\em Authentication} digunakan untuk membuktikan klaim
+bahwa seseorang itu adalah benar-benar yang diklaim
+(bagaimana membuktikan bahwa saya adalah pengguna dengan nama ``budi'').
+
+Proses pembuktian seseorang ini lebih mudah dilakukan di dunia nyata
+dibandingkan dengan di dunia maya (siber, {\em cyber}).
+Di dunia nyata akan sulit bagi saya untuk membuat klaim palsu bahwa
+saya seorang wanita. (Saya memiliki kumis dan jenggot.)
+Namun di dunia maya, saya dapat membuat klaim bahwa saya
+seorang wanita dengan hanya memilih nama wanita dan memasang foto
+wanita.
+
+Proses {\em authentication} ini dapat dilakukan dengan bantuan
+hal lain, yang sering disebut ``faktor''. 
+(Sehingga ada istilah {\em two-factor authentication}.)
+Faktor-faktur tersebut adalah sebagai berikut.
+
+\begin{enumerate}
+\item Sesuatu yang diketahui.
+   Contoh dari faktor ini adalah nama, userid, password, dan PIN.
+\item Sesuatu yang dimiliki.
+   Contoh dari faktor ini adalah kartu, kunci, dan token.
+\item Sesuatu yang menjadi bagian dari fisik pengguna.
+   Contoh dari faktor ini adalah sidik jari, retina mata,
+   dan {\em biometric} lainnya.
+\end{enumerate}
+
+Selain faktor-faktor di atas, ada juga yang menambahkan faktor lain
+seperti berikut ini:
+\begin{enumerate}
+\item orang tersebut berada di tempat tertentu. (Proximity);
+\item authentication dengan menggunakan bantuan pihak lain,
+   pihak ketiga yang terpercaya (trusted third party).
+\end{enumerate}
