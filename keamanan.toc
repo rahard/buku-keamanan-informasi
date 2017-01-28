@@ -7,5 +7,7 @@
 \contentsline {subsection}{Confidentiality}{11}{subsection*.8}
 \contentsline {subsection}{Integrity}{11}{subsection*.9}
 \contentsline {subsection}{Availability}{12}{subsection*.10}
-\contentsline {chapter}{Bibliography}{13}{chapter*.11}
+\contentsline {section}{Aspek Keamanan Lainnya}{12}{section*.11}
+\contentsline {subsection}{Non-repudiation}{12}{subsection*.12}
+\contentsline {chapter}{Bibliography}{13}{chapter*.13}
 \contentsfinish 

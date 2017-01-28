@@ -1,8 +1,9 @@
 \chapter{Prinsip-prinsip Keamanan Informasi}
 
 Ada beberapa prinsip utama dalam keamanan informasi.
-Bab ini akan membahas prinsip-prinsip tersebut.
-
+Bab ini akan membahas prinsip-prinsip tersebut secara singkat.
+Hal-hal yang lebih rinci dan teknis, misalnya bagaimana mengimplementasikan
+aspek keamanan CIA, akan dibahas pada bagian terpisah.
 
 \section{Aspek Keamanan}
 Ketika kita berbicara tentang keamanan informasi, maka yang kita
@@ -72,3 +73,20 @@ Sebagai contoh, jaringan komputer dapat menggunakan layanan dari
 dua penyedia jasa yang berbeda.
 Jika salah satu penyedia jasa jaringan mendapat serangan (atau rusak),
 maka masih ada satu jalur lagi yang dapat digunakan.
+
+
+%%%
+\section{Aspek Keamanan Lainnya}
+Selain ketiga aspek utama (CIA), yang sudah dibahas pada bagian sebelumnya,
+ada aspek keamanan lainnya. Yang ini sifatnya tambahan, meskipun
+kadang menjadi bagian yang cukup signifikan juga.
+
+\subsection{Non-repudiation}
+Aspek {\em non-repudiation} atau nir-sangkal digunakan untuk
+membuat para pelaku tidak dapat menyangkal telah melakukan sesuatu.
+Aspek ini biasanya kental di dalam sistem yang terkait dengan transaksi.
+Contoh penggunaannya adalah dalam sistem lelang elektronik.
+
+Implementasi dari aspek ini dapat dilakukan dengan menggunakan
+{\em message authentication code} (dengan menggunakan fungsi {\em hash})
+dan pencatatan (logging).
