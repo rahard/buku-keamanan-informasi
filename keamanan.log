@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.27)  28 JAN 2017 13:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.27)  28 JAN 2017 20:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -801,20 +801,20 @@ LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10> not available
 
 LaTeX Warning: Marginpar on page 9 moved.
 
-) [9]
+[9]) [10]
 \openout2 = `prinsip.aux'.
 
- (./prinsip.tex [10
+ (./prinsip.tex [11
 
 
 
 ]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 44.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 54.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [11] [12])
-[13] (./keamanan.bbl [14
+) [12]) [13]
+(./keamanan.bbl [14
 
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{cite.davidka
@@ -840,13 +840,13 @@ Package rerunfilecheck Info: File `keamanan.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 42.
  ) 
 Here is how much of TeX's memory you used:
- 13483 strings out of 494945
- 193464 string characters out of 6180678
+ 13484 strings out of 494945
+ 193471 string characters out of 6180678
  294775 words of memory out of 5000000
  16435 multiletter control sequences out of 15000+600000
  80213 words of font info for 105 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 40i,11n,48p,913b,509s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,11n,48p,913b,469s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/budi/.texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1000.600p
 k>{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2016/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texlive/2
@@ -854,10 +854,10 @@ exlive/2016/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texlive/2
 mf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist
 /fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/
 type1/urw/palatino/uplri8a.pfb>
-Output written on keamanan.pdf (15 pages, 90282 bytes).
+Output written on keamanan.pdf (15 pages, 91935 bytes).
 PDF statistics:
- 201 PDF objects out of 1000 (max. 8388607)
- 154 compressed objects within 2 object streams
- 49 named destinations out of 1000 (max. 500000)
+ 202 PDF objects out of 1000 (max. 8388607)
+ 155 compressed objects within 2 object streams
+ 50 named destinations out of 1000 (max. 500000)
  2630 words of extra memory for PDF output out of 10000 (max. 10000000)
 

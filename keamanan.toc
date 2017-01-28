@@ -5,7 +5,7 @@
 \contentsline {chapter}{Prinsip-prinsip Keamanan Informasi}{11}{chapter*.6}
 \contentsline {section}{Aspek Keamanan}{11}{section*.7}
 \contentsline {subsection}{Confidentiality}{11}{subsection*.8}
-\contentsline {subsection}{Integrity}{11}{subsection*.9}
+\contentsline {subsection}{Integrity}{12}{subsection*.9}
 \contentsline {subsection}{Availability}{12}{subsection*.10}
 \contentsline {section}{Aspek Keamanan Lainnya}{12}{section*.11}
 \contentsline {subsection}{Non-repudiation}{12}{subsection*.12}
