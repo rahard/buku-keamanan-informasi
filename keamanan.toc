@@ -1,10 +1,11 @@
 \contentsline {chapter}{Pengantar}{5}{chapter*.2}
 \contentsline {chapter}{Pendahuluan}{7}{chapter*.3}
 \contentsline {section}{Keamanan Informasi}{7}{section*.4}
-\contentsline {section}{Beberapa Kasus}{7}{section*.5}
-\contentsline {chapter}{Prinsip-prinsip Keamanan Informasi}{9}{chapter*.6}
-\contentsline {section}{Confidentiality}{9}{section*.7}
-\contentsline {section}{Integrity}{9}{section*.8}
-\contentsline {section}{Availability}{9}{section*.9}
-\contentsline {chapter}{Bibliography}{11}{chapter*.10}
+\contentsline {section}{Beberapa Contoh Kasus}{7}{section*.5}
+\contentsline {chapter}{Prinsip-prinsip Keamanan Informasi}{11}{chapter*.6}
+\contentsline {section}{Aspek Keamanan}{11}{section*.7}
+\contentsline {subsection}{Confidentiality}{11}{subsection*.8}
+\contentsline {subsection}{Integrity}{11}{subsection*.9}
+\contentsline {subsection}{Availability}{12}{subsection*.10}
+\contentsline {chapter}{Bibliography}{13}{chapter*.11}
 \contentsfinish 

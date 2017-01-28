@@ -1,4 +1,10 @@
 \chapter{Prinsip-prinsip Keamanan Informasi}
+
+Ada beberapa prinsip utama dalam keamanan informasi.
+Bab ini akan membahas prinsip-prinsip tersebut.
+
+
+\section{Aspek Keamanan}
 Ketika kita berbicara tentang keamanan informasi, maka yang kita
 bicarakan adalah tiga hal;
 {\em confidentiality}, {\em integrity}, dan {\em availability}.
@@ -6,11 +12,14 @@ Ketiganya sering disebut dengan istilah \textbf{CIA},
 yang merupakan gabungan huruf depan dari kata-kata tersebut.
 Selain ketiga hal tersebut, masih ada aspek keamanan lainnya.
 
-\section{Confidentiality}
-Confidentiality atau kerahasiaan adalah aspek yang biasa dipahami
+\subsection{Confidentiality}
+{\em Confidentiality} atau kerahasiaan adalah aspek yang biasa dipahami
 tentang keamanan.
 Aspek confidentiality menyatakan bahwa data hanya dapat diakses
-oleh orang yang berhak.
+atau dilihat oleh orang yang berhak.
+Biasanya aspek ini yang paling mudah dipahami oleh orang.
+Jika terkait dengan data pribadi, aspek ini juga dikenal dengan
+istilah {\em Privacy}.
 
 Serangan terhadap aspek confidentiality dapat berupa
 penyadapan data (melalui jaringan),
@@ -18,7 +27,48 @@ memasang {\em keylogger} untuk menyadap apa-apa yang diketikkan
 di keyboard,
 dan pencurian fisik mesin / disk yang digunakan untuk menyimpan data.
 
+Perlindungan terhadap aspek {\em confidentiality} dapat dilakukan
+dengan menggunakan kriptografi, 
+dan membatasi akses (segmentasi jaringan)
 
-\section{Integrity}
 
-\section{Availability}
+\subsection{Integrity}
+Aspek {\em integrity} mengatakan bahwa data tidak boleh berubah
+tanpa ijin dari yang berhak.
+Sebagai contoh, jika kita memiliki sebuah pesan atau data 
+transaksi di bawah ini (transfer dari rekening 12345 ke rekening 6789 
+dengan nilai transaksi teretentu), 
+maka data transaksi tersebut tidak dapat diubah seenaknya.
+
+\begin{verbatim}
+TRANSFER 12345 KE 6789 100000
+\end{verbatim}
+
+Serangan terhadap aspek {\em integrity} dapat dilakukan oleh
+{\em man-in-the-middle}, yaitu menangkap data di tengah jalan
+kemudian mengubahnya dan meneruskannya ke tujuan.
+Data yang sampai di tujuan (misal aplikasi di web server) tidak tahu
+bahwa data sudah diubah di tengah jalan.
+
+Perlindungan untuk aspek {\em integrity} dapat dilakukan dengan
+menggunakan {\em message authentication code}.
+
+
+\subsection{Availability}
+Ketergantungan kepada sistem yang berbasis teknologi informasi
+menyebabkan sistem (beserta datanya) harus dapat diakses ketika dibutuhkan.
+Jika sistem tidak tersedia, {\em not available}, maka dapat terjadi
+masalah yang menimbulkan kerugian finansial atau bahkan nyawa.
+Itulah sebabnya aspek {\em availability} menjadi bagian dari keamanan.
+
+Serangan terhadap aspek {\em availability} dilakukan dengan tujuan
+untuk meniadakan layanan atau membuat layanan menjadi sangat lambat
+sehingga sama dengan tidak berfungsi.
+Serangannya disebut {\em Denial of Service} (DOS).
+
+Perlindungan terhadap aspek {\em availability} dapat dilakukan
+dengan menyediakan redundansi.
+Sebagai contoh, jaringan komputer dapat menggunakan layanan dari
+dua penyedia jasa yang berbeda.
+Jika salah satu penyedia jasa jaringan mendapat serangan (atau rusak),
+maka masih ada satu jalur lagi yang dapat digunakan.
