@@ -128,6 +128,9 @@ dilihat dari daftar berikut.
    dicoba digunakan di tempat lain. 
 \item 2016. Topik pembentukan ``Badan Cyber Nasional (BCN)''
    mulai hangat dibicarakan.
+\item 2017. Seorang (beberapa?) mahasiswa di sebuah perguruan tinggi
+   di Indonesia meminta bantuan cracker untuk mengubah nilainya di
+   sistem informasi kampusnya.
 \end{enumerate}
 
 Saat ini semakin banyak lagi masalah keamanan yang ditemui.
@@ -167,3 +170,95 @@ sebagaimana ditampilkan pada Gambar~\ref{fig:security-life-cycle}.
 \caption{Security Life Cycle}
 \label{fig:security-life-cycle}
 \end{figure}
+
+Sesuatu yang akan kita amankan disebut dengan ``aset''. Untuk itu, langkah
+pertaman dalam pengamanan adalah menentukan aset yang ingin dilindungi. Apa saja
+yang dianggap sebagai aset harus ditentukan bersama dengan pemilik dari sistem
+(aplikasi, data, dsb.) sebab mereka yang mengetahui mana aset dan mana yang
+bukan aset.
+Proses ini disebut {\em assesment} dan dapat dilakukan dengan melalui training
+atau {\em awareness} terhadap pihak-pihak terkait. Seringkali pemilik aplikasi
+memahami mana asetnya tetapi pihak operasional (orang-orang IT yang diberi
+tugas untuk mengamankan sistem) tidak tahu.
+
+Setelah mengetahui aset yang ingin diamankan, aset tersebut harus kita beri
+harga (value). Pengamanan nantinya akan disesuai dengan dengan nilai dari aset
+tersebut. Akan sulit kita melakukan investasi pengamanan yang biasanya lebih
+mahal dari nilai asetnya. Sebagai contoh, jika kita memiliki sebuah komputer
+yang harganya Rp.~5.000.000,- maka akan sulit untuk menerima biaya pengamanan
+yang harganya Rp.~100.000.000,- (lebih mahal). Biaya pengamanan harus lebih
+murah daripada nilai asetnya. Jika biaya pengamanan lebih mahal, mungkin lebih
+baik membeli barang sejenis saja sebagai duplikat.
+
+Untuk hal-hal yang terkait dengan teknologi informasi, pendaftaran aset-aset
+ini tidak mudah karena ada hal-hal yang tidak terlihat secara kasat mata.  Aset
+ini dapat kita bagi menjadi tiga (3) jenis; {\em hardware}, {\em software}, dan
+data. Mari kita mulai mencoba mendata.
+
+Aset yang berbentuk perangkat keras (hardware) agak ``mudah'' didata karena
+terlihat oleh mata, tetapi ada beberapa hal yang membuatnya menjadi susah.
+Salah satunya adalah nilai dari aset tersebut. Harga komputer cenderung jatuh
+dengan cepat. Berapa depresiasi dari sebuah server?  Contoh-contoh aset
+perangkat keras antara lain komputer, router, perangkat jaringan, disk, dan
+seterusnya. Apakah notebook termasuk aset atau barang habis? Bagaimana dengan
+USB flashdisk? Apakah itu termasuk aset juga?
+
+Beberapa kejadian terkait dengan kesulitan mendata perangkat keras antara lain
+tidak diketahuinya pemilik dari perangkat tersebut. Database perangkat keras
+sering tidak tersedia. Sebagai contoh, sering kali tidak diketahui harddisk dan
+lokasi server yang menggunakan disk tersebut.
+
+Jika pendataan perangkat keras sudah susah, maka pendataan perangkat lunak
+lebih susah lagi. Masalahnya, perangkat lunak tidak terlihat secara kasat mata
+sehingga pendataannya harus melalui pemilik layanan / pemilik aplikasi. Sebagai
+contoh, sebuah layanan online memiliki aplikasi di server web dan juga database
+di server database. Aplikasi-aplikasi tersebut berbentuk beberapa perangkat
+lunak yang tentunya memiliki harga.
+
+Penentuan harga (nilai) dari perangkat lunak cukup rumit. Untuk aplikasi yang
+dibeli, dapat digunakan harga pembelian tersebut. Bagaimana menentukan harga
+aplikasi yang dikembangkan sendiri? Ada yang menggunakan jumlah waktu
+pengembang (dalam {\em man days}) yang kemudian dikalikan dengan honor (gaji)
+orang tersebut. Itulah harga dari aplikasi tersebut. Lantas bagaimana dengan
+produk {\em free software} atau (sebagian dari) {\em open source} yang
+kebanyakan dapat diperoleh secara gratis? Bagaimana menentukan harga mereka?
+Ini masih menjadi pertanyaan. Hal lain yang menyulitkan adalah berapa
+depresiasi dari perangkat lunak?
+
+Bagian selanjutnya dari aset teknologi informasi adalah data. Jika pendaftaran
+aset hardware dan software sudah sukar, pendaftaran data lebih sukar lagi. Data
+apa saja yang dimiliki oleh sistem? Pada umumnya data apa saja yang tersedia
+tidak terdaftar. Masing-masing aplikasi hanya memiliki data tersendiri.
+
+Penentuan harga dari data lebih sukar lagi. Sebagai contoh, berapa harga data
+transkrip mahasiswa? Bagi mahasiswa, data tersebut sangat berharga sehingga
+harus dilindungi. Bagi orang lain, data tersebut mungkin tidak ada nilainya.
+Maukah Anda membeli data transkrip mahasiswa ITB seharga Rp.~30.000.000,-~?
+Saya yakin tidak ada yang mau. Bagaimana jika Rp.~3.000.000,- saja? Mungkin
+masih tidak. Bagaimana jika Rp.~3.000,-~? Mungkin mau. Apakah nilai dari data
+transkrip tersebut hanya tiga ribu rupiah? Jika iya, bagaimana nilai
+perlindungan yang akan kita berikan?
+
+
+Setelah mengetahui aset yang akan dilindungi, langkah pertama yang dilakukan
+adalah melakukan desain pengamanan. Hal ini dilakukan dengan mengembangkan
+kebijakan dan prosedur ({\em policies and procedures}). Banyak yang melupakan
+langkah ini dan langsung melakukan implementasi, tetapi tanpa PnP ini akan
+sulit. Sebagai contoh, siapa yang boleh melakukan akses kepada data transkrip
+tersebut? Ini dituangkan dalam kebijakan. Tanpa kebijakan ini, perangkat
+pengamanan yang ada (authorization dan access control) akan sulit diterapkan.
+Rules apa yang akan dipakai? Banyak kejadian sistem pengamanan diterapkan
+dengan salah karena tidak memiliki desain yang benar.
+
+Desain pengamanan ini kemudian diterapkan secara teknis melalui perangkat
+pengamanan ({\em security devices}). Penerapan ini dapat meminta bantuan
+vendor. 
+
+Meskipun sudah diterapkan pengamanan, insiden keamanan akan tetap dapat
+terjadi. Ketika insiden ini terjadi, maka harus dilakukan investigasi terlebih
+dahulu. Apakah insiden yang terjadi tersebut benar-benar insiden ataukah
+kejadian biasa saja? Jika memang itu adalah insiden, maka akan diproses lebih
+lanjut sesuai dengan kebijakan dan prosedur yang ada.
+
+Ini kemudian menjadi siklus; {\em security life cycle}. Banyak orang yang masih
+menganggap {\em security} adalah sebuah produk. 

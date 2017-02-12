@@ -3,13 +3,13 @@
 \contentsline {section}{Keamanan Informasi}{7}{section*.4}
 \contentsline {section}{Beberapa Contoh Kasus}{7}{section*.5}
 \contentsline {section}{Security Life Cycle}{10}{section*.6}
-\contentsline {chapter}{Prinsip-prinsip Keamanan Informasi}{11}{chapter*.7}
-\contentsline {section}{Aspek Keamanan}{11}{section*.8}
-\contentsline {subsection}{Confidentiality}{11}{subsection*.9}
-\contentsline {subsection}{Integrity}{12}{subsection*.10}
-\contentsline {subsection}{Availability}{12}{subsection*.11}
-\contentsline {section}{Aspek Keamanan Lainnya}{12}{section*.12}
-\contentsline {subsection}{Non-repudiation}{12}{subsection*.13}
-\contentsline {subsection}{Authentication}{13}{subsection*.14}
-\contentsline {chapter}{Bibliography}{15}{chapter*.15}
+\contentsline {chapter}{Prinsip-prinsip Keamanan Informasi}{15}{chapter*.7}
+\contentsline {section}{Aspek Keamanan}{15}{section*.8}
+\contentsline {subsection}{Confidentiality}{15}{subsection*.9}
+\contentsline {subsection}{Integrity}{16}{subsection*.10}
+\contentsline {subsection}{Availability}{16}{subsection*.11}
+\contentsline {section}{Aspek Keamanan Lainnya}{16}{section*.12}
+\contentsline {subsection}{Non-repudiation}{16}{subsection*.13}
+\contentsline {subsection}{Authentication}{17}{subsection*.14}
+\contentsline {chapter}{Bibliography}{19}{chapter*.15}
 \contentsfinish 
