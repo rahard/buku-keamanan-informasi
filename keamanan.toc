@@ -11,5 +11,10 @@
 \contentsline {section}{Aspek Keamanan Lainnya}{16}{section*.12}
 \contentsline {subsection}{Non-repudiation}{16}{subsection*.13}
 \contentsline {subsection}{Authentication}{17}{subsection*.14}
-\contentsline {chapter}{Bibliography}{19}{chapter*.15}
+\contentsline {subsection}{Authorization}{17}{subsection*.15}
+\contentsline {chapter}{Kriptografi}{19}{chapter*.16}
+\contentsline {chapter}{PGP / Gnu Privacy Guard}{21}{chapter*.17}
+\contentsline {section}{Sejarah}{21}{section*.18}
+\contentsline {section}{Menggunakan Gnu Privacy Guard, gpg}{21}{section*.19}
+\contentsline {chapter}{Bibliography}{23}{chapter*.20}
 \contentsfinish 

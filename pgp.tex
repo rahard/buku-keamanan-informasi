@@ -1,0 +1,65 @@
+\chapter{PGP / Gnu Privacy Guard}
+Pretty Good Privacy (PGP) pada awalnya adalah aplikasi yang dapat digunakan
+pengguna untuk menggunakan kriptografi di berbagai aplikasi dengan lebih mudah.
+Pengembangan selanjutnya PGP menjadi bagian dari {\em public key
+infrastructure}.
+
+\section{Sejarah}
+[... more to be written ...]
+
+Gnu Privacy Guard (GPG) merupakan implementasi dari PGP yang bersifat terbuka.
+(Catatan: Singkatan dari GPG ini merupakan guyonan terhadap PGP.) Bab ini akan
+membahas lebih banyak tentang GGP, meskipun konsep yang sama dapat juga
+diterapkan pada PGP jika Anda menggunakan produk PGP yang komersial.
+
+Dalam buku ini, kita akan menggunakan GPG versi {\em command line interface},
+yaitu dengan mengetikkan perintah ``gpg'' di program terminal atau CMD.exe.
+Ada banyak program {\em GUI} dari GPG ini. Silahkan gunakan manual terkait
+dengan program-program tersebut. Prinsipnya masih tetap sama.
+
+\section{Menggunakan Gnu Privacy Guard, gpg}
+Awal dari penggunakan GPG adalah membuat pasangan kunci publik dan privat. Hal
+ini dapat dilakukan dengan menggunakan perintah berikut.
+
+\begin{verbatim}
+gpg --key-gen
+\end{verbatim}
+
+Perintah di atas akan menanyakan beberapa hal, seperti jenis algoritma yang
+digunakan (pilih RSA dan RSA), panjang kuncinya (pilih 2048), dan alamat email
+yang akan digunakan untuk kunci tersebut. Dalam contoh buku ini saya akan
+menggunakan alamat email ``rahard2017@gmail.com''. Gunakan alamat email Anda
+sebagai penggantinya/
+
+Setelah proses {\em key generation} selesai, kunci publik dapat diekspor dengan
+menggunakan perintah  berikut. Gantikan ``rahard2017@gmail.com'' dengan alamat
+email Anda.
+
+\begin{verbatim}
+gpg --export --armor rahard2017@gmail.com > kunci-public.asc
+\end{verbatim}
+
+Akan dihasilkan berkas ``kunci-public.asc''. Tanpa perintah {\em redirect
+output} yang menggunakan ``>'' itu, hasilnya hanya akan ditampilkan di layar
+saja. Tentu saja Anda dapat menggunakan nama berkas lainnya.
+
+Untuk melihat informasi mengenai kunci Anda, dapat digunakan perintah berikut:
+
+\begin{verbatim}
+gpg --fingerprint rahard2017
+
+pub   2048R/EB6CEB46 2017-02-14 [expires: 2017-03-07]
+      Key fingerprint = 810B 2149 3366 E699 F95E  9E49 07E1 BDC5 EB6C EB46
+uid       [ultimate] Budi Rahardjo <rahard2017@gmail.com>
+sub   2048R/C2E83C60 2017-02-14 [expires: 2017-03-07]
+\end{verbatim}
+
+Perhatikan bahwa kunci publik yang ini memiliki ID ``EB6CEB46''. ID ini dapat
+digunakan untuk bertukar kunci, atau untuk melakukan proses-proses lainnya.
+Sebagai contoh, kita dapat mengirimkan kunci ini ke server agar dapat dilihat
+atau dicari oleh orang lain. Keyserver yang akan kita gunakan dalam contoh ini
+adalah pgp.mit.edu.
+
+\begin{verbatim}
+gpg --keyserver pgp.mit.edu --send-keys EB6CEB46
+\end{verbatim}
