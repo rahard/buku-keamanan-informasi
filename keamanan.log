@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.27)  17 FEB 2017 20:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.27)  17 FEB 2017 21:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -853,10 +853,13 @@ File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 
 
 ]
-Overfull \hbox (9.42982pt too wide) in paragraph at lines 2--3
+Overfull \hbox (9.42982pt too wide) in paragraph at lines 2--6
 \T1/pplj/m/n/10 data atau menyandikan data. Cara per-tama meng-gu-nakan stegano
 grafi, 
  []
+
+
+LaTeX Warning: Marginpar on page 19 moved.
 
 ) [19]
 \openout2 = `pgp.aux'.
@@ -889,11 +892,16 @@ er (name{cite.davidkahn}) has been already used, duplicate ignored
                    \relax 
 l.3 \bibitem{davidkahn}
                        pdfTeX warning (ext4): destination with the same identif
-ier (name{cite.BRsecuresoftware}) has been already used, duplicate ignored
+ier (name{cite.levycrypto}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.8 \bibitem{BRsecuresoftware}
-                              )
+l.8 \bibitem{levycrypto}
+                        pdfTeX warning (ext4): destination with the same identi
+fier (name{cite.BRsecuresoftware}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.14 \bibitem{BRsecuresoftware}
+                               )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 44.
  [23
 
@@ -909,10 +917,10 @@ Package rerunfilecheck Info: File `keamanan.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 44.
  ) 
 Here is how much of TeX's memory you used:
- 13527 strings out of 494945
- 194005 string characters out of 6180678
- 295549 words of memory out of 5000000
- 16448 multiletter control sequences out of 15000+600000
+ 13532 strings out of 494945
+ 194089 string characters out of 6180678
+ 295692 words of memory out of 5000000
+ 16452 multiletter control sequences out of 15000+600000
  80213 words of font info for 105 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  40i,12n,48p,913b,469s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -923,10 +931,10 @@ exlive/2016/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texlive/2
 mf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist
 /fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/
 type1/urw/palatino/uplri8a.pfb>
-Output written on keamanan.pdf (23 pages, 122413 bytes).
+Output written on keamanan.pdf (23 pages, 123834 bytes).
 PDF statistics:
- 303 PDF objects out of 1000 (max. 8388607)
- 207 compressed objects within 3 object streams
- 65 named destinations out of 1000 (max. 500000)
+ 304 PDF objects out of 1000 (max. 8388607)
+ 208 compressed objects within 3 object streams
+ 66 named destinations out of 1000 (max. 500000)
  2675 words of extra memory for PDF output out of 10000 (max. 10000000)
 

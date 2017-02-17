@@ -1,10 +1,34 @@
+% This file was created with JabRef 2.10.
 % Encoding: UTF-8
 
+
 @Book{davidkahn,
-  title     = {Codebreakers},
-  publisher = {Scribner},
-  year      = {1967},
-  author    = {David Kahn},
+  Title                    = {Codebreakers},
+  Author                   = {David Kahn},
+  Publisher                = {Scribner},
+  Year                     = {1967}
 }
 
-@Comment{jabref-meta: databaseType:bibtex;}
+@Book{levycrypto,
+  Title                    = {Crypto: How the Code Rebels Beat the Government Saving Privacy in the Digital Age},
+  Author                   = {Steven Levy},
+  Editor                   = {Steven Levy},
+  Publisher                = {Penguin Books},
+  Year                     = {2001},
+
+  Owner                    = {budi},
+  Timestamp                = {2017.02.17}
+}
+
+@Book{BRsecuresoftware,
+  Title                    = {Keamanan Perangkat Lunak},
+  Author                   = {Budi Rahardjo},
+  Publisher                = {PT Insan Infonesia},
+  Year                     = {2016},
+
+  Owner                    = {budi},
+  Timestamp                = {2017.01.28}
+}
+
+@comment{jabref-meta: databaseType:bibtex;}
+
