@@ -19,4 +19,35 @@ dapat menyembunyikan pesan dalam gambar ({\em image}, foto), audio, atau video.
 Dalam sejarahnya, penyembunyian pesan dapat dilakukan dengan menggunakan meja
 yang dilapisi lilin (jaman perang antara Yunani dan Persia).
 
+Saat ini steganografi digunakan sebagai bagian dari {\em Digital Rights
+Management} (DRM), misalnya dengan menyisipkan informasi mengenai HaKI dari
+produk digital (musik, ebook, foto, dan sejenisnya).
+
 [Masih harus ditulis.]
+
+
+
+\section{Kriptografi}
+Berbeda dengan steganografi, kriptografi tidak menyembunyikan pesan tetapi
+mengubah pesan sehingga sulit diperoleh pesan aslinya. Pesan diubah dengan cara
+{\bf transposisi} (mengubah letak dari huruf) dan {\bf substitusi} (mengganti
+huruf/kata dengan huruf/kata lainnya). Pesan yang sudah diubah terlihat seperti
+sampah, tetapi tetap terlihat oleh penyerang atau orang yang tidak berhak.
+
+Proses transposisi dapat dilakukan dengan berbagai cara. Sebagai contoh, kita
+dapat menulis pesan menjadi dua baris secara bergantian. Huruf pertama
+diletakkan di baris pertama, huruf kedua di baris kedua, huruf ketiga di baris
+pertama lagi, huruf keempat di baris kedua lagi, dan seterusnya. Mari kita
+ambil contoh kalimat ``selamat datang di kota bandung''. Kalimat ini akan kita
+tuliskan secara bergantian. (Dalam contoh ini, spasi kita buang saja.)
+
+\begin{mdframed}
+\begin{verbatim}
+slmtaagioaadn
+eaadtndktbnug
+\end{verbatim}
+\end{mdframed}
+
+Kalimat yang akan dikirimkan menjadi ``slmtaagioaadneaadtndktbnug''. Kalimat
+ini yang kita kirimkan. Di sisi penerima akan dilakukan proses sebaliknya
+sehingga didapat kalimat aslinya.
