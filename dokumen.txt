@@ -1,0 +1,3 @@
+Ini adalah dokumen untuk percobaan menggunakan PGP/GPG.
+Untuk tanda tangan, isinya tidak harus disembunyikan.
+Selamat mencoba.
