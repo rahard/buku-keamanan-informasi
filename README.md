@@ -8,6 +8,7 @@ untuk berbagai hal yang akan saya tuliskan di sini.
 
 Proses pembuatan menggunakan vi dan LaTeX. Manual.
 Jangan ditertawakan kode sumbernya ya.
+Ada beberapa packages yang harus dipasang: exercise, mdframed, needspace
 
 2017
 
