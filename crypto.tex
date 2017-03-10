@@ -49,20 +49,46 @@ eaadtndktbnug
 \end{mdframed}
 
 Kalimat yang akan dikirimkan menjadi ``slmtaagioaadneaadtndktbnug''. Kalimat
-ini yang kita kirimkan. Di sisi penerima akan dilakukan proses sebaliknya
-sehingga didapat kalimat aslinya.
+ini yang kita kirimkan. Dapat dilihat bahwa kalimat yang dikirimkan sudah sulit
+dibaca isinya. Di sisi penerima akan dilakukan proses sebaliknya sehingga
+didapat kalimat aslinya.
 
 
 Secara umum ada tiga komponen utama dari kriptografi, yaitu {\em plain text},
-{\em ciphered text}, dan algoritma serta kunci yang digunakan.
+{\em ciphertext}, dan algoritma serta kunci yang digunakan\footnote{Pada
+awalnya, kunci melekat dengan algoritma. Namun kemudian, kunci dipisahkan dari
+algoritma. Kekuatan dari sebuah sistem kriptografi bergantung kepada
+kerahasiaan dari kuncinya, bukan dari kerahasiaan algoritmanya.}.
 \begin{itemize}
   \item {\em Plain text} adalah data (teks, pesan, {\em message}) asli yang
   belum diproses. Meskipun disebut plain text, sesungguhnya data asli tidak
   harus berupa teks (ASCII). Plain text dapat juga berupa berkas biner.
-  \item {\em Ciphered text} adalah data yang dihasilkan dari proses enkripsi.
-  Ciphered text dapat berbentuk berkas biner atau ASCII. Perlu diasumsikan
+  \item {\em Ciphertext} adalah data yang dihasilkan dari proses enkripsi.
+     {\em Ciphertext} dapat berbentuk berkas biner atau ASCII. Perlu diasumsikan
   bahwa penyerang kemungkinan dapat mengakses ciphered text.
   \item Algoritma dan kunci merupakan {\em black box} yang memproses plain text
   menjadi ciphered text. Algoritma diasumsikan diketahui oleh penyerang,
   tetapi kunci tidak diketahui.
 \end{itemize}
+
+Hubungan antara ketiga komponen tersebut dapat dirumuskan sebagai berikut.
+{\em Ciphertext} $c$ merupakan hasil operasi enkripsi ({\em encryption}) $E$ 
+dengan kunci $k$ terhadap pesan $m$. {\em Ciphertext} ini yang nanti dikirimkan
+kepada pihak yang dituju.
+
+\begin{equation}
+   c = E_k(m)
+\end{equation}
+
+Di sisi sebaliknya, yaitu di sisi penerima, pesan ({\em plain text}) $m$
+diperoleh dari hasil proses dekripsi ({\em decryption}) $D$ dengan kunci $k$
+terhadap {\em ciphertext} $c$.
+
+\begin{equation}
+   m = D_k(c)
+\end{equation}
+
+Jika kita menggunakan algoritma kriptografi kunci privat, yang akan dibahas
+kemudian, kunci ($k$) yang sama digunakan untuk proses enkripsi dan dekripsi.
+Untuk algoritma kriptografi yang berbasis kunci public, kunci yang digunakan
+untuk proses enkripsi dan dekripsi berbeda.
