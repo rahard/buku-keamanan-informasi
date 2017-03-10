@@ -55,3 +55,14 @@ sehingga didapat kalimat aslinya.
 
 Secara umum ada tiga komponen utama dari kriptografi, yaitu {\em plain text},
 {\em ciphered text}, dan algoritma serta kunci yang digunakan.
+\begin{itemize}
+  \item {\em Plain text} adalah data (teks, pesan, {\em message}) asli yang
+  belum diproses. Meskipun disebut plain text, sesungguhnya data asli tidak
+  harus berupa teks (ASCII). Plain text dapat juga berupa berkas biner.
+  \item {\em Ciphered text} adalah data yang dihasilkan dari proses enkripsi.
+  Ciphered text dapat berbentuk berkas biner atau ASCII. Perlu diasumsikan
+  bahwa penyerang kemungkinan dapat mengakses ciphered text.
+  \item Algoritma dan kunci merupakan {\em black box} yang memproses plain text
+  menjadi ciphered text. Algoritma diasumsikan diketahui oleh penyerang,
+  tetapi kunci tidak diketahui.
+\end{itemize}
