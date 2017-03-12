@@ -3,24 +3,28 @@
 \contentsline {section}{Keamanan Informasi}{7}{section*.4}
 \contentsline {section}{Beberapa Contoh Kasus}{7}{section*.5}
 \contentsline {section}{Security Life Cycle}{10}{section*.6}
-\contentsline {chapter}{Prinsip-prinsip Keamanan Informasi}{15}{chapter*.7}
-\contentsline {section}{Aspek Keamanan}{15}{section*.8}
-\contentsline {subsection}{Confidentiality}{15}{subsection*.9}
-\contentsline {subsection}{Integrity}{16}{subsection*.10}
-\contentsline {subsection}{Availability}{16}{subsection*.11}
-\contentsline {section}{Aspek Keamanan Lainnya}{16}{section*.12}
-\contentsline {subsection}{Non-repudiation}{16}{subsection*.13}
-\contentsline {subsection}{Authentication}{17}{subsection*.14}
-\contentsline {subsection}{Authorization}{17}{subsection*.15}
-\contentsline {chapter}{Kriptografi}{19}{chapter*.16}
-\contentsline {section}{Steganografi}{19}{section*.17}
-\contentsline {section}{Kriptografi}{19}{section*.18}
-\contentsline {chapter}{PGP / Gnu Privacy Guard}{21}{chapter*.19}
-\contentsline {section}{Sejarah}{21}{section*.20}
-\contentsline {section}{Menggunakan Gnu Privacy Guard, gpg}{21}{section*.21}
-\contentsline {subsection}{Enkrip Untuk Sebuah Alamat Email}{24}{subsection*.22}
-\contentsline {subsection}{Tanda Tangan Dokumen}{26}{subsection*.23}
-\contentsline {section}{Tools}{28}{section*.24}
-\contentsline {section}{Web of Trust}{28}{section*.25}
-\contentsline {chapter}{Bibliography}{29}{chapter*.26}
+\contentsline {section}{Keamanan Elemen Sistem}{13}{section*.7}
+\contentsline {subsection}{Computer Security}{13}{subsection*.8}
+\contentsline {subsection}{Network Security}{14}{subsection*.9}
+\contentsline {subsection}{Application Security}{14}{subsection*.10}
+\contentsline {chapter}{Prinsip-prinsip Keamanan Informasi}{15}{chapter*.11}
+\contentsline {section}{Aspek Keamanan}{15}{section*.12}
+\contentsline {subsection}{Confidentiality}{15}{subsection*.13}
+\contentsline {subsection}{Integrity}{16}{subsection*.14}
+\contentsline {subsection}{Availability}{16}{subsection*.15}
+\contentsline {section}{Aspek Keamanan Lainnya}{16}{section*.16}
+\contentsline {subsection}{Non-repudiation}{16}{subsection*.17}
+\contentsline {subsection}{Authentication}{17}{subsection*.18}
+\contentsline {subsection}{Authorization}{17}{subsection*.19}
+\contentsline {chapter}{Kriptografi}{19}{chapter*.20}
+\contentsline {section}{Steganografi}{19}{section*.21}
+\contentsline {section}{Kriptografi}{19}{section*.22}
+\contentsline {chapter}{PGP / Gnu Privacy Guard}{21}{chapter*.23}
+\contentsline {section}{Sejarah}{21}{section*.24}
+\contentsline {section}{Menggunakan Gnu Privacy Guard, gpg}{21}{section*.25}
+\contentsline {subsection}{Enkrip Untuk Sebuah Alamat Email}{24}{subsection*.26}
+\contentsline {subsection}{Tanda Tangan Dokumen}{26}{subsection*.27}
+\contentsline {section}{Tools}{28}{section*.28}
+\contentsline {section}{Web of Trust}{28}{section*.29}
+\contentsline {chapter}{Bibliography}{29}{chapter*.30}
 \contentsfinish 

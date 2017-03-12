@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.27)  3 MAR 2017 20:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.1.27)  12 MAR 2017 17:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -813,6 +813,64 @@ File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
 \c@mdf@zref@counter=\count171
 Package zref Info: New property: mdf@pagevalue on input line 895.
 )
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/11/05 v2.16a AMS math features
+\@mathmargin=\skip183
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks21
+\ex@=\dimen164
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen165
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count172
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count173
+\leftroot@=\count174
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count175
+\DOTSCASE@=\count176
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box83
+\strutbox@=\box84
+\big@size=\dimen166
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count177
+\c@MaxMatrixCols=\count178
+\dotsspace@=\muskip17
+\c@parentequation=\count179
+\dspbrk@lvl=\count180
+\tag@help=\toks22
+\row@=\count181
+\column@=\count182
+\maxfields@=\count183
+\andhelp@=\toks23
+\eqnshift@=\dimen167
+\alignsep@=\dimen168
+\tagshift@=\dimen169
+\tagwidth@=\dimen170
+\totwidth@=\dimen171
+\lineht@=\dimen172
+\@envbody=\toks24
+\multlinegap=\skip184
+\multlinetaggap=\skip185
+\mathdisplay@stack=\toks25
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -827,8 +885,8 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 )
-\Gin@req@height=\dimen164
-\Gin@req@width=\dimen165
+\Gin@req@height=\dimen173
+\Gin@req@width=\dimen174
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/makeidx.sty
 Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
@@ -840,13 +898,13 @@ Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
 Writing index file keamanan.idx
 (/usr/local/texlive/2016/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2016/12/28 v5.2 context-sensitive quotations (JAW)
-\csq@reset=\count172
-\csq@gtype=\count173
-\csq@glevel=\count174
-\csq@qlevel=\count175
-\csq@maxlvl=\count176
-\csq@tshold=\count177
-\csq@ltx@everypar=\toks21
+\csq@reset=\count184
+\csq@gtype=\count185
+\csq@glevel=\count186
+\csq@qlevel=\count187
+\csq@maxlvl=\count188
+\csq@tshold=\count189
+\csq@ltx@everypar=\toks26
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2016/12/28 v5.2 csquotes generic definitions (JAW)
@@ -868,36 +926,36 @@ LaTeX Warning: Unused global option(s):
 (./crypto.aux) (./pgp.aux))
 \openout1 = `keamanan.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 25.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Try loading font information for T1+pplj on input line 24.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Try loading font information for T1+pplj on input line 25.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1pplj.fd
 File: t1pplj.fd 2004/09/06 font definitions for T1/pplj.
 )
-\AtBeginShipoutBox=\box83
-Package hyperref Info: Link coloring OFF on input line 24.
+\AtBeginShipoutBox=\box85
+Package hyperref Info: Link coloring OFF on input line 25.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -905,18 +963,18 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count178
+\c@section@level=\count190
 )
-LaTeX Info: Redefining \ref on input line 24.
-LaTeX Info: Redefining \pageref on input line 24.
-LaTeX Info: Redefining \nameref on input line 24.
+LaTeX Info: Redefining \ref on input line 25.
+LaTeX Info: Redefining \pageref on input line 25.
+LaTeX Info: Redefining \nameref on input line 25.
 
 (./keamanan.out) (./keamanan.out)
 \@outlinefile=\write4
 \openout4 = `keamanan.out'.
 
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 24.
+LaTeX Info: Redefining \selectfont on input line 25.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -954,17 +1012,17 @@ LaTeX Info: Redefining \selectfont on input line 24.
 
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count179
-\scratchdimen=\dimen166
-\scratchbox=\box84
-\nofMPsegments=\count180
-\nofMParguments=\count181
-\everyMPshowfont=\toks22
-\MPscratchCnt=\count182
-\MPscratchDim=\dimen167
-\MPnumerator=\count183
-\makeMPintoPDFobject=\count184
-\everyMPtoPDFconversion=\toks23
+\scratchcounter=\count191
+\scratchdimen=\dimen175
+\scratchbox=\box86
+\nofMPsegments=\count192
+\nofMParguments=\count193
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count194
+\MPscratchDim=\dimen176
+\MPnumerator=\count195
+\makeMPintoPDFobject=\count196
+\everyMPtoPDFconversion=\toks28
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -982,21 +1040,20 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\big@size=\dimen168
 \langwohyphens=\language3
-LaTeX Font Info:    Try loading font information for T1+phv on input line 31.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 32.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 31.
+(Font)              scaled to size 8.99994pt on input line 32.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 16.19989pt on input line 31.
+(Font)              scaled to size 16.19989pt on input line 32.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 32.39978pt on input line 31.
+(Font)              scaled to size 32.39978pt on input line 32.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 12.59991pt on input line 31.
+(Font)              scaled to size 12.59991pt on input line 32.
  [1
 
 
@@ -1062,7 +1119,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 67--67
 \T1/pplj/m/n/10 Com-mons ^^P  Attribution-NonCommercial-
  []
 
-<doclicense-CC-by-nc-sa.pdf, id=113, 121.45375pt x 43.16125pt>
+<doclicense-CC-by-nc-sa.pdf, id=117, 121.45375pt x 43.16125pt>
 File: doclicense-CC-by-nc-sa.pdf Graphic file (type pdf)
 
 <use doclicense-CC-by-nc-sa.pdf>
@@ -1107,7 +1164,7 @@ LaTeX Warning: Marginpar on page 9 moved.
 
 LaTeX Warning: Marginpar on page 9 moved.
 
-[9] <graphics/security-life-cycle.png, id=153, 577.15625pt x 481.8pt>
+[9] <graphics/security-life-cycle.png, id=157, 577.15625pt x 481.8pt>
 File: graphics/security-life-cycle.png Graphic file (type png)
 
 <use graphics/security-life-cycle.png>
@@ -1136,14 +1193,14 @@ Overfull \hbox (0.99985pt too wide) in paragraph at lines 267--270
 is melalui 
  []
 
-) [13]
+[13]) [14]
 \openout2 = `prinsip.aux'.
 
- (./prinsip.tex [14
+ (./prinsip.tex [15
 
 
 
-] [15]
+]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 54.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1cmtt.fd
@@ -1167,10 +1224,19 @@ LaTeX Warning: Marginpar on page 19 moved.
 
 [19]
 Package mdframed Info: mdframed works in twoside mode on input line 45.
-) [20]
+
+
+LaTeX Warning: Marginpar on page 20 moved.
+
+LaTeX Font Info:    Try loading font information for TS1+pplj on input line 63.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1pplj.fd
+File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
+)) [20]
 \openout2 = `pgp.aux'.
 
- (./pgp.tex
+
+(./pgp.tex
 Overfull \hbox (92.1513pt too wide) in paragraph at lines 36--36
 []\T1/cmtt/m/n/10 gpg (GnuPG/MacGPG2) 2.0.30; Copyright (C) 2015 Free Software 
 Foundation, Inc.[] 
@@ -1246,7 +1312,7 @@ Overfull \hbox (76.40515pt too wide) in paragraph at lines 108--108
 DC5 EB6C EB46[] 
  []
 
-<graphics/pgp-mit.png, id=226, 642.4pt x 557.08125pt>
+<graphics/pgp-mit.png, id=236, 642.4pt x 557.08125pt>
 File: graphics/pgp-mit.png Graphic file (type png)
 
 <use graphics/pgp-mit.png>
@@ -1560,40 +1626,41 @@ fier (name{cite.BRsecuresoftware}) has been already used, duplicate ignored
                    \relax 
 l.14 \bibitem{BRsecuresoftware}
                                )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 47.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 48.
  [29
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 47.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 48.
  (./keamanan.aux (./pengantar.aux)
 (./pendahuluan.aux) (./prinsip.aux) (./crypto.aux) (./pgp.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 47.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 47.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 48.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 48.
 Package rerunfilecheck Info: File `keamanan.out' has not changed.
-(rerunfilecheck)             Checksum: 381B5DF122601831F84130C201AF8CDB;2317.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 47.
+(rerunfilecheck)             Checksum: CDF9247A0254030F02D592A8E3C2CF60;2492.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 48.
  ) 
 Here is how much of TeX's memory you used:
- 21782 strings out of 494945
- 360346 string characters out of 6180678
- 439688 words of memory out of 5000000
- 24638 multiletter control sequences out of 15000+600000
- 80213 words of font info for 105 fonts, out of 8000000 for 9000
+ 22393 strings out of 494945
+ 367472 string characters out of 6180678
+ 451334 words of memory out of 5000000
+ 25218 multiletter control sequences out of 15000+600000
+ 82470 words of font info for 111 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 40i,11n,48p,10397b,511s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,11n,48p,10417b,516s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc} </home/budi/
 .texlive2016/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1000.600pk></usr/local/t
-exlive/2016/texmf-dist/fonts/type1/public/fpl/fplbj8a.pfb></usr/local/texlive/2
-016/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texlive/2016/texm
-f-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-dist/
-fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
-ype1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/ur
-w/palatino/uplri8a.pfb>
-Output written on keamanan.pdf (29 pages, 184028 bytes).
+exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/tex
+live/2016/texmf-dist/fonts/type1/public/fpl/fplbj8a.pfb></usr/local/texlive/201
+6/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texlive/2016/texmf-
+dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-dist/fo
+nts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
+e1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/
+palatino/uplri8a.pfb>
+Output written on keamanan.pdf (29 pages, 194928 bytes).
 PDF statistics:
- 396 PDF objects out of 1000 (max. 8388607)
- 265 compressed objects within 3 object streams
- 89 named destinations out of 1000 (max. 500000)
- 2712 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 410 PDF objects out of 1000 (max. 8388607)
+ 278 compressed objects within 3 object streams
+ 95 named destinations out of 1000 (max. 500000)
+ 2720 words of extra memory for PDF output out of 10000 (max. 10000000)
 
