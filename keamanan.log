@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.18)  24 MAR 2017 16:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.18)  24 MAR 2017 19:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1249,19 +1249,67 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--30
 
 [19] [20 <./graphics/BR-watermark.png>]
 Package mdframed Info: mdframed works in twoside mode on input line 68.
+Package mdframed Info: mdframed works in twoside mode on input line 91.
 
 
 LaTeX Warning: Marginpar on page 21 moved.
 
-LaTeX Font Info:    Try loading font information for TS1+pplj on input line 86.
+Package mdframed Info: mdframed works in twoside mode on input line 112.
+[21]
+Package mdframed Info: mdframed works in twoside mode on input line 137.
+Package hyperref Info: bookmark level for unknown exercise defaults to 0 on inp
+ut line 139.
 
+Overfull \hbox (8.10258pt too wide) in paragraph at lines 140--144
+[]\T1/pplj/m/n/10 Buat se-buah pro-gram yang
+ []
+
+
+Overfull \hbox (11.85242pt too wide) in paragraph at lines 140--144
+\T1/pplj/m/n/10 mem-buat statis-tik ke-mu-ncu-lan huruf-huruf un-tuk ba-hasa In
+-
+ []
+
+
+Overfull \hbox (33.81247pt too wide) in paragraph at lines 140--144
+\T1/pplj/m/n/10 done-sia, ba-hasa Ing-gris, ba-hasa Jawa, dan ba-hasa Sunda. Ur
+utkan
+ []
+
+
+Overfull \hbox (19.22253pt too wide) in paragraph at lines 140--144
+\T1/pplj/m/n/10 lima terbe-sar di se-tiap ba-hasa. Catatan: Se-makin banyak And
+a
+ []
+
+
+Overfull \hbox (6.50253pt too wide) in paragraph at lines 140--144
+\T1/pplj/m/n/10 mem-beri ma-sukan kepada pro-gram statis-tik Anda, se-makin
+ []
+
+
+Overfull \hbox (0.91252pt too wide) in paragraph at lines 144--147
+[]\T1/pplj/m/n/10 Apakah metoda ini da-pat di-gu-nakan un-tuk bahasa-bahasa
+ []
+
+
+Overfull \hbox (24.97252pt too wide) in paragraph at lines 144--147
+\T1/pplj/m/n/10 yang tidak meng-gu-nakan karak-ter Ro-man (seperti ba-hasa Arab
+,
+ []
+
+
+LaTeX Warning: Marginpar on page 22 moved.
+
+LaTeX Font Info:    Try loading font information for TS1+pplj on input line 164
+.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1pplj.fd
 File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
-) [21] [22]) [23]
+) [22] [23] [24])
+[25]
 \openout2 = `pgp.aux'.
 
-
-(./pgp.tex [24
+ (./pgp.tex [26
 
 
 
@@ -1277,7 +1325,7 @@ Overfull \hbox (34.4154pt too wide) in paragraph at lines 37--37
 e it.[] 
  []
 
-[25]
+[27]
 Overfull \hbox (26.82982pt too wide) in paragraph at lines 70--73
 \T1/pplj/m/n/10 den-gan meng-gu-nakan per-in-tah berikut. Gan-tikan ``ra-hard20
 17@gmail.com'' 
@@ -1289,7 +1337,7 @@ Overfull \hbox (2.9231pt too wide) in paragraph at lines 75--75
 ] 
  []
 
-[26]
+[28]
 Overfull \hbox (23.91797pt too wide) in paragraph at lines 89--89
 []\T1/cmtt/m/n/10 mQENBFiiijUBCAD3ZIxjUQyDtcGTmHs2iU+2aS+MMp2w+codVRrqLfVI+V8S+
 TmP[] 
@@ -1337,7 +1385,7 @@ Overfull \hbox (76.40515pt too wide) in paragraph at lines 108--108
 DC5 EB6C EB46[] 
  []
 
-<graphics/pgp-mit.png, id=260, 642.4pt x 557.08125pt>
+<graphics/pgp-mit.png, id=276, 642.4pt x 557.08125pt>
 File: graphics/pgp-mit.png Graphic file (type png)
 
 <use graphics/pgp-mit.png>
@@ -1354,8 +1402,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 128--131
  []
 
 Package mdframed Info: mdframed works in twoside mode on input line 134.
-Package hyperref Info: bookmark level for unknown exercise defaults to 0 on inp
-ut line 136.
 
 Overfull \hbox (19.2926pt too wide) in paragraph at lines 137--139
 []\T1/pplj/m/n/10 Buat pasan-gan kunci pub-lik dan
@@ -1383,9 +1429,9 @@ Overfull \hbox (1.36247pt too wide) in paragraph at lines 141--143
 \T1/pplj/m/n/10 but. Minta mereka un-tuk ikut menan-datan-gani kunci pub-
  []
 
-[27]
+[29]
 Package mdframed Info: mdframed works in twoside mode on input line 168.
- [28 <./graphics/pgp-mit.png>]
+ [30 <./graphics/pgp-mit.png>]
 Overfull \hbox (102.64874pt too wide) in paragraph at lines 181--181
 []\T1/cmtt/m/n/10 gpg --output dokumen.pgp --encrypt --recipient rahard2017@gma
 il.com dokumen.txt[] 
@@ -1471,7 +1517,7 @@ Overfull \hbox (70.96155pt too wide) in paragraph at lines 229--229
 17-02-14[] 
  []
 
-[29]
+[31]
 Overfull \hbox (16.2199pt too wide) in paragraph at lines 247--250
 \T1/pplj/m/n/10 ``doku-men.txt''. (Kita dalam con-toh ini adalah ``ra-hard2017@
 gmail.com''.)  
@@ -1543,7 +1589,7 @@ Overfull \hbox (23.91797pt too wide) in paragraph at lines 282--282
 VL/[] 
  []
 
-[30]
+[32]
 Overfull \hbox (65.90771pt too wide) in paragraph at lines 291--291
 []\T1/cmtt/m/n/10 gpg -u rahard2017@gmail.com --output dokumen.sig --clearsign 
 dokumen.txt[] 
@@ -1594,7 +1640,7 @@ Overfull \hbox (71.15643pt too wide) in paragraph at lines 336--336
  []
 
 Package mdframed Info: mdframed works in twoside mode on input line 343.
-[31]
+[33]
 Package mdframed Info: Not enough space on this page on input line 346.
 Package mdframed Info: mdframed works in twoside mode on input line 348.
 
@@ -1635,7 +1681,7 @@ Overfull \hbox (8.0725pt too wide) in paragraph at lines 357--360
 \T1/pplj/m/n/10 berkas doku-men.txt se-hingga berbeda den-gan aslinya. Coba
  []
 
-) [32] (./keamanan.bblpdfTeX warning (ext4): destination with the same identifi
+) [34] (./keamanan.bblpdfTeX warning (ext4): destination with the same identifi
 er (name{cite.davidkahn}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -1652,7 +1698,7 @@ fier (name{cite.BRsecuresoftware}) has been already used, duplicate ignored
 l.14 \bibitem{BRsecuresoftware}
                                )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 48.
- [33
+ [35
 
 
 ]
@@ -1662,17 +1708,17 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 48.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 48.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 48.
 Package rerunfilecheck Info: File `keamanan.out' has not changed.
-(rerunfilecheck)             Checksum: 27178EBFF64FF475E95A29C2FAE8491F;2492.
+(rerunfilecheck)             Checksum: 600069A02C550558DA7F1CD8249BE2AD;2492.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 48.
  ) 
 Here is how much of TeX's memory you used:
- 22288 strings out of 494953
- 363337 string characters out of 6180977
- 447566 words of memory out of 5000000
- 25085 multiletter control sequences out of 15000+600000
- 82727 words of font info for 112 fonts, out of 8000000 for 9000
+ 22304 strings out of 494953
+ 363521 string characters out of 6180977
+ 447626 words of memory out of 5000000
+ 25088 multiletter control sequences out of 15000+600000
+ 84687 words of font info for 116 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 46i,11n,48p,10413b,518s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,12n,48p,10413b,518s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc} </home/budi/texmf
 /fonts/pk/ljfour/jknappen/ec/ectt1000.600pk></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1
@@ -1682,10 +1728,10 @@ c/fpl/fplbj8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fpl/fplrc8a
 hare/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on keamanan.pdf (33 pages, 405024 bytes).
+Output written on keamanan.pdf (35 pages, 411905 bytes).
 PDF statistics:
- 438 PDF objects out of 1000 (max. 8388607)
- 300 compressed objects within 3 object streams
- 102 named destinations out of 1000 (max. 500000)
+ 457 PDF objects out of 1000 (max. 8388607)
+ 316 compressed objects within 4 object streams
+ 111 named destinations out of 1000 (max. 500000)
  2725 words of extra memory for PDF output out of 10000 (max. 10000000)
 

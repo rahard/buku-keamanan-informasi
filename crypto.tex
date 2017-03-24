@@ -74,9 +74,87 @@ eaadtndktbnug
 Kalimat yang akan dikirimkan menjadi ``slmtaagioaadneaadtndktbnug''. Kalimat
 ini yang kita kirimkan. Dapat dilihat bahwa kalimat yang dikirimkan sudah sulit
 dibaca isinya. Di sisi penerima akan dilakukan proses sebaliknya sehingga
-didapat kalimat aslinya.
+didapat kalimat aslinya. Ini adalah salah satu contoh proses transposisi.
+
+Proses substitusi dalam kriptografi dilakukan dengan menukarkan simbol dengan
+simbol lain. Sebagai contoh kita dapat menukarkan huruf dengan huruf lain
+sesuai dengan sebuah aturan. 
+
+{\bf Caesar cipher} merupakan salah satu contoh kriptografi dengan menggunakan
+metoda substitusi. Cara kerjanya adalah sebagai berikut. Urutkan huruf abjad
+dari ``A'' sampai ke ``Z''. Di bawahnya kita geser huruf-huruf tersebut
+sebanyak tiga lokasi. Hasilnya seperti terlihat di bawah ini. (Penggunaan huruf
+besar dan kecil hanya untuk memperjelas saja. Seharusnya kedua baris memiliki
+huruf yang sama.)
+
+\begin{mdframed}
+\begin{verbatim}
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+d e f g h i j k l m n o p q r s t u v w x y z a b c
+\end{verbatim}
+\end{mdframed}
+
+Katakan kita ingin mengirim pesan yang berisi kata ``BUDI''. Yang kita lakukan
+adalah mengambil huruf-huruf di bawah masing-masing huruf sebagai penggantinya.
+Sebagai contoh, huruf ``B'' akan digantikan dengan ``e', ``U'' digantikan
+``x'', ``D'' digantikan ``g'', dan ``I'' digantikan ``l''. Sehingga ``BUDI''
+akan menjadi ``EXGL''.
+
+Jumlah pergeseran huruf - apakah 3 atau 7 - dapat ditentukan bersama. Namun ada
+yang menarik jika kita gunakan 13 sebagai jumlah pergeseran. Jumlah huruf kita
+ada 26, sehingga 13 merupakan angka ``ajaib''. Sebuah pesan dapat kita geser 13
+sehingga menjadi tersembunyi dan kalau kita geser 13 lagi (dengan proses yang
+sama) akan menghasilkan teks aslinya. Proses ini dikenal dengan istilah {\bf
+ROT13} (atau rotate 13)~\footnote{Ada situs www.rot13.com yang dapat kita
+gunakan untuk melakukan enkripsi dan dekripsi dengan pergeseran 13 huruf itu.}.
+
+\begin{mdframed}                                                                   
+\begin{verbatim} 
+FHQNUXNU NAQN ZRAPBON?
+\end{verbatim}
+\end{mdframed}                                                                   
+
+Cara substitusi seperti yang digunakan oleh {\em Caesar cipher} tersebut
+menggunakan satu tabel sehingga sebuah huruf akan disubstitusi oleh huruf yang
+sama. Dalam contoh pertama, huruf ``B'' akan disubstitusi dengan huruf ``E''.
+Hal ini disebut {\em monoaplhabetic cipher}.
+
+Persandian dengan menggunakan {\em Caesar cipher} ini bertahan cukup lama.
+Dapatkah Anda membayangkan cara memecahkan persandian ini? Serangan (attack)
+apa yang dapat Anda lakukan? Ternyata Al Kindi menemukan cara untuk memecahkan
+{\em Caesar cipher} ini.
+
+Kelemahan dari {\em monoalphabetic cipher} adalah huruf yang sama digantikan
+oleh huruf pasangannya dan tetap seperti itu. Serangan yang dilakukan oleh Al
+Kindi adalah membuat statistik dari kemunculan huruf. Dalam sebuah bahasa
+tertentu, katakan Bahasa Inggris, ada statistik kemunculan setiap huruf. Dalam
+Bahasa Inggris, huruf yang paling sering muncul adalah huruf ``A''. Jika hasil
+statistik dari teks yang sudah tersandikan huruf yang paling sering muncul
+adalah huruf ``J'', maka kita tinggal geser huruf ``J'' tersebut di bawah huruf
+``A'' dan sisanya tinggal menyesuaikan. Ternyata tidak susah untuk melakukan
+serangan bukan?
+
+\begin{mdframed}[backgroundcolor=blue!20]
+\begin{ExerciseList}
+   \Exercise[title=Kemunculan huruf]
+   \Question{Buat sebuah program yang membuat statistik kemunculan huruf-huruf
+   untuk bahasa Indonesia, bahasa Inggris, bahasa Jawa, dan bahasa Sunda.
+   Urutkan lima terbesar di setiap bahasa. Catatan: Semakin banyak Anda memberi
+   masukan kepada program statistik Anda, semakin akurat hasil statistiknya.}
+   \Question{Apakah metoda ini dapat digunakan untuk bahasa-bahasa yang tidak
+   menggunakan karakter Roman (seperti bahasa Arab, Cina, India, Thailand, dan
+   sejenisnya)?}
+\end{ExerciseList}
+\end{mdframed}
 
 
+Dalam sejarah persandian, keberadaan orang yang membuat algoritma sandi ({\em
+code maker}) akan berseteru dengan orang yang berusaha untuk memecahkannya
+({\em code breaker}). Dalam contoh di atas, Al Kindi menjadi {\em code breaker}
+yang memecahkan kode {\em Caesar cipher}.
+
+
+\subsection{Struktur Sistem Kriptografi}
 Secara umum ada tiga komponen utama dari kriptografi, yaitu {\em plain text},
 {\em ciphertext}, dan algoritma serta kunci yang digunakan\footnote{Pada
 awalnya, kunci melekat dengan algoritma. Namun kemudian, kunci dipisahkan dari
@@ -186,3 +264,43 @@ Sesuai dengan namanya, kunci publik boleh diketahui oleh umum dan disimpan di
 tempat publik. Sementara itu, kunci privat hanya boleh diakses oleh pemiliknya.
 Selama-lamanya kunci privat ini tidak boleh terbuka. Jika kunci privat ini
 tercuri, maka identitas kita juga tercuri.
+
+Mari kembali kita ambil contoh komunikasi antara {\em Alice} dan {\em Bob}.
+Masing-masing pelaku memiliki sepasang kunci. {\em Alice} memiliki kunci publik
+$KA_{pub}$ dan kunci privat $KA_{priv}$. Demikian pula {\em Bob} memiliki kunci
+publik $KB_{pub}$ dan kunci privat $KB_{priv}$. Jika {\em Alice} ingin
+mengirimkan pesan $m$ kepada {\em Bob}, maka {\em ciphertext} $c$ merupakan
+hasil enkripsi dengan menggunakan kunci publik {\em Bob}.
+
+\begin{equation}
+   c = E_{KB_{pub}}(m)
+\end{equation}
+
+Di sisi penerima, {\em Bob}, akan menerima cipertext $c$. Untuk
+mengembalikannya ke pesan semula, dilakukan proses dekripsi ($D$) dengan kunci
+privatnya sebagai berikut. Perlu diingat bahwa hanya {\em Bob} yang dapat
+melakukan hal ini karena hanya dia yang memiliki kunci privatnya. {\em Alice}
+sebagai pengirim pun sudah tidak dapat membuka kembali pesan yang dia kirimkan.
+
+\begin{equation}
+   m = D_{KB_{priv}}(c)
+\end{equation}
+
+Yang menarik dari proses ini adalah untuk mengirimkan pesan bersandi ke {\em
+Bob}, sang pengirim ({\em Alice}) hanya perlu mencari kunci publik {\em Bob}.
+Dia tidak perlu bertukar kunci sebelumnya. Masalah {\em key distribution}
+terpecahkan dengan cara ini.
+
+Jumlah kunci yang beredar di sistem juga tidak meledak sebagai mana terjadi
+pada kriptografi kunci privat. Jika jumlah pengguna adalah $n$, maka jumlah
+kunci adalah:
+
+\begin{equation}
+   numkeys = 2n
+\end{equation}
+
+Beberapa contoh algoritma kriptografi kunci publik yang terkenal antara lain
+RSA dan Elliptic Curve Cryptosystem (ECC). Sayangnya algoritma-algoritma ini
+memiliki komputasi yang cukup tinggi. (Akan dibahas kemudian.) Akibatnya,
+algoritma kriptografi kunci publik kurang disukai atau digunakan secukupnya
+saja.

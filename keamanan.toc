@@ -19,14 +19,15 @@
 \contentsline {chapter}{Kriptografi}{19}{chapter*.20}
 \contentsline {section}{Steganografi}{19}{section*.21}
 \contentsline {section}{Kriptografi}{20}{section*.22}
-\contentsline {subsection}{Kriptografi Kunci Privat}{21}{subsection*.23}
-\contentsline {subsection}{Kriptografi Kunci Publik}{22}{subsection*.24}
-\contentsline {chapter}{PGP / Gnu Privacy Guard}{25}{chapter*.25}
-\contentsline {section}{Sejarah}{25}{section*.26}
-\contentsline {section}{Menggunakan Gnu Privacy Guard, gpg}{25}{section*.27}
-\contentsline {subsection}{Enkrip Untuk Sebuah Alamat Email}{28}{subsection*.28}
-\contentsline {subsection}{Tanda Tangan Dokumen}{30}{subsection*.29}
-\contentsline {section}{Tools}{32}{section*.30}
-\contentsline {section}{Web of Trust}{32}{section*.31}
-\contentsline {chapter}{Bibliography}{33}{chapter*.32}
+\contentsline {subsection}{Struktur Sistem Kriptografi}{22}{subsection*.23}
+\contentsline {subsection}{Kriptografi Kunci Privat}{23}{subsection*.24}
+\contentsline {subsection}{Kriptografi Kunci Publik}{24}{subsection*.25}
+\contentsline {chapter}{PGP / Gnu Privacy Guard}{27}{chapter*.26}
+\contentsline {section}{Sejarah}{27}{section*.27}
+\contentsline {section}{Menggunakan Gnu Privacy Guard, gpg}{27}{section*.28}
+\contentsline {subsection}{Enkrip Untuk Sebuah Alamat Email}{30}{subsection*.29}
+\contentsline {subsection}{Tanda Tangan Dokumen}{32}{subsection*.30}
+\contentsline {section}{Tools}{34}{section*.31}
+\contentsline {section}{Web of Trust}{34}{section*.32}
+\contentsline {chapter}{Bibliography}{35}{chapter*.33}
 \contentsfinish 
