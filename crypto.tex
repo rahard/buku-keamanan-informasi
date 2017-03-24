@@ -92,3 +92,65 @@ Jika kita menggunakan algoritma kriptografi kunci privat, yang akan dibahas
 kemudian, kunci ($k$) yang sama digunakan untuk proses enkripsi dan dekripsi.
 Untuk algoritma kriptografi yang berbasis kunci public, kunci yang digunakan
 untuk proses enkripsi dan dekripsi berbeda.
+
+
+\subsection{Kriptografi Kunci Privat}
+Kriptografi kunci privat adalah jenis kriptografi yang paling banyak dikenal.
+Pada sistem kriptografi ini, ada satu kunci yang digunakan untuk mengunci dan
+membuka. Itulah sebabnya sistem ini dikenal juga dengan istilah kriptografi
+{\bf simetrik}. Kunci yang digunakan harus dirahasiakan sehingga kriptografi
+ini disebut kriptografi kunci privat.
+
+Ada banyak algoritma yang mengimplementasikan kriptografi kunci privat, antara
+lain DES, Blowfish, dan AES. (Penjelasan rinci mengenai algoritma-algoritma ini
+akan dibahas secara terpisah.) Algoritma-algoritma ini umumnya sangat cepat
+dalam operasinya.
+
+Salah satu kesulitan dari pengoperasian sistem kriptografi kunci privat adalah
+dalam hal distribusi kunci ({\em key distribution}). Sebagai contoh, jika {\em
+Alice} ingin mengirim pesan kepada {\em Bob}, maka mereka berdua memiliki
+sebuah kunci yang sama. Jika {\em Alice} ingin mengirim pesan ke orang lain,
+katakan {\em Charlie}, maka mereka berdua memiliki kunci sendiri ({\em
+Alice-Charlie}) yang berbeda dengan kunci {\em Alice-Bob}. Demikian pula jika
+{\em Bob} dan {\em Charlie} ingin berkomunikasi maka mereka memiliki kunci
+sendiri ({\em Bob-Charlie}). Jika kita teruskan dengan pihak-pihak lain, maka
+jumlah kunci yang dibutuhkan akan meledak secara eksponensial sesuai dengan
+penambahan jumlah pengguna ($n$).
+
+\begin{equation}
+   numkeys = \frac{(n) (n-1)}{2}
+\end{equation}
+
+Untuk jumlah pengguna yang sedikit, misal puluhan orang, maka jumlah kunci yang
+beredar tidak terlalu banyak. Begitu jumlah pengguna sangat banyak, maka jumlah
+kunci menjadi sangat besar seperti dapat dilihat pada
+tabel~\ref{tbl:jumlahkunci}. Bayangkan jumlah pengguna internet di dunia ini.
+Berapa banyak kunci yang harus dipersiapkan jika semuanya akan saling
+berkomunikasi satu dengan lainnya?
+
+\begin{table}
+   \centering
+   \caption{Jumlah Kunci}
+   \label{tbl:jumlahkunci}
+\begin{tabular}{ r r }
+   $n$ & Jumlah kunci \\
+   \hline
+  10 & 45 \\
+  100 & 4.950 \\
+  1000 & 499.500 \\
+  10.000 & 49.995.000 \\
+  100.000 & 4.999.950.000 \\
+\end{tabular}
+\end{table}
+
+Meskipun ada masalah distribusi kunci, sistem kriptografi kunci privat ini yang
+paling baik kinerjanya (performance) sehingga dia sangat dibutuhkan.
+
+
+\subsection{Kriptografi Kunci Publik}
+Pada sistem kriptografi kunci publik, ada dua kunci yang akan digunakan. Setiap
+pelaku akan memiliki sepasang kunci (kunci publik dan kunci privat) yang saling
+berhubungan. Jika sebuah pesan dikunci dengan kunci publik, maka dia hanya
+dapat dibuka oleh kunci privat pasangannya. Demikian pula jika sebuah pesan
+dikunci oleh kunci privat, maka dia hanya dapat dibuka oleh kunci publik
+pasangannya. (Jangan bingung. Baca berulang kali.)

@@ -19,12 +19,14 @@
 \contentsline {chapter}{Kriptografi}{19}{chapter*.20}
 \contentsline {section}{Steganografi}{19}{section*.21}
 \contentsline {section}{Kriptografi}{19}{section*.22}
-\contentsline {chapter}{PGP / Gnu Privacy Guard}{21}{chapter*.23}
-\contentsline {section}{Sejarah}{21}{section*.24}
-\contentsline {section}{Menggunakan Gnu Privacy Guard, gpg}{21}{section*.25}
-\contentsline {subsection}{Enkrip Untuk Sebuah Alamat Email}{24}{subsection*.26}
-\contentsline {subsection}{Tanda Tangan Dokumen}{26}{subsection*.27}
-\contentsline {section}{Tools}{28}{section*.28}
-\contentsline {section}{Web of Trust}{28}{section*.29}
-\contentsline {chapter}{Bibliography}{29}{chapter*.30}
+\contentsline {subsection}{Kriptografi Kunci Privat}{21}{subsection*.23}
+\contentsline {subsection}{Kriptografi Kunci Publik}{22}{subsection*.24}
+\contentsline {chapter}{PGP / Gnu Privacy Guard}{23}{chapter*.25}
+\contentsline {section}{Sejarah}{23}{section*.26}
+\contentsline {section}{Menggunakan Gnu Privacy Guard, gpg}{23}{section*.27}
+\contentsline {subsection}{Enkrip Untuk Sebuah Alamat Email}{26}{subsection*.28}
+\contentsline {subsection}{Tanda Tangan Dokumen}{28}{subsection*.29}
+\contentsline {section}{Tools}{30}{section*.30}
+\contentsline {section}{Web of Trust}{30}{section*.31}
+\contentsline {chapter}{Bibliography}{31}{chapter*.32}
 \contentsfinish 
