@@ -49,20 +49,108 @@ eaadtndktbnug
 \end{mdframed}
 
 Kalimat yang akan dikirimkan menjadi ``slmtaagioaadneaadtndktbnug''. Kalimat
-ini yang kita kirimkan. Di sisi penerima akan dilakukan proses sebaliknya
-sehingga didapat kalimat aslinya.
+ini yang kita kirimkan. Dapat dilihat bahwa kalimat yang dikirimkan sudah sulit
+dibaca isinya. Di sisi penerima akan dilakukan proses sebaliknya sehingga
+didapat kalimat aslinya.
 
 
 Secara umum ada tiga komponen utama dari kriptografi, yaitu {\em plain text},
-{\em ciphered text}, dan algoritma serta kunci yang digunakan.
+{\em ciphertext}, dan algoritma serta kunci yang digunakan\footnote{Pada
+awalnya, kunci melekat dengan algoritma. Namun kemudian, kunci dipisahkan dari
+algoritma. Kekuatan dari sebuah sistem kriptografi bergantung kepada
+kerahasiaan dari kuncinya, bukan dari kerahasiaan algoritmanya.}.
 \begin{itemize}
   \item {\em Plain text} adalah data (teks, pesan, {\em message}) asli yang
   belum diproses. Meskipun disebut plain text, sesungguhnya data asli tidak
   harus berupa teks (ASCII). Plain text dapat juga berupa berkas biner.
-  \item {\em Ciphered text} adalah data yang dihasilkan dari proses enkripsi.
-  Ciphered text dapat berbentuk berkas biner atau ASCII. Perlu diasumsikan
+  \item {\em Ciphertext} adalah data yang dihasilkan dari proses enkripsi.
+     {\em Ciphertext} dapat berbentuk berkas biner atau ASCII. Perlu diasumsikan
   bahwa penyerang kemungkinan dapat mengakses ciphered text.
   \item Algoritma dan kunci merupakan {\em black box} yang memproses plain text
   menjadi ciphered text. Algoritma diasumsikan diketahui oleh penyerang,
   tetapi kunci tidak diketahui.
 \end{itemize}
+
+Hubungan antara ketiga komponen tersebut dapat dirumuskan sebagai berikut.
+{\em Ciphertext} $c$ merupakan hasil operasi enkripsi ({\em encryption}) $E$ 
+dengan kunci $k$ terhadap pesan $m$. {\em Ciphertext} ini yang nanti dikirimkan
+kepada pihak yang dituju.
+
+\begin{equation}
+   c = E_k(m)
+\end{equation}
+
+Di sisi sebaliknya, yaitu di sisi penerima, pesan ({\em plain text}) $m$
+diperoleh dari hasil proses dekripsi ({\em decryption}) $D$ dengan kunci $k$
+terhadap {\em ciphertext} $c$.
+
+\begin{equation}
+   m = D_k(c)
+\end{equation}
+
+Jika kita menggunakan algoritma kriptografi kunci privat, yang akan dibahas
+kemudian, kunci ($k$) yang sama digunakan untuk proses enkripsi dan dekripsi.
+Untuk algoritma kriptografi yang berbasis kunci public, kunci yang digunakan
+untuk proses enkripsi dan dekripsi berbeda.
+
+
+\subsection{Kriptografi Kunci Privat}
+Kriptografi kunci privat adalah jenis kriptografi yang paling banyak dikenal.
+Pada sistem kriptografi ini, ada satu kunci yang digunakan untuk mengunci dan
+membuka. Itulah sebabnya sistem ini dikenal juga dengan istilah kriptografi
+{\bf simetrik}. Kunci yang digunakan harus dirahasiakan sehingga kriptografi
+ini disebut kriptografi kunci privat.
+
+Ada banyak algoritma yang mengimplementasikan kriptografi kunci privat, antara
+lain DES, Blowfish, dan AES. (Penjelasan rinci mengenai algoritma-algoritma ini
+akan dibahas secara terpisah.) Algoritma-algoritma ini umumnya sangat cepat
+dalam operasinya.
+
+Salah satu kesulitan dari pengoperasian sistem kriptografi kunci privat adalah
+dalam hal distribusi kunci ({\em key distribution}). Sebagai contoh, jika {\em
+Alice} ingin mengirim pesan kepada {\em Bob}, maka mereka berdua memiliki
+sebuah kunci yang sama. Jika {\em Alice} ingin mengirim pesan ke orang lain,
+katakan {\em Charlie}, maka mereka berdua memiliki kunci sendiri ({\em
+Alice-Charlie}) yang berbeda dengan kunci {\em Alice-Bob}. Demikian pula jika
+{\em Bob} dan {\em Charlie} ingin berkomunikasi maka mereka memiliki kunci
+sendiri ({\em Bob-Charlie}). Jika kita teruskan dengan pihak-pihak lain, maka
+jumlah kunci yang dibutuhkan akan meledak secara eksponensial sesuai dengan
+penambahan jumlah pengguna ($n$).
+
+\begin{equation}
+   numkeys = \frac{(n) (n-1)}{2}
+\end{equation}
+
+Untuk jumlah pengguna yang sedikit, misal puluhan orang, maka jumlah kunci yang
+beredar tidak terlalu banyak. Begitu jumlah pengguna sangat banyak, maka jumlah
+kunci menjadi sangat besar seperti dapat dilihat pada
+tabel~\ref{tbl:jumlahkunci}. Bayangkan jumlah pengguna internet di dunia ini.
+Berapa banyak kunci yang harus dipersiapkan jika semuanya akan saling
+berkomunikasi satu dengan lainnya?
+
+\begin{table}
+   \centering
+   \caption{Jumlah Kunci}
+   \label{tbl:jumlahkunci}
+\begin{tabular}{ r r }
+   $n$ & Jumlah kunci \\
+   \hline
+  10 & 45 \\
+  100 & 4.950 \\
+  1000 & 499.500 \\
+  10.000 & 49.995.000 \\
+  100.000 & 4.999.950.000 \\
+\end{tabular}
+\end{table}
+
+Meskipun ada masalah distribusi kunci, sistem kriptografi kunci privat ini yang
+paling baik kinerjanya (performance) sehingga dia sangat dibutuhkan.
+
+
+\subsection{Kriptografi Kunci Publik}
+Pada sistem kriptografi kunci publik, ada dua kunci yang akan digunakan. Setiap
+pelaku akan memiliki sepasang kunci (kunci publik dan kunci privat) yang saling
+berhubungan. Jika sebuah pesan dikunci dengan kunci publik, maka dia hanya
+dapat dibuka oleh kunci privat pasangannya. Demikian pula jika sebuah pesan
+dikunci oleh kunci privat, maka dia hanya dapat dibuka oleh kunci publik
+pasangannya. (Jangan bingung. Baca berulang kali.)
