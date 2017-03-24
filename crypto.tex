@@ -23,8 +23,31 @@ Saat ini steganografi digunakan sebagai bagian dari {\em Digital Rights
 Management} (DRM), misalnya dengan menyisipkan informasi mengenai HaKI dari
 produk digital (musik, ebook, foto, dan sejenisnya).
 
-[Masih harus ditulis.]
+\begin{figure}[ht]
+\fbox{\includegraphics[width=1.0\linewidth]{graphics/BR-watermark.png}}
+\caption{Contoh Watermark}
+\label{fig:watermark}
+\end{figure}
 
+Ada banyak cara untuk menyisipkan informasi ke dalam berkas digital. Sebagai
+contoh, kita dapat menyisipkan pesan di dalam gambar (foto) digital seperti
+ditampilkan pada Gambar~\ref{fig:watermark}. Cara yang digunakan adalah
+dengan menggunakan {\em least significant bit} (LSB) dari data {\em pixel}
+gambar. Misalnya, sebuah {\em pixel} (titik) di gambar direpresentasikan oleh
+8-bit. Dalam hal ini ada 256 kombinasi (katakanlah skala abu-abu / grey scale).
+Maka kita dapat mengorbankan bit yang ke-8 tersebut dan hanya menggunakan 7-bit
+saja dalam pewarnaan. Bit ke-8 dapat kita gunakan sebagai bagian dari data.
+Jika ada 8 bit yang berurutan kita perlakukan seperti itu, maka akan ada tempat
+untuk 8-bit data (1 byte). Jika ini kita teruskan lagi, maka kita dapat
+menyimpan beberapa (banyak) bytes di dalam gambar itu.
+Data yang kita simpan di dalam berkas (gambar) tersebut dapat berupa
+kepemilikan gambar, {\em copyright}, misalnya. 
+
+Tentu saja contoh di atas agak sedikit menyederhanakan permasalahan.
+Steganografi yang bagus akan tahan bantingan terhadap proses-proses tertentu.
+Sebagai contoh, jika gambar tersebut diubah ukurannya ({\em resize}) maka
+informasi yang ditanamkan tersebut akan hilang. Algoritma steganografi yang
+bagus akan memiliki kekuatan yang lebih dari itu.
 
 
 \section{Kriptografi}
@@ -149,8 +172,17 @@ paling baik kinerjanya (performance) sehingga dia sangat dibutuhkan.
 
 \subsection{Kriptografi Kunci Publik}
 Pada sistem kriptografi kunci publik, ada dua kunci yang akan digunakan. Setiap
-pelaku akan memiliki sepasang kunci (kunci publik dan kunci privat) yang saling
-berhubungan. Jika sebuah pesan dikunci dengan kunci publik, maka dia hanya
-dapat dibuka oleh kunci privat pasangannya. Demikian pula jika sebuah pesan
-dikunci oleh kunci privat, maka dia hanya dapat dibuka oleh kunci publik
-pasangannya. (Jangan bingung. Baca berulang kali.)
+pelaku akan memiliki sepasang kunci ({\bf kunci publik} dan {\bf kunci privat})
+yang saling berhubungan. Jika sebuah pesan dikunci dengan kunci publik, maka
+dia hanya dapat dibuka oleh kunci privat pasangannya. Demikian pula jika sebuah
+pesan dikunci oleh kunci privat, maka dia hanya dapat dibuka oleh kunci publik
+pasangannya. (Jangan bingung. Baca berulang kali. Nanti akan dijelaskan dengan
+cara lain lagi.)
+
+Sistem ini sering juga disebut {\bf kriptografi asimetrik}, karena kunci yang
+dipakai untuk mengunci berbeda dengan kunci untuk membuka. Asimetrik.
+
+Sesuai dengan namanya, kunci publik boleh diketahui oleh umum dan disimpan di
+tempat publik. Sementara itu, kunci privat hanya boleh diakses oleh pemiliknya.
+Selama-lamanya kunci privat ini tidak boleh terbuka. Jika kunci privat ini
+tercuri, maka identitas kita juga tercuri.
