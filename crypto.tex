@@ -181,18 +181,29 @@ kepada pihak yang dituju.
    c = E_k(m)
 \end{equation}
 
+Penulisan proses enkripsi dapat juga dilakukan seperti berikut.
+
+\begin{equation}
+   c = \textsc{Enkrip}(k, m)
+\end{equation}
+
 Di sisi sebaliknya, yaitu di sisi penerima, pesan ({\em plain text}) $m$
 diperoleh dari hasil proses dekripsi ({\em decryption}) $D$ dengan kunci $k$
-terhadap {\em ciphertext} $c$.
+terhadap {\em ciphertext} $c$. 
 
 \begin{equation}
    m = D_k(c)
 \end{equation}
+Penulisan dapat dilakukan dengan notasi berikut.
+\begin{equation}
+   m = \textsc{Dekrip}(k, c)
+\end{equation}
 
-Jika kita menggunakan algoritma kriptografi kunci privat, yang akan dibahas
-kemudian, kunci ($k$) yang sama digunakan untuk proses enkripsi dan dekripsi.
-Untuk algoritma kriptografi yang berbasis kunci public, kunci yang digunakan
-untuk proses enkripsi dan dekripsi berbeda.
+Jika kita menggunakan algoritma kriptografi kunci privat, kunci ($k$) yang sama
+digunakan untuk proses enkripsi dan dekripsi. Untuk algoritma kriptografi yang
+berbasis kunci publik, kunci yang digunakan untuk proses enkripsi dan dekripsi
+berbeda bergantung kepada proses yang dilakukan (apakah untuk enkripsi atau
+penandatanganan).
 
 
 \subsection{Kriptografi Kunci Privat}
@@ -300,7 +311,34 @@ kunci adalah:
 \end{equation}
 
 Beberapa contoh algoritma kriptografi kunci publik yang terkenal antara lain
-RSA dan Elliptic Curve Cryptosystem (ECC). Sayangnya algoritma-algoritma ini
-memiliki komputasi yang cukup tinggi. (Akan dibahas kemudian.) Akibatnya,
-algoritma kriptografi kunci publik kurang disukai atau digunakan secukupnya
-saja.
+RSA\footnote{Nama RSA ini berasal dari singkatan nama penemunya, yaitu Ron {\bf
+R}ivest, Adi {\bf S}hamir, dan Len {\bf A}dleman} dan Elliptic Curve
+Cryptosystem (ECC).  Sayangnya algoritma-algoritma ini memiliki komputasi yang
+cukup tinggi sehingga membutuhkan waktu yang jauh lebih lama dalam memproses
+data. (Akan dibahas kemudian.) Akibatnya, algoritma kriptografi kunci publik
+kurang disukai atau digunakan secukupnya saja.
+
+
+\subsection{Kriptografi Hybrid}
+Seperti dikemukakan sebelumnya, kriptografi kunci privat memiliki algoritma
+yang relatif cepat tetapi ada masalah pada distribusi kunci. Sementara itu
+kriptografi kunci publik memiliki kelemahan komputasinya yang tinggi. Salah
+satu solusi yang menarik adalah menggabungkan kedua sistem sehingga menjadi
+kriptografi (kunci) hybrid.
+
+Pada pendekatan ini, enkripsi (dan dekripsi) akan menggunakan kriptografi kunci
+privat tetapi dengan kunci yang dibuat sesaat (session key) dan kunci sesi
+inilah yang dipertukarkan dengan menggunakan algoritma kriptografi kunci
+publik. Ukuran kunci sangat kecil sehingga biaya (cost) untuk melakukan
+enkripsi dengan kunci publik menjadi kecil.
+
+
+\section{Kualitas Sistem Kriptografi}
+Kebagusan sebuah sistem kriptografi bergantung kepada kerahasiaan kuncinya
+bukan kepada kerahasiaan dari algoritmanya. Algoritma yang baik adalah
+algoritma yang diterbitkan untuk umum dan dievaluasi bersama-sama. Banyak orang
+yang heran atau tidak percaya kepada hal ini. Ambil contoh algoritma RSA yang
+dibuat pada tahun 1970-an. Algoritma ini tersedia dan dapat dievaluasi. Sampai
+sekarang belum ditemukan kelemahan dari algoritma ini. Jika ada seseorang atau
+sebuah vendor yang tidak mau membuka algoritmanya, maka tingkat keamanannya
+pantas untuk diragukan.
