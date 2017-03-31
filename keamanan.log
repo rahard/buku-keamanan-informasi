@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.4)  31 MAR 2017 17:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.4)  31 MAR 2017 17:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1129,7 +1129,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 68--68
 \T1/pplj/m/n/10 Com-mons ^^P  Attribution-NonCommercial-
  []
 
-<doclicense-CC-by-nc-sa.pdf, id=131, 121.45375pt x 43.16125pt>
+<doclicense-CC-by-nc-sa.pdf, id=135, 121.45375pt x 43.16125pt>
 File: doclicense-CC-by-nc-sa.pdf Graphic file (type pdf)
 
 <use doclicense-CC-by-nc-sa.pdf>
@@ -1174,7 +1174,7 @@ LaTeX Warning: Marginpar on page 9 moved.
 
 LaTeX Warning: Marginpar on page 9 moved.
 
-[9] <graphics/security-life-cycle.png, id=172, 577.15625pt x 481.8pt>
+[9] <graphics/security-life-cycle.png, id=176, 577.15625pt x 481.8pt>
 File: graphics/security-life-cycle.png Graphic file (type png)
 
 <use graphics/security-life-cycle.png>
@@ -1235,7 +1235,7 @@ grafi,
 
 LaTeX Warning: Marginpar on page 19 moved.
 
-<graphics/BR-watermark.png, id=229, 422.5386pt x 298.4751pt>
+<graphics/BR-watermark.png, id=233, 422.5386pt x 298.4751pt>
 File: graphics/BR-watermark.png Graphic file (type png)
 
 <use graphics/BR-watermark.png>
@@ -1383,7 +1383,7 @@ Overfull \hbox (66.66058pt too wide) in paragraph at lines 108--108
 C5 EB6C EB46[] 
  []
 
-<graphics/pgp-mit.png, id=291, 642.4pt x 557.08125pt>
+<graphics/pgp-mit.png, id=295, 642.4pt x 557.08125pt>
 File: graphics/pgp-mit.png Graphic file (type png)
 
 <use graphics/pgp-mit.png>
@@ -1689,19 +1689,19 @@ LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <8> not available
 
 LaTeX Warning: Marginpar on page 35 moved.
 
-<graphics/email-topologi.png, id=330, 597.9138pt x 183.5658pt>
+<graphics/email-topologi.png, id=334, 597.9138pt x 183.5658pt>
 File: graphics/email-topologi.png Graphic file (type png)
 
 <use graphics/email-topologi.png>
-Package pdftex.def Info: graphics/email-topologi.png used on input line 29.
+Package pdftex.def Info: graphics/email-topologi.png used on input line 30.
 (pdftex.def)             Requested size: 312.00266pt x 95.78807pt.
 
-Overfull \hbox (6.80264pt too wide) in paragraph at lines 29--32
+Overfull \hbox (6.80264pt too wide) in paragraph at lines 30--33
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--32
+Underfull \hbox (badness 10000) in paragraph at lines 30--33
 
  []
 
@@ -1709,84 +1709,84 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--32
 
 
 
- <./graphics/email-topologi.png>] [36]
-Package mdframed Info: mdframed works in twoside mode on input line 88.
-Package mdframed Info: mdframed works in twoside mode on input line 106.
+ <./graphics/email-topologi.png>]
+Underfull \vbox (badness 2653) has occurred while \output is active []
 
-Overfull \hbox (5.58801pt too wide) in paragraph at lines 107--107
+ [36]
+Package mdframed Info: mdframed works in twoside mode on input line 89.
+Package mdframed Info: mdframed works in twoside mode on input line 108.
+
+Overfull \hbox (5.58801pt too wide) in paragraph at lines 109--109
 []\T1/fvm/m/n/10 Received: from nic.cafax.se (nic.cafax.se [192.71.228.17])[] 
  []
 
 
-Overfull \hbox (61.8754pt too wide) in paragraph at lines 108--108
+Overfull \hbox (61.8754pt too wide) in paragraph at lines 110--110
 []   \T1/fvm/m/n/10 by alliance.globalnetlink.com (8.9.1/8.9.1) with ESMTP id Q
 AA31830[] 
  []
 
 
-Overfull \hbox (82.34354pt too wide) in paragraph at lines 109--109
+Overfull \hbox (82.34354pt too wide) in paragraph at lines 111--111
 []   \T1/fvm/m/n/10 for <budi@alliance.globalnetlink.com>; Mon, 26 Mar 2001 16:
 18:01 -0600[] 
  []
 
 
-Overfull \hbox (20.93912pt too wide) in paragraph at lines 111--111
-[]\T1/fvm/m/n/10 by nic.cafax.se (8.12.0.Beta6/8.12.0.Beta5) id f2QLSJVM018917[
-] 
+Overfull \hbox (36.29022pt too wide) in paragraph at lines 113--113
+[]   \T1/fvm/m/n/10 by nic.cafax.se (8.12.0.Beta6/8.12.0.Beta5) id f2QLSJVM0189
+17[] 
  []
 
 
-Overfull \hbox (41.40726pt too wide) in paragraph at lines 112--112
-[]\T1/fvm/m/n/10 for ietf-provreg-outgoing; Mon, 26 Mar 2001 23:28:19 +0200 (ME
-ST)[] 
+Overfull \hbox (56.75836pt too wide) in paragraph at lines 114--114
+[]   \T1/fvm/m/n/10 for ietf-provreg-outgoing; Mon, 26 Mar 2001 23:28:19 +0200 
+(MEST)[] 
  []
 
 
-Overfull \hbox (82.34354pt too wide) in paragraph at lines 113--113
+Overfull \hbox (82.34354pt too wide) in paragraph at lines 115--115
 []\T1/fvm/m/n/10 Received: from is1-55.antd.nist.gov (is1-50.antd.nist.gov [129
 .6.50.251])[] 
  []
 
 
-Overfull \hbox (77.2265pt too wide) in paragraph at lines 114--114
-[]\T1/fvm/m/n/10 by nic.cafax.se (8.12.0.Beta5/8.12.0.Beta5) with ESMTP id f2QL
-SGiM018912[] 
+Overfull \hbox (92.5776pt too wide) in paragraph at lines 116--116
+[]   \T1/fvm/m/n/10 by nic.cafax.se (8.12.0.Beta5/8.12.0.Beta5) with ESMTP id f
+2QLSGiM018912[] 
  []
 
 
-Overfull \hbox (51.64133pt too wide) in paragraph at lines 115--115
-[]\T1/fvm/m/n/10 for <ietf-provreg@cafax.se>; Mon, 26 Mar 2001 23:28:17 +0200 (
-MEST)[] 
+Overfull \hbox (66.99243pt too wide) in paragraph at lines 117--117
+[]   \T1/fvm/m/n/10 for <ietf-provreg@cafax.se>; Mon, 26 Mar 2001 23:28:17 +020
+0 (MEST)[] 
  []
 
 
-Overfull \hbox (31.17319pt too wide) in paragraph at lines 116--116
+Overfull \hbox (31.17319pt too wide) in paragraph at lines 118--118
 []\T1/fvm/m/n/10 Received: from barnacle (barnacle.antd.nist.gov [129.6.55.185]
 )[] 
  []
 
 
-Overfull \hbox (10.70505pt too wide) in paragraph at lines 117--117
-[]\T1/fvm/m/n/10 by is1-55.antd.nist.gov (8.9.3/8.9.3) with SMTP id QAA07174[] 
-
+Overfull \hbox (26.05615pt too wide) in paragraph at lines 119--119
+[]   \T1/fvm/m/n/10 by is1-55.antd.nist.gov (8.9.3/8.9.3) with SMTP id QAA07174
+[] 
  []
 
 
-Overfull \hbox (46.52429pt too wide) in paragraph at lines 118--118
-[]\T1/fvm/m/n/10 for <ietf-provreg@cafax.se>; Mon, 26 Mar 2001 16:28:14 -0500 (
-EST)[] 
+Overfull \hbox (61.8754pt too wide) in paragraph at lines 120--120
+[]   \T1/fvm/m/n/10 for <ietf-provreg@cafax.se>; Mon, 26 Mar 2001 16:28:14 -050
+0 (EST)[] 
  []
 
 
-Overfull \hbox (5.58801pt too wide) in paragraph at lines 119--119
+Overfull \hbox (5.58801pt too wide) in paragraph at lines 121--121
 []\T1/fvm/m/n/10 Message-ID: <04f901c0b63b$16570020$b9370681@antd.nist.gov>[] 
  []
 
-) [37] (./keamanan.bbl [38
-
-
-]pdfTeX warning (ext4): destination with the same identifier (name{cite.davidka
-hn}) has been already used, duplicate ignored
+[37]) [38] (./keamanan.bblpdfTeX warning (ext4): destination with the same iden
+tifier (name{cite.davidkahn}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.3 \bibitem{davidkahn}
@@ -1802,21 +1802,24 @@ fier (name{cite.BRsecuresoftware}) has been already used, duplicate ignored
 l.14 \bibitem{BRsecuresoftware}
                                )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 49.
- [39]
+ [39
+
+
+]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 49.
  (./keamanan.aux (./pengantar.aux)
 (./pendahuluan.aux) (./prinsip.aux) (./crypto.aux) (./pgp.aux) (./email.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 49.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 49.
 Package rerunfilecheck Info: File `keamanan.out' has not changed.
-(rerunfilecheck)             Checksum: 5ED420FD50833F4923B3ADFEB834B9B0;2942.
+(rerunfilecheck)             Checksum: 2039BA29EB6010416B037066EECF91B8;3082.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 49.
  ) 
 Here is how much of TeX's memory you used:
- 22338 strings out of 493042
- 365687 string characters out of 6134661
- 453134 words of memory out of 5000000
- 25350 multiletter control sequences out of 15000+600000
+ 22341 strings out of 493042
+ 365731 string characters out of 6134661
+ 455154 words of memory out of 5000000
+ 25352 multiletter control sequences out of 15000+600000
  87919 words of font info for 121 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  46i,12n,48p,10417b,518s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1830,10 +1833,10 @@ s/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1
 /urw/palatino/uplb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/pa
 latino/uplr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palatino/
 uplri8a.pfb>
-Output written on keamanan.pdf (39 pages, 417780 bytes).
+Output written on keamanan.pdf (39 pages, 419174 bytes).
 PDF statistics:
- 414 PDF objects out of 1000 (max. 8388607)
- 345 compressed objects within 4 object streams
- 118 named destinations out of 1000 (max. 500000)
- 2754 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 418 PDF objects out of 1000 (max. 8388607)
+ 349 compressed objects within 4 object streams
+ 119 named destinations out of 1000 (max. 500000)
+ 2762 words of extra memory for PDF output out of 10000 (max. 10000000)
 

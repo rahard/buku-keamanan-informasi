@@ -18,7 +18,8 @@ Beberapa masalah keamanan terkait dengan sistem email antara lain:
 
 \section{Komponen Sistem Email}
 Sebelum membahas masalah keamanan tersebut ada baiknya kita melihat komponen
-dari sebuah sistem mail.
+dari sebuah sistem mail. Pemahaman tentang komponen ini dibutuhkan untuk
+memahami potensi sumber masalah keamanan email.
 Sebuah sistem email terdiri dari beberapa komponen;
 {\em mail user agent} (MUA),
 {\em mail transfer agent} (MTA), dan
@@ -98,9 +99,10 @@ hari lain.
 \end{mdframed}
 
 Ada standar {\em field} di header yang mudah terlihat oleh pengguna, yaitu {\em
-From}, {\em To}, {\em Subject}. Padahal ada banyak {\em field-field} lain yang
-biasanya terdapat dalam email. Berikut ini contoh header yang lebih komplit
-lagi.
+From}, {\em To}, {\em Subject}, {\em Cc}, dan {\em Bcc}. Padahal ada banyak
+{\em field-field} lain yang biasanya terdapat dalam email. Berikut ini contoh
+header yang lebih komplit lagi. (Mengenai masing-masing field di header
+tersebut akan dibahas lebih lanjut.)
 
 \begin{mdframed}
 \begin{verbatim}
@@ -108,14 +110,14 @@ Received: from nic.cafax.se (nic.cafax.se [192.71.228.17])
    by alliance.globalnetlink.com (8.9.1/8.9.1) with ESMTP id QAA31830
    for <budi@alliance.globalnetlink.com>; Mon, 26 Mar 2001 16:18:01 -0600
 Received: from localhost (localhost [[UNIX: localhost]])
-	by nic.cafax.se (8.12.0.Beta6/8.12.0.Beta5) id f2QLSJVM018917
-	for ietf-provreg-outgoing; Mon, 26 Mar 2001 23:28:19 +0200 (MEST)
+   by nic.cafax.se (8.12.0.Beta6/8.12.0.Beta5) id f2QLSJVM018917
+   for ietf-provreg-outgoing; Mon, 26 Mar 2001 23:28:19 +0200 (MEST)
 Received: from is1-55.antd.nist.gov (is1-50.antd.nist.gov [129.6.50.251])
-	by nic.cafax.se (8.12.0.Beta5/8.12.0.Beta5) with ESMTP id f2QLSGiM018912
-	for <ietf-provreg@cafax.se>; Mon, 26 Mar 2001 23:28:17 +0200 (MEST)
+   by nic.cafax.se (8.12.0.Beta5/8.12.0.Beta5) with ESMTP id f2QLSGiM018912
+   for <ietf-provreg@cafax.se>; Mon, 26 Mar 2001 23:28:17 +0200 (MEST)
 Received: from barnacle (barnacle.antd.nist.gov [129.6.55.185])
-	by is1-55.antd.nist.gov (8.9.3/8.9.3) with SMTP id QAA07174
-	for <ietf-provreg@cafax.se>; Mon, 26 Mar 2001 16:28:14 -0500 (EST)
+   by is1-55.antd.nist.gov (8.9.3/8.9.3) with SMTP id QAA07174
+   for <ietf-provreg@cafax.se>; Mon, 26 Mar 2001 16:28:14 -0500 (EST)
 Message-ID: <04f901c0b63b$16570020$b9370681@antd.nist.gov>
 From: "Scott Rose" <scottr@antd.nist.gov>
 To: <ietf-provreg@cafax.se>
@@ -127,3 +129,28 @@ Sender: owner-ietf-provreg@cafax.se
 Precedence: bulk
 \end{verbatim}
 \end{mdframed}
+
+Nama {\em field} biasanya berupa satu kata atau jika lebih dari satu kata
+disambungkan dengan tanda garis (dash) dan diakhiri dengan tanda titik dua (:).
+Isi dari field berupa teks. (Panjang dari teks ini biasanya kurang dari 80
+karakter karena merupakan bawaan dari sistem-sistem jaman dahulu.) Jika teks
+membutuhkan lebih dari satu baris, maka lanjutannya dapat diletakkan di
+bawahnya dengan masuk (indent) menggunakan spasi atau tab.
+
+Pemahaman fungsi dari masing-masing field itu dibutuhkan ketika kita akan
+melakukan {\em forensic} terhadap email, karena seringkali ada email palsu atau
+email-email ancaman.
+
+\section{Penyadapan Email}
+Email sering dianalogikan dengan surat, padahal email lebih cocok dianalogikan
+dengan kartu pos karena dia terbuka dan dapat dibaca. Kartu pos dapat dibaca
+oleh orang-orang yang dilewati oleh kartu pos tersebut, misalnya oleh pak pos.
+Demikian pula dengan email. Email dapat dibaca pada setiap jalur yang dilewati
+oleh email tersebut, misalnya pada MTA.
+
+Pengiriman email antar MTA pada awalnya menggunakan protokol SMTP, Simple Mail
+Transfer Protokol (RFC 821). Sesuai dengan namanya, SMTP merupakan protokol
+yang sederhana yang tidak memiliki pengamanan terhadap aspek penyadapan. SMTP
+menggunakan protokol TCP dan berjalan di atas port 25. Penyadapan port 25 ini
+dapat dilakukan dengan menggunakan program {\em sniffer} seperti {\em tcpdump}
+dan {\em wireshark}.
