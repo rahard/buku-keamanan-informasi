@@ -137,9 +137,28 @@ karakter karena merupakan bawaan dari sistem-sistem jaman dahulu.) Jika teks
 membutuhkan lebih dari satu baris, maka lanjutannya dapat diletakkan di
 bawahnya dengan masuk (indent) menggunakan spasi atau tab.
 
+Selain {\em field} yang sudah standar, kita juga dapat membuat {\em field}
+sendiri. Aturannya adalah nama {\em field} tersebut dimulai dengan ``X-''.
+Misalnya kita dapat membuat field ``X-catatan:'' yang dapat kita gunakan untuk
+menuliskan catatan kecil. Oleh MTA dan MUA, {\em field} tambahan ini akan
+diabaikan. Pada contoh sebelumnya dapat dilihat sebuah contoh, yaitu
+``X-Mailer:''.
+
+\begin{verbatim}
+X-Mailer: Microsoft Outlook Express 5.50.4133.2400
+\end{verbatim}
+
 Pemahaman fungsi dari masing-masing field itu dibutuhkan ketika kita akan
 melakukan {\em forensic} terhadap email, karena seringkali ada email palsu atau
-email-email ancaman.
+email-email ancaman. Sebagian besar orang memang tidak tahu keberadaan
+field-field tersebut.
+
+Salah satu field yang penting adalah ``Message-ID''. Setiap email memiliki kode
+Message-ID yang berbeda-beda (unik). Message-ID ini dibuat oleh MTA ketika dia
+mengirimkan email (yang pertama kali). Identitas ini dapat membantu kita dalam
+melakukan pelacakan. Sebagai contoh, kita bisa mencari (bertanya) apakah di
+berkas catatan (log) di server mail pengirim ada Message-ID tersebut. Ini
+sangat bermanfaat dalam penyidikan.
 
 \section{Penyadapan Email}
 Email sering dianalogikan dengan surat, padahal email lebih cocok dianalogikan
@@ -154,3 +173,33 @@ yang sederhana yang tidak memiliki pengamanan terhadap aspek penyadapan. SMTP
 menggunakan protokol TCP dan berjalan di atas port 25. Penyadapan port 25 ini
 dapat dilakukan dengan menggunakan program {\em sniffer} seperti {\em tcpdump}
 dan {\em wireshark}.
+
+Penyadapan email ini dapat dilakukan pada jalur yang dilewati oleh email. Jadi
+kita tidak dapat menangkap email yang berada pada segmen jaringan yang berbeda.
+
+Penggunaan {\em tcpdump} untuk menyadap email memang dapat dilakukan, tetapi
+data yang diperoleh masih mentah dan harus disambung-sambungkan lagi untuk
+mendapatkan email yang tersusun lengkap (dan berurutan). Ada program {\em
+mailsnarf} yang dapat melakukan hal tersebut\footnote{Program mailsnarf
+terdapat dalam paket {\em dsniff}. Sayangnya paket program ini sudah tidak
+dikembangkan lagi. Di berbagai implementasi dari mailsnarf nampaknya tidak
+dapat menangkap email lagi. Untuk merakit ulang program ini dibutuhkan skill
+yang lumayan.}.
+
+\begin{verbatim}
+unix$ mailsnarf > sniffed-mails
+\end{verbatim}
+
+Berkas hasil tangkapan {\em mailsnarf} dapat dibuka dengan menggunakan MUA
+(program email) yang biasa kita gunakan.
+
+Ada beberapa cara untuk mengamankan email kita dari penyadapan. Yang pertama,
+dari sisi pengguna, kita dapat melakukan enkripsi terhadap body email sehingga
+meskipun email kita disadap tetapi sang penyadap tidak dapat memperoleh isiny.
+Cara ini dapat dilakukan dengan mudah jika kita menggunakan PGP atau GPG.
+
+Cara yang lebih baik adalah dengan menggunakan protokol yang lebih aman. SMTPS,
+atau SMTP Secure, merupakan implementasi SMTP yang menggunakan enkripsi. Pada
+prinsipnya klien (MTA) tetap menggunakan protokol SMTP tetapi pada layer di
+bawahnya digunakan SSL atau TLS untuk menghindari penyadapan. SMTPS biasanya
+menggunakan port 587.
