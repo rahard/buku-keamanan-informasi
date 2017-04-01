@@ -160,12 +160,43 @@ melakukan pelacakan. Sebagai contoh, kita bisa mencari (bertanya) apakah di
 berkas catatan (log) di server mail pengirim ada Message-ID tersebut. Ini
 sangat bermanfaat dalam penyidikan.
 
+Mari kita coba melakukan sedikit pengamatan (atau {\em forensic}) terhadap
+header email di atas. Email tersebut dikirimkan oleh Scott Rose kepada saya
+(dengan alamat email budi@alliance.globalnetlink.com). Hal yang penting dari
+header ini adalah field ``Received''. Field ini mirip dengan cap yang ada di
+amplop surat konvensional. (Biasanya sebagian menempel dengan perangko.) Field
+``Received'' ini ditambahkan oleh setiap MTA yang dilalui oleh email. Urutan
+perjalanan dari email adalah sebagai berikut. Kita urut dari bawah.
+
+\begin{enumerate}
+   \item Email dikirimkan oleh Scott Rose dari mesin ``barnacle''
+      ({\bf barnacle.antd.nist.gov}) yang memiliki alamat IP 129.6.55.185. 
+      Coba cari baris tersebut pada header email. Ini adalah field 
+      ``Received'' yang paling bawah.
+   \item Email tersebut diterima oleh mesin {\bf is1-55.ant.nist.gov}.
+      (Masih pada field Received yang paling bawah.)
+   \item Email kemudian diterima oleh mesin {\bf nic.cafax.se}.
+   \item Email diterima oleh {\bf localhost} di mesin nic.cafac.se. Perhatikan
+      bahwa localhost adalah nama untuk diri sendiri. Terlihat bahwa mail
+      diterima oleh diri sendiri. Ini adalah tanda-tanda pada mesin tersebut
+      ada semacam {\em mailing list manager}. 
+   \item Email kemudian diterima oleh {\bf alliance.globalnetlink.com} 
+      (yaitu server saya). Email ini kemudian diteruskan ke pengguna 
+      ``budi''. (Lihat field Received yang paling atas.)
+\end{enumerate}
+
+Kita dapat menelusuri perjalanan email dengan melihat jejak dari field
+``Received'' tersebut. Proses semacam inilah yang kita lakukan ketika kita
+melakukan {\em forensic} terhadap sebuah email.
+
 \section{Penyadapan Email}
 Email sering dianalogikan dengan surat, padahal email lebih cocok dianalogikan
 dengan kartu pos karena dia terbuka dan dapat dibaca. Kartu pos dapat dibaca
 oleh orang-orang yang dilewati oleh kartu pos tersebut, misalnya oleh pak pos.
 Demikian pula dengan email. Email dapat dibaca pada setiap jalur yang dilewati
 oleh email tersebut, misalnya pada MTA.
+
+\subsection{Penyadapan SMTP}
 
 Pengiriman email antar MTA pada awalnya menggunakan protokol SMTP, Simple Mail
 Transfer Protokol (RFC 821). Sesuai dengan namanya, SMTP merupakan protokol
@@ -203,3 +234,24 @@ atau SMTP Secure, merupakan implementasi SMTP yang menggunakan enkripsi. Pada
 prinsipnya klien (MTA) tetap menggunakan protokol SMTP tetapi pada layer di
 bawahnya digunakan SSL atau TLS untuk menghindari penyadapan. SMTPS biasanya
 menggunakan port 587.
+
+\subsection{Penyadapan POP3: Post Office Protocol}
+
+Penyadapan email dapa juga dilakukan ketika pengguna mengakses mailbox-nya
+melalui protokol POP3, yang berjalan pada port 110. Masalahnya adalah protokol
+POP menggunakan plain text untuk mengakses data {\bf dan} userid serta
+password. Selain email dibaca, userid dan password menjadi ketahuan.
+
+Program password sniffer seperti {\em dsniff} dan sniffer secara umum (seperti
+{\em tcpdump} dan {\em ngrep}) dapat digunakan untuk menyadap password
+tersebut.
+
+\begin{mdframed}
+\begin{verbatim}
+unix# ngrep 'PASS'
+\end{verbatim}
+\end{mdframed}
+
+POP3 sendiri saat ini sudah dianggap kadaluwarsa dan tidak aman. Untuk itu dia
+digantikan oleh protokol lain yang lebih aman. Versi secure POP biasanya
+berjalan di port 995.
