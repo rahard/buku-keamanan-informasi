@@ -1,51 +1,57 @@
-This is BibTeX, Version 0.99d (TeX Live 2016)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: keamanan.aux
 A level-1 auxiliary file: pengantar.aux
 A level-1 auxiliary file: pendahuluan.aux
 A level-1 auxiliary file: prinsip.aux
 A level-1 auxiliary file: crypto.aux
 A level-1 auxiliary file: pgp.aux
+A level-1 auxiliary file: email.aux
+A level-1 auxiliary file: penutup.aux
+A level-1 auxiliary file: tcpdump.aux
 The style file: plain.bst
 Database file #1: referensi.bib
-You've used 3 entries,
+Warning--entry type for "rfc822" isn't style-file defined
+--line 5 of file referensi.bib
+You've used 4 entries,
             2118 wiz_defined-function locations,
-            518 strings with 4307 characters,
-and the built_in function-call counts, 665 in all, are:
-= -- 57
-> -- 21
+            528 strings with 4490 characters,
+and the built_in function-call counts, 864 in all, are:
+= -- 74
+> -- 28
 < -- 0
-+ -- 9
-- -- 6
-* -- 26
-:= -- 123
-add.period$ -- 9
-call.type$ -- 3
-change.case$ -- 9
++ -- 12
+- -- 8
+* -- 34
+:= -- 155
+add.period$ -- 11
+call.type$ -- 4
+change.case$ -- 13
 chr.to.int$ -- 0
-cite$ -- 3
-duplicate$ -- 36
-empty$ -- 67
-format.name$ -- 6
-if$ -- 139
+cite$ -- 4
+duplicate$ -- 43
+empty$ -- 89
+format.name$ -- 8
+if$ -- 182
 int.to.chr$ -- 0
-int.to.str$ -- 3
+int.to.str$ -- 4
 missing$ -- 6
-newline$ -- 18
-num.names$ -- 6
-pop$ -- 24
+newline$ -- 22
+num.names$ -- 8
+pop$ -- 33
 preamble$ -- 1
-purify$ -- 9
+purify$ -- 12
 quote$ -- 0
-skip$ -- 18
+skip$ -- 26
 stack$ -- 0
-substring$ -- 15
-swap$ -- 3
+substring$ -- 20
+swap$ -- 4
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 6
+type$ -- 10
 warning$ -- 0
-while$ -- 6
-width$ -- 4
-write$ -- 32
+while$ -- 8
+width$ -- 5
+write$ -- 40
+(There was 1 warning)

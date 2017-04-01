@@ -2,6 +2,19 @@
 % Encoding: UTF-8
 
 
+@Standard{rfc822,
+  Title                    = {Standard For the Format of {ARPA} Internet Text Messages (RFC822)},
+  Institution              = {University of Delaware},
+  Organization             = {Dept. of Electrical Engineering},
+  Author                   = {David H. Crocker},
+  Month                    = {August},
+  Number                   = {RFC822},
+  Year                     = {1982},
+
+  Owner                    = {budi},
+  Timestamp                = {2017.04.01}
+}
+
 @Book{davidkahn,
   Title                    = {Codebreakers},
   Author                   = {David Kahn},
@@ -12,7 +25,6 @@
 @Book{levycrypto,
   Title                    = {Crypto: How the Code Rebels Beat the Government Saving Privacy in the Digital Age},
   Author                   = {Steven Levy},
-  Editor                   = {Steven Levy},
   Publisher                = {Penguin Books},
   Year                     = {2001},
 

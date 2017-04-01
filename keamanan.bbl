@@ -1,5 +1,10 @@
 \begin{thebibliography}{1}
 
+\bibitem{rfc822}
+David~H. Crocker.
+\newblock Standard for the format of {ARPA} internet text messages ({RFC822}),
+  August 1982.
+
 \bibitem{davidkahn}
 David Kahn.
 \newblock {\em Codebreakers}.

@@ -51,6 +51,15 @@ masuk ke mailbox pengguna. Untuk itu MDA harus memiliki hak untuk menulis ke
 mailbox tersebut, dengan kata lain MDA harus dijalankan dengan hak admin atau
 {\em super user / root}. Sementara itu MTA tidak harus dijalanakan sebagai admin.
 
+\begin{mdframed}
+   \begin{quote}
+   Ada dua format besar dari penyimpanan email; mbox dan Maildir. Format {\em
+   mbox} berupa sebuah berkas besar yang berisi semua email. Email diurutkan
+   secara sambung menyambung (concatenate). Format {\em Maildir} berbeda, yaitu
+   setiap email merupakan satu berkas sendiri dalam sebuah direktori.
+   \end{quote}
+\end{mdframed}
+
 Skenario yang terjadi adalah sebagai berikut. Seorang pengguna (A) membuat
 email dengan menggunakan MUA. Setelah email selesai dibuat, email diberikan
 kepada MTA untuk disampaikan kepada MTA penerima (B). Kadang MTA yang dituju
@@ -68,10 +77,10 @@ Pengguna email memiliki sistem dan konfigurasi yang bervariasi. Masalah
 {\em interoprability} merupakan salah satu aspek yang sangat penting. Untuk itu
 digunakan RFC (Request For Comments) sebagai standar.
 
-Standar format email didefinisikan oleh RFC 822, ``Standard for the format of 
-ARPA Internet text messages.'' (RFC ini sudah digantikan oleh RFC~2822,
-``Internet Message Format.'') Pada prinsipnya email dibagi dua bagian; {\bf
-header} dan {\bf body}.
+Standar format email didefinisikan oleh RFC 822, ``Standard for the format of
+ARPA Internet text messages.''~\cite{rfc822} (RFC ini sudah digantikan oleh
+RFC~2822, ``Internet Message Format.'') Pada prinsipnya email dibagi dua
+bagian; {\bf header} dan {\bf body}.
 
 \begin{itemize}
    \item {\em Header}. Seperti amplop, berisi informasi tentang alamat pengirim
@@ -194,7 +203,8 @@ Email sering dianalogikan dengan surat, padahal email lebih cocok dianalogikan
 dengan kartu pos karena dia terbuka dan dapat dibaca. Kartu pos dapat dibaca
 oleh orang-orang yang dilewati oleh kartu pos tersebut, misalnya oleh pak pos.
 Demikian pula dengan email. Email dapat dibaca pada setiap jalur yang dilewati
-oleh email tersebut, misalnya pada MTA.
+oleh email tersebut, misalnya pada MTA. (Itulah sebabnya pengelola atau admin
+dari MTA haruslah orang yang dapat kita percaya.)
 
 \subsection{Penyadapan SMTP}
 
@@ -244,11 +254,11 @@ password. Selain email dibaca, userid dan password menjadi ketahuan.
 
 Program password sniffer seperti {\em dsniff} dan sniffer secara umum (seperti
 {\em tcpdump} dan {\em ngrep}) dapat digunakan untuk menyadap password
-tersebut.
+tersebut. Berikut ini contoh sesi {\em ngrep} (network grep).
 
 \begin{mdframed}
 \begin{verbatim}
-unix# ngrep 'PASS'
+unix# ngrep -q 'PASS'
 \end{verbatim}
 \end{mdframed}
 

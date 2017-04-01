@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.18)  1 APR 2017 13:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.18)  1 APR 2017 14:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1716,106 +1716,131 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--33
 
 
  <./graphics/email-topologi.png>]
-Underfull \vbox (badness 2653) has occurred while \output is active []
+Package mdframed Info: mdframed works in twoside mode on input line 55.
 
- [36]
-Package mdframed Info: mdframed works in twoside mode on input line 89.
-Package mdframed Info: mdframed works in twoside mode on input line 108.
+Overfull \hbox (2.01675pt too wide) in paragraph at lines 56--60
+[]\T1/pplj/m/n/9 Ada dua for-mat be-sar dari peny-im-panan email; mbox dan Mail
+dir.
+ []
 
-Overfull \hbox (13.22565pt too wide) in paragraph at lines 109--109
+
+Overfull \hbox (0.4777pt too wide) in paragraph at lines 56--60
+\T1/pplj/m/n/9 For-mat \T1/pplj/m/it/9 mbox \T1/pplj/m/n/9 berupa se-buah berka
+s be-sar yang berisi se-mua email.
+ []
+
+
+Overfull \hbox (0.90967pt too wide) in paragraph at lines 56--60
+\T1/pplj/m/n/9 Email di-u-rutkan se-cara sam-bung menyam-bung (con-cate-nate). 
+For-
+ []
+
+
+Overfull \hbox (16.36272pt too wide) in paragraph at lines 56--60
+\T1/pplj/m/n/9 mat \T1/pplj/m/it/9 Maildir \T1/pplj/m/n/9 berbeda, yaitu se-tia
+p email meru-pakan satu berkas sendiri
+ []
+
+[36]
+
+LaTeX Warning: Marginpar on page 37 moved.
+
+Package mdframed Info: mdframed works in twoside mode on input line 98.
+Package mdframed Info: mdframed works in twoside mode on input line 117.
+
+Overfull \hbox (13.22565pt too wide) in paragraph at lines 118--118
 []\T1/cmtt/m/n/10 Received: from nic.cafax.se (nic.cafax.se [192.71.228.17])[] 
 
  []
 
 
-Overfull \hbox (70.96155pt too wide) in paragraph at lines 110--110
+Overfull \hbox (70.96155pt too wide) in paragraph at lines 119--119
 []   \T1/cmtt/m/n/10 by alliance.globalnetlink.com (8.9.1/8.9.1) with ESMTP id 
 QAA31830[] 
  []
 
 
-Overfull \hbox (91.95642pt too wide) in paragraph at lines 111--111
+Overfull \hbox (91.95642pt too wide) in paragraph at lines 120--120
 []   \T1/cmtt/m/n/10 for <budi@alliance.globalnetlink.com>; Mon, 26 Mar 2001 16
 :18:01 -0600[] 
  []
 
 
-Overfull \hbox (2.72821pt too wide) in paragraph at lines 112--112
+Overfull \hbox (2.72821pt too wide) in paragraph at lines 121--121
 []\T1/cmtt/m/n/10 Received: from localhost (localhost [[UNIX: localhost]])[] 
  []
 
 
-Overfull \hbox (44.71796pt too wide) in paragraph at lines 113--113
+Overfull \hbox (44.71796pt too wide) in paragraph at lines 122--122
 []   \T1/cmtt/m/n/10 by nic.cafax.se (8.12.0.Beta6/8.12.0.Beta5) id f2QLSJVM018
 917[] 
  []
 
 
-Overfull \hbox (65.71283pt too wide) in paragraph at lines 114--114
+Overfull \hbox (65.71283pt too wide) in paragraph at lines 123--123
 []   \T1/cmtt/m/n/10 for ietf-provreg-outgoing; Mon, 26 Mar 2001 23:28:19 +0200
  (MEST)[] 
  []
 
 
-Overfull \hbox (91.95642pt too wide) in paragraph at lines 115--115
+Overfull \hbox (91.95642pt too wide) in paragraph at lines 124--124
 []\T1/cmtt/m/n/10 Received: from is1-55.antd.nist.gov (is1-50.antd.nist.gov [12
 9.6.50.251])[] 
  []
 
 
-Overfull \hbox (102.45386pt too wide) in paragraph at lines 116--116
+Overfull \hbox (102.45386pt too wide) in paragraph at lines 125--125
 []   \T1/cmtt/m/n/10 by nic.cafax.se (8.12.0.Beta5/8.12.0.Beta5) with ESMTP id 
 f2QLSGiM018912[] 
  []
 
 
-Overfull \hbox (76.21027pt too wide) in paragraph at lines 117--117
+Overfull \hbox (76.21027pt too wide) in paragraph at lines 126--126
 []   \T1/cmtt/m/n/10 for <ietf-provreg@cafax.se>; Mon, 26 Mar 2001 23:28:17 +02
 00 (MEST)[] 
  []
 
 
-Overfull \hbox (39.46924pt too wide) in paragraph at lines 118--118
+Overfull \hbox (39.46924pt too wide) in paragraph at lines 127--127
 []\T1/cmtt/m/n/10 Received: from barnacle (barnacle.antd.nist.gov [129.6.55.185
 ])[] 
  []
 
 
-Overfull \hbox (34.22052pt too wide) in paragraph at lines 119--119
+Overfull \hbox (34.22052pt too wide) in paragraph at lines 128--128
 []   \T1/cmtt/m/n/10 by is1-55.antd.nist.gov (8.9.3/8.9.3) with SMTP id QAA0717
 4[] 
  []
 
 
-Overfull \hbox (70.96155pt too wide) in paragraph at lines 120--120
+Overfull \hbox (70.96155pt too wide) in paragraph at lines 129--129
 []   \T1/cmtt/m/n/10 for <ietf-provreg@cafax.se>; Mon, 26 Mar 2001 16:28:14 -05
 00 (EST)[] 
  []
 
 
-Overfull \hbox (13.22565pt too wide) in paragraph at lines 121--121
+Overfull \hbox (13.22565pt too wide) in paragraph at lines 130--130
 []\T1/cmtt/m/n/10 Message-ID: <04f901c0b63b$16570020$b9370681@antd.nist.gov>[] 
 
  []
 
 [37]
-Overfull \hbox (18.95988pt too wide) in paragraph at lines 163--170
+Overfull \hbox (18.95988pt too wide) in paragraph at lines 172--179
 \T1/pplj/m/n/10 Rose kepada saya (den-gan ala-mat email budi@alliance.globalnet
 link.com). 
  []
 
-[38]
+[38] [39]
 
-LaTeX Warning: Marginpar on page 39 moved.
+LaTeX Warning: Marginpar on page 40 moved.
 
 
-Overfull \hbox (2.84984pt too wide) in paragraph at lines 227--231
+Overfull \hbox (2.84984pt too wide) in paragraph at lines 237--241
 \T1/pplj/m/n/10 pan. Yang per-tama, dari sisi peng-guna, kita da-pat melakukan 
 enkripsi 
  []
 
-[39]
-Package mdframed Info: mdframed works in twoside mode on input line 250.
+Package mdframed Info: mdframed works in twoside mode on input line 260.
 ) [40]
 \openout2 = `penutup.aux'.
 
@@ -1837,25 +1862,29 @@ LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <24> not available
  (./tcpdump.tex) [45
 
 
-]
-(./keamanan.bbl [46
+] (./keamanan.bbl [46
 
 
-]pdfTeX warning (ext4): destination with the same identifier (name{cite.davidka
-hn}) has been already used, duplicate ignored
+]pdfTeX warning (ext4): destination with the same identifier (name{cite.rfc822}
+) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.3 \bibitem{davidkahn}
+l.3 \bibitem{rfc822}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{cite.davidkahn}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.8 \bibitem{davidkahn}
                        pdfTeX warning (ext4): destination with the same identif
 ier (name{cite.levycrypto}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.8 \bibitem{levycrypto}
-                        pdfTeX warning (ext4): destination with the same identi
-fier (name{cite.BRsecuresoftware}) has been already used, duplicate ignored
+l.13 \bibitem{levycrypto}
+                         pdfTeX warning (ext4): destination with the same ident
+ifier (name{cite.BRsecuresoftware}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.14 \bibitem{BRsecuresoftware}
+l.19 \bibitem{BRsecuresoftware}
                                )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 56.
  [47]
@@ -1870,11 +1899,11 @@ Package rerunfilecheck Info: File `keamanan.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 56.
  ) 
 Here is how much of TeX's memory you used:
- 22488 strings out of 494953
- 366004 string characters out of 6180977
- 453519 words of memory out of 5000000
- 25207 multiletter control sequences out of 15000+600000
- 107083 words of font info for 131 fonts, out of 8000000 for 9000
+ 22502 strings out of 494953
+ 366154 string characters out of 6180977
+ 455661 words of memory out of 5000000
+ 25214 multiletter control sequences out of 15000+600000
+ 113296 words of font info for 139 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  46i,12n,48p,10417b,518s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc} </home/budi/texmf
@@ -1887,10 +1916,10 @@ hare/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 urw/palatino/uplri8a.pfb>
-Output written on keamanan.pdf (47 pages, 445386 bytes).
+Output written on keamanan.pdf (47 pages, 446255 bytes).
 PDF statistics:
- 574 PDF objects out of 1000 (max. 8388607)
- 411 compressed objects within 5 object streams
- 141 named destinations out of 1000 (max. 500000)
+ 575 PDF objects out of 1000 (max. 8388607)
+ 412 compressed objects within 5 object streams
+ 142 named destinations out of 1000 (max. 500000)
  4842 words of extra memory for PDF output out of 10000 (max. 10000000)
 
