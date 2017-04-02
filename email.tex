@@ -265,3 +265,91 @@ unix# ngrep -q 'PASS'
 POP3 sendiri saat ini sudah dianggap kadaluwarsa dan tidak aman. Untuk itu dia
 digantikan oleh protokol lain yang lebih aman. Versi secure POP biasanya
 berjalan di port 995.
+
+
+\section{Pemalsuan Email}
+Pada dasarnya sistem email (dan sistem surat biasa) itu berdasarkan kepada
+kepercayaan. Tentu saja ada orang-orang yang melanggar kepercayaan ini dengan
+misalnya membuat email palsu.
+
+Seperti telah diuraikan sebelumnya, pengguna menggunakan MUA untuk membuat
+({\em compose}) email. Setelah email selesai, dia disimpan dalam sebuah berkas.
+Berkas ini kemudian diserahkan kepada ``pak pos'' (MTA) untuk disampaikan ke
+tujuannya. Pemalsuan dilakukan dengan membuat berkas yang isinya palsu. Selama
+dia sesuai dengan standar (RFC822 dan seterusnya), maka MTA dengan senang hati
+meneruskan email tersebut ke tujuannya.
+
+Sebagai contoh, kita dapat membuat berkas yang berisi seperti berikut.
+Perhatikan bahwa alamat email atau apapun dari tulisan berikut ini adalah
+palsu. Anda dapat menggunakan nama domain apapun. Perhatikan pula bahwa berkas
+ini sesuai dengan standar; {\em header} dan {\em body} dipisahkan oleh satu
+baris kosong. Email palsu ini disimpan dalam berkas ``email-palsu.txt''.
+
+\begin{mdframed}
+   \begin{verbatim}
+To: pemenang@kontes.undian123.com
+From: admin@kontes.undian123.com
+Subject: Hasil Undian
+
+Selamat! Anda dinyatakan sebagai pemenang dari undian
+yang diselenggarakan minggu lalu. 
+Hadiah akan kami kirimkan setelah Anda memberikan 
+data Anda sebagai berikut:
+
+Nama:
+Nomor HP:
+Bank:
+PIN mobile banking:
+
+
+Administrasi Undian123
+   \end{verbatim}
+\end{mdframed}
+
+
+Jika Anda memiliki komputer yang memiliki MTA, misalnya Anda menggunakan Linux
+dan terhubung ke internet, maka Anda dapat memberikan perintah berikut untuk
+mengirimkan email tersebut\footnote{Diasumsikan komputer Anda menggunakan {\em
+Postfix} atau {\em Sendmail} sebagai MTA.}. Sebagai contoh, orang yang
+ditargetkan untuk dikirimi email palsu tersebut adalah
+``target@coba.cert.or.id''.  (Anda dapat menggunakan alamat email Anda.)
+
+\begin{mdframed}
+\begin{verbatim}
+unix$ /usr/sbin/sendmail target@coba.cert.or.id < email-palsu.txt
+\end{verbatim}
+\end{mdframed}
+
+Email palsu akan dikirimkan ke alamat tersebut. Jika Anda menggunakan alamat
+pribadi Anda sebagai target, maka Anda dapat buka mail Anda dan cari email
+palsu tersebut. (Catatan: kadang email masuk ke folder ``Spam''.)
+
+Untuk mengetahui email palsu sebetulnya mudah dilakukan, yaitu dengan melihat
+(dan menelusuri) header dari email. Namun, berapa banyak orang yang melakukan
+hal ini? Dengan melihat {\em field} atau baris ``Received'' dapat terlihat dari
+mana email berasal. Pada beberapa MTA, {\em real userid} atau pengirim aslinya
+beserta nomor IP disertakan pada header untuk memudahkan penelusuran.
+
+
+Pengiriman email palsu dapat juga dilakukan dengan langsung berkomunikasi
+dengan MTA melalui protokol SMTP. Pada contoh di bawah ini, kita berkomunikasi
+dengan MTA yang memiliki alamat ``mailserver.domaintertentu.com'' untuk target
+yang bernama ``terget@domaintertentu.com'' melalui program telnet ke port 25
+(SMTP). Kemudian kita berikan perintah-perintah sesuai dengan protokol SMTP.
+(Catatan: perintah diakhiri dengan sebuat tanda titik (.))
+
+\begin{verbatim}
+unix$ telnet mailserver.domaintertentu.com 25
+HELO saya
+MAIL FROM: admin@kontes.undian123.com
+RCPT TO: target@domaintertentu.com
+DATA
+To: pemenang@kontes.undian123.com                                               
+From: admin@kontes.undian123.com                                                
+Subject: Hasil Undian                                                           
+                                                                                
+Selamat! Anda dinyatakan sebagai pemenang dari undian                           
+yang diselenggarakan minggu lalu.  
+
+.
+\end{verbatim}
