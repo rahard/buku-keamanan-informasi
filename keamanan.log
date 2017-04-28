@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.18)  2 APR 2017 17:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.18)  28 APR 2017 11:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1131,7 +1131,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 83--83
 \T1/pplj/m/n/10 Com-mons ^^P  Attribution-NonCommercial-
  []
 
-<doclicense-CC-by-nc-sa.pdf, id=162, 121.45375pt x 43.16125pt>
+<doclicense-CC-by-nc-sa.pdf, id=166, 121.45375pt x 43.16125pt>
 File: doclicense-CC-by-nc-sa.pdf Graphic file (type pdf)
 
 <use doclicense-CC-by-nc-sa.pdf>
@@ -1178,7 +1178,7 @@ LaTeX Warning: Marginpar on page 9 moved.
 
 LaTeX Warning: Marginpar on page 9 moved.
 
-[9] <graphics/security-life-cycle.png, id=203, 577.15625pt x 481.8pt>
+[9] <graphics/security-life-cycle.png, id=207, 577.15625pt x 481.8pt>
 File: graphics/security-life-cycle.png Graphic file (type png)
 
 <use graphics/security-life-cycle.png>
@@ -1235,7 +1235,7 @@ grafi,
 
 LaTeX Warning: Marginpar on page 19 moved.
 
-<graphics/BR-watermark.png, id=260, 422.5386pt x 298.4751pt>
+<graphics/BR-watermark.png, id=264, 422.5386pt x 298.4751pt>
 File: graphics/BR-watermark.png Graphic file (type png)
 
 <use graphics/BR-watermark.png>
@@ -1401,7 +1401,7 @@ Overfull \hbox (76.40515pt too wide) in paragraph at lines 108--108
 DC5 EB6C EB46[] 
  []
 
-<graphics/pgp-mit.png, id=325, 642.4pt x 557.08125pt>
+<graphics/pgp-mit.png, id=329, 642.4pt x 557.08125pt>
 File: graphics/pgp-mit.png Graphic file (type png)
 
 <use graphics/pgp-mit.png>
@@ -1705,7 +1705,7 @@ Chapter 6.
 
 LaTeX Warning: Marginpar on page 35 moved.
 
-<graphics/email-topologi.png, id=364, 597.9138pt x 183.5658pt>
+<graphics/email-topologi.png, id=368, 597.9138pt x 183.5658pt>
 File: graphics/email-topologi.png Graphic file (type png)
 
 <use graphics/email-topologi.png>
@@ -1864,32 +1864,38 @@ Overfull \hbox (49.96667pt too wide) in paragraph at lines 319--319
 .txt[] 
  []
 
-[41]) [42]
+[41]
+Overfull \hbox (2.25984pt too wide) in paragraph at lines 372--377
+[]\T1/pplj/m/n/10 Sejarah spam ada be-ber-apa versi. Versi saya adalah se-ba-ga
+i berikut. 
+ []
+
+[42]) [43]
 \openout2 = `penutup.aux'.
 
- (./penutup.tex
+ (./penutup.tex [44
+
+
+
+]
 Chapter 7.
-) [43
-
-
-
-] [44
+) [45] [46
 
 
 ]
 LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <24> not available
 (Font)              Font shape `T1/pplj/b/n' tried instead on input line 49.
- [45
+ [47
 
-] [46]
+] [48]
 \openout2 = `tcpdump.aux'.
 
  (./tcpdump.tex
 Appendix A.
-) [47
+) [49
 
 
-] (./keamanan.bbl [48
+] (./keamanan.bbl [50
 
 
 ]
@@ -1916,25 +1922,32 @@ ifier (name{cite.BRsecuresoftware}) has been already used, duplicate ignored
 l.19 \bibitem{BRsecuresoftware}
                                )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 59.
- [49]
+ [51]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 59.
  (./keamanan.aux (./pengantar.aux)
 (./pendahuluan.aux) (./prinsip.aux) (./crypto.aux) (./pgp.aux) (./email.aux)
 (./penutup.aux) (./tcpdump.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 59.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 59.
-Package rerunfilecheck Info: File `keamanan.out' has not changed.
-(rerunfilecheck)             Checksum: 5C917828C7AA6F378DD37067E4192679;3709.
+
+
+Package rerunfilecheck Warning: File `keamanan.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `keamanan.out':
+(rerunfilecheck)             Before: 0AC85AA5BBF8135BA70C20E4D6902F4D;3804
+(rerunfilecheck)             After:  CE17446CB5C72508BA71C604D46411CA;3879.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 59.
  ) 
 Here is how much of TeX's memory you used:
- 22510 strings out of 494953
- 366277 string characters out of 6180977
+ 22515 strings out of 494953
+ 366326 string characters out of 6180977
  455787 words of memory out of 5000000
- 25219 multiletter control sequences out of 15000+600000
+ 25220 multiletter control sequences out of 15000+600000
  113296 words of font info for 139 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 46i,11n,48p,10417b,518s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,12n,48p,10417b,518s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc} </home/budi/texmf
 /fonts/pk/ljfour/jknappen/ec/ectt1000.600pk></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1
@@ -1945,10 +1958,10 @@ hare/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 urw/palatino/uplri8a.pfb>
-Output written on keamanan.pdf (49 pages, 452507 bytes).
+Output written on keamanan.pdf (51 pages, 454776 bytes).
 PDF statistics:
- 591 PDF objects out of 1000 (max. 8388607)
- 425 compressed objects within 5 object streams
- 145 named destinations out of 1000 (max. 500000)
- 4850 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 604 PDF objects out of 1000 (max. 8388607)
+ 436 compressed objects within 5 object streams
+ 149 named destinations out of 1000 (max. 500000)
+ 4858 words of extra memory for PDF output out of 10000 (max. 10000000)
 
