@@ -13,45 +13,47 @@ The style file: plain.bst
 Database file #1: referensi.bib
 Warning--entry type for "rfc822" isn't style-file defined
 --line 5 of file referensi.bib
-You've used 4 entries,
+Warning--entry type for "brwannacry" isn't style-file defined
+--line 35 of file referensi.bib
+You've used 5 entries,
             2118 wiz_defined-function locations,
-            528 strings with 4490 characters,
-and the built_in function-call counts, 864 in all, are:
-= -- 74
-> -- 28
+            532 strings with 4537 characters,
+and the built_in function-call counts, 1063 in all, are:
+= -- 91
+> -- 35
 < -- 0
-+ -- 12
-- -- 8
-* -- 34
-:= -- 155
-add.period$ -- 11
-call.type$ -- 4
-change.case$ -- 13
++ -- 15
+- -- 10
+* -- 42
+:= -- 187
+add.period$ -- 13
+call.type$ -- 5
+change.case$ -- 17
 chr.to.int$ -- 0
-cite$ -- 4
-duplicate$ -- 43
-empty$ -- 89
-format.name$ -- 8
-if$ -- 182
+cite$ -- 5
+duplicate$ -- 50
+empty$ -- 111
+format.name$ -- 10
+if$ -- 225
 int.to.chr$ -- 0
-int.to.str$ -- 4
+int.to.str$ -- 5
 missing$ -- 6
-newline$ -- 22
-num.names$ -- 8
-pop$ -- 33
+newline$ -- 26
+num.names$ -- 10
+pop$ -- 42
 preamble$ -- 1
-purify$ -- 12
+purify$ -- 15
 quote$ -- 0
-skip$ -- 26
+skip$ -- 34
 stack$ -- 0
-substring$ -- 20
-swap$ -- 4
+substring$ -- 25
+swap$ -- 5
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 10
+type$ -- 14
 warning$ -- 0
-while$ -- 8
-width$ -- 5
-write$ -- 40
-(There was 1 warning)
+while$ -- 10
+width$ -- 6
+write$ -- 48
+(There were 2 warnings)

@@ -4,7 +4,7 @@
 \contentsline {section}{\numberline {2.2}Beberapa Contoh Kasus}{7}{section.2.2}
 \contentsline {section}{\numberline {2.3}Security Life Cycle}{10}{section.2.3}
 \contentsline {section}{\numberline {2.4}Keamanan Dari Berbagai Elemen Sistem}{13}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Computer Security}{13}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.1}Computer Security}{14}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2.4.2}Network Security}{14}{subsection.2.4.2}
 \contentsline {subsection}{\numberline {2.4.3}Application Security}{14}{subsection.2.4.3}
 \contentsline {chapter}{\numberline {3}Prinsip-prinsip Keamanan Informasi}{15}{chapter.3}

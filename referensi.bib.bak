@@ -2,8 +2,19 @@
 % Encoding: UTF-8
 
 
+@Electronic{brwannacry,
+  Title                    = {Penanganan Ransomware WannaCry},
+  Author                   = {Budi},
+  Month                    = {Mei},
+  Url                      = {https://rahard.wordpress.com/2017/05/14/penanganan-ransomware-wannacry/},
+  Year                     = {2017},
+
+  Owner                    = {budi},
+  Timestamp                = {2017.05.26}
+}
+
 @Standard{rfc822,
-  Title                    = {Standard For the Format of {ARPA} Internet Text Messages (RFC822)},
+  Title                    = {Standard For the Format of {ARPA} Internet Text Messages ({RFC822})},
   Institution              = {University of Delaware},
   Organization             = {Dept. of Electrical Engineering},
   Author                   = {David H. Crocker},
