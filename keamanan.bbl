@@ -1,9 +1,20 @@
 \begin{thebibliography}{1}
 
+\bibitem{webbook}
+Tim Berners-Lee.
+\newblock {\em Weaving the Web: the Original Design and Ultimate Destiny of the
+  World Wide Web, by its inventor}.
+\newblock Harper San Francisco, 1999.
+
 \bibitem{rfc822}
 David~H. Crocker.
-\newblock Standard for the format of {ARPA} internet text messages ({RFC822}),
+\newblock {RFC}822: {S}tandard for the format of {ARPA} internet text messages,
   August 1982.
+
+\bibitem{RFC2068}
+R.~Fielding, J.~Gettys, J.~Mogul, H.~Frystyk, and Tim Berners-Lee.
+\newblock {RFC}2068: {H}ypertext {T}ransfer {P}rotocol -- {HTTP}/1.1, January
+  1997.
 
 \bibitem{davidkahn}
 David Kahn.

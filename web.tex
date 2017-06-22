@@ -1,0 +1,82 @@
+\chapter{Keamanan Sistem Web}
+World Wide Web (WWW, atau sering disingkat menjadi Web saja) merupakan aplikasi
+yang dominan pada saat ini. Kepopulerannya setara dengan aplikasi email. Boleh
+jadi kalau dilihat dari jumlah data yang dikirimkan melalui web atau melalui
+email, maka jumlah data yang dikirim melalui web lebih besar.
+
+Bahasan mengenai masalah keamanan sistem web sesungguhnya dapat menjadi sebuah
+buku yang tersendiri. Bab ini akan membahas secara singkat masalah-masalah
+tersebut.
+
+\section{Sejarah Web}
+WWW pada awalnya dikembangkan oleh Tim Berners-Lee ketika dia bekerja di CERN,
+sebuah tempat penelitian terkait dengan Fisika di Swiss di akhir tahun 1980-an
+(sekitar tahun 1989).
+CERN merupakan tempat berkumpulnya peneliti-peneliti yang berasal dari berbagai
+tempat di seluruh dunia. Komputer dan software yang digunakan para peneliti
+tersebut tentunya berbeda-beda. Demikian pula dokumen yang dihasilkannya
+diletakkan pada komputer yang tersebar.
+
+Pada saat itu protokol untuk distribusi informasi yang paling banyak digunakan
+adalah FTP dan Gopher. Keduanya cukup baik untuk mengelola atau
+mendistribusikan data (informasi) dalam sebuah direktori, misalnya. Namun orang
+masih harus mencari dimana letak direktori tersebut (di komputer mana dan dalam
+direktori mana). Proses ini membuat distribusi informasi tidak terlalu nyaman.
+
+WWW terdiri dari dua komponen utama, yaitu standar format dokumen yang
+disebut HTML (HyperText Markup Language) dan protokol HTTP (HyperText Transfer
+Protocol). Keduanya dikembangkan oleh Tim Berners-Lee~\cite{webbook}.
+
+HTML merupakan sebuah standar yang dikembangkan dari SGML, Standard Generalized
+Markup Language. Sebenarnya HTML merupakan versi lebih sederhana dari SGML.
+Justru inti utama dari HTML (dan HTTP) adalah di kesederhanaannya. Itulah
+salah satu alasan mengapa Web menjadi sangat populer. Sebelumnya sudah ada
+berbagai inisiatif untuk membangun sistem {\em hypertext}, tetapi gagal.
+
+HTTP merupakan sebuah protokol untuk mendistribusikan data.  Protokol HTTP
+didesain dengan sifat {\em connectionless} - lagi-lagi - agar
+sederhana~\cite{RFC2068}. Protokol ini kemudian berkembang sesuai dengan
+kebutuhan dan kemajuan jaman. Sebagai contoh, nantinya akan ada protokol HTTPS
+dan seterusnya. Bahasan mengenai kemananan akan banyak terkait dengan protokol
+HTTP (dan turunannya) ini.
+
+\section{Topologi dan Asumsi}
+Secara umum, sistem Web terdiri dari tiga hal, yaitu web server, web browser
+(sebagai klien), dan jaringan (yang menghubungkan antara web server dan web 
+browser). Ada beberapa asumsi awal yang kita gunakan agar sistem Web berjalan
+dengan aman. Asumsi-asumsi inilah yang dilanggar ketika terjadi masalah
+keamanan\footnote{Jika diperhatikan dengan seksama, sebenarnya asumsi ini
+terkait dengan aspek {\em confidentiality}, {\em integrity}, dan {\em
+availability}}.
+
+Asumsi terkait dengan web server adalah sebagai berikut.
+
+\begin{enumerate}
+\item Web (server) dimiliki oleh organisasi atau institusi yang benar dan
+terkait dengan nama domain yang digunakan. Sebagai contoh, web dari BNI
+dimiliki oleh Bank BNI.
+\item Dokumen yang disajikan (diberikan) oleh web tidak mengandung malware
+(virus, trojan horse, dan seterusnya).
+\item Data catatan (logging) di server web tidak digunakan untuk keperluan yang
+tidak semestinya. Sebagai contoh, data log tersebut tidak boleh
+diperjual-belikan atau dipublikasikan secara umum.
+\end{enumerate}
+
+Asumsi terkait dengan klien yang menggunakan web browser adalah sebagai
+berikut.
+\begin{enumerate}
+   \item Identitas pengguna adalah benar dan pengguna memiliki itikad baik
+      dalam mengakses web server.
+   \item Pengguna hanya mengambil data dari direktori yang diperkenankan.
+\end{enumerate}
+
+Asumsi terkait dengan jaringan yang menghubungan web server dan web browser
+adalah sebagai berikut.
+\begin{enumerate}
+   \item Jaringan bebas dari penyadapan, pengubahan, serangan DoS, dan
+      serangan-serangan lainnya. (Masalah terkait dengan jaringan akan menjadi
+      masalah {\em network security}, bukan masalah keamanan web.)
+\end{enumerate}
+
+Asumsi-asumsi di atas akan dilanggar oleh penyerang, yang mengakibatkan masalah
+keamanan sistem web.

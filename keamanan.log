@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.18)  26 MAY 2017 11:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.18)  23 JUN 2017 00:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**keamanan
+**keamanan.tex
 (./keamanan.tex
 LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 3 language(s) loaded.
@@ -936,7 +936,7 @@ File: csquotes.cfg
 Package: ccicons 2013/04/16 v1.5 LaTeX support for Creative Commons icons
 ) (./keamanan.aux
 (./pengantar.aux) (./pendahuluan.aux) (./prinsip.aux) (./crypto.aux) (./pgp.aux
-) (./email.aux) (./penutup.aux) (./tcpdump.aux))
+) (./email.aux) (./web.aux) (./penutup.aux) (./tcpdump.aux))
 \openout1 = `keamanan.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
@@ -1131,7 +1131,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 83--83
 \T1/pplj/m/n/10 Com-mons ^^P  Attribution-NonCommercial-
  []
 
-<doclicense-CC-by-nc-sa.pdf, id=170, 121.45375pt x 43.16125pt>
+<doclicense-CC-by-nc-sa.pdf, id=184, 121.45375pt x 43.16125pt>
 File: doclicense-CC-by-nc-sa.pdf Graphic file (type pdf)
 
 <use doclicense-CC-by-nc-sa.pdf>
@@ -1176,8 +1176,8 @@ gsi
 LaTeX Warning: Marginpar on page 9 moved.
 
 
-Overfull \hbox (67.8055pt too wide) in paragraph at lines 99--99
-$[]$\T1/pplj/m/n/8 https://rahard.wordpress.com/2017/05/14/penanganan- 
+Overfull \hbox (21.42953pt too wide) in paragraph at lines 100--100
+$[]$\T1/pplj/m/n/8 https://rahard.wordpress.com/2017/05/14/ 
  []
 
 
@@ -1192,37 +1192,33 @@ LaTeX Warning: Marginpar on page 9 moved.
 
 LaTeX Warning: Marginpar on page 9 moved.
 
-[9] <graphics/security-life-cycle.png, id=212, 577.15625pt x 481.8pt>
+[9] [10] <graphics/security-life-cycle.png, id=235, 577.15625pt x 481.8pt>
 File: graphics/security-life-cycle.png Graphic file (type png)
 
 <use graphics/security-life-cycle.png>
 Package pdftex.def Info: graphics/security-life-cycle.png used on input line 19
-0.
+5.
 (pdftex.def)             Requested size: 312.012pt x 260.46219pt.
 
-Overfull \hbox (6.81198pt too wide) in paragraph at lines 190--193
+Overfull \hbox (6.81198pt too wide) in paragraph at lines 195--198
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--193
+Underfull \hbox (badness 10000) in paragraph at lines 195--198
 
  []
 
-[10] [11 <./graphics/security-life-cycle.png>]
+[11 <./graphics/security-life-cycle.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [12]
-Overfull \hbox (0.99985pt too wide) in paragraph at lines 274--277
+Overfull \hbox (0.99985pt too wide) in paragraph at lines 279--282
 []\T1/pplj/m/n/10 Desain penga-manan ini ke-mu-dian dit-er-ap-kan se-cara tek-n
 is melalui 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [13])
-[14]
+[13]) [14]
 \openout2 = `prinsip.aux'.
 
  (./prinsip.tex
@@ -1250,7 +1246,7 @@ grafi,
 
 LaTeX Warning: Marginpar on page 19 moved.
 
-<graphics/BR-watermark.png, id=270, 422.5386pt x 298.4751pt>
+<graphics/BR-watermark.png, id=285, 422.5386pt x 298.4751pt>
 File: graphics/BR-watermark.png Graphic file (type png)
 
 <use graphics/BR-watermark.png>
@@ -1416,7 +1412,7 @@ Overfull \hbox (76.40515pt too wide) in paragraph at lines 108--108
 DC5 EB6C EB46[] 
  []
 
-<graphics/pgp-mit.png, id=335, 642.4pt x 557.08125pt>
+<graphics/pgp-mit.png, id=350, 642.4pt x 557.08125pt>
 File: graphics/pgp-mit.png Graphic file (type png)
 
 <use graphics/pgp-mit.png>
@@ -1720,7 +1716,7 @@ Chapter 6.
 
 LaTeX Warning: Marginpar on page 35 moved.
 
-<graphics/email-topologi.png, id=374, 597.9138pt x 183.5658pt>
+<graphics/email-topologi.png, id=389, 597.9138pt x 183.5658pt>
 File: graphics/email-topologi.png Graphic file (type png)
 
 <use graphics/email-topologi.png>
@@ -1886,81 +1882,108 @@ i berikut.
  []
 
 [42]) [43]
-\openout2 = `penutup.aux'.
+\openout2 = `web.aux'.
 
- (./penutup.tex [44
+ (./web.tex [44
 
 
 
 ]
 Chapter 7.
-) [45] [46
+
+LaTeX Warning: Marginpar on page 45 moved.
+
+[45]
+
+LaTeX Warning: Marginpar on page 46 moved.
 
 
-]
-LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <24> not available
-(Font)              Font shape `T1/pplj/b/n' tried instead on input line 49.
- [47
+LaTeX Warning: Marginpar on page 46 moved.
 
-] [48]
-\openout2 = `tcpdump.aux'.
+) [46]
+\openout2 = `penutup.aux'.
 
- (./tcpdump.tex
-Appendix A.
-) [49
-
-
-] (./keamanan.bbl [50
-
-
-]
+ (./penutup.tex
 Chapter 8.
-pdfTeX warning (ext4): destination with the same identifier (name{cite.rfc822})
- has been already used, duplicate ignored
+) [47
+
+
+
+] (./keamanan.bbl [48
+
+
+]
+Chapter 9.
+pdfTeX warning (ext4): destination with the same identifier (name{cite.webbook}
+) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.3 \bibitem{rfc822}
+l.3 \bibitem{webbook}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{cite.rfc822}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.9 \bibitem{rfc822}
                     pdfTeX warning (ext4): destination with the same identifier
- (name{cite.davidkahn}) has been already used, duplicate ignored
+ (name{cite.RFC2068}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.8 \bibitem{davidkahn}
-                       pdfTeX warning (ext4): destination with the same identif
-ier (name{cite.levycrypto}) has been already used, duplicate ignored
+l.14 \bibitem{RFC2068}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{cite.davidkahn}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.13 \bibitem{levycrypto}
+l.19 \bibitem{davidkahn}
+                        pdfTeX warning (ext4): destination with the same identi
+fier (name{cite.levycrypto}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.24 \bibitem{levycrypto}
                          pdfTeX warning (ext4): destination with the same ident
 ifier (name{cite.BRsecuresoftware}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.19 \bibitem{BRsecuresoftware}
+l.30 \bibitem{BRsecuresoftware}
                                pdfTeX warning (ext4): destination with the same
  identifier (name{cite.brwannacry}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.24 \bibitem{brwannacry}
-                         )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 59.
- [51]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 59.
- (./keamanan.aux (./pengantar.aux)
-(./pendahuluan.aux) (./prinsip.aux) (./crypto.aux) (./pgp.aux) (./email.aux)
-(./penutup.aux) (./tcpdump.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 59.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 59.
+l.35 \bibitem{brwannacry}
+                         ) [49] [50
+
+]
+LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <24> not available
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 57.
+ [51
+
+] [52]
+\openout2 = `tcpdump.aux'.
+
+ (./tcpdump.tex
+Appendix A.
+) [53
+
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 61.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 61.
+ (./keamanan.aux (./pengantar.aux) (./pendahuluan.aux) (./prinsip.aux)
+(./crypto.aux) (./pgp.aux) (./email.aux) (./web.aux) (./penutup.aux)
+(./tcpdump.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 61.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 61.
 Package rerunfilecheck Info: File `keamanan.out' has not changed.
-(rerunfilecheck)             Checksum: CE17446CB5C72508BA71C604D46411CA;3879.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 59.
+(rerunfilecheck)             Checksum: 51E95DFFF7C176D8952566CBC367F0B1;4293.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 61.
  ) 
 Here is how much of TeX's memory you used:
- 22522 strings out of 494953
- 366430 string characters out of 6180977
- 455866 words of memory out of 5000000
- 25225 multiletter control sequences out of 15000+600000
+ 22555 strings out of 494953
+ 366756 string characters out of 6180977
+ 456899 words of memory out of 5000000
+ 25237 multiletter control sequences out of 15000+600000
  113296 words of font info for 139 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 46i,12n,48p,10413b,518s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,12n,48p,10417b,518s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc} </home/budi/texmf
 /fonts/pk/ljfour/jknappen/ec/ectt1000.600pk></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1
@@ -1971,10 +1994,10 @@ hare/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 urw/palatino/uplri8a.pfb>
-Output written on keamanan.pdf (51 pages, 455305 bytes).
+Output written on keamanan.pdf (53 pages, 460140 bytes).
 PDF statistics:
- 610 PDF objects out of 1000 (max. 8388607)
- 442 compressed objects within 5 object streams
- 151 named destinations out of 1000 (max. 500000)
- 4866 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 643 PDF objects out of 1000 (max. 8388607)
+ 472 compressed objects within 5 object streams
+ 165 named destinations out of 1000 (max. 500000)
+ 4890 words of extra memory for PDF output out of 10000 (max. 10000000)
 

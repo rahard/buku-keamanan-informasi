@@ -7,53 +7,56 @@ A level-1 auxiliary file: prinsip.aux
 A level-1 auxiliary file: crypto.aux
 A level-1 auxiliary file: pgp.aux
 A level-1 auxiliary file: email.aux
+A level-1 auxiliary file: web.aux
 A level-1 auxiliary file: penutup.aux
-A level-1 auxiliary file: tcpdump.aux
 The style file: plain.bst
+A level-1 auxiliary file: tcpdump.aux
 Database file #1: referensi.bib
 Warning--entry type for "rfc822" isn't style-file defined
---line 5 of file referensi.bib
+--line 15 of file referensi.bib
+Warning--entry type for "RFC2068" isn't style-file defined
+--line 28 of file referensi.bib
 Warning--entry type for "brwannacry" isn't style-file defined
---line 35 of file referensi.bib
-You've used 5 entries,
+--line 58 of file referensi.bib
+You've used 7 entries,
             2118 wiz_defined-function locations,
-            532 strings with 4537 characters,
-and the built_in function-call counts, 1063 in all, are:
-= -- 91
-> -- 35
+            546 strings with 4873 characters,
+and the built_in function-call counts, 1606 in all, are:
+= -- 136
+> -- 70
 < -- 0
-+ -- 15
-- -- 10
-* -- 42
-:= -- 187
-add.period$ -- 13
-call.type$ -- 5
-change.case$ -- 17
++ -- 29
+- -- 22
+* -- 75
+:= -- 281
+add.period$ -- 18
+call.type$ -- 7
+change.case$ -- 28
 chr.to.int$ -- 0
-cite$ -- 5
-duplicate$ -- 50
-empty$ -- 111
-format.name$ -- 10
-if$ -- 225
+cite$ -- 7
+duplicate$ -- 69
+empty$ -- 155
+format.name$ -- 22
+if$ -- 336
 int.to.chr$ -- 0
-int.to.str$ -- 5
-missing$ -- 6
-newline$ -- 26
-num.names$ -- 10
-pop$ -- 42
+int.to.str$ -- 7
+missing$ -- 8
+newline$ -- 35
+num.names$ -- 14
+pop$ -- 63
 preamble$ -- 1
-purify$ -- 15
+purify$ -- 25
 quote$ -- 0
-skip$ -- 34
+skip$ -- 48
 stack$ -- 0
-substring$ -- 25
-swap$ -- 5
+substring$ -- 35
+swap$ -- 7
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 14
+type$ -- 20
 warning$ -- 0
-while$ -- 10
-width$ -- 6
-write$ -- 48
-(There were 2 warnings)
+while$ -- 14
+width$ -- 8
+write$ -- 66
+(There were 3 warnings)
