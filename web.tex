@@ -11,7 +11,16 @@ tersebut.
 \section{Sejarah Web}
 WWW pada awalnya dikembangkan oleh Tim Berners-Lee ketika dia bekerja di CERN,
 sebuah tempat penelitian terkait dengan Fisika di Swiss di akhir tahun 1980-an
-(sekitar tahun 1989).
+(sekitar tahun 1989)~\footnote{Saya mengikuti perkembangan sejarah Web ini
+karena secara tidak sengaja saya mengikutinya sejak awal. Ceritanya pada akhir
+tahun 80-an tersebut saya bekerja di kampus University of Manitoba dan
+``terpaksa'' menggunakan komputer NeXT. Komputer NeXT ini adalah produk yang
+dikembangkan oleh Steve Jobs setelah dia ditendang dari Apple. Komputer NeXT
+ini sangat langka karena termasuk mahal. Pada waktu itu tidak banyak yang mau
+pakai karena softwarenya juga terbatas. Saya sedang mencari-cari software apa
+saja yang tersedia dan siapa saja yang pakai ketika melihat Tim Berners-Lee
+sedang mengembangkan WWW dengan menggunakan komputer NeXT-nya. Jadi kebetulan
+saya termasuk yang ikut ngoprek WWW pada awal-awalnya.}.
 CERN merupakan tempat berkumpulnya peneliti-peneliti yang berasal dari berbagai
 tempat di seluruh dunia. Komputer dan software yang digunakan para peneliti
 tersebut tentunya berbeda-beda. Demikian pula dokumen yang dihasilkannya
@@ -27,6 +36,15 @@ WWW terdiri dari dua komponen utama, yaitu standar format dokumen yang
 disebut HTML (HyperText Markup Language) dan protokol HTTP (HyperText Transfer
 Protocol). Keduanya dikembangkan oleh Tim Berners-Lee~\cite{webbook}.
 
+Pada awalnya WWW tidak terlalu terkenal karena softwarenya terbatas. Pada suatu
+saat ada mahasiswa kerja praktek di NCSA yang diminta untuk mengembangkan
+browser untuk tiga platform; UNIX, Windows, dan Mac. Mahasiswa-mahasiswa
+tersebut akhirnya mengembangkan browser yang diberi nama Mosaic. Setelah
+tersedia di ketiga platform tersebut, maka WWW mulai banyak pengguna. Maka
+mulai populerlah dia. Salah satu mahasiswa tersebut bernama Marc Andreessen,
+yang kemudian akhirnya menjadi salah satu pengembang dari browser Netscape yang
+nantinya juga menjadi cikal bakal dari Mozilla.
+
 HTML merupakan sebuah standar yang dikembangkan dari SGML, Standard Generalized
 Markup Language. Sebenarnya HTML merupakan versi lebih sederhana dari SGML.
 Justru inti utama dari HTML (dan HTTP) adalah di kesederhanaannya. Itulah
@@ -40,10 +58,38 @@ kebutuhan dan kemajuan jaman. Sebagai contoh, nantinya akan ada protokol HTTPS
 dan seterusnya. Bahasan mengenai kemananan akan banyak terkait dengan protokol
 HTTP (dan turunannya) ini.
 
+Salah satu alasan mengapa Web menjadi populer saat ini adalah karena dia
+memudahkan dalam operasional karena sifatnya yang
+tersentralisasi~\footnote{Dalam perkembangan teknologi selalu ada ayunan
+(swing) dari tersentralisasi dan terdistribusi. Pada jaman {\em mainframe},
+sistem komputer tersentralisasi. Mainframe merupakan pusat dan pengguna
+menggunakan (green) terminal untuk mengakses mainframe secara bergantian.
+Teknologi kemudian berubah menjadi terdistribusi dengan adanya sistem {\em
+client server}. Di kantor-kantor cabang ada server lokal yang terhubung ke
+kantor pusat secara terjadwal. Teknologi web kembali menjadi tersentralisasi.}.
+Salah satu masalah dalam sistem {\em client server} adalah ketika terjadi
+update software. Sangat repot untuk melakukan update di sisi {\em client}.
+(Apalagi bagi instansi yang mempunyai banyak kantor cabang.) Sementara itu
+dengan menggunakan web, update hanya perlu dilakukan di server web saja.
+
+Dalam sistem web, klien hanya perlu memasang (web) browser. Web browser ini
+juga tadinya hanya dapat memperagakan web secara sederhana. Perkembangan
+teknologi kemudian memperkenankan penambahan fitur di browser dengan
+menggunakan konsep {\em plugin}. {\em Interactivity} kemudian diberikan dengan
+memasang (Adobe) Flash plugin. Namun ada kekhawatiran bahwa plugin-plugin ini
+dapat menyebabkan sumber masalah keamanan.
+
 \section{Topologi dan Asumsi}
-Secara umum, sistem Web terdiri dari tiga hal, yaitu web server, web browser
-(sebagai klien), dan jaringan (yang menghubungkan antara web server dan web 
-browser). Ada beberapa asumsi awal yang kita gunakan agar sistem Web berjalan
+Secara umum, sistem Web terdiri dari tiga hal:
+\begin{itemize}
+   \item web server (Apache, IIS, Nginx, Tomcat);
+   \item web browser (Firefox, Chrome, Internet Explorerd (IE), Safari, 
+      Edge, Lynx, Links, Opera, Vivaldi, Brave, Galeon, Kfm,
+      dan program seperti wget, curl);
+   \item jaringan (yang menghubungankan web server dan web browser).
+\end{itemize}
+
+Ada beberapa asumsi awal yang kita gunakan agar sistem Web berjalan
 dengan aman. Asumsi-asumsi inilah yang dilanggar ketika terjadi masalah
 keamanan\footnote{Jika diperhatikan dengan seksama, sebenarnya asumsi ini
 terkait dengan aspek {\em confidentiality}, {\em integrity}, dan {\em
@@ -68,15 +114,30 @@ berikut.
    \item Identitas pengguna adalah benar dan pengguna memiliki itikad baik
       dalam mengakses web server.
    \item Pengguna hanya mengambil data dari direktori yang diperkenankan.
+   \item Pengguna memiliki itikad baik, tidak berniat merusak server web.
 \end{enumerate}
 
 Asumsi terkait dengan jaringan yang menghubungan web server dan web browser
 adalah sebagai berikut.
 \begin{enumerate}
-   \item Jaringan bebas dari penyadapan, pengubahan, serangan DoS, dan
-      serangan-serangan lainnya. (Masalah terkait dengan jaringan akan menjadi
+   \item Jaringan (dan komputer) bebas dari penyadapan, pengubahan, serangan
+      DoS ({\em Denial of Service}), 
+      dan serangan-serangan lainnya. (Masalah terkait dengan jaringan akan menjadi
       masalah {\em network security}, bukan masalah keamanan web.)
 \end{enumerate}
 
 Asumsi-asumsi di atas akan dilanggar oleh penyerang, yang mengakibatkan masalah
 keamanan sistem web.
+
+
+\section{Keamanan Server Web}
+Server web menyediakan informasi secara statis dan dinamis. Halaman statis
+diperoleh dengan perintah {\tt GET}. Halaman dinamis diperoleh dengan berbagai
+cara;
+\begin{itemize}
+   \item CGI (Common Gateway Interface) dengan menggunakan berbagai bahasa
+      pemrograman seperti shell script, PHP, Perl, Python, dan seterusnya;
+   \item Server Side Include (SSI);
+   \item Active Server Page (ASP);
+   \item Servlets.
+\end{itemize}
