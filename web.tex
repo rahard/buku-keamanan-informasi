@@ -131,9 +131,10 @@ keamanan sistem web.
 
 
 \section{Keamanan Server Web}
-Server web menyediakan informasi secara statis dan dinamis. Halaman statis
-diperoleh dengan perintah {\tt GET}. Halaman dinamis diperoleh dengan berbagai
-cara;
+Server web menyediakan informasi secara statis dan dinamis melalui protokol
+HTTP. Halaman statis diperoleh dengan perintah {\tt GET}. Halaman dinamis
+diperoleh dengan berbagai cara:
+
 \begin{itemize}
    \item CGI (Common Gateway Interface) dengan menggunakan berbagai bahasa
       pemrograman seperti shell script, PHP, Perl, Python, dan seterusnya;
@@ -141,3 +142,53 @@ cara;
    \item Active Server Page (ASP);
    \item Servlets.
 \end{itemize}
+
+\subsection{Confidentiality}
+Data disimpan di server dalam bentuk berkas (dalam sebuah direktori) atau
+menjadi bagian dari database. Salah satu bentuk serangan kepada server web
+adalah dengan mencoba masuk ke server web tersebut (secara tidak sah).
+Penyusupan ini dapat dilakukan melalui kelemahan (kerentanan) dari sistem
+operasi yang digunakan oleh web server, kelemahan software web servernya
+sendiri (server httpd), dan kelemahan dalam menggunakan password admin.
+
+Sistem operasi (apapun sistem operasinya) memiliki kelemahan. Kadang kelemahan
+ini cepat ditemukan, kadang dibutukan waktu tahunan (atau belasan tahunan)
+untuk menemukan kelemahan tersebut. Ekspolitasi terhadap kelemahan ini membuat
+penyerang dapat masuk ke sistem operasi. Ada yang masuk sebagai pengguna biasa
+dan ada juga yang (akhirnya) berhasil masuk sebagai administrator (root, di
+sistem UNIX). Jika penyerang sudah dapat masuk sebagai administrator, maka
+selesai sudah ceritanya karena penyerang dapat melakukan apa saja.
+
+Kadang, berhasil masuk menjadi {\em user} (pengguna) biasa juga sudah dapat
+menimbulkan kekacauan. Sebagai contoh, ketika penyerang dapat masuk menjadi
+pengguna yang memiliki hak akses untuk membaca berkas-berkas (data) yang
+seharusnya tidak dibatasi aksesnya, maka data menjadi bocor. Sebagai contoh,
+data tentang daftar gaji karyawan, data kesehatan, data pemilu, dan sejenisnya
+jika bocor akan memiliki dampak yang berbeda-beda.
+
+Bertambahnya fitur web, seperti menjalankan perintah atau {\em query} database
+di server web, semakin menambah potensi lubang keamanan pula. Sistem operasi
+server web sudah baik, tetapi server HTTP yang digunakan ternyata memiliki
+kelemahan. Akibatnya juga sama, yaitu kebocoran data.
+
+Hal yang sering juga terjadi adalah penggunaan password yang lemah di server
+web. Sebagai contoh, ada banyak server yang menggunakan id {\em admin} dan
+password {\em admin}. Sebagus apapun sistem operasi dan server http yang
+digunakan, kelemahan dalam memilih password juga dapat berakibat kebocordan
+data.
+
+
+\subsection{Integrity}
+Jika seorang penyerang dapat masuk ke server web dan memiliki hak tulis, maka
+dia dapat mengubah data yang ada di server. Pengubahan data di server boleh
+jadi hanya mengubah tampilannya, sering disebut {\em web defacing}. Yang lebih
+mengerikan adalah kalau penyerang dapat mengubah data tetapi tidak terlalu
+terlihat oleh mata awam. Sebagai contoh, misalnya sebuah produk yang seharusnya
+berharga satu juta rupiah dapat diubah menjadi satu rupiah saja.
+
+Serangan terhadap integritas data dapat dilakukan secara kasar, seperti contoh
+di atas, atau dilakukan secara halus dan tidak mudah terlihat. Sebagai contoh,
+sebuah data nilai mahasiswa boleh jadi asalnya 70 (skala 100) dapat diubah 
+menjadi 79. Data ini bercampur dengan data nilai lainnya (dan siswa lainnya)
+sehingga tidak terlalu terlihat perubahannya. Serangan seperti ini sulit untuk
+dideteksi.
