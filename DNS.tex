@@ -1,7 +1,9 @@
 \chapter{Domain Name System (DNS)}
 Salah satu komponen utama dari internet adalah penamaan domain, Domain Name
 System (DNS). Penelusuran DNS juga merupakan salah satu langkah awal dari
-evaluasi keamanan atau penyerangan.
+evaluasi keamanan atau penyerangan. Mencari tahu sebuah target dimulai dari
+layanan DNS dahulu. Sebagai contoh, jika akan dilakukan evaluasi keamanan dari
+sebuah perusahaan maka yang pertama dilakukan adalah melakukan DNS query.
 
 \section{Sejarah DNS}
 Komputer bekerja dengan angka, atau lebih tepatnya dengan menggunakan bilangan
@@ -18,11 +20,13 @@ menggunakan nomor IP. Contoh nomor IP antara lain dapat dilihat di bawah ini.
 Di sisi lain, manusia lebih mudah menghapal nama dibandingkan dengan angka.
 Oleh sebab itu harus ada sebuah sistem yang melakukan konversi dari nama ke
 angka dan sebaliknya. Pada awalnya, hal ini dapat dilakukan dengan menggunakan
-sebuah tabel. Di sistem UNIX, tabel itu ada di berkas {\em /etc/hosts}
+sebuah tabel. Di sistem UNIX, tabel itu ada di berkas {\em /etc/hosts} yang
+isinya serupa ini. Kolom kiri merupakan nomor IP (angka) dan kolom kanan berisi
+nama untuk nomor IP tersebut. Nama boleh lebih dari satu.
 
 \begin{verbatim}
-167.205.24.34   paume
-192.168.100.1   br
+167.205.24.34   paume www.paume.itb.ac.id
+192.168.100.1   br accesspoint
 \end{verbatim}
 
 Pada awalnya, tabel ini jumlahnya tidak banyak sehingga dapat dikelola secara
@@ -38,3 +42,111 @@ lagi ada perebutan nama yang populer (seperti server, mail, dan seterusnya).
 Nama yang sama tidak diperbolehkan dalam sistem yang menggunakan tabel
 tersebut. Akhirnya disepakati harus ada sebuah sistem yang terdistribusi
 pengelolaannya. Maka lahirlah DNS.
+
+Konsep DNS mirip dengan penamaan jalan di dunia nyata yang digunakan untuk
+mengirim surat melalui pos. Sebagai contoh, pak pos di Amerika Serikat tidak
+perlu tahu ada nama jalan Ganesha di Bandung, misalnya. Dia cukup mengetahui
+kemana untuk mengirimkan email yang ditujukan ke Bandung. Mari kita ambil
+contoh alamat surat menyurat saya.
+
+\begin{verbatim}
+Budi Rahardjo
+Gedung PAU, lantai 4
+Institut Teknologi Bandung
+Jl. Ganesha 10
+Bandung 40132
+Indonesia
+\end{verbatim}
+
+Jika seseorang ingin mengirimkan surat dari Amerika ke saya dengan alamat
+seperti di atas, maka alurnya adalah sebagai berikut.
+
+Pengirim akan memasukkan surat ke pos terdekat. Pak pos akan membaca alamat
+dari belakang (dari paling bawah). Surat itu ditujukan ke Indonesia, maka pak
+pos akan meneruskan surat tersebut ke kantor pos Amerika yang mengumpulkan
+surat-surat yang ditujukan ke Indonesia. (Ini ada dimana?) Dari sana
+surat-surat (termasuk surat yang ditujukan kepada saya tersebut) ke Jakarta
+karena semua surat yang menuju Indonesia masuk ke kantor pos Jakarta. Di kantor
+pos Jakarta, surat-surat dipilah-pilah. Surat-surat yang menuju ke Bandung akan
+dikirimkan ke kantor pos Bandung. Di kantor pos Bandung, surat saya terlihat
+memiliki kode pos 40132 (Bandung Utara), maka surat itu akan diteruskan kepada
+bagian yang mengirimkan ke Bandung Utara. Surat tersebut kemudian diteruskan ke
+ITB yang beralamat di Jalan Ganesha nomor 10. Di ITB, surat tersebut diteruskan
+kembali ke Gedung PAU. Di gedung PAU, surat tersebut diteruskan ke lantai 4 dan
+akhirnya ke kantor saya. Demikianlah perjalanan surat dari luar negeri ke
+kantor saya.
+
+Perlu diperhatikan bahwa sistem seperti ini {\em scalable}. Maksudnya, pos di
+berbagai negara tidak perlu memiliki daftar semua jalan di negara lain.
+Penamaan jalan dapat berubah-ubah secara lokal, tetapi surat dari luar negeri
+akan sampai seolah-olah perubahan lokal tersebut diketahui di luar negeri.
+
+Sistem DNS diimplementasikan dalam program BIND.
+Untuk setiap tingkatan (level) dari nama domain ada {\em name server} yang
+bertanggung jawab terhadap domain-domain di level tersebut. Level teratas (top
+level domain) ditandai dengan titik (dot) yang tidak nampak. Level teratas ini
+awalnya dikelola oleh IANA dan kemudian diteruskan oleh ICANN.
+
+Mari kita ambil sebuah contoh. Misalnya Anda ingin melihat halaman web yang
+memiliki alamat (nama) ``www.paume.itb.ac.id''. Komputer (atau web browser)
+tidak dapat mengenali nama tersebut. Komputer harus melakukan konversi ke
+angka. Langkah-langkah yang dilakukan adalah sebagai berikut.
+
+\begin{enumerate}
+   \item Bertanya kepada root name server (ICANN yang mengelola top level
+      domain dot), siapa pengelola (atau name server) dari ``ID''. ICANN
+      memiliki beberapa root name servers. Salah satu dari root name server
+      tersebut akan menjawab bahwa domain ``.ID'' ada di server-server berikut;
+      (biasanya ada lebih dari satu name server)
+   \item Kepada salah satu dari name server (NS) tersebut ditanyakan, siapa (name
+      server mana) yang mengelola ``AC.ID''. Jawabannya adalah ...
+   \item Kepada salah satu dari NS tersebut ditanyakan, siapa (name
+      server mana) yang mengelola ``ITB.AC.ID''. Jawabannya adalah ...
+   \item Kepada salah satu NS tersebut ditanyakan siapa name server domain
+      ``PAUME.ITB.AC.ID''. Jawabannya adalah ...
+   \item Kepada salah satu NS tersebut ditanyakan, berapa nomor IP dari
+      ``WWW.PAUME.ITB.AC.ID''. Jawabannya adalah 167.205.24.34. Setelah
+      mendapatkan nomor IP tersebut maka komputer dapat melakukan tugasnya.
+      (Atau kalau menggunakan web browser, maka browser akan mengunjungi
+      halaman web yang memiliki nomor IP tersebut.)
+\end{enumerate}
+
+Demikianlah proses yang terjadi di belakang layar. Tentu saja jika proses itu
+dilakukan sering (berulang-ulang), maka akan terjadi pemborosan peggunaan
+jaringan dan akan memakan waktu. Untuk itu dibuatlah proses {\em caching} yang
+mengingat-ingat beberapa domain yang ditanyakan terakhir sehingga proses {\em
+query} tidak harus mengulang dari awal. Demikian pula, daripada setiap komputer
+melakukan proses ini sendiri-sendiri, maka di berbagai organisasi (dan layanan)
+disediakan layanan DNS server. Biasanya Anda memasukkan DNS server ini di
+konfigurasi jaringan di komputer Anda. DNS server inilah yang akan melakukan
+proses {\em query} dan {\em caching}. 
+
+Keamanan dari sistem DNS bergantung kepada beberapa hal, salah satunya adalah
+ketergantungan kepada DNS server. Jika DNS server memberikan jawaban yang salah
+terhadap {\em query}, maka kita bisa diteruskan ke alamat yang salah. (Di
+alamat yang palsu tersebut bisa dibuatkan halaman yang mirip dengan web aslinya
+sehingga kita tertipu. Ini adalah salah satu contoh serangan terhadap DNS.)
+
+
+\section{DNS Filtering}
+Salah satu cara melakukan penapisan {\em filtering} di internet adalah melalui
+DNS. Untuk domain-domain tertentu (yang ingin difilter), DNS tidak memberikan
+jawaban meskipun server yang dituju tersebut tetap ada. Inilah salah satu
+filtering yang lazim dilakukan.
+Tentu saja ``solusi'' terhadap filtering dengan cara tersebut adalah dengan 
+menggunakan DNS server yang lain (atau milik sendiri).
+
+Pemaksaan untuk melakukan filtering DNS dapat dilakukan melalui kebijakan,
+bahwa semua harus menggunakan DNS server yang sudah ditentukan. Cara yang lebih
+teknis lagi dapat dilakukan dengan memaksakan port 53 yang digunakan ke DNS ke
+server tertentu sehingga pengguna tidak dapat menggunakan DNS server selain
+yang sudah ditentukan. Hal tentu saja masih dapat dilewati dengan menggunakan
+layanan DNScrypt.
+
+
+\section{DNS spoofing}
+Pencarian (query) DNS dilakukan dengan berbagai cara. Cara yang laing lazim
+adalah dengan menggunakan paket UDP di port 53. Salah satu serangan yang dapat
+dilakukan adalah memantau port 53 (UDP) ini dan menjawab dengan segera {\em
+request} tersebut (dengan jawaban palsu). (Aspek kecepatan merupakan hal yang
+utama untuk mencapai kesuksesan serangan ini.)
