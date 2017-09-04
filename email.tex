@@ -364,6 +364,18 @@ pengiriman bom email ini juga dapat ditelusuri asalnya. Dengan kata lain,
 jangan lakukan hal ini. Bahwa kita bisa melakukannya, bukan berarti kita boleh
 melakukannya.
 
+Ada beberapa cara untuk mengatasi mailbomb. Pertama, setiap pengguna dibatasi
+jumlah (ukuran) mailboxnya. Jika seorang pengguna mendapat serangan mailbomb,
+maka sistem tidak mati karena hanya pengguna tersebut saja yang bermasalah,
+dengan email yang dikembalikan ke pengirim (termasuk ke penyerang).
+Pengguna lain masih dapat menggunakan layanan email.
+
+Ada pendekatan lain, yaitu dengan mengamati email-email yang masuk dan membuat
+database dari email-email tersebut. (Teknisnya adalah membuat checksum atau
+hash dari body email.) Email-email yang datang berulang-ulang (ditandai dengan
+hash yang sama) akan ditandai atau langsung dibuang karena terindikasi sebagai
+mailbomb.
+
 \section{Spam}
 Jika bom email adalah mengirimkan banyak email ke satu orang, maka {\em spam}
 adalah mengirimkan sebuah email ke banyak alamat. Biasanya isi email tersebut
@@ -398,3 +410,28 @@ iklan tersebut. Spam.
 Spam sangat mudah dilakukan. Tinggal membuat sebuah skrip kecil yang membaca
 alamat email dari sebuat tabel database, kemudian untuk setiap email di sana
 dapat dikirimkan email (spam) tersebut.
+
+Ada beberapa upaya untuk menangani masalah spam ini. Salah satunya adalah
+membuat database pelaku (atau yang dicurigai sebagai pelaku) dari spam -
+spammer - sehingga email-email yang berasal dari pelaku tersebut ditandai
+sebagai spam dan dapat dibuang. Pendeteksian spam ini dapat dilakukan dengan
+melihat isi dari email dan melihat asal pengirim email (menganalisa header dari
+email). Email-email yang memiliki kata-kata tertentu, misalnya ``cheap'' sering
+terindikasi sebagai spam, maka dibuatlah statistik banyaknya kata-kata yang sering
+diasosiasikan dengan spam. Setiap email yang masuk kemudian dicocokkan atau
+dinilai dengan database ini. Jika nilainya melebihi dari sebuah batas tertentu
+(threshold), maka email tersebut ditandai sebagai spam. Pendekatan ini sering
+disebut menggunakan {\em Bayesian classifier}.
+
+Pendeteksian yang berbasis data dari header (dan server pengirim email) juga
+dilakukan. Daftar pelaku spammer ini kemudian dimasukkan ke dalam sebuah
+database yang diperbaharui secara berkala (cepat). Sistem database spammer ini
+dikenal dengan nama RBL, {\em Real-time Blackhole
+List}\footnote{https://en.wikipedia.org/wiki/DNSBL}.
+
+Server mail dapat juga dikonfigurasi untuk mendeteksi spam dengan menggunakan
+layanan dari Rspamd\footnote{https://rspamd.com/}. Setiap email yang masuk
+dites dengan menggunakan aturan (rules) atau kebijakan (policy) tertentu.
+Sebagai contoh, jika email dikirimkan dari server email yang berbeda dengan
+yang terdaftar di DNS (Domain Name System) dari domain tersebut maka email
+diberi nilai (penalty) tertentu.

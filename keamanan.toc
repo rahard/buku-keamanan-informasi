@@ -6,7 +6,7 @@
 \contentsline {section}{\numberline {2.4}Keamanan Dari Berbagai Elemen Sistem}{14}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}Computer Security}{14}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2.4.2}Network Security}{14}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}Application Security}{14}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.3}Application Security}{15}{subsection.2.4.3}
 \contentsline {chapter}{\numberline {3}Prinsip-prinsip Keamanan Informasi}{17}{chapter.3}
 \contentsline {section}{\numberline {3.1}Aspek Keamanan}{17}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Confidentiality}{17}{subsection.3.1.1}
@@ -39,13 +39,14 @@
 \contentsline {subsection}{\numberline {6.3.2}Penyadapan POP3: Post Office Protocol}{42}{subsection.6.3.2}
 \contentsline {section}{\numberline {6.4}Pemalsuan Email}{42}{section.6.4}
 \contentsline {section}{\numberline {6.5}Mailbomb}{44}{section.6.5}
-\contentsline {section}{\numberline {6.6}Spam}{44}{section.6.6}
+\contentsline {section}{\numberline {6.6}Spam}{45}{section.6.6}
 \contentsline {chapter}{\numberline {7}Keamanan Sistem Web}{47}{chapter.7}
 \contentsline {section}{\numberline {7.1}Sejarah Web}{47}{section.7.1}
 \contentsline {section}{\numberline {7.2}Topologi dan Asumsi}{48}{section.7.2}
 \contentsline {section}{\numberline {7.3}Keamanan Server Web}{49}{section.7.3}
 \contentsline {subsection}{\numberline {7.3.1}Confidentiality}{50}{subsection.7.3.1}
-\contentsline {subsection}{\numberline {7.3.2}Integrity}{50}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {7.3.2}Integrity}{51}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {7.3.3}Availability}{51}{subsection.7.3.3}
 \contentsline {chapter}{\numberline {8}Penutup}{53}{chapter.8}
 \contentsline {chapter}{\numberline {9}Bibliography}{55}{chapter.9}
 \contentsline {chapter}{Appendices}{57}{section*.2}

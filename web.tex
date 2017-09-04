@@ -171,12 +171,24 @@ di server web, semakin menambah potensi lubang keamanan pula. Sistem operasi
 server web sudah baik, tetapi server HTTP yang digunakan ternyata memiliki
 kelemahan. Akibatnya juga sama, yaitu kebocoran data.
 
+Protokol HTTP menggunakan data yang tidak terenkripsi ({\em plain text})
+sehingga dapat disadap dengan mudah. Sebagai contoh, tcpdump (wireshark) dapat
+digunakan untuk menyadap data HTTP.
+
+\begin{verbatim}
+# tcpdump port 80
+\end{verbatim}
+
+
 Hal yang sering juga terjadi adalah penggunaan password yang lemah di server
 web. Sebagai contoh, ada banyak server yang menggunakan id {\em admin} dan
 password {\em admin}. Sebagus apapun sistem operasi dan server http yang
 digunakan, kelemahan dalam memilih password juga dapat berakibat kebocordan
 data.
 
+Salah satu cara untuk mengatasi kelemahan ini adalah dengan menggunakan
+protokol HTTPS, dimana data dienkripsi. Penyadapan masih dapat dilakukan,
+tetapi data yang disadap sudah dalam format terenkripsi.
 
 \subsection{Integrity}
 Jika seorang penyerang dapat masuk ke server web dan memiliki hak tulis, maka
@@ -192,3 +204,13 @@ sebuah data nilai mahasiswa boleh jadi asalnya 70 (skala 100) dapat diubah
 menjadi 79. Data ini bercampur dengan data nilai lainnya (dan siswa lainnya)
 sehingga tidak terlalu terlihat perubahannya. Serangan seperti ini sulit untuk
 dideteksi.
+
+
+\subsection{Availability}
+Serangan terhadap aspek {\em availability} dari layanan web dapat dilakukan
+dengan berbagai cara. Tujuan dari serangan ini adalah meniadakan layanan,
+sehingga disebut serangan {\em Denial of Service} (DOS).
+
+Serangan yang paling primitif terhadal layanan web adalah dengan melakukan {\em
+request} secara berulang-ulang atau bertubi-tubi. Jika perilaku ini dilakukan
+oleh banyak orang (banyak mesin) maka akibatnya dapat menjadi fatal.
