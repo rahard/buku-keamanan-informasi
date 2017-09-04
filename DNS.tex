@@ -85,7 +85,9 @@ Sistem DNS diimplementasikan dalam program BIND.
 Untuk setiap tingkatan (level) dari nama domain ada {\em name server} yang
 bertanggung jawab terhadap domain-domain di level tersebut. Level teratas (top
 level domain) ditandai dengan titik (dot) yang tidak nampak. Level teratas ini
-awalnya dikelola oleh IANA dan kemudian diteruskan oleh ICANN.
+awalnya dikelola oleh IANA dan kemudian diteruskan oleh ICANN (The Internet 
+Corporation for Assigned Names and Numbers)\footnote{Penjelasan mengenai
+perpindahan dari IANA ke ICANN akan dibahas secara terpisah.}.
 
 Mari kita ambil sebuah contoh. Misalnya Anda ingin melihat halaman web yang
 memiliki alamat (nama) ``www.paume.itb.ac.id''. Komputer (atau web browser)
@@ -95,15 +97,22 @@ angka. Langkah-langkah yang dilakukan adalah sebagai berikut.
 \begin{enumerate}
    \item Bertanya kepada root name server (ICANN yang mengelola top level
       domain dot), siapa pengelola (atau name server) dari ``ID''. ICANN
-      memiliki beberapa root name servers. Salah satu dari root name server
+      memiliki beberapa root name servers; a.root-servers.net sampai
+      m.root-servers.net.  Salah satu dari root name server
       tersebut akan menjawab bahwa domain ``.ID'' ada di server-server berikut;
       (biasanya ada lebih dari satu name server)
+      a.dns.id, b.dns.id, c.dns.id, e.dns.id, dan sec3.apnic.net.
    \item Kepada salah satu dari name server (NS) tersebut ditanyakan, siapa (name
-      server mana) yang mengelola ``AC.ID''. Jawabannya adalah ...
+      server mana) yang mengelola ``AC.ID''. Jawabannya adalah b.dns.id,
+      c.dns.id, d.dns.id, dan e.dns.id.
    \item Kepada salah satu dari NS tersebut ditanyakan, siapa (name
-      server mana) yang mengelola ``ITB.AC.ID''. Jawabannya adalah ...
+      server mana) yang mengelola ``ITB.AC.ID''. Jawabannya adalah
+      ns3.itb.ac.id, sns-pb.isc.org, ns1.ai3.net, ns1.itb.ac.id, dan
+      ns2.itb.ac.id.
    \item Kepada salah satu NS tersebut ditanyakan siapa name server domain
-      ``PAUME.ITB.AC.ID''. Jawabannya adalah ...
+      ``PAUME.ITB.AC.ID''. Jawabannya adalah www.vlsi.itb.ac.id, ns3.itb.ac.id,
+      ns2.itb.ac.id, alliance.globalnetlink.com, ic.vlsi.itb.ac.id,
+      mx.insan.co.id.
    \item Kepada salah satu NS tersebut ditanyakan, berapa nomor IP dari
       ``WWW.PAUME.ITB.AC.ID''. Jawabannya adalah 167.205.24.34. Setelah
       mendapatkan nomor IP tersebut maka komputer dapat melakukan tugasnya.
@@ -120,6 +129,21 @@ melakukan proses ini sendiri-sendiri, maka di berbagai organisasi (dan layanan)
 disediakan layanan DNS server. Biasanya Anda memasukkan DNS server ini di
 konfigurasi jaringan di komputer Anda. DNS server inilah yang akan melakukan
 proses {\em query} dan {\em caching}. 
+
+Pada penjelasan di atas dikatakan kita dapat bertanya tentang name server.
+Bagaimana cara melakukannya? Ada beberapa {\em tools} yang dapat digunakan
+untuk melakukan hal tersebut. Untuk sistem yang berbasis UNIX (termasuk Linux,
+berbagai variasi dari BSD, dan Mac OS X) ada {\em nslookup}, dan {\em host}.
+Berikut ini contoh sebuah sesi untuk mencari name server dari domain itb.ac.id.
+
+\begin{verbatim}
+$ host -t ns itb.ac.id
+itb.ac.id name sever ns3.itb.ac.id.
+itb.ac.id name sever sns-ob.isc.org.
+itb.ac.id name sever ns1.ai3.net.
+itb.ac.id name sever ns1.itb.ac.id.
+itb.ac.id name sever ns2.itb.ac.id.
+\end{verbatim}
 
 Keamanan dari sistem DNS bergantung kepada beberapa hal, salah satunya adalah
 ketergantungan kepada DNS server. Jika DNS server memberikan jawaban yang salah
@@ -150,3 +174,31 @@ adalah dengan menggunakan paket UDP di port 53. Salah satu serangan yang dapat
 dilakukan adalah memantau port 53 (UDP) ini dan menjawab dengan segera {\em
 request} tersebut (dengan jawaban palsu). (Aspek kecepatan merupakan hal yang
 utama untuk mencapai kesuksesan serangan ini.)
+
+Program {\em dnsspoof}, yang merupakan bagian dari paket {\em dsniff}, dapat
+digunakan untuk melakukan proses spoofing tersebut. Hal yang perlu diperhatikan
+adalah bahwa lalu lintas (traffic) DNS harus terlihat oleh mesin yang melakukan
+spoofing tersebut. Untuk menguji hal ini dapat digunakan {\em tcpdump} terlebih
+dahulu. Jika memang traffic DNS dapat didengar, maka secara teori dia dapat
+juga dipalsukan (spoofed). Jika traffic DNS tidak didengar, maka harus mencari
+cara lain untuk melakukan DNS spoofing ini.
+
+Misal kita memiliki berkas yang berisi daftar hosts yang ingin kita sesatkan
+jawabannya. Berkas ini misalnya bernama {\em /tmp/hosts-spoofed} dan berisi
+seperti contoh berikut.
+
+\begin{verbatim}
+$ cat /tmp/hosts-spoofed
+192.168.1.101 ibanking.co.id
+192.168.1.102 populer.co.id
+
+$ dnsspoof -f /tmp/hosts-spoofed
+\end{verbatim}
+
+Coba melakukan query ke alamat ibanking.co.id. Jawabannya adalah 192.168.1.101.
+Jika kita memasang server web di mesin tersebut dan membuat halaman palsu yang
+mirip dengan halaman ibanking.co.id, maka kita dapat melakukan penipuan.
+
+\section{Zone Transfer}
+
+\section{Random Label Attack}

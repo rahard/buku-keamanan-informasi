@@ -27,32 +27,34 @@
 \contentsline {chapter}{\numberline {5}Domain Name System (DNS)}{29}{chapter.5}
 \contentsline {section}{\numberline {5.1}Sejarah DNS}{29}{section.5.1}
 \contentsline {section}{\numberline {5.2}DNS Filtering}{32}{section.5.2}
-\contentsline {section}{\numberline {5.3}DNS spoofing}{32}{section.5.3}
-\contentsline {chapter}{\numberline {6}PGP / Gnu Privacy Guard}{33}{chapter.6}
-\contentsline {section}{\numberline {6.1}Sejarah}{33}{section.6.1}
-\contentsline {section}{\numberline {6.2}Menggunakan Gnu Privacy Guard, gpg}{33}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Enkrip Untuk Sebuah Alamat Email}{36}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Tanda Tangan Dokumen}{38}{subsection.6.2.2}
-\contentsline {section}{\numberline {6.3}Tools}{40}{section.6.3}
-\contentsline {section}{\numberline {6.4}Web of Trust}{40}{section.6.4}
-\contentsline {chapter}{\numberline {7}Keamanan Sistem Email}{41}{chapter.7}
-\contentsline {section}{\numberline {7.1}Komponen Sistem Email}{41}{section.7.1}
-\contentsline {section}{\numberline {7.2}Standar Email}{42}{section.7.2}
-\contentsline {section}{\numberline {7.3}Penyadapan Email}{45}{section.7.3}
-\contentsline {subsection}{\numberline {7.3.1}Penyadapan SMTP}{45}{subsection.7.3.1}
-\contentsline {subsection}{\numberline {7.3.2}Penyadapan POP3: Post Office Protocol}{46}{subsection.7.3.2}
-\contentsline {section}{\numberline {7.4}Pemalsuan Email}{46}{section.7.4}
-\contentsline {section}{\numberline {7.5}Mailbomb}{48}{section.7.5}
-\contentsline {section}{\numberline {7.6}Spam}{49}{section.7.6}
-\contentsline {chapter}{\numberline {8}Keamanan Sistem Web}{51}{chapter.8}
-\contentsline {section}{\numberline {8.1}Sejarah Web}{51}{section.8.1}
-\contentsline {section}{\numberline {8.2}Topologi dan Asumsi}{52}{section.8.2}
-\contentsline {section}{\numberline {8.3}Keamanan Server Web}{53}{section.8.3}
-\contentsline {subsection}{\numberline {8.3.1}Confidentiality}{54}{subsection.8.3.1}
-\contentsline {subsection}{\numberline {8.3.2}Integrity}{55}{subsection.8.3.2}
-\contentsline {subsection}{\numberline {8.3.3}Availability}{55}{subsection.8.3.3}
-\contentsline {chapter}{\numberline {9}Penutup}{57}{chapter.9}
-\contentsline {chapter}{\numberline {10}Bibliography}{59}{chapter.10}
-\contentsline {chapter}{Appendices}{61}{section*.2}
-\contentsline {chapter}{\numberline {A}tcpdump}{63}{Appendix.1.A}
+\contentsline {section}{\numberline {5.3}DNS spoofing}{33}{section.5.3}
+\contentsline {section}{\numberline {5.4}Zone Transfer}{33}{section.5.4}
+\contentsline {section}{\numberline {5.5}Random Label Attack}{33}{section.5.5}
+\contentsline {chapter}{\numberline {6}PGP / Gnu Privacy Guard}{35}{chapter.6}
+\contentsline {section}{\numberline {6.1}Sejarah}{35}{section.6.1}
+\contentsline {section}{\numberline {6.2}Menggunakan Gnu Privacy Guard, gpg}{35}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Enkrip Untuk Sebuah Alamat Email}{38}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Tanda Tangan Dokumen}{40}{subsection.6.2.2}
+\contentsline {section}{\numberline {6.3}Tools}{42}{section.6.3}
+\contentsline {section}{\numberline {6.4}Web of Trust}{42}{section.6.4}
+\contentsline {chapter}{\numberline {7}Keamanan Sistem Email}{43}{chapter.7}
+\contentsline {section}{\numberline {7.1}Komponen Sistem Email}{43}{section.7.1}
+\contentsline {section}{\numberline {7.2}Standar Email}{44}{section.7.2}
+\contentsline {section}{\numberline {7.3}Penyadapan Email}{47}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Penyadapan SMTP}{47}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Penyadapan POP3: Post Office Protocol}{48}{subsection.7.3.2}
+\contentsline {section}{\numberline {7.4}Pemalsuan Email}{48}{section.7.4}
+\contentsline {section}{\numberline {7.5}Mailbomb}{50}{section.7.5}
+\contentsline {section}{\numberline {7.6}Spam}{51}{section.7.6}
+\contentsline {chapter}{\numberline {8}Keamanan Sistem Web}{53}{chapter.8}
+\contentsline {section}{\numberline {8.1}Sejarah Web}{53}{section.8.1}
+\contentsline {section}{\numberline {8.2}Topologi dan Asumsi}{54}{section.8.2}
+\contentsline {section}{\numberline {8.3}Keamanan Server Web}{55}{section.8.3}
+\contentsline {subsection}{\numberline {8.3.1}Confidentiality}{56}{subsection.8.3.1}
+\contentsline {subsection}{\numberline {8.3.2}Integrity}{57}{subsection.8.3.2}
+\contentsline {subsection}{\numberline {8.3.3}Availability}{57}{subsection.8.3.3}
+\contentsline {chapter}{\numberline {9}Penutup}{59}{chapter.9}
+\contentsline {chapter}{\numberline {10}Bibliography}{61}{chapter.10}
+\contentsline {chapter}{Appendices}{63}{section*.2}
+\contentsline {chapter}{\numberline {A}tcpdump}{65}{Appendix.1.A}
 \contentsfinish 
