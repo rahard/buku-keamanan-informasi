@@ -1,0 +1,40 @@
+\chapter{Domain Name System (DNS)}
+Salah satu komponen utama dari internet adalah penamaan domain, Domain Name
+System (DNS). Penelusuran DNS juga merupakan salah satu langkah awal dari
+evaluasi keamanan atau penyerangan.
+
+\section{Sejarah DNS}
+Komputer bekerja dengan angka, atau lebih tepatnya dengan menggunakan bilangan
+biner, ON dan OFF. Salah satu cara memberikan identitas komputer adalah dengan
+menggunakan nomor IP. Contoh nomor IP antara lain dapat dilihat di bawah ini.
+(Tahukah Anda itu nomor IP dari layanan apa?)
+
+\begin{verbatim}
+172.217.27.3
+31.13.78.35
+104.244.42.193
+\end{verbatim}
+
+Di sisi lain, manusia lebih mudah menghapal nama dibandingkan dengan angka.
+Oleh sebab itu harus ada sebuah sistem yang melakukan konversi dari nama ke
+angka dan sebaliknya. Pada awalnya, hal ini dapat dilakukan dengan menggunakan
+sebuah tabel. Di sistem UNIX, tabel itu ada di berkas {\em /etc/hosts}
+
+\begin{verbatim}
+167.205.24.34   paume
+192.168.100.1   br
+\end{verbatim}
+
+Pada awalnya, tabel ini jumlahnya tidak banyak sehingga dapat dikelola secara
+manual. Inilah yang dilakukan oleh Jon Postel dan kawan-kawannya di Amerika
+Serikat. Dikarenakan pengelolaannya menjadi semakin berat, maka dibentuklah
+sebuah organisasi yang diberi nama {\em Internet Assigned Numbers Authority}
+(IANA)\footnote{IANA juga yang mengatur pembagian atau distribusi nomor IP.}.
+Tabel-tabel ini diperbaharui secara berkala dan dapat diunduh melalui FTP.
+
+Jumlah komputer dan organisasi yang terhubung ke internet semakin bertambah
+sehingga pengelolaan nama yang tersentralisai ini menjadi makin rumit. Ditambah
+lagi ada perebutan nama yang populer (seperti server, mail, dan seterusnya).
+Nama yang sama tidak diperbolehkan dalam sistem yang menggunakan tabel
+tersebut. Akhirnya disepakati harus ada sebuah sistem yang terdistribusi
+pengelolaannya. Maka lahirlah DNS.
