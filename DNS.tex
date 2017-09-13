@@ -133,8 +133,9 @@ proses {\em query} dan {\em caching}.
 Pada penjelasan di atas dikatakan kita dapat bertanya tentang name server.
 Bagaimana cara melakukannya? Ada beberapa {\em tools} yang dapat digunakan
 untuk melakukan hal tersebut. Untuk sistem yang berbasis UNIX (termasuk Linux,
-berbagai variasi dari BSD, dan Mac OS X) ada {\em nslookup}, dan {\em host}.
-Berikut ini contoh sebuah sesi untuk mencari name server dari domain itb.ac.id.
+berbagai variasi dari BSD, dan Mac OS X) ada {\em nslookup}, {\em dig} dan {\em host}.
+Berikut ini contoh sebuah sesi untuk mencari name server dari domain itb.ac.id
+dengan menggunakan program {\em host}.
 
 \begin{verbatim}
 $ host -t ns itb.ac.id
@@ -200,5 +201,41 @@ Jika kita memasang server web di mesin tersebut dan membuat halaman palsu yang
 mirip dengan halaman ibanking.co.id, maka kita dapat melakukan penipuan.
 
 \section{Zone Transfer}
+Daftar semua mesin (komputer) dan subdomain di dalam sebuah database DNS tidak
+untuk diberikan ke semua orang. Biasanya {\em query} dibatasi untuk hal-hal
+tertentu yang sangat spesifik, misalnya menanyakan nomor IP atau {\em name
+server}. Jarang ada permintaan untuk melihat seluruh isi dari sebuah zona DNS.
+
+Untuk melihat daftar seluruh domain tertentu dilakukan proses {\em zone
+transfer}. Berikut ini contoh sebuah sesi {\em zone transfer} terhadap domain
+itb.ac.id dengan menggunakan program {\em host} kepada NS ns3.itb.ac.id. Perlu
+dicatat bahwa perintah berikut ini hanya dapat bekerja di lingkungan jaringan
+ITB karena {\em zone transfer} dibatasi.
+
+\begin{verbatim}
+$ host -l itb.ac.id ns3.itb.ac.id
+\end{verbatim}
+
+Pembatasan {\em zone transfer} dilakukan karena dia dapat menghabiskan {\em
+bandwidth} dan juga memberikan informasi yang berlebihan. Sebuah {\em query}
+DNS dapat menghasilkan jawaban yang cukup panjang (besar, secara ukuran) bila
+daftar domain yang ada cukup banyak. Ada faktor amplifikasi dari penggunaan
+jaringan. Inilah yang ditargetkan untuk diserang. Di beberapa tempat,
+kebocoran data melalui {\em zone transfer} dapat digunakan sebagai langkah 
+awal untuk melakukan penyerangan terhadap sebuah instansi tertentu. Untuk itu,
+zone transfer seharusnya dibatasi.
 
 \section{Random Label Attack}
+{\em Query} terhadap DNS dijawab oleh DNS {\em resolver}, yang biasanya kita
+kenal dengan istilah ``DNS server'' dalam konfigurasi komputer kita. Domain
+yang sering ditanyakan kemungkinan juga akan disimpan ({\em cached}) dalam
+mesin resolver ini agar penggunaan jaringan dapat dikurangi. Pendekatan ini
+juga menguntungkan name server karena ini akan mengurangi jumlah {\em query}.
+
+{\em Random label attack} adalah penyerangan terhadap DNS server dengan cara
+melakukan {\em query} kepada domain yang tidak ada. Nama mesin dibuat secara
+random dan kemudian dilakukan {\em query}. Nama yang random ini tentunya tidak
+akan ada dalam cache dan harus ditanyakan kepada name server. Hal ini
+menyebabkan beban dari name server bertambah. Jika serangan ini dilakukan
+secara bertubi-tubi dan dari tempat yang jumlahnya banyak, maka serangan ini
+dapat menyebabkan {\em Denial of Service} (DOS) dari mesin name server.

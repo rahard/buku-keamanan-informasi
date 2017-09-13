@@ -29,7 +29,7 @@
 \contentsline {section}{\numberline {5.2}DNS Filtering}{32}{section.5.2}
 \contentsline {section}{\numberline {5.3}DNS spoofing}{33}{section.5.3}
 \contentsline {section}{\numberline {5.4}Zone Transfer}{33}{section.5.4}
-\contentsline {section}{\numberline {5.5}Random Label Attack}{33}{section.5.5}
+\contentsline {section}{\numberline {5.5}Random Label Attack}{34}{section.5.5}
 \contentsline {chapter}{\numberline {6}PGP / Gnu Privacy Guard}{35}{chapter.6}
 \contentsline {section}{\numberline {6.1}Sejarah}{35}{section.6.1}
 \contentsline {section}{\numberline {6.2}Menggunakan Gnu Privacy Guard, gpg}{35}{section.6.2}
