@@ -330,7 +330,41 @@ Pada pendekatan ini, enkripsi (dan dekripsi) akan menggunakan kriptografi kunci
 privat tetapi dengan kunci yang dibuat sesaat (session key) dan kunci sesi
 inilah yang dipertukarkan dengan menggunakan algoritma kriptografi kunci
 publik. Ukuran kunci sangat kecil sehingga biaya (cost) untuk melakukan
-enkripsi dengan kunci publik menjadi kecil.
+enkripsi dengan kunci publik menjadi kecil. Pertukaran kunci ini dapat
+dilakukan dengan berbagai algoritma, salah satunya dengan menggunakan algoritma
+Diffie-Hellman.
+
+\section{Diffie-Hellman Key Exchange}
+Seperti sudah diuraikan pada bagian sebelumnya, salah satu pendekatan praktis
+yang dilakukan adalah menggunakan sistem kripto kunci privat. Kunci yang
+digunakan akan dipertukarkan secara berkala dengan mekanisme {\em key
+exchange}. Salah satu algoritma yang banyak digunakan adalah Diffie-Hellman.
+
+Ambil sebuah kasus dimana Ani dan Budi ingin bertukar kunci. Berikut adalah
+langkah-langkah pertukaran kunci.
+
+\begin{enumerate}
+   \item Budi memilih 2 bilangan prima $g$ dan $p$
+   \item Ani memilih sebuah bilangan rahasia ($a$). Bilangan ini tidak boleh
+      diberitahukan kepada siapa-siapa. Ani kemudian menghitung
+      $A = g^{a} mod p$ dan mengirimkan bilangan $A$ ke Budi. Perhatikan bahwa
+      operasi {\em mod} adalah operasi modulus.
+   \item Budi memilih sebuah bilangan rahasia ($b$) dan kemudian menghitung
+      $B = g^{b} mod p$. Bilangan $B$ ini dikirimkan ke Ani.
+   \item Ani menerima $B$ dan kemudian menghitung
+      $secretkey = B^{a} mod p$
+   \item Budi menerima $A$ dan menghitung 
+      $secretkey = A^{b} mod p$
+\end{enumerate}
+
+Kedua {\em secret keys} tersebut akan sama. Kedua persamaan di bawah ini sama.
+Persamaan pertama ada di Ani dan yang kedua ada di Budi.
+\begin{equation}
+   B^a mod p = (g^b mod p)^a mod p = g^{ba} mod p
+\end{equation}
+\begin{equation}
+   A^b mod p = (g^a mod p)^b mod p = g^{ab} mod p
+\end{equation}
 
 
 \section{Kualitas Sistem Kriptografi}

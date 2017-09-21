@@ -23,7 +23,8 @@
 \contentsline {subsection}{\numberline {4.2.2}Kriptografi Kunci Privat}{25}{subsection.4.2.2}
 \contentsline {subsection}{\numberline {4.2.3}Kriptografi Kunci Publik}{26}{subsection.4.2.3}
 \contentsline {subsection}{\numberline {4.2.4}Kriptografi Hybrid}{27}{subsection.4.2.4}
-\contentsline {section}{\numberline {4.3}Kualitas Sistem Kriptografi}{28}{section.4.3}
+\contentsline {section}{\numberline {4.3}Diffie-Hellman Key Exchange}{28}{section.4.3}
+\contentsline {section}{\numberline {4.4}Kualitas Sistem Kriptografi}{28}{section.4.4}
 \contentsline {chapter}{\numberline {5}Domain Name System (DNS)}{29}{chapter.5}
 \contentsline {section}{\numberline {5.1}Sejarah DNS}{29}{section.5.1}
 \contentsline {section}{\numberline {5.2}DNS Filtering}{32}{section.5.2}
