@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  21 SEP 2017 08:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  22 OCT 2017 09:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1192,40 +1192,48 @@ LaTeX Warning: Marginpar on page 9 moved.
 
 LaTeX Warning: Marginpar on page 9 moved.
 
+<graphics/telegram-down.jpg, id=248, 461.47406pt x 250.68657pt>
+File: graphics/telegram-down.jpg Graphic file (type jpg)
+
+<use graphics/telegram-down.jpg>
+Package pdftex.def Info: graphics/telegram-down.jpg used on input line 125.
+(pdftex.def)             Requested size: 312.00261pt x 169.48918pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--128
+
+ []
+
 [9]
 
 LaTeX Warning: Marginpar on page 10 moved.
 
-[10] <graphics/security-life-cycle.png, id=271, 577.15625pt x 481.8pt>
+[10 <./graphics/telegram-down.jpg>] [11]
+<graphics/security-life-cycle.png, id=277, 577.15625pt x 481.8pt>
 File: graphics/security-life-cycle.png Graphic file (type png)
 
 <use graphics/security-life-cycle.png>
-Package pdftex.def Info: graphics/security-life-cycle.png used on input line 21
+Package pdftex.def Info: graphics/security-life-cycle.png used on input line 22
 4.
 (pdftex.def)             Requested size: 312.012pt x 260.46219pt.
 
-Overfull \hbox (6.81198pt too wide) in paragraph at lines 214--217
+Overfull \hbox (6.81198pt too wide) in paragraph at lines 224--227
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 214--217
+Underfull \hbox (badness 10000) in paragraph at lines 224--227
 
  []
 
-[11]
+[12 <./graphics/security-life-cycle.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [12 <./graphics/security-life-cycle.png>]
-Overfull \hbox (0.99985pt too wide) in paragraph at lines 298--301
+ [13]
+Overfull \hbox (0.99985pt too wide) in paragraph at lines 308--311
 []\T1/pplj/m/n/10 Desain penga-manan ini ke-mu-dian dit-er-ap-kan se-cara tek-n
 is melalui 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [13]
 [14]) [15]
 \openout2 = `prinsip.aux'.
 
@@ -1257,7 +1265,7 @@ grafi,
 
 LaTeX Warning: Marginpar on page 21 moved.
 
-<graphics/BR-watermark.png, id=331, 422.5386pt x 298.4751pt>
+<graphics/BR-watermark.png, id=333, 422.5386pt x 298.4751pt>
 File: graphics/BR-watermark.png Graphic file (type png)
 
 <use graphics/BR-watermark.png>
@@ -1446,7 +1454,7 @@ Overfull \hbox (66.66058pt too wide) in paragraph at lines 108--108
 C5 EB6C EB46[] 
  []
 
-<graphics/pgp-mit.png, id=432, 642.4pt x 557.08125pt>
+<graphics/pgp-mit.png, id=434, 642.4pt x 557.08125pt>
 File: graphics/pgp-mit.png Graphic file (type png)
 
 <use graphics/pgp-mit.png>
@@ -1750,7 +1758,7 @@ Chapter 7.
 
 LaTeX Warning: Marginpar on page 43 moved.
 
-<graphics/email-topologi.png, id=471, 597.9138pt x 183.5658pt>
+<graphics/email-topologi.png, id=473, 597.9138pt x 183.5658pt>
 File: graphics/email-topologi.png Graphic file (type png)
 
 <use graphics/email-topologi.png>
@@ -2020,13 +2028,17 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 62.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 62.
 Package rerunfilecheck Info: File `keamanan.out' has not changed.
 (rerunfilecheck)             Checksum: 40C6CF533FEC4D639931ED8486654807;5458.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 62.
  ) 
 Here is how much of TeX's memory you used:
- 22625 strings out of 494953
- 367294 string characters out of 6180977
+ 22634 strings out of 494953
+ 367469 string characters out of 6180977
  457708 words of memory out of 5000000
- 25258 multiletter control sequences out of 15000+600000
+ 25264 multiletter control sequences out of 15000+600000
  113603 words of font info for 140 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  46i,12n,58p,10417b,545s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2040,10 +2052,10 @@ sr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/urw/palatino/uplri8a.pfb>
-Output written on keamanan.pdf (65 pages, 469492 bytes).
+Output written on keamanan.pdf (65 pages, 508009 bytes).
 PDF statistics:
- 670 PDF objects out of 1000 (max. 8388607)
- 567 compressed objects within 6 object streams
- 203 named destinations out of 1000 (max. 500000)
- 4954 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 672 PDF objects out of 1000 (max. 8388607)
+ 568 compressed objects within 6 object streams
+ 204 named destinations out of 1000 (max. 500000)
+ 4959 words of extra memory for PDF output out of 10000 (max. 10000000)
 
