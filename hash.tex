@@ -13,6 +13,35 @@ Jadi, data dapat kita kirimkan atau simpan dengan hasil ``hash'' tersebut, \{BUD
 
 Dalam contoh di atas, penjumlahan tersebut dapat membedakan antara ``BUDI'' dan ``RUDI'' karena ``RUDI'' akan memiliki nilai penjumlahan 52. Tetapi fungsi hash kita ini masih rentan terhadap serangan yang mengubah urutan. ``BUDI'' dan ``DUBI'' akan memiliki nilai hash yang sama, yaitu 36. Ini disebut {\em collision}. Maka harus dicari fungsi hash yang lebih bagus lagi.
 
+Sebagai contoh, daripada hanya sekedar menjumlahkan huruf-huruf, kita juga dapat mempertimbangkan perbedaan antara huruf dan hasil sebelumnya. Misalnya rumus perjumlahan kita ganti menjadi seperti berikut:
+
+\begin{verbatim}
+jumlah = (karakter) OR (karakter sebelumnya) XOR (jumlah sebelumnya)
+\end{verbatim}
+
+Kita dapat membuat kode dalam bahasa Python seperti contoh berikut ini. 
+
+\begin{python}
+def hash2 (kata):
+	# cara 2: mempertimbangkan karakter sebelumnya
+	jumlah=0
+	nilaic=0
+	sebelumnya=0
+	selisih=0
+	for c in kata:
+		nilaic = ord(c)
+		selisih = nilaic | sebelumnya ^ jumlah
+		jumlah += nilaic + selisih
+		# buka komentar di bawah jika ingin melihat proses
+		# print c, ord(c), jumlah, selisih
+		sebelumnya = nilaic
+	print "Hasil hash2 = ", jumlah
+\end{python}
+
+Algoritma hash yang baru di atas akan menghasilkan jumlah yang berbeda untuk BUDI (2047), IDUB (2091), dan DUBI (2077). Tentu saja algoritma ini masih rentan terhadap {\em collision} lainnya, tetapi ini hanya sebagai contoh bagaimana kita mengembangkan fungsi {\em hash} yang lebih baik dari sekedar penjumlahan huruf saja. ``Sejarah'' dari penjumlahan sebelumnya dapat menjadi bagian dari algoritmanya.
+
 Fungsi hash sering disebut juga fungsi satu arah, karena jika kita diberikan hasil hash-nya maka kita tidak dapat mengetahui data awalnya. Dalam contoh kita, jika kita diberi angka ``36'' maka kita tidak dapat mengetahui kata awalnya. Ada terlalu banyak kemungkinan huruf-huruf yang dapat diatur sehingga memberikan nilai 36 itu. Sebagai contoh, ``DDDDDDDDD'' (huruf D sebanyak 9 kali) akan memberikan jumlah 36 juga.
 
 Saat ini ada beberapa fungsi hash yang lazim digunakan, antara lain MD5, dan SHA. Sedikit tentang MD5, saat ini sudah ditemukan {\em collision} terhadap MD5 sehingga penggunaannya sudah dianggap tidak aman lagi. [Referensi]
+
+Fungsi hash ini banyak digunakan untuk menjaga integritas dari data transaksi. Sebagai contoh jika kita dapat melindungi data transaksi (``KIRIM DARI AKUN A KE AKUN B DENGAN NILAI TRANSAKSI 1234567'') dari perubahan (akun yang diubah atau nilainya yang diubah). Fungsi hash juga merupakan salah satu kunci utam dalam algoritma Blockchain yang digunakan oleh Bitcoin atau {\em crypto currency} lainnya.
