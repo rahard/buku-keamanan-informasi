@@ -1,0 +1,18 @@
+\section{Fungsi Hash}
+Pada bagian terdahulu sudah kita lihat bagaimana enkripsi (dan dekripsi) dapat digunakan untuk mengimplementasikan kerahasiaan ({\em confidentiality}). Pada bagian ini akan dijelaskan bagaimana kita dapat mengimplementasikan aspek {\em integrity}.
+
+Ada situasi dimana kita ingin memastikan bahwa data kita tidak berubah (tanpa ijin yang sah). Datanya sendiri boleh terlihat (tidak rahasia) atau boleh juga dienkripsi. Yang utama adalah bahwa data tidak boleh berubah. Hal ini dapat dipenuhi dengan fungsi {\em hash}.
+
+Sebagai contoh, kita ingin mengirimkan data berupa kata ``BUDI''. Kita ingin memastikan bahwa kata tersebut tidak berubah. Salah satu cara yang dapat kita lakukan adalah dengan ``menjumlahkan'' huruf-huruf dari kata tersebut. Misal, huruf A kita beri nilai 1, huruf B bernilai 2, dan seterusnya sampai huruf Z\footnote{Cara lain dari konversi dari huruf ke angka adalah dengan menggunakan nilai ASCII dari huruf tersebut. A=65, B=66, dan seterusnya. Cara ini dapat digunakan untuk melakukan hash terhadap berkas biner.}. Maka kata ``BUDI'' memiliki nilai 36.
+
+\begin{verbatim}
+B (2) + U (21)+ D (4) + I (9) => 36
+\end{verbatim}
+
+Jadi, data dapat kita kirimkan atau simpan dengan hasil ``hash'' tersebut, \{BUDI,36\}. (Biasanya pengiriman hasil hash dipisahkan untuk menghindari penyerangan. Hasil hash dapat juga dienkripsi untuk menjadi bagian dari tanda tangan digital, tetapi ini nanti kita bahas secara terpisah.)
+
+Dalam contoh di atas, penjumlahan tersebut dapat membedakan antara ``BUDI'' dan ``RUDI'' karena ``RUDI'' akan memiliki nilai penjumlahan 52. Tetapi fungsi hash kita ini masih rentan terhadap serangan yang mengubah urutan. ``BUDI'' dan ``DUBI'' akan memiliki nilai hash yang sama, yaitu 36. Ini disebut {\em collision}. Maka harus dicari fungsi hash yang lebih bagus lagi.
+
+Fungsi hash sering disebut juga fungsi satu arah, karena jika kita diberikan hasil hash-nya maka kita tidak dapat mengetahui data awalnya. Dalam contoh kita, jika kita diberi angka ``36'' maka kita tidak dapat mengetahui kata awalnya. Ada terlalu banyak kemungkinan huruf-huruf yang dapat diatur sehingga memberikan nilai 36 itu. Sebagai contoh, ``DDDDDDDDD'' (huruf D sebanyak 9 kali) akan memberikan jumlah 36 juga.
+
+Saat ini ada beberapa fungsi hash yang lazim digunakan, antara lain MD5, dan SHA. Sedikit tentang MD5, saat ini sudah ditemukan {\em collision} terhadap MD5 sehingga penggunaannya sudah dianggap tidak aman lagi. [Referensi]

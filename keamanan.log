@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  23 OCT 2017 19:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  25 DEC 2017 07:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -938,8 +938,9 @@ File: csquotes.cfg
 (/home/budi/texmf/tex/latex/ccicons/ccicons.sty
 Package: ccicons 2013/04/16 v1.5 LaTeX support for Creative Commons icons
 ) (./keamanan.aux
-(./pengantar.aux) (./pendahuluan.aux) (./prinsip.aux) (./crypto.aux) (./DNS.aux
-) (./pgp.aux) (./email.aux) (./web.aux) (./penutup.aux) (./tcpdump.aux))
+(./pengantar.aux) (./pendahuluan.aux) (./prinsip.aux) (./crypto.aux)
+(./hash.aux) (./DNS.aux) (./pgp.aux) (./email.aux) (./web.aux) (./penutup.aux)
+(./tcpdump.aux))
 \openout1 = `keamanan.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
@@ -960,8 +961,7 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 30.
 LaTeX Font Info:    ... okay on input line 30.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 30.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 30.
@@ -1134,7 +1134,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 83--83
 \T1/pplj/m/n/10 Com-mons ^^P  Attribution-NonCommercial-
  []
 
-<doclicense-CC-by-nc-sa.pdf, id=219, 121.45375pt x 43.16125pt>
+<doclicense-CC-by-nc-sa.pdf, id=223, 121.45375pt x 43.16125pt>
 File: doclicense-CC-by-nc-sa.pdf Graphic file (type pdf)
 
 <use doclicense-CC-by-nc-sa.pdf>
@@ -1192,7 +1192,7 @@ LaTeX Warning: Marginpar on page 9 moved.
 
 LaTeX Warning: Marginpar on page 9 moved.
 
-<graphics/telegram-down.jpg, id=248, 461.47406pt x 250.68657pt>
+<graphics/telegram-down.jpg, id=252, 461.47406pt x 250.68657pt>
 File: graphics/telegram-down.jpg Graphic file (type jpg)
 
 <use graphics/telegram-down.jpg>
@@ -1211,7 +1211,7 @@ LaTeX Warning: Marginpar on page 10 moved.
 LaTeX Warning: Marginpar on page 10 moved.
 
 [10 <./graphics/telegram-down.jpg>] [11]
-<graphics/security-life-cycle.png, id=278, 577.15625pt x 481.8pt>
+<graphics/security-life-cycle.png, id=282, 577.15625pt x 481.8pt>
 File: graphics/security-life-cycle.png Graphic file (type png)
 
 <use graphics/security-life-cycle.png>
@@ -1272,7 +1272,7 @@ grafi,
 
 LaTeX Warning: Marginpar on page 21 moved.
 
-<graphics/BR-watermark.png, id=334, 422.5386pt x 298.4751pt>
+<graphics/BR-watermark.png, id=338, 422.5386pt x 298.4751pt>
 File: graphics/BR-watermark.png Graphic file (type png)
 
 <use graphics/BR-watermark.png>
@@ -1358,21 +1358,31 @@ LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <8> not available
 LaTeX Warning: Marginpar on page 27 moved.
 
 [27]) [28]
+\openout2 = `hash.aux'.
+
+ (./hash.tex
+
+LaTeX Warning: Marginpar on page 29 moved.
+
+) [29
+
+
+]
 \openout2 = `DNS.aux'.
 
- (./DNS.tex
-Chapter 5.
-[29
+ (./DNS.tex [30
 
 
 
 ]
+Chapter 5.
+[31]
 
-LaTeX Warning: Marginpar on page 30 moved.
+LaTeX Warning: Marginpar on page 32 moved.
 
-[30]
+[32]
 
-LaTeX Warning: Marginpar on page 31 moved.
+LaTeX Warning: Marginpar on page 33 moved.
 
 
 Overfull \hbox (9.58987pt too wide) in paragraph at lines 108--112
@@ -1386,12 +1396,12 @@ Overfull \hbox (3.33995pt too wide) in paragraph at lines 112--116
 lsi.itb.ac.id, 
  []
 
-[31] [32] [33]) [34]
+[33] [34] [35]) [36]
 \openout2 = `pgp.aux'.
 
  (./pgp.tex
 Chapter 6.
-[35
+[37
 
 
 
@@ -1413,7 +1423,7 @@ Overfull \hbox (26.82982pt too wide) in paragraph at lines 70--73
 17@gmail.com'' 
  []
 
-[36]
+[38]
 Overfull \hbox (15.49023pt too wide) in paragraph at lines 89--89
 []\T1/fvm/m/n/10 mQENBFiiijUBCAD3ZIxjUQyDtcGTmHs2iU+2aS+MMp2w+codVRrqLfVI+V8S+T
 mP[] 
@@ -1461,7 +1471,7 @@ Overfull \hbox (66.66058pt too wide) in paragraph at lines 108--108
 C5 EB6C EB46[] 
  []
 
-<graphics/pgp-mit.png, id=435, 642.4pt x 557.08125pt>
+<graphics/pgp-mit.png, id=448, 642.4pt x 557.08125pt>
 File: graphics/pgp-mit.png Graphic file (type png)
 
 <use graphics/pgp-mit.png>
@@ -1505,9 +1515,9 @@ Overfull \hbox (1.36247pt too wide) in paragraph at lines 141--143
 \T1/pplj/m/n/10 but. Minta mereka un-tuk ikut menan-datan-gani kunci pub-
  []
 
-[37]
+[39]
 Package mdframed Info: mdframed works in twoside mode on input line 168.
- [38 <./graphics/pgp-mit.png>]
+ [40 <./graphics/pgp-mit.png>]
 Overfull \hbox (92.24576pt too wide) in paragraph at lines 181--181
 []\T1/fvm/m/n/10 gpg --output dokumen.pgp --encrypt --recipient rahard2017@gmai
 l.com dokumen.txt[] 
@@ -1593,7 +1603,7 @@ Overfull \hbox (61.8754pt too wide) in paragraph at lines 229--229
 7-02-14[] 
  []
 
-[39]
+[41]
 Overfull \hbox (16.2199pt too wide) in paragraph at lines 247--250
 \T1/pplj/m/n/10 ``doku-men.txt''. (Kita dalam con-toh ini adalah ``ra-hard2017@
 gmail.com''.)  
@@ -1665,7 +1675,7 @@ Overfull \hbox (15.49023pt too wide) in paragraph at lines 282--282
 L/[] 
  []
 
-[40]
+[42]
 Overfull \hbox (56.42651pt too wide) in paragraph at lines 291--291
 []\T1/fvm/m/n/10 gpg -u rahard2017@gmail.com --output dokumen.sig --clearsign d
 okumen.txt[] 
@@ -1716,7 +1726,7 @@ dokumen.txt[]
  []
 
 Package mdframed Info: mdframed works in twoside mode on input line 343.
-[41]
+[43]
 Package mdframed Info: Not enough space on this page on input line 346.
 Package mdframed Info: mdframed works in twoside mode on input line 348.
 
@@ -1757,15 +1767,15 @@ Overfull \hbox (8.0725pt too wide) in paragraph at lines 357--360
 \T1/pplj/m/n/10 berkas doku-men.txt se-hingga berbeda den-gan aslinya. Coba
  []
 
-) [42]
+) [44]
 \openout2 = `email.aux'.
 
  (./email.tex
 Chapter 7.
 
-LaTeX Warning: Marginpar on page 43 moved.
+LaTeX Warning: Marginpar on page 45 moved.
 
-<graphics/email-topologi.png, id=474, 597.9138pt x 183.5658pt>
+<graphics/email-topologi.png, id=487, 597.9138pt x 183.5658pt>
 File: graphics/email-topologi.png Graphic file (type png)
 
 <use graphics/email-topologi.png>
@@ -1781,7 +1791,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--33
 
  []
 
-[43
+[45
 
 
 
@@ -1811,9 +1821,9 @@ Overfull \hbox (16.36272pt too wide) in paragraph at lines 56--60
 p email meru-pakan satu berkas sendiri
  []
 
-[44 <./graphics/email-topologi.png>]
+[46 <./graphics/email-topologi.png>]
 
-LaTeX Warning: Marginpar on page 45 moved.
+LaTeX Warning: Marginpar on page 47 moved.
 
 Package mdframed Info: mdframed works in twoside mode on input line 98.
 Package mdframed Info: mdframed works in twoside mode on input line 117.
@@ -1887,15 +1897,15 @@ Overfull \hbox (5.58801pt too wide) in paragraph at lines 130--130
 []\T1/fvm/m/n/10 Message-ID: <04f901c0b63b$16570020$b9370681@antd.nist.gov>[] 
  []
 
-[45]
+[47]
 Overfull \hbox (18.95988pt too wide) in paragraph at lines 172--179
 \T1/pplj/m/n/10 Rose kepada saya (den-gan ala-mat email budi@alliance.globalnet
 link.com). 
  []
 
-[46] [47]
+[48] [49]
 
-LaTeX Warning: Marginpar on page 48 moved.
+LaTeX Warning: Marginpar on page 50 moved.
 
 
 Overfull \hbox (2.84984pt too wide) in paragraph at lines 237--241
@@ -1904,11 +1914,11 @@ enkripsi
  []
 
 Package mdframed Info: mdframed works in twoside mode on input line 260.
-[48]
+[50]
 Package mdframed Info: mdframed works in twoside mode on input line 289.
 
 
-LaTeX Warning: Marginpar on page 49 moved.
+LaTeX Warning: Marginpar on page 51 moved.
 
 Package mdframed Info: mdframed works in twoside mode on input line 318.
 
@@ -1917,60 +1927,60 @@ Overfull \hbox (41.40726pt too wide) in paragraph at lines 319--319
 txt[] 
  []
 
-[49] [50]
+[51] [52]
 Overfull \hbox (2.25984pt too wide) in paragraph at lines 384--389
 []\T1/pplj/m/n/10 Sejarah spam ada be-ber-apa versi. Versi saya adalah se-ba-ga
 i berikut. 
  []
 
-[51]
+[53]
 Overfull \hbox (2.38956pt too wide) in paragraph at lines 430--430
 $[]$\T1/pplj/m/n/8 https://en.wikipedia.org/wiki/DNSBL  
  []
 
 
-LaTeX Warning: Marginpar on page 52 moved.
+LaTeX Warning: Marginpar on page 54 moved.
 
 )
 
-LaTeX Warning: Marginpar on page 52 moved.
+LaTeX Warning: Marginpar on page 54 moved.
 
-[52]
+[54]
 \openout2 = `web.aux'.
 
  (./web.tex
 Chapter 8.
 
-LaTeX Warning: Marginpar on page 53 moved.
+LaTeX Warning: Marginpar on page 55 moved.
 
 
-LaTeX Warning: Marginpar on page 53 moved.
+LaTeX Warning: Marginpar on page 55 moved.
 
-[53
+[55
 
 
 
 ]
 
-LaTeX Warning: Marginpar on page 54 moved.
+LaTeX Warning: Marginpar on page 56 moved.
 
 
-LaTeX Warning: Marginpar on page 54 moved.
+LaTeX Warning: Marginpar on page 56 moved.
 
-[54]
+[56]
 
-LaTeX Warning: Marginpar on page 55 moved.
+LaTeX Warning: Marginpar on page 57 moved.
 
-[55] [56]) [57]
+[57] [58]) [59]
 \openout2 = `penutup.aux'.
 
- (./penutup.tex [58
+ (./penutup.tex [60
 
 
 
 ]
 Chapter 9.
-) [59] (./keamanan.bbl [60
+) [61] (./keamanan.bbl [62
 
 
 ]
@@ -2010,38 +2020,38 @@ l.30 \bibitem{BRsecuresoftware}
 <to be read again> 
                    \relax 
 l.35 \bibitem{brwannacry}
-                         ) [61] [62
+                         ) [63] [64
 
 ]
 LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <24> not available
-(Font)              Font shape `T1/pplj/b/n' tried instead on input line 58.
- [63
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 59.
+ [65
 
-] [64]
+] [66]
 \openout2 = `tcpdump.aux'.
 
  (./tcpdump.tex
 Appendix A.
-) [65
+) [67
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 62.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 62.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 63.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 63.
  (./keamanan.aux (./pengantar.aux) (./pendahuluan.aux) (./prinsip.aux)
-(./crypto.aux) (./DNS.aux) (./pgp.aux) (./email.aux) (./web.aux) (./penutup.aux
-) (./tcpdump.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 62.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 62.
+(./crypto.aux) (./hash.aux) (./DNS.aux) (./pgp.aux) (./email.aux) (./web.aux)
+(./penutup.aux) (./tcpdump.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 63.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 63.
 Package rerunfilecheck Info: File `keamanan.out' has not changed.
-(rerunfilecheck)             Checksum: 40C6CF533FEC4D639931ED8486654807;5458.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 62.
+(rerunfilecheck)             Checksum: 13AA4AF33130D3B4CFD6CCD2803C9480;5571.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 63.
  ) 
 Here is how much of TeX's memory you used:
- 22635 strings out of 494953
- 367476 string characters out of 6180977
- 457756 words of memory out of 5000000
- 25264 multiletter control sequences out of 15000+600000
+ 22647 strings out of 494953
+ 367579 string characters out of 6180977
+ 458453 words of memory out of 5000000
+ 25266 multiletter control sequences out of 15000+600000
  113603 words of font info for 140 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  46i,12n,58p,10417b,545s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2055,10 +2065,10 @@ sr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/urw/palatino/uplri8a.pfb>
-Output written on keamanan.pdf (65 pages, 508705 bytes).
+Output written on keamanan.pdf (67 pages, 511337 bytes).
 PDF statistics:
- 674 PDF objects out of 1000 (max. 8388607)
- 570 compressed objects within 6 object streams
- 205 named destinations out of 1000 (max. 500000)
- 4959 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 687 PDF objects out of 1000 (max. 8388607)
+ 581 compressed objects within 6 object streams
+ 208 named destinations out of 1000 (max. 500000)
+ 4967 words of extra memory for PDF output out of 10000 (max. 10000000)
 
