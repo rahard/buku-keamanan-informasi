@@ -1,4 +1,4 @@
-keamanan.pdf:	*.tex
+keamanan.pdf:	*.tex *.bib
 	pdflatex keamanan.tex
 
 bib:

@@ -1,10 +1,12 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: keamanan.aux
 A level-1 auxiliary file: pengantar.aux
 A level-1 auxiliary file: pendahuluan.aux
 A level-1 auxiliary file: prinsip.aux
 A level-1 auxiliary file: crypto.aux
+A level-1 auxiliary file: hash.aux
+A level-1 auxiliary file: DNS.aux
 A level-1 auxiliary file: pgp.aux
 A level-1 auxiliary file: email.aux
 A level-1 auxiliary file: web.aux
@@ -13,50 +15,52 @@ The style file: plain.bst
 A level-1 auxiliary file: tcpdump.aux
 Database file #1: referensi.bib
 Warning--entry type for "rfc822" isn't style-file defined
---line 15 of file referensi.bib
+--line 14 of file referensi.bib
 Warning--entry type for "RFC2068" isn't style-file defined
---line 28 of file referensi.bib
+--line 27 of file referensi.bib
 Warning--entry type for "brwannacry" isn't style-file defined
---line 58 of file referensi.bib
-You've used 7 entries,
+--line 57 of file referensi.bib
+Warning--entry type for "md5" isn't style-file defined
+--line 81 of file referensi.bib
+You've used 8 entries,
             2118 wiz_defined-function locations,
-            546 strings with 4873 characters,
-and the built_in function-call counts, 1606 in all, are:
-= -- 136
-> -- 70
+            554 strings with 5009 characters,
+and the built_in function-call counts, 1801 in all, are:
+= -- 152
+> -- 77
 < -- 0
-+ -- 29
-- -- 22
-* -- 75
-:= -- 281
-add.period$ -- 18
-call.type$ -- 7
-change.case$ -- 28
++ -- 33
+- -- 24
+* -- 80
+:= -- 312
+add.period$ -- 20
+call.type$ -- 8
+change.case$ -- 32
 chr.to.int$ -- 0
-cite$ -- 7
-duplicate$ -- 69
-empty$ -- 155
-format.name$ -- 22
-if$ -- 336
+cite$ -- 8
+duplicate$ -- 76
+empty$ -- 177
+format.name$ -- 24
+if$ -- 378
 int.to.chr$ -- 0
-int.to.str$ -- 7
+int.to.str$ -- 8
 missing$ -- 8
-newline$ -- 35
-num.names$ -- 14
-pop$ -- 63
+newline$ -- 39
+num.names$ -- 16
+pop$ -- 71
 preamble$ -- 1
-purify$ -- 25
+purify$ -- 28
 quote$ -- 0
-skip$ -- 48
+skip$ -- 58
 stack$ -- 0
-substring$ -- 35
-swap$ -- 7
+substring$ -- 41
+swap$ -- 8
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 20
+type$ -- 24
 warning$ -- 0
-while$ -- 14
-width$ -- 8
-write$ -- 66
-(There were 3 warnings)
+while$ -- 16
+width$ -- 9
+write$ -- 73
+(There were 4 warnings)

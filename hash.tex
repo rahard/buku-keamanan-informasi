@@ -45,3 +45,28 @@ Fungsi hash sering disebut juga fungsi satu arah, karena jika kita diberikan has
 Saat ini ada beberapa fungsi hash yang lazim digunakan, antara lain MD5, dan SHA. Sedikit tentang MD5, saat ini sudah ditemukan {\em collision} terhadap MD5 sehingga penggunaannya sudah dianggap tidak aman lagi. [Referensi]
 
 Fungsi hash ini banyak digunakan untuk menjaga integritas dari data transaksi. Sebagai contoh jika kita dapat melindungi data transaksi (``KIRIM DARI AKUN A KE AKUN B DENGAN NILAI TRANSAKSI 1234567'') dari perubahan (akun yang diubah atau nilainya yang diubah). Fungsi hash juga merupakan salah satu kunci utam dalam algoritma Blockchain yang digunakan oleh Bitcoin atau {\em crypto currency} lainnya.
+
+\section{MD5}
+Salah satu fungsi hash yang masih lazim digunakan (meskipun bermasalah) adalah MD5. Fungsi MD5 ini merupakan karya dari Ronald Rivest di tahun 1991 sebagai pengganti MD4, yang juga merupakan karyanya.
+
+MD5 dijabarkan dalam dokumen RFC~1321\cite{MD5} dan menghasilkan keluaran (nilai hash) sepanjang 128-bit. (Jika ditampilkan dalam bentuk heksadesimal, akan ada 32 karakter.) Perubahan sedikit saja akan mengubah nilai hash secara signifikan, sebagai mana dicontohkan seperti berikut.
+
+\begin{mdframed}
+\begin{verbatim}
+$ md5
+ini adalah percobaan
+8459571a31ac4849ee7bf887f16f44c8
+$ md5
+ini adalah percobaan2
+4b9547c47234271d8aa055c0572cb999
+\end{verbatim}
+\end{mdframed}
+
+\begin{mdframed}
+\begin{ExerciseList}
+   \Exercise[title=MD5]
+   \Question{Gunakan MD5 untuk menghasilkan hash dari sebuah berkas gambar (misal dalam format JPG). Ubah berkas gambar tersebut dengan sedikit modifikasi minor. Gunakan MD5 kembali untuk melihat nilai hash-nya.}
+\end{ExerciseList}
+\end{mdframed}
+
+MD5 banyak digunakan karena tersedia untuk semua {\em platform} (sistem operasi). Saat ini MD5 sudah dianggap tidak aman karena sudah ada banyak bukti yang menunjukkan terjadinya {\em collision}. Kelemahan MD5 ini juga dimanfaatkan oleh malware Flame untuk membuat signature palsu.

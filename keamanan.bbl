@@ -36,4 +36,8 @@ Budi Rahardjo.
 Budi Rahardjo.
 \newblock Penanganan ransomware wannacry, Mei 2017.
 
+\bibitem{MD5}
+Ronald Rivest.
+\newblock The md5 message-digest algorithm.
+
 \end{thebibliography}

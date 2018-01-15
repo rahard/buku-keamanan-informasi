@@ -13,7 +13,7 @@
 }
 
 @Standard{rfc822,
-  Title                    = {{RFC}822: {S}tandard For the Format of {ARPA} Internet Text Messages ({RFC822})},
+  Title                    = {{RFC}822: {S}tandard For the Format of {ARPA} Internet Text Messages},
   Institution              = {University of Delaware},
   Organization             = {Dept. of Electrical Engineering},
   Author                   = {David H. Crocker},
