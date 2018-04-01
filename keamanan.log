@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  25 DEC 2017 09:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  2 APR 2018 00:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2020,19 +2020,28 @@ LaTeX Warning: Marginpar on page 56 moved.
 LaTeX Warning: Marginpar on page 57 moved.
 
 [57] [58]) [59]
-\openout2 = `penutup.aux'.
+\openout2 = `soceng.aux'.
 
- (./penutup.tex [60
+ (./soceng.tex [60
 
 
 
 ]
 Chapter 9.
-) [61] (./keamanan.bbl [62
+) [61]
+\openout2 = `penutup.aux'.
+
+ (./penutup.tex [62
+
 
 
 ]
 Chapter 10.
+) [63] (./keamanan.bbl [64
+
+
+]
+Chapter 11.
 pdfTeX warning (ext4): destination with the same identifier (name{cite.webbook}
 ) has been already used, duplicate ignored
 <to be read again> 
@@ -2068,36 +2077,43 @@ l.30 \bibitem{BRsecuresoftware}
 <to be read again> 
                    \relax 
 l.35 \bibitem{brwannacry}
-                         ) [63] [64
+                         ) [65] [66
 
 ]
 LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <24> not available
-(Font)              Font shape `T1/pplj/b/n' tried instead on input line 60.
- [65
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 61.
+ [67
 
-] [66]
+] [68]
 \openout2 = `tcpdump.aux'.
 
  (./tcpdump.tex
 Appendix A.
-) [67
+) [69
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 64.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 64.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 65.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 65.
  (./keamanan.aux (./pengantar.aux) (./pendahuluan.aux) (./prinsip.aux)
 (./crypto.aux) (./hash.aux) (./DNS.aux) (./pgp.aux) (./email.aux) (./web.aux)
-(./penutup.aux) (./tcpdump.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 64.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 64.
-Package rerunfilecheck Info: File `keamanan.out' has not changed.
-(rerunfilecheck)             Checksum: 13AA4AF33130D3B4CFD6CCD2803C9480;5571.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 64.
+(./soceng.aux) (./penutup.aux) (./tcpdump.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 65.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 65.
+
+
+Package rerunfilecheck Warning: File `keamanan.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `keamanan.out':
+(rerunfilecheck)             Before: 13AA4AF33130D3B4CFD6CCD2803C9480;5571
+(rerunfilecheck)             After:  2D3D5E13CF3F3F5E06DED8912D1A76C0;5709.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 65.
  ) 
 Here is how much of TeX's memory you used:
- 24293 strings out of 494953
- 390422 string characters out of 6180977
+ 24301 strings out of 494953
+ 390496 string characters out of 6180977
  544451 words of memory out of 5000000
  26873 multiletter control sequences out of 15000+600000
  115498 words of font info for 146 fonts, out of 8000000 for 9000
@@ -2115,10 +2131,10 @@ st/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palat
 ino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.
 pfb>
-Output written on keamanan.pdf (67 pages, 522116 bytes).
+Output written on keamanan.pdf (69 pages, 522828 bytes).
 PDF statistics:
- 717 PDF objects out of 1000 (max. 8388607)
- 608 compressed objects within 7 object streams
- 223 named destinations out of 1000 (max. 500000)
+ 726 PDF objects out of 1000 (max. 8388607)
+ 615 compressed objects within 7 object streams
+ 226 named destinations out of 1000 (max. 500000)
  4967 words of extra memory for PDF output out of 10000 (max. 10000000)
 
