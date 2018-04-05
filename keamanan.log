@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  2 APR 2018 00:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  5 APR 2018 12:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2029,16 +2029,24 @@ LaTeX Warning: Marginpar on page 57 moved.
 
 ]
 Chapter 9.
-) [61]
+)
+
+LaTeX Warning: Marginpar on page 61 moved.
+
+[61]
+
+LaTeX Warning: Marginpar on page 62 moved.
+
+[62]
 \openout2 = `penutup.aux'.
 
- (./penutup.tex [62
-
-
-
-]
+ (./penutup.tex
 Chapter 10.
-) [63] (./keamanan.bbl [64
+) [63
+
+
+
+] (./keamanan.bbl [64
 
 
 ]
@@ -2069,16 +2077,27 @@ fier (name{cite.levycrypto}) has been already used, duplicate ignored
                    \relax 
 l.24 \bibitem{levycrypto}
                          pdfTeX warning (ext4): destination with the same ident
-ifier (name{cite.BRsecuresoftware}) has been already used, duplicate ignored
+ifier (name{cite.mitnickdeception}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.30 \bibitem{BRsecuresoftware}
+l.30 \bibitem{mitnickdeception}
+                               pdfTeX warning (ext4): destination with the same
+ identifier (name{cite.BRsecuresoftware}) has been already used, duplicate igno
+red
+<to be read again> 
+                   \relax 
+l.36 \bibitem{BRsecuresoftware}
                                pdfTeX warning (ext4): destination with the same
  identifier (name{cite.brwannacry}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.35 \bibitem{brwannacry}
-                         ) [65] [66
+l.41 \bibitem{brwannacry}
+                         pdfTeX warning (ext4): destination with the same ident
+ifier (name{cite.takedown}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.45 \bibitem{takedown}
+                       ) [65] [66
 
 ]
 LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <24> not available
@@ -2106,10 +2125,10 @@ Package rerunfilecheck Info: File `keamanan.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 65.
  ) 
 Here is how much of TeX's memory you used:
- 24305 strings out of 494953
- 390539 string characters out of 6180977
- 545183 words of memory out of 5000000
- 26875 multiletter control sequences out of 15000+600000
+ 24315 strings out of 494953
+ 390727 string characters out of 6180977
+ 545533 words of memory out of 5000000
+ 26883 multiletter control sequences out of 15000+600000
  115498 words of font info for 146 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  50i,12n,98p,10417b,2293s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2125,10 +2144,10 @@ st/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palat
 ino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.
 pfb>
-Output written on keamanan.pdf (69 pages, 523773 bytes).
+Output written on keamanan.pdf (69 pages, 525458 bytes).
 PDF statistics:
- 731 PDF objects out of 1000 (max. 8388607)
- 619 compressed objects within 7 object streams
- 226 named destinations out of 1000 (max. 500000)
+ 733 PDF objects out of 1000 (max. 8388607)
+ 621 compressed objects within 7 object streams
+ 228 named destinations out of 1000 (max. 500000)
  4975 words of extra memory for PDF output out of 10000 (max. 10000000)
 
