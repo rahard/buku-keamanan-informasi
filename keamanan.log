@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  5 APR 2018 12:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  5 APR 2018 19:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2029,15 +2029,17 @@ LaTeX Warning: Marginpar on page 57 moved.
 
 ]
 Chapter 9.
-)
-
-LaTeX Warning: Marginpar on page 61 moved.
-
 [61]
 
 LaTeX Warning: Marginpar on page 62 moved.
 
-[62]
+
+LaTeX Warning: Marginpar on page 62 moved.
+
+
+LaTeX Warning: Marginpar on page 62 moved.
+
+) [62]
 \openout2 = `penutup.aux'.
 
  (./penutup.tex
@@ -2144,7 +2146,7 @@ st/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palat
 ino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.
 pfb>
-Output written on keamanan.pdf (69 pages, 525458 bytes).
+Output written on keamanan.pdf (69 pages, 525782 bytes).
 PDF statistics:
  733 PDF objects out of 1000 (max. 8388607)
  621 compressed objects within 7 object streams
