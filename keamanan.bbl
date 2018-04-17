@@ -27,6 +27,12 @@ Steven Levy.
   in the Digital Age}.
 \newblock Penguin Books, 2001.
 
+\bibitem{mitnickdeception}
+Kevin Mitnick and William~L. Simon.
+\newblock {\em The Art of Deception: Controlling the Human Element of
+  Security}.
+\newblock Paperback, 2003.
+
 \bibitem{BRsecuresoftware}
 Budi Rahardjo.
 \newblock {\em Keamanan Perangkat Lunak}.
@@ -36,8 +42,16 @@ Budi Rahardjo.
 Budi Rahardjo.
 \newblock Penanganan ransomware wannacry, Mei 2017.
 
+<<<<<<< HEAD
 \bibitem{MD5}
 Ronald Rivest.
 \newblock The md5 message-digest algorithm.
+=======
+\bibitem{takedown}
+Tsutomo Shimomura and John Markoff.
+\newblock {\em Takedown: The Pursuit and Capture of Kevin Mitnick, America's
+  Most Wanted Computer Outlaw - By the Man Who Did It}.
+\newblock Mass Market Paperback, 1996.
+>>>>>>> 20a398fba8840a7708840063687181a765692d09
 
 \end{thebibliography}

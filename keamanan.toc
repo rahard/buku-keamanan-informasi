@@ -26,6 +26,7 @@
 \contentsline {section}{\numberline {4.3}Diffie-Hellman Key Exchange}{28}{section.4.3}
 \contentsline {section}{\numberline {4.4}Kualitas Sistem Kriptografi}{28}{section.4.4}
 \contentsline {section}{\numberline {4.5}Fungsi Hash}{29}{section.4.5}
+<<<<<<< HEAD
 \contentsline {section}{\numberline {4.6}MD5}{30}{section.4.6}
 \contentsline {chapter}{\numberline {5}Domain Name System (DNS)}{33}{chapter.5}
 \contentsline {section}{\numberline {5.1}Sejarah DNS}{33}{section.5.1}
@@ -58,6 +59,40 @@
 \contentsline {subsection}{\numberline {8.3.3}Availability}{61}{subsection.8.3.3}
 \contentsline {chapter}{\numberline {9}Penutup}{63}{chapter.9}
 \contentsline {chapter}{\numberline {10}Bibliography}{65}{chapter.10}
+=======
+\contentsline {chapter}{\numberline {5}Domain Name System (DNS)}{31}{chapter.5}
+\contentsline {section}{\numberline {5.1}Sejarah DNS}{31}{section.5.1}
+\contentsline {section}{\numberline {5.2}DNS Filtering}{34}{section.5.2}
+\contentsline {section}{\numberline {5.3}DNS spoofing}{35}{section.5.3}
+\contentsline {section}{\numberline {5.4}Zone Transfer}{35}{section.5.4}
+\contentsline {section}{\numberline {5.5}Random Label Attack}{36}{section.5.5}
+\contentsline {chapter}{\numberline {6}PGP / Gnu Privacy Guard}{37}{chapter.6}
+\contentsline {section}{\numberline {6.1}Sejarah}{37}{section.6.1}
+\contentsline {section}{\numberline {6.2}Menggunakan Gnu Privacy Guard, gpg}{37}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Enkrip Untuk Sebuah Alamat Email}{40}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Tanda Tangan Dokumen}{42}{subsection.6.2.2}
+\contentsline {section}{\numberline {6.3}Tools}{44}{section.6.3}
+\contentsline {section}{\numberline {6.4}Web of Trust}{44}{section.6.4}
+\contentsline {chapter}{\numberline {7}Keamanan Sistem Email}{45}{chapter.7}
+\contentsline {section}{\numberline {7.1}Komponen Sistem Email}{45}{section.7.1}
+\contentsline {section}{\numberline {7.2}Standar Email}{46}{section.7.2}
+\contentsline {section}{\numberline {7.3}Penyadapan Email}{49}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Penyadapan SMTP}{49}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Penyadapan POP3: Post Office Protocol}{50}{subsection.7.3.2}
+\contentsline {section}{\numberline {7.4}Pemalsuan Email}{50}{section.7.4}
+\contentsline {section}{\numberline {7.5}Mailbomb}{52}{section.7.5}
+\contentsline {section}{\numberline {7.6}Spam}{53}{section.7.6}
+\contentsline {chapter}{\numberline {8}Keamanan Sistem Web}{55}{chapter.8}
+\contentsline {section}{\numberline {8.1}Sejarah Web}{55}{section.8.1}
+\contentsline {section}{\numberline {8.2}Topologi dan Asumsi}{56}{section.8.2}
+\contentsline {section}{\numberline {8.3}Keamanan Server Web}{57}{section.8.3}
+\contentsline {subsection}{\numberline {8.3.1}Confidentiality}{58}{subsection.8.3.1}
+\contentsline {subsection}{\numberline {8.3.2}Integrity}{59}{subsection.8.3.2}
+\contentsline {subsection}{\numberline {8.3.3}Availability}{59}{subsection.8.3.3}
+\contentsline {chapter}{\numberline {9}Social Engineering}{61}{chapter.9}
+\contentsline {chapter}{\numberline {10}Penutup}{63}{chapter.10}
+\contentsline {chapter}{\numberline {11}Bibliography}{65}{chapter.11}
+>>>>>>> 20a398fba8840a7708840063687181a765692d09
 \contentsline {chapter}{Appendices}{67}{section*.2}
 \contentsline {chapter}{\numberline {A}tcpdump}{69}{Appendix.1.A}
 \contentsfinish 

@@ -10,6 +10,7 @@ A level-1 auxiliary file: DNS.aux
 A level-1 auxiliary file: pgp.aux
 A level-1 auxiliary file: email.aux
 A level-1 auxiliary file: web.aux
+A level-1 auxiliary file: soceng.aux
 A level-1 auxiliary file: penutup.aux
 The style file: plain.bst
 A level-1 auxiliary file: tcpdump.aux
@@ -19,6 +20,7 @@ Warning--entry type for "rfc822" isn't style-file defined
 Warning--entry type for "RFC2068" isn't style-file defined
 --line 27 of file referensi.bib
 Warning--entry type for "brwannacry" isn't style-file defined
+<<<<<<< HEAD
 --line 57 of file referensi.bib
 Warning--entry type for "md5" isn't style-file defined
 --line 81 of file referensi.bib
@@ -55,12 +57,55 @@ skip$ -- 58
 stack$ -- 0
 substring$ -- 41
 swap$ -- 8
+=======
+--line 68 of file referensi.bib
+You've used 9 entries,
+            2118 wiz_defined-function locations,
+            559 strings with 5204 characters,
+and the built_in function-call counts, 2110 in all, are:
+= -- 180
+> -- 96
+< -- 0
++ -- 40
+- -- 30
+* -- 99
+:= -- 369
+add.period$ -- 24
+call.type$ -- 9
+change.case$ -- 36
+chr.to.int$ -- 0
+cite$ -- 9
+duplicate$ -- 93
+empty$ -- 199
+format.name$ -- 30
+if$ -- 442
+int.to.chr$ -- 0
+int.to.str$ -- 9
+missing$ -- 12
+newline$ -- 45
+num.names$ -- 18
+pop$ -- 81
+preamble$ -- 1
+purify$ -- 33
+quote$ -- 0
+skip$ -- 62
+stack$ -- 0
+substring$ -- 46
+swap$ -- 9
+>>>>>>> 20a398fba8840a7708840063687181a765692d09
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 24
 warning$ -- 0
+<<<<<<< HEAD
 while$ -- 16
 width$ -- 9
 write$ -- 73
 (There were 4 warnings)
+=======
+while$ -- 18
+width$ -- 10
+write$ -- 86
+(There were 3 warnings)
+>>>>>>> 20a398fba8840a7708840063687181a765692d09
