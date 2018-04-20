@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{webbook}
 Tim Berners-Lee.
@@ -15,6 +15,12 @@ David~H. Crocker.
 R.~Fielding, J.~Gettys, J.~Mogul, H.~Frystyk, and Tim Berners-Lee.
 \newblock {RFC}2068: {H}ypertext {T}ransfer {P}rotocol -- {HTTP}/1.1, January
   1997.
+
+\bibitem{sp800-84}
+Tim Grance, Tamara Nolan, Kristin Burke, Rich Dudley, Gregory White, and Travis
+  Good.
+\newblock Guide to test, training, and exercise programs for it plans and
+  capabilities, September 2006.
 
 \bibitem{davidkahn}
 David Kahn.
@@ -42,16 +48,14 @@ Budi Rahardjo.
 Budi Rahardjo.
 \newblock Penanganan ransomware wannacry, Mei 2017.
 
-<<<<<<< HEAD
 \bibitem{MD5}
 Ronald Rivest.
 \newblock The md5 message-digest algorithm.
-=======
+
 \bibitem{takedown}
 Tsutomo Shimomura and John Markoff.
 \newblock {\em Takedown: The Pursuit and Capture of Kevin Mitnick, America's
   Most Wanted Computer Outlaw - By the Man Who Did It}.
 \newblock Mass Market Paperback, 1996.
->>>>>>> 20a398fba8840a7708840063687181a765692d09
 
 \end{thebibliography}

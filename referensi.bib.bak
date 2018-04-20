@@ -1,4 +1,3 @@
-% This file was created with JabRef 2.10.
 % Encoding: UTF-8
 
 
@@ -55,6 +54,16 @@
   Timestamp                = {2017.02.17}
 }
 
+@Book{mitnickdeception,
+  Title                    = {The Art of Deception: Controlling the Human Element of Security},
+  Author                   = {Kevin Mitnick and William L. Simon},
+  Publisher                = {Paperback},
+  Year                     = {2003},
+
+  Owner                    = {budi},
+  Timestamp                = {2018.04.05}
+}
+
 @Electronic{brwannacry,
   Title                    = {Penanganan Ransomware WannaCry},
   Author                   = {Budi Rahardjo},
@@ -76,6 +85,17 @@
   Timestamp                = {2017.01.28}
 }
 
+<<<<<<< HEAD
+@TechReport{,
+}
+
+@Standard{md5,
+  title        = {The MD5 Message-Digest Algorithm},
+  organization = {MIT Laboratory for Computer Science and RSA Data Security, Inc.},
+  author       = {Ronald Rivest},
+  number       = {RFC1321},
+}
+=======
 @Book{takedown,
   Title                    = {Takedown: The Pursuit and Capture of Kevin Mitnick, America's Most Wanted Computer Outlaw - By the Man Who Did It},
   Author                   = {Tsutomo Shimomura and John Markoff},
@@ -87,4 +107,6 @@
 }
 
 @comment{jabref-meta: databaseType:bibtex;}
+>>>>>>> 20a398fba8840a7708840063687181a765692d09
 
+@Comment{jabref-meta: databaseType:bibtex;}

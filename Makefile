@@ -8,3 +8,5 @@ ALL:
 	pdflatex keamanan.tex
 	pdflatex keamanan.tex
 
+clean:
+	rm *.log
