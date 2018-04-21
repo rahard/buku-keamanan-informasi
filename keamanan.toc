@@ -59,9 +59,10 @@
 \contentsline {chapter}{\numberline {9}Social Engineering}{63}{chapter.9}
 \contentsline {chapter}{\numberline {10}Penanganan Insiden Teknologi Informasi}{65}{chapter.10}
 \contentsline {section}{\numberline {10.1}Definisi Insiden}{66}{section.10.1}
-\contentsline {section}{\numberline {10.2}Latihan Penanganan Keamanan}{67}{section.10.2}
-\contentsline {chapter}{\numberline {11}Penutup}{69}{chapter.11}
-\contentsline {chapter}{\numberline {12}Bibliography}{71}{chapter.12}
-\contentsline {chapter}{Appendices}{73}{section*.2}
-\contentsline {chapter}{\numberline {A}tcpdump}{75}{Appendix.1.A}
+\contentsline {section}{\numberline {10.2}Metodologi}{67}{section.10.2}
+\contentsline {section}{\numberline {10.3}Latihan Penanganan Keamanan}{68}{section.10.3}
+\contentsline {chapter}{\numberline {11}Penutup}{71}{chapter.11}
+\contentsline {chapter}{\numberline {12}Bibliography}{73}{chapter.12}
+\contentsline {chapter}{Appendices}{75}{section*.2}
+\contentsline {chapter}{\numberline {A}tcpdump}{77}{Appendix.1.A}
 \contentsfinish 

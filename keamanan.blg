@@ -26,45 +26,45 @@ Warning--entry type for "md5" isn't style-file defined
 --line 88 of file referensi.bib
 Warning--entry type for "sp800-84" isn't style-file defined
 --line 105 of file referensi.bib
-You've used 11 entries,
+You've used 12 entries,
             2118 wiz_defined-function locations,
-            573 strings with 5602 characters,
-and the built_in function-call counts, 2666 in all, are:
-= -- 224
-> -- 136
+            577 strings with 5712 characters,
+and the built_in function-call counts, 2917 in all, are:
+= -- 246
+> -- 149
 < -- 0
-+ -- 57
-- -- 44
-* -- 133
-:= -- 464
-add.period$ -- 28
-call.type$ -- 11
-change.case$ -- 49
++ -- 62
+- -- 48
+* -- 145
+:= -- 508
+add.period$ -- 31
+call.type$ -- 12
+change.case$ -- 53
 chr.to.int$ -- 0
-cite$ -- 11
-duplicate$ -- 107
-empty$ -- 243
-format.name$ -- 44
-if$ -- 554
+cite$ -- 12
+duplicate$ -- 119
+empty$ -- 265
+format.name$ -- 48
+if$ -- 607
 int.to.chr$ -- 0
-int.to.str$ -- 11
-missing$ -- 12
-newline$ -- 53
-num.names$ -- 22
-pop$ -- 103
+int.to.str$ -- 12
+missing$ -- 14
+newline$ -- 58
+num.names$ -- 24
+pop$ -- 112
 preamble$ -- 1
-purify$ -- 44
+purify$ -- 48
 quote$ -- 0
-skip$ -- 79
+skip$ -- 86
 stack$ -- 0
-substring$ -- 57
-swap$ -- 11
+substring$ -- 62
+swap$ -- 12
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 32
+type$ -- 34
 warning$ -- 0
-while$ -- 22
-width$ -- 13
-write$ -- 101
+while$ -- 24
+width$ -- 14
+write$ -- 111
 (There were 5 warnings)

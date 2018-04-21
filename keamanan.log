@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.4)  19 APR 2018 16:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.4)  21 APR 2018 12:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1166,7 +1166,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 83--83
 \T1/pplj/m/n/10 Com-mons ^^P  Attribution-NonCommercial-
  []
 
-<doclicense-CC-by-nc-sa.pdf, id=247, 121.45375pt x 43.16125pt>
+<doclicense-CC-by-nc-sa.pdf, id=251, 121.45375pt x 43.16125pt>
 File: doclicense-CC-by-nc-sa.pdf Graphic file (type pdf)
 
 <use doclicense-CC-by-nc-sa.pdf>
@@ -1224,7 +1224,7 @@ LaTeX Warning: Marginpar on page 9 moved.
 
 LaTeX Warning: Marginpar on page 9 moved.
 
-<graphics/telegram-down.jpg, id=276, 461.47406pt x 250.68657pt>
+<graphics/telegram-down.jpg, id=280, 461.47406pt x 250.68657pt>
 File: graphics/telegram-down.jpg Graphic file (type jpg)
 
 <use graphics/telegram-down.jpg>
@@ -1243,7 +1243,7 @@ LaTeX Warning: Marginpar on page 10 moved.
 LaTeX Warning: Marginpar on page 10 moved.
 
 [10 <./graphics/telegram-down.jpg>] [11]
-<graphics/security-life-cycle.png, id=306, 577.15625pt x 481.8pt>
+<graphics/security-life-cycle.png, id=310, 577.15625pt x 481.8pt>
 File: graphics/security-life-cycle.png Graphic file (type png)
 
 <use graphics/security-life-cycle.png>
@@ -1304,7 +1304,7 @@ grafi,
 
 LaTeX Warning: Marginpar on page 21 moved.
 
-<graphics/BR-watermark.png, id=362, 422.5386pt x 298.4751pt>
+<graphics/BR-watermark.png, id=366, 422.5386pt x 298.4751pt>
 File: graphics/BR-watermark.png Graphic file (type png)
 
 <use graphics/BR-watermark.png>
@@ -1544,7 +1544,7 @@ Overfull \hbox (66.66058pt too wide) in paragraph at lines 108--108
 C5 EB6C EB46[] 
  []
 
-<graphics/pgp-mit.png, id=500, 642.4pt x 557.08125pt>
+<graphics/pgp-mit.png, id=504, 642.4pt x 557.08125pt>
 File: graphics/pgp-mit.png Graphic file (type png)
 
 <use graphics/pgp-mit.png>
@@ -1848,7 +1848,7 @@ Chapter 7.
 
 LaTeX Warning: Marginpar on page 47 moved.
 
-<graphics/email-topologi.png, id=539, 597.9138pt x 183.5658pt>
+<graphics/email-topologi.png, id=543, 597.9138pt x 183.5658pt>
 File: graphics/email-topologi.png Graphic file (type png)
 
 <use graphics/email-topologi.png>
@@ -2072,20 +2072,59 @@ Chapter 10.
 
 
 
-] [66])
+]
+
+LaTeX Warning: Marginpar on page 66 moved.
+
+[66]
 
 LaTeX Warning: Marginpar on page 67 moved.
 
-[67]
+pdfTeX warning (ext4): destination with the same identifier (name{cite.mandiain
+cident}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.99 ...alah sebagai berikut~\cite{mandiaincident}
+                                                  :
+
+LaTeX Warning: Marginpar on page 67 moved.
+
+[67pdfTeX warning (ext4): destination with the same identifier (name{cite.mandi
+aincident}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.119    \item {
+                \bf Follow-up}. Menindaklanjuti hal-hal yang perlu diperhatikan
+]
+
+LaTeX Warning: Marginpar on page 68 moved.
+
+<graphics/tte.png, id=668, 791.5974pt x 501.072pt>
+File: graphics/tte.png Graphic file (type png)
+ <use graphics/tte.png>
+Package pdftex.def Info: graphics/tte.png used on input line 134.
+(pdftex.def)             Requested size: 311.99509pt x 197.48929pt.
+
+Overfull \hbox (6.79507pt too wide) in paragraph at lines 134--137
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--137
+
+ []
+
+[68 <./graphics/tte.png>]) [69]
 \openout2 = `penutup.aux'.
 
- (./penutup.tex [68
+ (./penutup.tex [70
 
 
 
 ]
 Chapter 11.
-) [69] (./keamanan.bbl [70
+) [71] (./keamanan.bbl [72
 
 
 ]
@@ -2121,44 +2160,50 @@ fier (name{cite.levycrypto}) has been already used, duplicate ignored
                    \relax 
 l.30 \bibitem{levycrypto}
                          pdfTeX warning (ext4): destination with the same ident
-ifier (name{cite.mitnickdeception}) has been already used, duplicate ignored
+ifier (name{cite.mandiaincident}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.36 \bibitem{mitnickdeception}
+l.36 \bibitem{mandiaincident}
+                             pdfTeX warning (ext4): destination with the same i
+dentifier (name{cite.mitnickdeception}) has been already used, duplicate ignore
+d
+<to be read again> 
+                   \relax 
+l.41 \bibitem{mitnickdeception}
                                pdfTeX warning (ext4): destination with the same
  identifier (name{cite.BRsecuresoftware}) has been already used, duplicate igno
 red
 <to be read again> 
                    \relax 
-l.42 \bibitem{BRsecuresoftware}
+l.47 \bibitem{BRsecuresoftware}
                                pdfTeX warning (ext4): destination with the same
  identifier (name{cite.brwannacry}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.47 \bibitem{brwannacry}
+l.52 \bibitem{brwannacry}
                          pdfTeX warning (ext4): destination with the same ident
 ifier (name{cite.MD5}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.51 \bibitem{MD5}
+l.56 \bibitem{MD5}
                   pdfTeX warning (ext4): destination with the same identifier (
 name{cite.takedown}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.55 \bibitem{takedown}
-                       ) [71] [72
+l.60 \bibitem{takedown}
+                       ) [73] [74
 
 ]
 LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <24> not available
 (Font)              Font shape `T1/pplj/b/n' tried instead on input line 62.
- [73
+ [75
 
-] [74]
+] [76]
 \openout2 = `tcpdump.aux'.
 
  (./tcpdump.tex
 Appendix A.
-) [75
+) [77
 
 
 ]
@@ -2170,14 +2215,14 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 66.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 66.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 66.
 Package rerunfilecheck Info: File `keamanan.out' has not changed.
-(rerunfilecheck)             Checksum: C129AAD8D8FC19579249D214D998988C;6361.
+(rerunfilecheck)             Checksum: 48609466DCB352C7A03766E08D278982;6468.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 66.
  ) 
 Here is how much of TeX's memory you used:
- 24355 strings out of 493042
- 393089 string characters out of 6134661
- 551308 words of memory out of 5000000
- 27141 multiletter control sequences out of 15000+600000
+ 24371 strings out of 493042
+ 393337 string characters out of 6134661
+ 551504 words of memory out of 5000000
+ 27152 multiletter control sequences out of 15000+600000
  115498 words of font info for 146 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  50i,12n,98p,10417b,2293s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2193,10 +2238,10 @@ bera/fvmro8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/u
 hvr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplb8a.p
 fb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></us
 r/local/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on keamanan.pdf (75 pages, 532988 bytes).
+Output written on keamanan.pdf (77 pages, 840601 bytes).
 PDF statistics:
- 798 PDF objects out of 1000 (max. 8388607)
- 679 compressed objects within 7 object streams
- 253 named destinations out of 1000 (max. 500000)
- 5007 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 813 PDF objects out of 1000 (max. 8388607)
+ 691 compressed objects within 7 object streams
+ 257 named destinations out of 1000 (max. 500000)
+ 5020 words of extra memory for PDF output out of 10000 (max. 10000000)
 

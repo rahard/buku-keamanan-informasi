@@ -85,10 +85,6 @@
   Timestamp                = {2017.01.28}
 }
 
-<<<<<<< HEAD
-@TechReport{,
-}
-
 @Standard{md5,
   title        = {The MD5 Message-Digest Algorithm},
   organization = {MIT Laboratory for Computer Science and RSA Data Security, Inc.},
@@ -106,7 +102,15 @@
   Timestamp                = {2018.04.05}
 }
 
-@comment{jabref-meta: databaseType:bibtex;}
->>>>>>> 20a398fba8840a7708840063687181a765692d09
+@Standard{sp800-84,
+  title        = {Guide to Test, Training, and Exercise Programs for IT Plans and Capabilities},
+  organization = {National Institute of Standards and Technology},
+  institution  = {U.S. Departement of Commerce},
+  author       = {Tim Grance and Tamara Nolan and Kristin Burke and Rich Dudley and Gregory White and Travis Good},
+  language     = {English},
+  number       = {SP800-84},
+  month        = {September},
+  year         = {2006},
+}
 
 @Comment{jabref-meta: databaseType:bibtex;}

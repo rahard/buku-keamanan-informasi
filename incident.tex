@@ -69,7 +69,7 @@ dalam instansi tersebut.
 
 
 Sementara itu Kevin Mandia dan Chris Prosise dalam bukunya
-``Incident Response'' mendefinisikan insiden sebagai berikut:
+``Incident Response''~\cite{mandiaincident} mendefinisikan insiden sebagai berikut:
 \begin{quote}
    Incidents are events that interrupt normal operating procedure
    and precipitate some level of crisis.
@@ -80,7 +80,7 @@ disebut ``normal''. Biasanya ini dikaitkan dengan keberadaan
 standar atau prosedur di instansi tersebut.
 
 
-Tujuan dari penanganan insiden adalah:
+Tujuan dari penanganan insiden~\cite{mandiaincident} adalah:
 \begin{itemize}
    \item memastikan bahwa insiden terjadi atau tidak terjadi;
    \item melakukan informasi yang akurat;
@@ -93,11 +93,83 @@ Tujuan dari penanganan insiden adalah:
    \item membuat laporan yang akurat beserta rekomendasinya.
 \end{itemize}
 
+\section{Metodologi}
+Agar tujuan penanganan insiden dapat tercapai, maka harus ada langkah-langkah
+yang dilakukan. 
+Metodologi respon terhadap insiden adalah sebagai berikut~\cite{mandiaincident}:
+\begin{itemize}
+   \item {\bf Pre-incident preparation}. Ini adalah hal-hal yang harus
+      dilakukan sebelum insiden terjadi. Sebagai contoh, penetapan tim
+      penanganan insiden, penyediaan {\em tools}, dan seterusnya.
+   \item {\bf Detection of incidents}. Awal dari sebuah penanganan insiden
+      adalah mendeteksi adanya insiden. Deteksi dapat dilakukan oleh {\em
+      tools} atau oleh pelaporan manusia.
+   \item {\bf Initial response}. Awal respon dibutuhkan agar data yang sifatnya
+      {\em volatile} (mudah hilang) dapat segera diamankan.
+   \item {\bf Response strategy formulation}. Berdasarkan fakta yang diperoleh
+      sebelumnya, tentukan respon awal (yang sudah disetujui oleh pimpinan).
+   \item {\bf Duplication (forensic backups)}. Menentukan backup untuk
+      kebutuhan investigasi.
+   \item {\bf Investigation}. Melakukan investigasi sesungguhnya.
+   \item {\bf Security measure implementation}. Menerapkan kendali-kendali
+      untuk mengamankan sistem.
+   \item {\bf Network monitoring}. Melakukan pemantauan jaringan.
+   \item {\bf Recovery}. Melakukan {\em recovery}.
+   \item {\bf Reporting}. Mendokumentasikan insiden yang terjadi.
+   \item {\bf Follow-up}. Menindaklanjuti hal-hal yang perlu diperhatikan
+      terkait dengan insiden yang terjadi.
+\end{itemize}
+
 
 \section{Latihan Penanganan Keamanan}
 Salah satu kegiatan terkait dengan penanganan insiden adalah melatih kemampuan
 penanganan insiden. Biasanya kegiatan ini disebut sebagai {\em exercise} atau
 {\em drill}. Sebetulnya latihan ini tidak berdiri sendiri, melainkan terkait
-dengan kegiatan-kegiatan lain seperti pelatihan dan pengujian.
+dengan kegiatan-kegiatan lain seperti pelatihan ({\em training}) dan pengujian
+({\em test}).
 Salah satu dokumen yang dapat digunakan sebagai acuan untuk melakukan pelatihan
 adalah NIST SP800-84~\cite{sp800-84}.
+
+\begin{figure}[ht]
+\fbox{\includegraphics[width=1.0\linewidth]{graphics/tte.png}}
+\caption{Test, Training, Exercise}
+\label{fig:tte}
+\end{figure}
+
+
+Metodologi {\em exercise} yang digunakan oleh NIST SP800-84 adalah sebuah siklus 
+dengan tahapan seperti ditunjukkan pada gambar~\ref{fig:tte}. Tahapan tersebut
+adalah:
+\begin{itemize}
+   \item perencanaan ({\em design});
+   \item pengembangan ({\em develop});
+   \item pelaksanaan ({\em conduct});
+   \item evaluasi ({\em evaluate}).
+\end{itemize}
+Pada tahap awal, tahap perencanaan ({\em design}), dilakukan perencanaan terhadap 
+kegiatan {\em exercise} yang akan dilakukan. Apa yang akan diujikan dipilih.
+Biasanya ini terkait dengan {\em IT plan} atau kemampuan ({\em capability})
+tertentu yang ingin diuji coba. Sebagai contoh, kemampuan melakukan {\em
+backup} dan {\em recovery} dapat dipilih. Atau kemampuan pemindahan sistem dari
+{\em Data Center} (DC) ke {\em Disaster Recovery Center} (DRC) dapat dipilih
+untuk dilatih.
+Ruang lingkup dari {\em exercise} ditentukan. Apakah pelaksanaan akan
+melibatkan pimpinan atau hanya terbatas pada divisi tertentu.
+Peserta dan pihak-pihak terkait yang akan dilibatkan ditentukan.
+Tempat pelaksanaan dipilih.
+
+Pada tahap pengembangan ({\em development}) apa-apa yang sudah direncanakan
+pada tahap perencanaan mulai dilakukan. Sebagai contoh, borang ({\em form})
+yang akan digunakan pada pelaksanaan mulai dibuat. Daftar hadir dibuat,
+undangan dibuat dan disebarkan, ruangan tempat acara dipesan, dan hal-hal 
+terkait dengan masalah administrasi mulai dilakukan.
+
+Tahap pelaksanaan ({\em conduct}) adalah waktu dimana kegiatan dilaksanakan.
+Semua yang sudah direncanakan akan dieksekusi pada tahap ini.
+Penyelenggara memulai acara.
+Tim pencatat melakukan pencatatan segala kejadian yang terjadi pada
+pelaksanaan.
+Pada akhir pelaksanaan dikumpulkan catatan-catatan dan dokumen-dokumen terkait.
+
+Hasil dari pelaksanaan {\em exercise} dievaluasi pada tahap evaluasi.
+Hal ini akan digunakan untuk latihan berikutnya atau pengujian yang baru.
