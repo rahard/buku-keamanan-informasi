@@ -1,68 +1,70 @@
-\contentsline {chapter}{\numberline {1}Pengantar}{5}{chapter.1}
-\contentsline {chapter}{\numberline {2}Pendahuluan}{7}{chapter.2}
-\contentsline {section}{\numberline {2.1}Keamanan Informasi}{7}{section.2.1}
-\contentsline {section}{\numberline {2.2}Beberapa Contoh Kasus}{7}{section.2.2}
-\contentsline {section}{\numberline {2.3}Security Life Cycle}{12}{section.2.3}
-\contentsline {section}{\numberline {2.4}Keamanan Dari Berbagai Elemen Sistem}{15}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Computer Security}{15}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Network Security}{15}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}Application Security}{15}{subsection.2.4.3}
-\contentsline {chapter}{\numberline {3}Prinsip-prinsip Keamanan Informasi}{17}{chapter.3}
-\contentsline {section}{\numberline {3.1}Aspek Keamanan}{17}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Confidentiality}{17}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Integrity}{18}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Availability}{18}{subsection.3.1.3}
-\contentsline {section}{\numberline {3.2}Aspek Keamanan Lainnya}{18}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Non-repudiation}{19}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Authentication}{19}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Authorization}{19}{subsection.3.2.3}
-\contentsline {chapter}{\numberline {4}Kriptografi}{21}{chapter.4}
-\contentsline {section}{\numberline {4.1}Steganografi}{21}{section.4.1}
-\contentsline {section}{\numberline {4.2}Kriptografi}{22}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Struktur Sistem Kriptografi}{24}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Kriptografi Kunci Privat}{25}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Kriptografi Kunci Publik}{26}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}Kriptografi Hybrid}{27}{subsection.4.2.4}
-\contentsline {section}{\numberline {4.3}Diffie-Hellman Key Exchange}{28}{section.4.3}
-\contentsline {section}{\numberline {4.4}Kualitas Sistem Kriptografi}{28}{section.4.4}
-\contentsline {section}{\numberline {4.5}Fungsi Hash}{29}{section.4.5}
-\contentsline {section}{\numberline {4.6}MD5}{30}{section.4.6}
-\contentsline {chapter}{\numberline {5}Domain Name System (DNS)}{33}{chapter.5}
-\contentsline {section}{\numberline {5.1}Sejarah DNS}{33}{section.5.1}
-\contentsline {section}{\numberline {5.2}DNS Filtering}{36}{section.5.2}
-\contentsline {section}{\numberline {5.3}DNS spoofing}{37}{section.5.3}
-\contentsline {section}{\numberline {5.4}Zone Transfer}{37}{section.5.4}
-\contentsline {section}{\numberline {5.5}Random Label Attack}{38}{section.5.5}
-\contentsline {chapter}{\numberline {6}PGP / Gnu Privacy Guard}{39}{chapter.6}
-\contentsline {section}{\numberline {6.1}Sejarah}{39}{section.6.1}
-\contentsline {section}{\numberline {6.2}Menggunakan Gnu Privacy Guard, gpg}{39}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Enkrip Untuk Sebuah Alamat Email}{42}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Tanda Tangan Dokumen}{44}{subsection.6.2.2}
-\contentsline {section}{\numberline {6.3}Tools}{46}{section.6.3}
-\contentsline {section}{\numberline {6.4}Web of Trust}{46}{section.6.4}
-\contentsline {chapter}{\numberline {7}Keamanan Sistem Email}{47}{chapter.7}
-\contentsline {section}{\numberline {7.1}Komponen Sistem Email}{47}{section.7.1}
-\contentsline {section}{\numberline {7.2}Standar Email}{48}{section.7.2}
-\contentsline {section}{\numberline {7.3}Penyadapan Email}{51}{section.7.3}
-\contentsline {subsection}{\numberline {7.3.1}Penyadapan SMTP}{51}{subsection.7.3.1}
-\contentsline {subsection}{\numberline {7.3.2}Penyadapan POP3: Post Office Protocol}{52}{subsection.7.3.2}
-\contentsline {section}{\numberline {7.4}Pemalsuan Email}{52}{section.7.4}
-\contentsline {section}{\numberline {7.5}Mailbomb}{54}{section.7.5}
-\contentsline {section}{\numberline {7.6}Spam}{55}{section.7.6}
-\contentsline {chapter}{\numberline {8}Keamanan Sistem Web}{57}{chapter.8}
-\contentsline {section}{\numberline {8.1}Sejarah Web}{57}{section.8.1}
-\contentsline {section}{\numberline {8.2}Topologi dan Asumsi}{58}{section.8.2}
-\contentsline {section}{\numberline {8.3}Keamanan Server Web}{59}{section.8.3}
-\contentsline {subsection}{\numberline {8.3.1}Confidentiality}{60}{subsection.8.3.1}
-\contentsline {subsection}{\numberline {8.3.2}Integrity}{61}{subsection.8.3.2}
-\contentsline {subsection}{\numberline {8.3.3}Availability}{61}{subsection.8.3.3}
-\contentsline {chapter}{\numberline {9}Social Engineering}{63}{chapter.9}
-\contentsline {chapter}{\numberline {10}Penanganan Insiden Teknologi Informasi}{65}{chapter.10}
-\contentsline {section}{\numberline {10.1}Definisi Insiden}{66}{section.10.1}
-\contentsline {section}{\numberline {10.2}Metodologi}{67}{section.10.2}
-\contentsline {section}{\numberline {10.3}Latihan Penanganan Keamanan}{68}{section.10.3}
-\contentsline {chapter}{\numberline {11}Penutup}{71}{chapter.11}
-\contentsline {chapter}{\numberline {12}Bibliography}{73}{chapter.12}
-\contentsline {chapter}{Appendices}{75}{section*.2}
-\contentsline {chapter}{\numberline {A}tcpdump}{77}{Appendix.1.A}
+\contentsline {chapter}{\numberline {1}Pengantar}{5}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Pendahuluan}{7}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Keamanan Informasi}{7}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Beberapa Contoh Kasus}{7}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Security Life Cycle}{12}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Keamanan Dari Berbagai Elemen Sistem}{15}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Computer Security}{15}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Network Security}{15}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Application Security}{15}{subsection.2.4.3}%
+\contentsline {chapter}{\numberline {3}Prinsip-prinsip Keamanan Informasi}{17}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Aspek Keamanan}{17}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Confidentiality}{17}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Integrity}{18}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Availability}{18}{subsection.3.1.3}%
+\contentsline {section}{\numberline {3.2}Aspek Keamanan Lainnya}{18}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Non-repudiation}{19}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Authentication}{19}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Authorization}{19}{subsection.3.2.3}%
+\contentsline {chapter}{\numberline {4}Kriptografi}{21}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Steganografi}{21}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Kriptografi}{22}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Struktur Sistem Kriptografi}{24}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Kriptografi Kunci Privat}{25}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Kriptografi Kunci Publik}{26}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Kriptografi Hybrid}{27}{subsection.4.2.4}%
+\contentsline {section}{\numberline {4.3}Diffie-Hellman Key Exchange}{28}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Kualitas Sistem Kriptografi}{28}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Fungsi Hash}{29}{section.4.5}%
+\contentsline {section}{\numberline {4.6}MD5}{30}{section.4.6}%
+\contentsline {chapter}{\numberline {5}Domain Name System (DNS)}{33}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Sejarah DNS}{33}{section.5.1}%
+\contentsline {section}{\numberline {5.2}DNS Filtering}{36}{section.5.2}%
+\contentsline {section}{\numberline {5.3}DNS spoofing}{37}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Zone Transfer}{37}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Random Label Attack}{38}{section.5.5}%
+\contentsline {chapter}{\numberline {6}PGP / Gnu Privacy Guard}{39}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Sejarah}{39}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Menggunakan Gnu Privacy Guard, gpg}{39}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Mencari kunci orang lain}{42}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Memvalidasi kunci orang lain}{43}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}Enkrip Untuk Sebuah Alamat Email}{44}{subsection.6.2.3}%
+\contentsline {subsection}{\numberline {6.2.4}Tanda Tangan Dokumen}{46}{subsection.6.2.4}%
+\contentsline {section}{\numberline {6.3}Tools}{48}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Web of Trust}{48}{section.6.4}%
+\contentsline {chapter}{\numberline {7}Keamanan Sistem Email}{49}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Komponen Sistem Email}{49}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Standar Email}{50}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Penyadapan Email}{53}{section.7.3}%
+\contentsline {subsection}{\numberline {7.3.1}Penyadapan SMTP}{53}{subsection.7.3.1}%
+\contentsline {subsection}{\numberline {7.3.2}Penyadapan POP3: Post Office Protocol}{54}{subsection.7.3.2}%
+\contentsline {section}{\numberline {7.4}Pemalsuan Email}{54}{section.7.4}%
+\contentsline {section}{\numberline {7.5}Mailbomb}{56}{section.7.5}%
+\contentsline {section}{\numberline {7.6}Spam}{57}{section.7.6}%
+\contentsline {chapter}{\numberline {8}Keamanan Sistem Web}{59}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Sejarah Web}{59}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Topologi dan Asumsi}{60}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Keamanan Server Web}{61}{section.8.3}%
+\contentsline {subsection}{\numberline {8.3.1}Confidentiality}{62}{subsection.8.3.1}%
+\contentsline {subsection}{\numberline {8.3.2}Integrity}{63}{subsection.8.3.2}%
+\contentsline {subsection}{\numberline {8.3.3}Availability}{63}{subsection.8.3.3}%
+\contentsline {chapter}{\numberline {9}Social Engineering}{65}{chapter.9}%
+\contentsline {chapter}{\numberline {10}Penanganan Insiden Teknologi Informasi}{67}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Definisi Insiden}{68}{section.10.1}%
+\contentsline {section}{\numberline {10.2}Metodologi}{69}{section.10.2}%
+\contentsline {section}{\numberline {10.3}Latihan Penanganan Keamanan}{70}{section.10.3}%
+\contentsline {chapter}{\numberline {11}Penutup}{73}{chapter.11}%
+\contentsline {chapter}{\numberline {12}Bibliography}{75}{chapter.12}%
+\contentsline {chapter}{Appendices}{77}{section*.2}%
+\contentsline {chapter}{\numberline {A}tcpdump}{79}{appendix.1.A}%
 \contentsfinish 

@@ -27,9 +27,20 @@ gpg --gen-key
 
 Perintah di atas akan menanyakan beberapa hal, seperti jenis algoritma yang
 digunakan (pilih RSA dan RSA), panjang kuncinya (pilih 2048), dan alamat email
-yang akan digunakan untuk kunci tersebut. Dalam contoh buku ini saya akan
+yang akan digunakan untuk kunci tersebut\footnote{Tampilan yang akan 
+ditampilkan kemungkinan akan berubah sesuai dengan versi dari gpg. 
+Sebagai contoh, ada kemungkinan pada versi yang Anda
+gunakan ketika melakukan perintah gen-key tidak memberikan pilihan tetapi
+langsung memilihkan jenis algoritma yang digunakan.}.
+Dalam contoh buku ini saya akan
 menggunakan alamat email ``rahard2017@gmail.com''. Gunakan alamat email Anda
-sebagai penggantinya/
+sebagai penggantinya.
+
+Jika Anda baru akan memulai mencoba, saya sarankan agar menggunakan alamat
+email yang baru, yang bukan alamat email utama Anda.
+Alasannya adalah apabila terjadi kesalahan, misal Anda lupa password atau
+passphrase sehingga kunci privat tidak dapat dibuka, maka alamat email
+tersebut tidak dapat digunakan lagi dalam proses ini.
 
 \begin{verbatim}
 $ gpg --gen-key
@@ -143,6 +154,112 @@ kunci Anda ke kolom kunci dan upload.
 \end{ExerciseList}
 
 \end{mdframed}
+
+
+\subsection{Mencari kunci orang lain}
+Pada bagian sebelumnya telah ditunjukkan bagaimana cara kita mendistribusikan
+kunci publik kita melalui sebuah keyserver.
+Bagaimana orang lain tahu kunci publik kita? 
+Salah satu caranya adalah mencari data tersebut ke sebuah keyserver.
+Pencarian dapat dilakukan dengan menggunakan web atau dengan menggunakan
+{\em command line}. Berikut ini adalah sebuah contoh untuk mencari informasi
+kunci publik dari sebuah identitas ``tutorialrahardjo'' (yang sesungguhnya
+adalah alamat email di gmail.com).
+
+\begin{verbatim}
+$gpg --keyserver pgp.key-server.io --search tutorialrahardjo
+gpg: data source: http://pgp.key-server.io:11371
+(1)	Budi Rahardjo <tutorialrahardjo@gmail.com>
+	  3072 bit RSA key 1EE3896FB424863E, created: 2021-02-14, expires: 2023-02-14
+Keys 1-1 of 1 for "tutorialrahardjo".  Enter number(s), N)ext, or Q)uit >
+\end{verbatim}
+
+Perhatikan bahwa kita dapat menemukan identitas dari alamat email yang kita berikan
+beserta {\em key} dari kunci publiknya.
+
+Jika seseorang ingin mengunduh ({\em download}) kunci publik tersebut,
+maka dia dapat melakukannya dengan perintah berikut.
+Perhatikan bahwa dia menggunakan sebagian data dari kunci tersebut
+(tidak lengkap kuncinya).
+
+\begin{verbatim}
+$ gpg --keyserver pgp.key-server.io --recv-key B424863E
+gpg: key 1EE3896FB424863E: "Budi Rahardjo <tutorialrahardjo@gmail.com>" not changed
+gpg: Total number processed: 1
+gpg:              unchanged: 1
+\end{verbatim}
+
+
+\subsection{Memvalidasi kunci orang lain}
+Bagaimana kita tahu bahwa kunci publik tertentu milik seseorang?
+Bahwa memang orang tersebut kredibel?
+PGP bekerja dengan konsep {\em web of trust}.
+Maksudnya adalah kepercayaan dilakukan dengan mempercayai orang lain,
+yang mempercayai orang lain, yang mempercayai orang lain, dan seterusnya.
+Ini dapat menjadi semacam jejaring.
+
+Seseorang dapat menandatangani kunci publik kita setelah dia mengunduh kunci kita
+dengan perintah sign.
+
+\begin{verbatim}
+gpg --keyserver pgp.key-server.io --sign-key B424863E
+
+gpg: checking the trustdb
+gpg: marginals needed: 3  completes needed: 1  trust model: pgp
+gpg: depth: 0  valid:   2  signed:   8  trust: 0-, 0q, 0n, 0m, 0f, 2u
+gpg: depth: 1  valid:   8  signed:   0  trust: 8-, 0q, 0n, 0m, 0f, 0u
+gpg: next trustdb check due at 2021-05-08
+sec  rsa3072/1EE3896FB424863E
+     created: 2021-02-14  expires: 2023-02-14  usage: SC  
+     trust: ultimate      validity: ultimate
+ssb  rsa3072/69DB9EE8890AB53D
+     created: 2021-02-14  expires: 2023-02-14  usage: E   
+[ultimate] (1). Budi Rahardjo <tutorialrahardjo@gmail.com>
+
+
+sec  rsa3072/1EE3896FB424863E
+     created: 2021-02-14  expires: 2023-02-14  usage: SC  
+     trust: ultimate      validity: ultimate
+ Primary key fingerprint: 6A6E 6812 7595 EF7E E961  B692 1EE3 896F B424 863E
+
+     Budi Rahardjo <tutorialrahardjo@gmail.com>
+
+This key is due to expire on 2023-02-14.
+Are you sure that you want to sign this key with your
+key "Budi Rahardjo <kelasbr2021@gmail.com>" (0686C5957E1023FE)
+
+Really sign? (y/N) y
+\end{verbatim}
+
+Setelah kita tandatangani, maka kunci tersebut harus kita unggah agar
+datanya di server diperbaharui.
+
+\begin{verbatim}
+$ gpg --keyserver pgp.key-server.io --send-key B424863E
+gpg: sending key 1EE3896FB424863E to hkp://pgp.key-server.io
+\end{verbatim}
+
+Jika kita cek web dari key-server.io dan kita cari data tentang kunci tersebut,
+maka akan kita dapati data seperti ini. Perhatikan bahwa kunci tersebut
+telah ditandatangani oleh orang lain, yaitu ``kelasbr2021@gmail.com''.
+Jika ada orang lain yang telah menandatangani kunci ini juga, maka daftar
+ini akan menjadi lebih panjang.
+Pada contoh ini hanya ada satu orang lain sehingga kredibilitasnya pantas
+untuk dipertanyakan\footnote{Tolong tandatangani kunci ini dan unggah lagi
+sehingga kredibilitasnya menjadi bertambah.}.
+
+\begin{verbatim}
+Type bits/keyID     cr. time   exp time   key expir
+pub  3072R/B424863E 2021-02-14            
+	 Fingerprint=6A6E 6812 7595 EF7E E961  B692 1EE3 896F B424 863E 
+
+uid Budi Rahardjo <tutorialrahardjo@gmail.com>
+sig  sig3  B424863E 2021-02-14 __________ 2023-02-14 [selfsig]
+sig  sig   7E1023FE 2021-02-14 __________ __________ Budi Rahardjo <kelasbr2021@gmail.com>
+
+sub  3072R/890AB53D 2021-02-14            
+sig sbind  B424863E 2021-02-14 __________ 2023-02-14 []
+\end{verbatim}
 
 \subsection{Enkrip Untuk Sebuah Alamat Email}
 Salah satu fungsi dari PGP/GPG adakan mengirim pesan secara rahasia. Pesan
