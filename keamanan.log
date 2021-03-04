@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.7.24)  19 FEB 2021 11:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.7.24)  4 MAR 2021 07:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1283,459 +1283,477 @@ lsi.itb.ac.id,
 
  (./pgp.tex
 Chapter 6.
-
-LaTeX Warning: Marginpar on page 39 moved.
-
 [39
 
 
 
 ]
-Overfull \hbox (82.01169pt too wide) in paragraph at lines 47--47
+
+LaTeX Warning: Marginpar on page 40 moved.
+
+
+Overfull \hbox (82.01169pt too wide) in paragraph at lines 71--71
 []\T1/fvm/m/n/10 gpg (GnuPG/MacGPG2) 2.0.30; Copyright (C) 2015 Free Software F
 oundation, Inc.[] 
  []
 
 
-Overfull \hbox (25.7243pt too wide) in paragraph at lines 48--48
+Overfull \hbox (25.7243pt too wide) in paragraph at lines 72--72
 []\T1/fvm/m/n/10 This is free software: you are free to change and redistribute
  it.[] 
  []
 
-
-Overfull \hbox (26.82982pt too wide) in paragraph at lines 81--84
+[40]
+Overfull \hbox (26.82982pt too wide) in paragraph at lines 105--109
 \T1/pplj/m/n/10 den-gan meng-gu-nakan per-in-tah berikut. Gan-tikan ``ra-hard20
 17@gmail.com'' 
  []
 
-[40]
-Overfull \hbox (15.49023pt too wide) in paragraph at lines 100--100
+
+Overfull \hbox (15.49023pt too wide) in paragraph at lines 125--125
 []\T1/fvm/m/n/10 mQENBFiiijUBCAD3ZIxjUQyDtcGTmHs2iU+2aS+MMp2w+codVRrqLfVI+V8S+T
 mP[] 
  []
 
 
-Overfull \hbox (15.49023pt too wide) in paragraph at lines 101--101
+Overfull \hbox (15.49023pt too wide) in paragraph at lines 126--126
 []\T1/fvm/m/n/10 WGe2Gu4pTLovGzZ2NGWvKACZ0A+BL97e9K6QN6+UIYRArFdxfojQ4lbwH/WO1Y
 Sn[] 
  []
 
 
-Overfull \hbox (15.49023pt too wide) in paragraph at lines 102--102
+Overfull \hbox (15.49023pt too wide) in paragraph at lines 127--127
 []\T1/fvm/m/n/10 J6BsCE1IfX8niRiskdibBhZZcrUCcDa/tgvgXTymoAeZEcMwR48hEOUWuOGoCE
 2g[] 
  []
 
 
-Overfull \hbox (15.49023pt too wide) in paragraph at lines 103--103
+Overfull \hbox (15.49023pt too wide) in paragraph at lines 128--128
 []\T1/fvm/m/n/10 TA/kD9yCyorFUKEsbyKJMKPtlMJGICUwtggDdXT5arCCafpydLGxok+w4TJjAD
 eX[] 
  []
 
 
-Overfull \hbox (15.49023pt too wide) in paragraph at lines 104--104
+Overfull \hbox (15.49023pt too wide) in paragraph at lines 129--129
 []\T1/fvm/m/n/10 jeTxDgYSNjCNar9wRhtnG+G/Irbfctj77/9Ppz8j8Dp1NkAwx5P+9AJRNNkwU8
 8c[] 
  []
 
 
-Overfull \hbox (15.49023pt too wide) in paragraph at lines 105--105
+Overfull \hbox (15.49023pt too wide) in paragraph at lines 130--130
 []\T1/fvm/m/n/10 7FSEz0cpAzgC4VyaL/iX85G8wr6z5kaWNV3FABEBAAG0JEJ1ZGkgUmFoYXJkam
 8g[] 
  []
 
 
-Overfull \hbox (15.49023pt too wide) in paragraph at lines 106--106
+Overfull \hbox (15.49023pt too wide) in paragraph at lines 131--131
 []\T1/fvm/m/n/10 PHJhaGFyZDIwMTdAZ21haWwuY29tPokBPQQTAQoAJwUCWKKKNQIbAwUJABuvgA
 UL[] 
  []
 
-
-Overfull \hbox (66.66058pt too wide) in paragraph at lines 119--119
+[41]
+Overfull \hbox (66.66058pt too wide) in paragraph at lines 144--144
 []      \T1/fvm/m/n/10 Key fingerprint = 810B 2149 3366 E699 F95E  9E49 07E1 BD
 C5 EB6C EB46[] 
  []
 
-<graphics/pgp-mit.png, id=504, 642.4pt x 557.08125pt>
+<graphics/pgp-mit.png, id=508, 642.4pt x 557.08125pt>
 File: graphics/pgp-mit.png Graphic file (type png)
 <use graphics/pgp-mit.png>
-Package pdftex.def Info: graphics/pgp-mit.png  used on input line 139.
+Package pdftex.def Info: graphics/pgp-mit.png  used on input line 164.
 (pdftex.def)             Requested size: 312.00473pt x 270.5666pt.
 
-Overfull \hbox (6.80472pt too wide) in paragraph at lines 139--142
+Overfull \hbox (6.80472pt too wide) in paragraph at lines 164--167
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--142
+Underfull \hbox (badness 10000) in paragraph at lines 164--167
 
  []
 
-Package mdframed Info: mdframed works in twoside mode on input line 145.
+Package mdframed Info: mdframed works in twoside mode on input line 191.
 
-Overfull \hbox (19.29993pt too wide) in paragraph at lines 148--150
+Overfull \hbox (19.29993pt too wide) in paragraph at lines 194--196
 []\T1/pplj/m/n/10 Buat pasan-gan kunci pub-lik dan
  []
 
 
-Overfull \hbox (15.62982pt too wide) in paragraph at lines 148--150
+Overfull \hbox (15.62982pt too wide) in paragraph at lines 194--196
 \T1/pplj/m/n/10 kunci pri-vat Anda. Gu-nakan pa-ram-e-ter de-fault saja (RSA da
 n
  []
 
 
-Overfull \hbox (19.73979pt too wide) in paragraph at lines 150--152
+Overfull \hbox (2.28987pt too wide) in paragraph at lines 194--196
+\T1/pplj/m/n/10 RSA). Aso-sisas-ikan dia den-gan se-buah ala-mat email Anda.
+ []
+
+
+Overfull \hbox (19.73979pt too wide) in paragraph at lines 196--199
 []\T1/pplj/m/n/10 Unggah kunci pub-lik Anda ke salah satu key-server yang terse
 -
  []
 
 
-Overfull \hbox (1.28983pt too wide) in paragraph at lines 152--154
+Overfull \hbox (16.84982pt too wide) in paragraph at lines 196--199
+\T1/pplj/m/n/10 dia (misal pgp.mit.edu atau pgp.key-server.io). Pastikan kunci
+ []
+
+
+Overfull \hbox (1.28983pt too wide) in paragraph at lines 199--201
 []\T1/pplj/m/n/10 Beritahukan teman-teman Anda ten-tang kunci Anda terse-
  []
 
 
-Overfull \hbox (1.3698pt too wide) in paragraph at lines 152--154
+Overfull \hbox (1.3698pt too wide) in paragraph at lines 199--201
 \T1/pplj/m/n/10 but. Minta mereka un-tuk ikut menan-datan-gani kunci pub-
  []
 
-[41]
-Overfull \hbox (16.0898pt too wide) in paragraph at lines 160--168
+Package mdframed Info: Not enough space on this page on input line 203.
+[42]
+Package mdframed Info: Not enough space on this page on input line 203.
+
+Overfull \hbox (16.0898pt too wide) in paragraph at lines 207--215
 \T1/pplj/m/n/10 mendis-tribusikan kunci pub-lik kita melalui se-buah key-server
 . Bagaimana 
  []
 
-[42 <./graphics/pgp-mit.png>]
-Overfull \hbox (82.01169pt too wide) in paragraph at lines 173--173
+[43 <./graphics/pgp-mit.png>]
+Overfull \hbox (82.01169pt too wide) in paragraph at lines 220--220
 []  \T1/fvm/m/n/10 3072 bit RSA key 1EE3896FB424863E, created: 2021-02-14, expi
 res: 2023-02-14[] 
  []
 
 
-Overfull \hbox (61.54355pt too wide) in paragraph at lines 174--174
+Overfull \hbox (61.54355pt too wide) in paragraph at lines 221--221
 []\T1/fvm/m/n/10 Keys 1-1 of 1 for "tutorialrahardjo".  Enter number(s), N)ext,
  or Q)uit >[] 
  []
 
 
-Overfull \hbox (112.7139pt too wide) in paragraph at lines 187--187
+Overfull \hbox (112.7139pt too wide) in paragraph at lines 234--234
 []\T1/fvm/m/n/10 gpg: key 1EE3896FB424863E: "Budi Rahardjo <tutorialrahardjo@gm
 ail.com>" not changed[] 
  []
 
 
-Overfull \hbox (10.3732pt too wide) in paragraph at lines 208--208
+Overfull \hbox (10.3732pt too wide) in paragraph at lines 255--255
 []\T1/fvm/m/n/10 gpg: marginals needed: 3  completes needed: 1  trust model: pg
 p[] 
  []
 
 
-Overfull \hbox (41.07541pt too wide) in paragraph at lines 209--209
+Overfull \hbox (41.07541pt too wide) in paragraph at lines 256--256
 []\T1/fvm/m/n/10 gpg: depth: 0  valid:   2  signed:   8  trust: 0-, 0q, 0n, 0m,
  0f, 2u[] 
  []
 
 
-Overfull \hbox (41.07541pt too wide) in paragraph at lines 210--210
+Overfull \hbox (41.07541pt too wide) in paragraph at lines 257--257
 []\T1/fvm/m/n/10 gpg: depth: 1  valid:   8  signed:   0  trust: 8-, 0q, 0n, 0m,
  0f, 0u[] 
  []
 
-
-Overfull \hbox (76.89465pt too wide) in paragraph at lines 223--223
+[44]
+Overfull \hbox (76.89465pt too wide) in paragraph at lines 270--270
 [] \T1/fvm/m/n/10 Primary key fingerprint: 6A6E 6812 7595 EF7E E961  B692 1EE3 
 896F B424 863E[] 
  []
 
-[43]
-Overfull \hbox (5.25616pt too wide) in paragraph at lines 229--229
+
+Overfull \hbox (5.25616pt too wide) in paragraph at lines 276--276
 []\T1/fvm/m/n/10 key "Budi Rahardjo <kelasbr2021@gmail.com>" (0686C5957E1023FE)
 [] 
  []
 
 
-LaTeX Warning: Marginpar on page 44 moved.
+LaTeX Warning: Marginpar on page 45 moved.
 
 
-Overfull \hbox (10.3732pt too wide) in paragraph at lines 254--254
+Overfull \hbox (10.3732pt too wide) in paragraph at lines 301--301
 [] \T1/fvm/m/n/10 Fingerprint=6A6E 6812 7595 EF7E E961  B692 1EE3 896F B424 863
 E[] 
  []
 
 
-Overfull \hbox (5.25616pt too wide) in paragraph at lines 257--257
+Overfull \hbox (5.25616pt too wide) in paragraph at lines 304--304
 []\T1/fvm/m/n/10 sig  sig3  B424863E 2021-02-14 __________ 2023-02-14 [selfsig]
 [] 
  []
 
 
-Overfull \hbox (148.53314pt too wide) in paragraph at lines 258--258
+Overfull \hbox (148.53314pt too wide) in paragraph at lines 305--305
 []\T1/fvm/m/n/10 sig  sig   7E1023FE 2021-02-14 __________ __________ Budi Raha
 rdjo <kelasbr2021@gmail.com>[] 
  []
 
-[44]
-Package mdframed Info: mdframed works in twoside mode on input line 285.
+[45]
+Package mdframed Info: mdframed works in twoside mode on input line 332.
 
-Overfull \hbox (92.24576pt too wide) in paragraph at lines 298--298
+Overfull \hbox (92.24576pt too wide) in paragraph at lines 345--345
 []\T1/fvm/m/n/10 gpg --output dokumen.pgp --encrypt --recipient rahard2017@gmai
 l.com dokumen.txt[] 
  []
 
 
-Overfull \hbox (107.59686pt too wide) in paragraph at lines 306--306
+Overfull \hbox (107.59686pt too wide) in paragraph at lines 353--353
 []\T1/fvm/m/n/10 gpg -a --output dokumen.pgp --encrypt --recipient rahard2017@g
 mail.com dokumen.txt[] 
  []
 
 
-Overfull \hbox (1.46986pt too wide) in paragraph at lines 309--310
+Overfull \hbox (1.46986pt too wide) in paragraph at lines 356--357
 []\T1/pplj/m/n/10 Jika kita li-hat berkas ``doku-men.pgp'', isinya adalah seper
 ti berikut.  
  []
 
-Package mdframed Info: mdframed works in twoside mode on input line 312.
+Package mdframed Info: mdframed works in twoside mode on input line 359.
 
-Overfull \hbox (36.29022pt too wide) in paragraph at lines 316--316
+Overfull \hbox (36.29022pt too wide) in paragraph at lines 363--363
 []\T1/fvm/m/n/10 hQEMAy/vbaXC6DxgAQf/Zjk74t1FXTT3abmJUz/w5Z8iHIIEWZlvMmBdMS7w/2
 U8[] 
  []
 
 
-Overfull \hbox (36.29022pt too wide) in paragraph at lines 317--317
+Overfull \hbox (36.29022pt too wide) in paragraph at lines 364--364
 []\T1/fvm/m/n/10 L2NvrvG6GOrsduLTIrybCIAQ0GPU9Nq+YOMYJaY3BhiqkCSyYhHYRk0406OS3G
 CA[] 
  []
 
 
-Overfull \hbox (36.29022pt too wide) in paragraph at lines 318--318
+Overfull \hbox (36.29022pt too wide) in paragraph at lines 365--365
 []\T1/fvm/m/n/10 ONnhiqKiVLJIyfNWdDBtB4k7s8pfM5ngxgeZ6/gH5TDspHrhjrLS65Stn7sr+N
 lf[] 
  []
 
 
-Overfull \hbox (36.29022pt too wide) in paragraph at lines 319--319
+Overfull \hbox (36.29022pt too wide) in paragraph at lines 366--366
 []\T1/fvm/m/n/10 TSuG9p21vr19yL13KBkd2rI5WBnL68/3bRJnKt0JL1PLeMvQ0eZIiRXcmropPX
 Is[] 
  []
 
 
-Overfull \hbox (36.29022pt too wide) in paragraph at lines 320--320
+Overfull \hbox (36.29022pt too wide) in paragraph at lines 367--367
 []\T1/fvm/m/n/10 rltFRflpdp0H0LJn2/xQ5rXr13QRRjzo3SL4i/eYxPlEmpD164aicI8LC+qKgY
 cc[] 
  []
 
 
-Overfull \hbox (36.29022pt too wide) in paragraph at lines 321--321
+Overfull \hbox (36.29022pt too wide) in paragraph at lines 368--368
 []\T1/fvm/m/n/10 FShUuTxwxtu7tPYpqEH17jTTd29wZdrXDFHp5TGLTdKtAeMKeGupxvicOaNMY4
 6J[] 
  []
 
 
-Overfull \hbox (36.29022pt too wide) in paragraph at lines 322--322
+Overfull \hbox (36.29022pt too wide) in paragraph at lines 369--369
 []\T1/fvm/m/n/10 S3LBC9fU2bywwmvM77cCr97DOP1rA6WXR2xluRvLhms83lNMcpSDuZCPpb8rxK
 mu[] 
  []
 
 
-Overfull \hbox (36.29022pt too wide) in paragraph at lines 323--323
+Overfull \hbox (36.29022pt too wide) in paragraph at lines 370--370
 []\T1/fvm/m/n/10 Xk2WFThfV5rq0I1kyP2Kc1g+0cgnJkAzFXe5MQRIOpJ/MRwrekAo3Dvp3TefwM
 Yu[] 
  []
 
 
-Overfull \hbox (36.29022pt too wide) in paragraph at lines 324--324
+Overfull \hbox (36.29022pt too wide) in paragraph at lines 371--371
 []\T1/fvm/m/n/10 R3LYwCi8VstPpnH9rcFyoyxsqMqLTPtUnheISNUmVERtLm3rALtHjf2vyvkR/2
 JF[] 
  []
 
-[45]
-Package mdframed Info: mdframed works in twoside mode on input line 339.
+[46]
+Package mdframed Info: mdframed works in twoside mode on input line 386.
 
-Overfull \hbox (77.2265pt too wide) in paragraph at lines 344--344
+Overfull \hbox (77.2265pt too wide) in paragraph at lines 391--391
 []\T1/fvm/m/n/10 2048-bit RSA key, ID C2E83C60, created 2017-02-14 (main key ID
  EB6CEB46)[] 
  []
 
 
-Overfull \hbox (61.8754pt too wide) in paragraph at lines 346--346
+Overfull \hbox (61.8754pt too wide) in paragraph at lines 393--393
 []\T1/fvm/m/n/10 gpg: encrypted with 2048-bit RSA key, ID C2E83C60, created 201
 7-02-14[] 
  []
 
 
-Overfull \hbox (16.2199pt too wide) in paragraph at lines 364--367
+Overfull \hbox (16.2199pt too wide) in paragraph at lines 411--414
 \T1/pplj/m/n/10 ``doku-men.txt''. (Kita dalam con-toh ini adalah ``ra-hard2017@
 gmail.com''.)  
  []
 
 
-Overfull \hbox (30.84134pt too wide) in paragraph at lines 369--369
+Overfull \hbox (30.84134pt too wide) in paragraph at lines 416--416
 []\T1/fvm/m/n/10 gpg -u rahard2017@gmail.com --output dokumen.sig --sign dokume
 n.txt[] 
  []
 
 
-Overfull \hbox (46.19244pt too wide) in paragraph at lines 380--380
+Overfull \hbox (46.19244pt too wide) in paragraph at lines 427--427
 []\T1/fvm/m/n/10 gpg -a -u rahard2017@gmail.com --output dokumen.sig --sign dok
 umen.txt[] 
  []
 
-[46]
-Overfull \hbox (15.49023pt too wide) in paragraph at lines 391--391
+[47]
+Overfull \hbox (15.49023pt too wide) in paragraph at lines 438--438
 []\T1/fvm/m/n/10 owGbwMvMwMXI/nDv0dc5r90Y10xI4k7Jzy7NTc3TK6koidipudUzL1MhMSUxJz
 FD[] 
  []
 
 
-Overfull \hbox (15.49023pt too wide) in paragraph at lines 392--392
+Overfull \hbox (15.49023pt too wide) in paragraph at lines 439--439
 []\T1/fvm/m/n/10 ASqjUJpXUpqtUJBalJyflJiYpwAUS08vzUvMBrID3AP03QPc9bhCwYpKEvNSEk
 Fk[] 
  []
 
 
-Overfull \hbox (15.49023pt too wide) in paragraph at lines 393--393
+Overfull \hbox (15.49023pt too wide) in paragraph at lines 440--440
 []\T1/fvm/m/n/10 emKejkJmcWZeJZCbmZKYrZCRWFRarJCSWZyam1SaV5kJ1K3HFZyak5ibWAIyEm
 S4[] 
  []
 
 
-Overfull \hbox (15.49023pt too wide) in paragraph at lines 394--394
+Overfull \hbox (15.49023pt too wide) in paragraph at lines 441--441
 []\T1/fvm/m/n/10 HlcnowwLAyMXAxsrE8g1DFycAjDXcoix//d7pfhQ+pbBxM4ilx/pi054OOkFsf
 S2[] 
  []
 
 
-Overfull \hbox (15.49023pt too wide) in paragraph at lines 395--395
+Overfull \hbox (15.49023pt too wide) in paragraph at lines 442--442
 []\T1/fvm/m/n/10 TDDSVY/Zec58cp/zm9TgDczKn+71Kkqvs/4fNNvRuUr208VdwowLPTliFpR+O2
 /L[] 
  []
 
 
-Overfull \hbox (15.49023pt too wide) in paragraph at lines 396--396
+Overfull \hbox (15.49023pt too wide) in paragraph at lines 443--443
 []\T1/fvm/m/n/10 0cR/KDTuie6h9Xlq3bXTSg6kpeoxblZ323ra4jDfvvs/9RjeSByS0cp4+T/c81
 B6[] 
  []
 
 
-Overfull \hbox (15.49023pt too wide) in paragraph at lines 397--397
+Overfull \hbox (15.49023pt too wide) in paragraph at lines 444--444
 []\T1/fvm/m/n/10 YUepNtO0hLjZZeGxR63yNqxbu7ZX9djt4p6a7/JTbJKepvo3XItlO8x0xVDt3L
 Iv[] 
  []
 
 
-Overfull \hbox (15.49023pt too wide) in paragraph at lines 398--398
+Overfull \hbox (15.49023pt too wide) in paragraph at lines 445--445
 []\T1/fvm/m/n/10 oRc/tc7667WqskaC95zr1E6xREHL5eEKGnkByy7arEnL0Ge++bNd4ET4NOV3FY
 qP[] 
  []
 
 
-Overfull \hbox (15.49023pt too wide) in paragraph at lines 399--399
+Overfull \hbox (15.49023pt too wide) in paragraph at lines 446--446
 []\T1/fvm/m/n/10 L875kT8v8PeVPdqr+SrENG7YNL6+PWXOvNUR6ruMVdSOhzEoeyn4P2EWX6J1dV
 L/[] 
  []
 
 
-Overfull \hbox (56.42651pt too wide) in paragraph at lines 408--408
+Overfull \hbox (56.42651pt too wide) in paragraph at lines 455--455
 []\T1/fvm/m/n/10 gpg -u rahard2017@gmail.com --output dokumen.sig --clearsign d
 okumen.txt[] 
  []
 
-Package mdframed Info: mdframed works in twoside mode on input line 414.
+Package mdframed Info: mdframed works in twoside mode on input line 461.
 
-Overfull \hbox (36.29022pt too wide) in paragraph at lines 425--425
+Overfull \hbox (36.29022pt too wide) in paragraph at lines 472--472
 []\T1/fvm/m/n/10 iQEcBAEBCgAGBQJYuSthAAoJEAfhvcXrbOtG1pkIALaFxIxKObM7p/ZTMpzNCI
 HN[] 
  []
 
 
-Overfull \hbox (36.29022pt too wide) in paragraph at lines 426--426
+Overfull \hbox (36.29022pt too wide) in paragraph at lines 473--473
 []\T1/fvm/m/n/10 GpyR9Q6QQEi+9+0loHdw1TqMEskJ3HxWOnegupMueiIpO0IaEd8qCraLSfRF3G
 1f[] 
  []
 
 
-Overfull \hbox (36.29022pt too wide) in paragraph at lines 427--427
+Overfull \hbox (36.29022pt too wide) in paragraph at lines 474--474
 []\T1/fvm/m/n/10 gBxl837rXnTjDIYABN9T6f5GrZHyeWXEhwDRDuLWsb9v85pNd/RUbQ8L7N/s4S
 Ul[] 
  []
 
 
-Overfull \hbox (36.29022pt too wide) in paragraph at lines 428--428
+Overfull \hbox (36.29022pt too wide) in paragraph at lines 475--475
 []\T1/fvm/m/n/10 NgyPbHKhal+ob047mHE1zF9lvpuRfhWM3ztr8OJN6MWTgb+NYpc0b9YuyqSRiD
 Z0[] 
  []
 
 
-Overfull \hbox (36.29022pt too wide) in paragraph at lines 429--429
+Overfull \hbox (36.29022pt too wide) in paragraph at lines 476--476
 []\T1/fvm/m/n/10 y3fvY3iRexMjLI2dxhXOTWG4IM5ouwbFtheJML1Lssh/pn1KZwicnWGAouWhQT
 OY[] 
  []
 
 
-Overfull \hbox (36.29022pt too wide) in paragraph at lines 430--430
+Overfull \hbox (36.29022pt too wide) in paragraph at lines 477--477
 []\T1/fvm/m/n/10 hGR8zSoy4oeS/hlUmdAu3bse73pcWeybCtYLwvXSBvg7W67sCOERmIfZxXxtq0
 8=[] 
  []
 
-Package mdframed Info: mdframed works in twoside mode on input line 441.
-[47]
-Package mdframed Info: Not enough space on this page on input line 444.
+Package mdframed Info: mdframed works in twoside mode on input line 488.
+[48]
+Package mdframed Info: Not enough space on this page on input line 491.
 
-Overfull \hbox (61.54355pt too wide) in paragraph at lines 453--453
+Overfull \hbox (61.54355pt too wide) in paragraph at lines 500--500
 []\T1/fvm/m/n/10 gpg -u rahard2017@gmail.com --output dokumen.sig --detach-sig 
 dokumen.txt[] 
  []
 
-Package mdframed Info: mdframed works in twoside mode on input line 460.
-Package mdframed Info: mdframed works in twoside mode on input line 465.
+Package mdframed Info: mdframed works in twoside mode on input line 507.
+Package mdframed Info: mdframed works in twoside mode on input line 512.
 
-Overfull \hbox (9.36989pt too wide) in paragraph at lines 468--472
+Overfull \hbox (9.36989pt too wide) in paragraph at lines 515--519
 []\T1/pplj/m/n/10 Menurut Anda, apakah tanda tan-gan
  []
 
 
-Overfull \hbox (26.39977pt too wide) in paragraph at lines 468--472
+Overfull \hbox (26.39977pt too wide) in paragraph at lines 515--519
 \T1/pplj/m/n/10 (sig-na-ture) akan tetap sama un-tuk se-tiap orang meskipun dok
 u-
  []
 
 
-Overfull \hbox (22.20982pt too wide) in paragraph at lines 468--472
+Overfull \hbox (22.20982pt too wide) in paragraph at lines 515--519
 \T1/pplj/m/n/10 men yang di-tan-datan-gani berbeda-beda? Ataukah un-tuk doku-
  []
 
 
-Overfull \hbox (10.64987pt too wide) in paragraph at lines 468--472
+Overfull \hbox (10.64987pt too wide) in paragraph at lines 515--519
 \T1/pplj/m/n/10 men yang berbeda, tanda tan-gan dig-i-tal dari doku-men terse-
  []
 
 
-Overfull \hbox (14.01982pt too wide) in paragraph at lines 472--474
+Overfull \hbox (14.01982pt too wide) in paragraph at lines 519--521
 []\T1/pplj/m/n/10 Verifikasi doku-men den-gan data yang be-nar. Mak-sud-nya jan
 -
  []
 
 
-Overfull \hbox (4.40984pt too wide) in paragraph at lines 474--477
+Overfull \hbox (4.40984pt too wide) in paragraph at lines 521--524
 []\T1/pplj/m/n/10 Verifikasi doku-men den-gan data yang su-dah ter-ce-mar. Edit
 
  []
 
 
-Overfull \hbox (8.07982pt too wide) in paragraph at lines 474--477
+Overfull \hbox (8.07982pt too wide) in paragraph at lines 521--524
 \T1/pplj/m/n/10 berkas doku-men.txt se-hingga berbeda den-gan aslinya. Coba
  []
 
-) [48]
+) [49]
 \openout2 = `email.aux'.
 
- (./email.tex
+ (./email.tex [50
+
+
+
+]
 Chapter 7.
 
-LaTeX Warning: Marginpar on page 49 moved.
+LaTeX Warning: Marginpar on page 51 moved.
 
-<graphics/email-topologi.png, id=553, 597.9138pt x 183.5658pt>
+<graphics/email-topologi.png, id=562, 597.9138pt x 183.5658pt>
 File: graphics/email-topologi.png Graphic file (type png)
 <use graphics/email-topologi.png>
 Package pdftex.def Info: graphics/email-topologi.png  used on input line 30.
@@ -1750,11 +1768,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--33
 
  []
 
-[49
-
-
-
-]
+[51]
 Package mdframed Info: mdframed works in twoside mode on input line 55.
 
 Overfull \hbox (2.01675pt too wide) in paragraph at lines 56--60
@@ -1780,9 +1794,9 @@ Overfull \hbox (16.36272pt too wide) in paragraph at lines 56--60
 p email meru-pakan satu berkas sendiri
  []
 
-[50 <./graphics/email-topologi.png>]
+[52 <./graphics/email-topologi.png>]
 
-LaTeX Warning: Marginpar on page 51 moved.
+LaTeX Warning: Marginpar on page 53 moved.
 
 Package mdframed Info: mdframed works in twoside mode on input line 98.
 Package mdframed Info: mdframed works in twoside mode on input line 117.
@@ -1856,15 +1870,15 @@ Overfull \hbox (5.58801pt too wide) in paragraph at lines 130--130
 []\T1/fvm/m/n/10 Message-ID: <04f901c0b63b$16570020$b9370681@antd.nist.gov>[] 
  []
 
-[51]
+[53]
 Overfull \hbox (18.95988pt too wide) in paragraph at lines 172--179
 \T1/pplj/m/n/10 Rose kepada saya (den-gan ala-mat email budi@alliance.globalnet
 link.com). 
  []
 
-[52] [53]
+[54] [55]
 
-LaTeX Warning: Marginpar on page 54 moved.
+LaTeX Warning: Marginpar on page 56 moved.
 
 
 Overfull \hbox (2.84984pt too wide) in paragraph at lines 237--241
@@ -1873,11 +1887,11 @@ enkripsi
  []
 
 Package mdframed Info: mdframed works in twoside mode on input line 260.
-[54]
+[56]
 Package mdframed Info: mdframed works in twoside mode on input line 289.
 
 
-LaTeX Warning: Marginpar on page 55 moved.
+LaTeX Warning: Marginpar on page 57 moved.
 
 Package mdframed Info: mdframed works in twoside mode on input line 318.
 
@@ -1886,85 +1900,85 @@ Overfull \hbox (41.40726pt too wide) in paragraph at lines 319--319
 txt[] 
  []
 
-[55] [56]
+[57] [58]
 Overfull \hbox (2.25984pt too wide) in paragraph at lines 384--389
 []\T1/pplj/m/n/10 Sejarah spam ada be-ber-apa versi. Versi saya adalah se-ba-ga
 i berikut. 
  []
 
-[57]
+[59]
 Overfull \hbox (2.38956pt too wide) in paragraph at lines 430--430
 $[]$\T1/pplj/m/n/8 https://en.wikipedia.org/wiki/DNSBL  
  []
 
 
-LaTeX Warning: Marginpar on page 58 moved.
+LaTeX Warning: Marginpar on page 60 moved.
 
 )
 
-LaTeX Warning: Marginpar on page 58 moved.
+LaTeX Warning: Marginpar on page 60 moved.
 
-[58]
+[60]
 \openout2 = `web.aux'.
 
  (./web.tex
 Chapter 8.
 
-LaTeX Warning: Marginpar on page 59 moved.
+LaTeX Warning: Marginpar on page 61 moved.
 
 
-LaTeX Warning: Marginpar on page 59 moved.
+LaTeX Warning: Marginpar on page 61 moved.
 
-[59
+[61
 
 
 
 ]
 
-LaTeX Warning: Marginpar on page 60 moved.
+LaTeX Warning: Marginpar on page 62 moved.
 
 
-LaTeX Warning: Marginpar on page 60 moved.
+LaTeX Warning: Marginpar on page 62 moved.
 
-[60]
+[62]
 
-LaTeX Warning: Marginpar on page 61 moved.
+LaTeX Warning: Marginpar on page 63 moved.
 
-[61] [62]) [63]
+[63] [64]) [65]
 \openout2 = `soceng.aux'.
 
- (./soceng.tex [64
+ (./soceng.tex [66
 
 
 
 ]
 Chapter 9.
-[65]
+[67]
 
-LaTeX Warning: Marginpar on page 66 moved.
-
-
-LaTeX Warning: Marginpar on page 66 moved.
+LaTeX Warning: Marginpar on page 68 moved.
 
 
-LaTeX Warning: Marginpar on page 66 moved.
+LaTeX Warning: Marginpar on page 68 moved.
 
-) [66]
+
+LaTeX Warning: Marginpar on page 68 moved.
+
+) [68]
 \openout2 = `incident.aux'.
 
  (./incident.tex
 Chapter 10.
-[67
+[69
 
 
 
 ]
 
-LaTeX Warning: Marginpar on page 68 moved.
+LaTeX Warning: Marginpar on page 70 moved.
 
-[68]
+[70]
 
-LaTeX Warning: Marginpar on page 69 moved.
+LaTeX Warning: Marginpar on page 71 moved.
 
 pdfTeX warning (ext4): destination with the same identifier (name{cite.mandiain
 cident}) has been already used, duplicate ignored
@@ -1973,9 +1987,9 @@ cident}) has been already used, duplicate ignored
 l.99 ...alah sebagai berikut~\cite{mandiaincident}
                                                   :
 
-LaTeX Warning: Marginpar on page 69 moved.
+LaTeX Warning: Marginpar on page 71 moved.
 
-[69pdfTeX warning (ext4): destination with the same identifier (name{cite.mandi
+[71pdfTeX warning (ext4): destination with the same identifier (name{cite.mandi
 aincident}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1984,9 +1998,9 @@ l.119    \item {
                 \bf Follow-up}. Menindaklanjuti hal-hal yang perlu diperhatikan
 ]
 
-LaTeX Warning: Marginpar on page 70 moved.
+LaTeX Warning: Marginpar on page 72 moved.
 
-<graphics/tte.png, id=679, 791.5974pt x 501.072pt>
+<graphics/tte.png, id=687, 791.5974pt x 501.072pt>
 File: graphics/tte.png Graphic file (type png)
 <use graphics/tte.png>
 Package pdftex.def Info: graphics/tte.png  used on input line 134.
@@ -2001,16 +2015,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 134--137
 
  []
 
-[70 <./graphics/TTE.png>]) [71]
+[72 <./graphics/TTE.png>]) [73]
 \openout2 = `penutup.aux'.
 
- (./penutup.tex [72
+ (./penutup.tex [74
 
 
 
 ]
 Chapter 11.
-) [73] (./keamanan.bbl [74
+) [75] (./keamanan.bbl [76
 
 
 ]
@@ -2077,16 +2091,16 @@ name{cite.takedown}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.60 \bibitem{takedown}
-                       ) [75] [76
+                       ) [77] [78
 
-] [77
+] [79
 
-] [78]
+] [80]
 \openout2 = `tcpdump.aux'.
 
  (./tcpdump.tex
 Appendix A.
-) [79
+) [81
 
 
 ]
@@ -2098,14 +2112,18 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 66.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 66.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 66.
 Package rerunfilecheck Info: File `keamanan.out' has not changed.
-(rerunfilecheck)             Checksum: 5A0D2CE5B2F5ADB5A5AEACB706D8B24B;6468.
+(rerunfilecheck)             Checksum: BC48AF8D3E1C96F683D65974B79E0F35;6356.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 66.
  ) 
 Here is how much of TeX's memory you used:
- 18246 strings out of 483183
- 267359 string characters out of 5966292
- 804899 words of memory out of 5000000
- 32472 multiletter control sequences out of 15000+600000
+ 18249 strings out of 483183
+ 267393 string characters out of 5966292
+ 804922 words of memory out of 5000000
+ 32473 multiletter control sequences out of 15000+600000
  643433 words of font info for 155 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  52i,12n,100p,948b,2432s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2121,10 +2139,10 @@ st/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palat
 ino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.
 pfb>
-Output written on keamanan.pdf (79 pages, 872876 bytes).
+Output written on keamanan.pdf (81 pages, 874671 bytes).
 PDF statistics:
- 826 PDF objects out of 1000 (max. 8388607)
- 701 compressed objects within 8 object streams
- 261 named destinations out of 1000 (max. 500000)
+ 834 PDF objects out of 1000 (max. 8388607)
+ 707 compressed objects within 8 object streams
+ 263 named destinations out of 1000 (max. 500000)
  5020 words of extra memory for PDF output out of 10000 (max. 10000000)
 

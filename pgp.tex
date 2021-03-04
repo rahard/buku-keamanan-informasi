@@ -1,15 +1,34 @@
-\chapter{PGP / Gnu Privacy Guard}
+\chapter{PGP}
 Pretty Good Privacy (PGP) pada awalnya adalah aplikasi yang dapat digunakan
-pengguna untuk menggunakan kriptografi di berbagai aplikasi dengan lebih mudah.
-Pengembangan selanjutnya PGP menjadi bagian dari {\em public key
-infrastructure}.
+pengguna untuk menggunakan kriptografi di aplikasi email dengan lebih mudah,
+yaitu mengamankan email dengan enkripsi dan menandatangani email.
+Pengembangan selanjutnya PGP menjadi bagian dari public key infrastructure.
 
 \section{Sejarah}
-[... more to be written ...]
+PGP awalnya dikembangkan oleh Phil Zimmermann sebagai cara untuk memudahkan
+orang untuk mengamankan emailnya. Pada masa itu ada kekhawatiran bahwa
+email-email dipantau atau disadap oleh pemerintahan (Amerika dalam hal ini).
+Zimmermann kemudian mendapatkan tekanan dan tuntutan dikarenakan berbagai hal.
+Hal yang pertama adalah tuntuan terhadap HAKI karena menggunakan algoritma
+RSA yang dipatenkan.
+Tuntutan kedua adalah terkait dengan larangan ekspor produk yang terkait
+dengan keamanan, dalam hal ini adalah kriptografi.
+Teknologi pengamanan yang menggunakan kriptografi tidak dapat diekspor
+begitu saja dari Amerika. Ada perijinan yang harus dilalui.
+Pasalnya program PGP dapat diunduh melalui internet dari mana saja.
+Salah satu solusi untuk mengatasi hal ini adalah dengan membuat buku yang
+berisi kode dari PGP. Buku tersebut dapat diekspor kemana saja. 
+Di luar negeri, buku tersebut dapat dipindai ulang dan kode hasil pemindaian
+tersebut dirakit (compile) kembali menjadi kode PGP.
+Tuntutan di atas dibatalkan.
+Pada akhirnya PGP menjadi produk komersial yang berpindah dari satu perusahaan
+ke perusahaan komersial lainnya.
 
-Gnu Privacy Guard (GPG) merupakan implementasi dari PGP yang bersifat terbuka.
-(Catatan: Singkatan dari GPG ini merupakan guyonan terhadap PGP.) Bab ini akan
-membahas lebih banyak tentang GGP, meskipun konsep yang sama dapat juga
+Gnu Privacy Guard (GPG) merupakan implementasi dari PGP yang bersifat terbuka
+(open source).
+(Catatan: Singkatan dari GPG ini merupakan guyonan terhadap PGP,
+yaitu dengan menukarkan huruf P dan G.) 
+Bab ini akan membahas lebih banyak tentang GGP, meskipun konsep yang sama dapat juga
 diterapkan pada PGP jika Anda menggunakan produk PGP yang komersial.
 
 Dalam buku ini, kita akan menggunakan GPG versi {\em command line interface},
@@ -19,28 +38,33 @@ dengan program-program tersebut. Prinsipnya masih tetap sama.
 
 \section{Menggunakan Gnu Privacy Guard, gpg}
 Awal dari penggunakan GPG adalah membuat pasangan kunci publik dan privat. Hal
-ini dapat dilakukan dengan menggunakan perintah berikut.
+ini dapat dilakukan dengan menggunakan perintah {\em  key generation} 
+sebagai berikut.
 
 \begin{verbatim}
 gpg --gen-key
 \end{verbatim}
 
-Perintah di atas akan menanyakan beberapa hal, seperti jenis algoritma yang
-digunakan (pilih RSA dan RSA), panjang kuncinya (pilih 2048), dan alamat email
-yang akan digunakan untuk kunci tersebut\footnote{Tampilan yang akan 
-ditampilkan kemungkinan akan berubah sesuai dengan versi dari gpg. 
-Sebagai contoh, ada kemungkinan pada versi yang Anda
-gunakan ketika melakukan perintah gen-key tidak memberikan pilihan tetapi
-langsung memilihkan jenis algoritma yang digunakan.}.
+Perintah di atas akan menghasilkan pasangan kunci publi dan kunci privat.
+Bergantung kepada program yang digunakan, perintah di atas dapat menggunakan
+konfigurasi bawaan (default configuration) dengan memilihkan jenis algoritma
+yang digunakan dan panjang kuncinya.
+
+Perintah lain dapat menghasilkan pasangan kunci dengan pilihan kita sendiri,
+seperti jenis algoritma yang digunakan (pilih RSA dan RSA), panjang kuncinya,
+dan alamat email yang akan digunakan untuk kunci tersebut\footnote{Tampilan yang akan 
+ditampilkan kemungkinan akan berubah sesuai dengan versi dari gpg.}
 Dalam contoh buku ini saya akan
 menggunakan alamat email ``rahard2017@gmail.com''. Gunakan alamat email Anda
 sebagai penggantinya.
 
 Jika Anda baru akan memulai mencoba, saya sarankan agar menggunakan alamat
-email yang baru, yang bukan alamat email utama Anda.
+email yang baru yang tidak terlalu penting, yang bukan alamat email utama Anda.
 Alasannya adalah apabila terjadi kesalahan, misal Anda lupa password atau
 passphrase sehingga kunci privat tidak dapat dibuka, maka alamat email
 tersebut tidak dapat digunakan lagi dalam proses ini.
+Nantinya jika Anda sudah terbiasa dengan GPG, baru Anda dapat menggunakan
+alamat email yang lazim Anda gunakan untuk berkomunikasi secara aman.
 
 \begin{verbatim}
 $ gpg --gen-key
@@ -80,7 +104,8 @@ Change (N)ame, (C)omment, (E)mail or (O)kay/(Q)uit?
 
 Setelah proses {\em key generation} selesai, kunci publik dapat diekspor dengan
 menggunakan perintah  berikut. Gantikan ``rahard2017@gmail.com'' dengan alamat
-email Anda.
+email Anda. Pilihan ``--armor'' digunakan untuk membuat keluarannya berbentuk ASCII
+bukan dalam bentuk biner.
 
 \begin{verbatim}
 gpg --export --armor rahard2017@gmail.com > kunci-public.asc
@@ -142,13 +167,35 @@ kunci Anda ke kolom kunci dan upload.
 \end{figure}
 
 
+Kunci privat akan berada di komputer Anda dan terlindungi dengan {\em passphrase}.
+Passphrase ini akan ditanyakan jika Anda akan mengakses kunci privat ini,
+misalnya jika Anda akan melakukan proses tanda tangan.
+Kunci privat ini tidak boleh lepas dari pengawasan Anda. 
+Secara teori kunci ini tidak boleh disimpan di tempat lain (di provider).
+Namun masih ada kebutuhan untuk melakukan proses {\em backup} dari kunci privat
+Anda ini, misalnya ke komputer lain (atau ke tempat penyimpanan yang lebih aman,
+offline).
+
+\begin{verbatim}
+gpg --list-secret-keys
+gpg --export-secret-key -armor EB6CEB46 > kunci-privat.asc
+\end{verbatim}
+
+Berkas ASCII (asc) di atas dapat Anda simpan secara offline untuk menjadi backup.
+Sekali lagi, berkas tersebut berisi kunci privat Anda dan harus diamankan
+secara serius.
+Bila kunci tersebut jatuh ke tangan pihak lain (dan dia mengetahui passphrase-nya)
+maka secara teknis dia akan menjadi Anda.
+
+
 \begin{mdframed}[backgroundcolor=blue!20] 
 \begin{ExerciseList}
    \Exercise[title=Membuat Kunci]
    \Question{Buat pasangan kunci publik dan kunci privat Anda. Gunakan parameter
-   default saja (RSA dan RSA). Asosisasikan dia dengan alamat email Anda.} 
+   default saja (RSA dan RSA). Asosisasikan dia dengan sebuah alamat email Anda.} 
    \Question{Unggah kunci publik Anda ke salah satu keyserver yang tersedia 
-   (misal pgp.mit.edu atau keyserver.cert.or.id)} 
+   (misal pgp.mit.edu atau pgp.key-server.io)}. Pastikan kunci tersebut sudah
+   tersedia di sana.
    \Question{Beritahukan teman-teman Anda tentang kunci Anda tersebut. Minta
    mereka untuk ikut menandatangani kunci publik Anda tersebut.}
 \end{ExerciseList}

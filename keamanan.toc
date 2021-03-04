@@ -33,38 +33,38 @@
 \contentsline {section}{\numberline {5.3}DNS spoofing}{37}{section.5.3}%
 \contentsline {section}{\numberline {5.4}Zone Transfer}{37}{section.5.4}%
 \contentsline {section}{\numberline {5.5}Random Label Attack}{38}{section.5.5}%
-\contentsline {chapter}{\numberline {6}PGP / Gnu Privacy Guard}{39}{chapter.6}%
+\contentsline {chapter}{\numberline {6}PGP}{39}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Sejarah}{39}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Menggunakan Gnu Privacy Guard, gpg}{39}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Mencari kunci orang lain}{42}{subsection.6.2.1}%
-\contentsline {subsection}{\numberline {6.2.2}Memvalidasi kunci orang lain}{43}{subsection.6.2.2}%
-\contentsline {subsection}{\numberline {6.2.3}Enkrip Untuk Sebuah Alamat Email}{44}{subsection.6.2.3}%
-\contentsline {subsection}{\numberline {6.2.4}Tanda Tangan Dokumen}{46}{subsection.6.2.4}%
-\contentsline {section}{\numberline {6.3}Tools}{48}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Web of Trust}{48}{section.6.4}%
-\contentsline {chapter}{\numberline {7}Keamanan Sistem Email}{49}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Komponen Sistem Email}{49}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Standar Email}{50}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Penyadapan Email}{53}{section.7.3}%
-\contentsline {subsection}{\numberline {7.3.1}Penyadapan SMTP}{53}{subsection.7.3.1}%
-\contentsline {subsection}{\numberline {7.3.2}Penyadapan POP3: Post Office Protocol}{54}{subsection.7.3.2}%
-\contentsline {section}{\numberline {7.4}Pemalsuan Email}{54}{section.7.4}%
-\contentsline {section}{\numberline {7.5}Mailbomb}{56}{section.7.5}%
-\contentsline {section}{\numberline {7.6}Spam}{57}{section.7.6}%
-\contentsline {chapter}{\numberline {8}Keamanan Sistem Web}{59}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Sejarah Web}{59}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Topologi dan Asumsi}{60}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Keamanan Server Web}{61}{section.8.3}%
-\contentsline {subsection}{\numberline {8.3.1}Confidentiality}{62}{subsection.8.3.1}%
-\contentsline {subsection}{\numberline {8.3.2}Integrity}{63}{subsection.8.3.2}%
-\contentsline {subsection}{\numberline {8.3.3}Availability}{63}{subsection.8.3.3}%
-\contentsline {chapter}{\numberline {9}Social Engineering}{65}{chapter.9}%
-\contentsline {chapter}{\numberline {10}Penanganan Insiden Teknologi Informasi}{67}{chapter.10}%
-\contentsline {section}{\numberline {10.1}Definisi Insiden}{68}{section.10.1}%
-\contentsline {section}{\numberline {10.2}Metodologi}{69}{section.10.2}%
-\contentsline {section}{\numberline {10.3}Latihan Penanganan Keamanan}{70}{section.10.3}%
-\contentsline {chapter}{\numberline {11}Penutup}{73}{chapter.11}%
-\contentsline {chapter}{\numberline {12}Bibliography}{75}{chapter.12}%
-\contentsline {chapter}{Appendices}{77}{section*.2}%
-\contentsline {chapter}{\numberline {A}tcpdump}{79}{appendix.1.A}%
+\contentsline {section}{\numberline {6.2}Menggunakan Gnu Privacy Guard, gpg}{40}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Mencari kunci orang lain}{43}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Memvalidasi kunci orang lain}{44}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}Enkrip Untuk Sebuah Alamat Email}{45}{subsection.6.2.3}%
+\contentsline {subsection}{\numberline {6.2.4}Tanda Tangan Dokumen}{47}{subsection.6.2.4}%
+\contentsline {section}{\numberline {6.3}Tools}{49}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Web of Trust}{49}{section.6.4}%
+\contentsline {chapter}{\numberline {7}Keamanan Sistem Email}{51}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Komponen Sistem Email}{51}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Standar Email}{52}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Penyadapan Email}{55}{section.7.3}%
+\contentsline {subsection}{\numberline {7.3.1}Penyadapan SMTP}{55}{subsection.7.3.1}%
+\contentsline {subsection}{\numberline {7.3.2}Penyadapan POP3: Post Office Protocol}{56}{subsection.7.3.2}%
+\contentsline {section}{\numberline {7.4}Pemalsuan Email}{56}{section.7.4}%
+\contentsline {section}{\numberline {7.5}Mailbomb}{58}{section.7.5}%
+\contentsline {section}{\numberline {7.6}Spam}{59}{section.7.6}%
+\contentsline {chapter}{\numberline {8}Keamanan Sistem Web}{61}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Sejarah Web}{61}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Topologi dan Asumsi}{62}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Keamanan Server Web}{63}{section.8.3}%
+\contentsline {subsection}{\numberline {8.3.1}Confidentiality}{64}{subsection.8.3.1}%
+\contentsline {subsection}{\numberline {8.3.2}Integrity}{65}{subsection.8.3.2}%
+\contentsline {subsection}{\numberline {8.3.3}Availability}{65}{subsection.8.3.3}%
+\contentsline {chapter}{\numberline {9}Social Engineering}{67}{chapter.9}%
+\contentsline {chapter}{\numberline {10}Penanganan Insiden Teknologi Informasi}{69}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Definisi Insiden}{70}{section.10.1}%
+\contentsline {section}{\numberline {10.2}Metodologi}{71}{section.10.2}%
+\contentsline {section}{\numberline {10.3}Latihan Penanganan Keamanan}{72}{section.10.3}%
+\contentsline {chapter}{\numberline {11}Penutup}{75}{chapter.11}%
+\contentsline {chapter}{\numberline {12}Bibliography}{77}{chapter.12}%
+\contentsline {chapter}{Appendices}{79}{section*.2}%
+\contentsline {chapter}{\numberline {A}tcpdump}{81}{appendix.1.A}%
 \contentsfinish 
