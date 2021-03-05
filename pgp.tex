@@ -45,17 +45,20 @@ sebagai berikut.
 gpg --gen-key
 \end{verbatim}
 
-Perintah di atas akan menghasilkan pasangan kunci publi dan kunci privat.
+Perintah di atas akan menghasilkan pasangan kunci publi dan kunci privat\footnote{Dalam
+versi terbaru dari gpg, perintah di atas langsung menggunakan konfigurasi bawaan
+sehingga pengguna tidak ditanyakan berbagai pilihan.}.
 Bergantung kepada program yang digunakan, perintah di atas dapat menggunakan
 konfigurasi bawaan (default configuration) dengan memilihkan jenis algoritma
 yang digunakan dan panjang kuncinya.
 
-Perintah lain dapat menghasilkan pasangan kunci dengan pilihan kita sendiri,
-seperti jenis algoritma yang digunakan (pilih RSA dan RSA), panjang kuncinya,
+Perintah lain (``gpg --full-generate-key'') dapat menghasilkan pasangan kunci 
+dengan pilihan kita sendiri, seperti jenis algoritma yang digunakan 
+(pilih RSA dan RSA), panjang kuncinya,
 dan alamat email yang akan digunakan untuk kunci tersebut\footnote{Tampilan yang akan 
-ditampilkan kemungkinan akan berubah sesuai dengan versi dari gpg.}
-Dalam contoh buku ini saya akan
-menggunakan alamat email ``rahard2017@gmail.com''. Gunakan alamat email Anda
+ditampilkan kemungkinan akan berubah sesuai dengan versi dari gpg.}.
+Saya akan
+menggunakan alamat email ``{rahard2017@gmail.com}''. Gunakan alamat email Anda
 sebagai penggantinya.
 
 Jika Anda baru akan memulai mencoba, saya sarankan agar menggunakan alamat
@@ -146,7 +149,9 @@ uid       [ultimate] Budi Rahardjo <rahard2017@gmail.com>
 sub   2048R/C2E83C60 2017-02-14 [expires: 2017-03-07]
 \end{verbatim}
 
-Perhatikan bahwa kunci publik yang ini memiliki ID ``EB6CEB46''. ID ini dapat
+Perhatikan bahwa kunci publik yang ini memiliki ID ``EB6CEB46''. 
+Itu adalah delapan (8) karakter terakhir dari {\em fingerprint}.
+ID ini dapat
 digunakan untuk bertukar kunci, atau untuk melakukan proses-proses lainnya.
 Sebagai contoh, kita dapat mengirimkan kunci ini ke server agar dapat dilihat
 atau dicari oleh orang lain. Keyserver yang akan kita gunakan dalam contoh ini
@@ -188,7 +193,7 @@ Bila kunci tersebut jatuh ke tangan pihak lain (dan dia mengetahui passphrase-ny
 maka secara teknis dia akan menjadi Anda.
 
 
-\begin{mdframed}[backgroundcolor=blue!20] 
+\begin{mdframed}[backgroundcolor=blue!20,linewidth=0pt,innerrightmargin=50pt]
 \begin{ExerciseList}
    \Exercise[title=Membuat Kunci]
    \Question{Buat pasangan kunci publik dan kunci privat Anda. Gunakan parameter
@@ -355,7 +360,7 @@ gpg -a --output dokumen.pgp --encrypt --recipient rahard2017@gmail.com dokumen.t
 
 Jika kita lihat berkas ``dokumen.pgp'', isinya adalah seperti berikut.
 
-\begin{mdframed}
+\begin{mdframed}[userdefinedwidth=400]
 \begin{verbatim}
 -----BEGIN PGP MESSAGE-----
 Comment: GPGTools - https://gpgtools.org
@@ -382,7 +387,7 @@ biasanya pengguna ditanyakan {\em passphrase} untuk mengakses (membuka) kunci
 privat tersebut karena biasanya kunci privat dilindungi dengan {\em passphrase}
 tersebut.
 
-\begin{mdframed}
+\begin{mdframed}[userdefinedwidth=400]
 \begin{verbatim}
 gpg --decrypt dokumen.pgp
 
