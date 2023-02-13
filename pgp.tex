@@ -155,7 +155,11 @@ ID ini dapat
 digunakan untuk bertukar kunci, atau untuk melakukan proses-proses lainnya.
 Sebagai contoh, kita dapat mengirimkan kunci ini ke server agar dapat dilihat
 atau dicari oleh orang lain. Keyserver yang akan kita gunakan dalam contoh ini
-adalah pgp.mit.edu.
+adalah pgp.mit.edu\footnote{Dikarenakan terjadi banyak serangan (abuse)
+terhadap PGP keyserver, ada banyak keyserver yang tidak dapat beroperasi.
+Kita buku ini ditulis, keyserver yang di MIT berjalan dengan baik. Dalam
+perjalanannya, keyserver ini sering tidak jalan. Gunakan keyserver yang lain
+misalnya keyserver.ubuntu.com atau pgp.surfnet.nl.}.
 
 \begin{verbatim}
 gpg --keyserver pgp.mit.edu --send-keys EB6CEB46
@@ -311,6 +315,15 @@ sig  sig   7E1023FE 2021-02-14 __________ __________ Budi Rahardjo <kelasbr2021@
 
 sub  3072R/890AB53D 2021-02-14            
 sig sbind  B424863E 2021-02-14 __________ 2023-02-14 []
+\end{verbatim}
+
+
+Jika Anda memiliki beberapa alamat email (ID), maka gpg sering bingung 
+identitas mana yang akan Anda gunakan untuk menandatangani. 
+Untuk itu gunakan pilihan (opsi) berikut di awal perintah gpg Anda.
+
+\begin{verbatim}
+gpg --default-key rahard@protonmail.com  ...dan seterusnya...
 \end{verbatim}
 
 \subsection{Enkrip Untuk Sebuah Alamat Email}

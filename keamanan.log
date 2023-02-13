@@ -1,101 +1,102 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Homebrew) (preloaded format=pdflatex 2022.3.3)  18 SEP 2022 11:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Homebrew) (preloaded format=pdflatex 2022.9.2)  13 FEB 2023 10:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **keamanan.tex
 (./keamanan.tex
-LaTeX2e <2020-10-01> patch level 4
-L3 programming layer <2021-02-18> (./tufte-book.cls
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-24> (./tufte-book.cls
 Document Class: tufte-book 2009/12/11 v3.5.0 Tufte-book class
 (./tufte-common.def
 File: tufte-common.def 2015/06/21 v3.5.2 Common code for the Tufte-LaTeX styles
 
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/xkeyval/xkeyva
-l.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/xkeyval/xke
+yval.sty
 Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/generic/xkeyval/xkey
-val.tex
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/generic/xkeyval/xkvu
-tils.tex
-\XKV@toks=\toks15
-\XKV@tempa@toks=\toks16
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/generic/xkeyval/x
+keyval.tex
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/generic/xkeyval/x
+kvutils.tex
+\XKV@toks=\toks16
+\XKV@tempa@toks=\toks17
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/generic/xkeyval/keyv
-al.tex))
-\XKV@depth=\count179
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/generic/xkeyval/k
+eyval.tex))
+\XKV@depth=\count185
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/xifthen/xifthe
-n.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/xifthen/xif
+then.sty
 Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/tools/calc.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/tools/calc.
+sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count180
-\calc@Bcount=\count181
+\calc@Acount=\count186
+\calc@Bcount=\count187
 \calc@Adimen=\dimen138
 \calc@Bdimen=\dimen139
 \calc@Askip=\skip47
 \calc@Bskip=\skip48
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count182
+\calc@Ccount=\count188
 \calc@Cskip=\skip49
 )
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/base/ifthen.st
-y
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/base/ifthen
+.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/ifmtarg/ifmtar
-g.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/ifmtarg/ifm
+targ.sty
 Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
 ))
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/hardwrap/hardw
-rap.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/hardwrap/ha
+rdwrap.sty
 Package: hardwrap 2011/02/12 v0.2 Hard wrap messages
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/ifplatform/ifp
-latform.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/ifplatform/
+ifplatform.sty
 Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/tools/shellesc
-.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/tools/shell
+esc.sty
 Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
 Package shellesc Info: Restricted shell escape enabled on input line 77.
 )
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/generic/pdftexcmds/p
-dftexcmds.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/generic/pdftexcmd
+s/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/generic/infwarerr/in
-fwarerr.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/generic/infwarerr
+/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/generic/iftex/iftex.
-sty
-Package: iftex 2020/03/06 v1.0d TeX engine tests
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/generic/iftex/ift
+ex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
 )
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/generic/ltxcmds/ltxc
-mds.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/generic/ltxcmds/l
+txcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/generic/catchfile/ca
-tchfile.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/generic/catchfile
+/catchfile.sty
 Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/generic/etexcmds/ete
-xcmds.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/generic/etexcmds/
+etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 ))
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/generic/iftex/ifluat
-ex.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/generic/iftex/ifl
+uatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 )
 
@@ -103,185 +104,182 @@ Package ifplatform Warning:
     shell escape is disabled, so I can only detect \ifwindows.
 
 )
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/generic/iftex/ifxete
-x.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/generic/iftex/ifx
+etex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 )
-\hw@charcount=\count183
-\hw@wordcount=\count184
-\hw@maxprintline=\count185
+\hw@charcount=\count189
+\hw@wordcount=\count190
+\hw@maxprintline=\count191
  (|kpsewhich -var-value=max_print_line))
 Class tufte-book Info: Loading the base class `book'
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/base/book.cls
-Document Class: book 2020/04/10 v1.4m Standard LaTeX document class
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/base/bk10.clo
-File: bk10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/base/book.c
+ls
+Document Class: book 2021/10/04 v1.4n Standard LaTeX document class
+
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/base/bk10.c
+lo
+File: bk10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count186
-\c@chapter=\count187
-\c@section=\count188
-\c@subsection=\count189
-\c@subsubsection=\count190
-\c@paragraph=\count191
-\c@subparagraph=\count192
-\c@figure=\count193
-\c@table=\count194
+\c@part=\count192
+\c@chapter=\count193
+\c@section=\count194
+\c@subsection=\count195
+\c@subsubsection=\count196
+\c@paragraph=\count197
+\c@subparagraph=\count198
+\c@figure=\count199
+\c@table=\count266
 \abovecaptionskip=\skip50
 \belowcaptionskip=\skip51
 \bibindent=\dimen140
 )
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/generic/iftex/ifpdf.
-sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/generic/iftex/ifp
+df.sty
 Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
 )
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/titlesec/title
-sec.sty
-Package: titlesec 2019/10/16 v2.13 Sectioning titles
-\ttl@box=\box47
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/titlesec/ti
+tlesec.sty
+Package: titlesec 2021/07/05 v2.14 Sectioning titles
+\ttl@box=\box50
 \beforetitleunit=\skip52
 \aftertitleunit=\skip53
 \ttl@plus=\dimen141
 \ttl@minus=\dimen142
-\ttl@toksa=\toks17
+\ttl@toksa=\toks18
 \titlewidth=\dimen143
 \titlewidthlast=\dimen144
 \titlewidthfirst=\dimen145
 )
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/titlesec/title
-toc.sty
-Package: titletoc 2019/10/16 v2.13 TOC entries
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/titlesec/ti
+tletoc.sty
+Package: titletoc 2021/07/05 v2.14 TOC entries
 \ttl@leftsep=\dimen146
 )
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/hyperref/hyper
-ref.sty
-Package: hyperref 2021-02-27 v7.00k Hypertext links for LaTeX
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/hyperref/hy
+perref.sty
+Package: hyperref 2022-02-21 v7.00n Hypertext links for LaTeX
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/generic/kvsetkeys/kv
-setkeys.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/generic/kvsetkeys
+/kvsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 )
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/generic/kvdefinekeys
-/kvdefinekeys.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/generic/kvdefinek
+eys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/generic/pdfescape/pd
-fescape.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/generic/pdfescape
+/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 )
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/hycolor/hycolo
-r.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/hycolor/hyc
+olor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/letltxmacro/le
-tltxmacro.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/letltxmacro
+/letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/auxhook/auxhoo
-k.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/auxhook/aux
+hook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/kvoptions/kvop
-tions.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/kvoptions/k
+voptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
 \@linkdim=\dimen147
-\Hy@linkcounter=\count195
-\Hy@pagecounter=\count196
+\Hy@linkcounter=\count267
+\Hy@pagecounter=\count268
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/hyperref/pd1en
-c.def
-File: pd1enc.def 2021-02-27 v7.00k Hyperref: PDFDocEncoding definition (HO)
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/hyperref/pd
+1enc.def
+File: pd1enc.def 2022-02-21 v7.00n Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/hyperref/hyper
-ref-langpatches.def
-File: hyperref-langpatches.def 2021-02-27 v7.00k Hyperref: patches for babel la
-nguages
-)
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/generic/intcalc/intc
-alc.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/generic/intcalc/i
+ntcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count197
+\Hy@SavedSpaceFactor=\count269
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/hyperref/puenc
-.def
-File: puenc.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (HO)
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/hyperref/pu
+enc.def
+File: puenc.def 2022-02-21 v7.00n Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `unicode' set `true' on input line 4073.
-Package hyperref Info: Option `hyperfootnotes' set `false' on input line 4073.
-Package hyperref Info: Hyper figures OFF on input line 4192.
-Package hyperref Info: Link nesting OFF on input line 4197.
-Package hyperref Info: Hyper index ON on input line 4200.
-Package hyperref Info: Plain pages OFF on input line 4207.
-Package hyperref Info: Backreferencing OFF on input line 4212.
+Package hyperref Info: Option `unicode' set `true' on input line 4018.
+Package hyperref Info: Option `hyperfootnotes' set `false' on input line 4018.
+Package hyperref Info: Hyper figures OFF on input line 4137.
+Package hyperref Info: Link nesting OFF on input line 4142.
+Package hyperref Info: Hyper index ON on input line 4145.
+Package hyperref Info: Plain pages OFF on input line 4152.
+Package hyperref Info: Backreferencing OFF on input line 4157.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count198
+Package hyperref Info: Bookmarks ON on input line 4390.
+\c@Hy@tempcnt=\count270
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/url/url.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4804.
+LaTeX Info: Redefining \url on input line 4749.
 \XeTeXLinkMargin=\dimen148
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/generic/bitset/bitse
-t.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/generic/bitset/bi
+tset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/generic/bigintcalc/b
-igintcalc.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/generic/bigintcal
+c/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count199
+\Fld@menulength=\count271
 \Field@Width=\dimen149
 \Fld@charsize=\dimen150
-Package hyperref Info: Hyper figures OFF on input line 6075.
-Package hyperref Info: Link nesting OFF on input line 6080.
-Package hyperref Info: Hyper index ON on input line 6083.
-Package hyperref Info: backreferencing OFF on input line 6090.
-Package hyperref Info: Link coloring OFF on input line 6095.
-Package hyperref Info: Link coloring with OCG OFF on input line 6100.
-Package hyperref Info: PDF/A mode OFF on input line 6105.
-LaTeX Info: Redefining \ref on input line 6145.
-LaTeX Info: Redefining \pageref on input line 6149.
+Package hyperref Info: Hyper figures OFF on input line 6027.
+Package hyperref Info: Link nesting OFF on input line 6032.
+Package hyperref Info: Hyper index ON on input line 6035.
+Package hyperref Info: backreferencing OFF on input line 6042.
+Package hyperref Info: Link coloring OFF on input line 6047.
+Package hyperref Info: Link coloring with OCG OFF on input line 6052.
+Package hyperref Info: PDF/A mode OFF on input line 6057.
+LaTeX Info: Redefining \ref on input line 6097.
+LaTeX Info: Redefining \pageref on input line 6101.
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/base/atbegshi-
-ltx.sty
-Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
-ge
-with kernel methods
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/base/atbegs
+hi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
 )
-\Hy@abspage=\count266
-\c@Item=\count267
+\Hy@abspage=\count272
+\c@Item=\count273
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/hyperref/hpdft
-ex.def
-File: hpdftex.def 2021-02-27 v7.00k Hyperref driver for pdfTeX
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/hyperref/hp
+dftex.def
+File: hpdftex.def 2022-02-21 v7.00n Hyperref driver for pdfTeX
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/base/atveryend
--ltx.sty
-Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
-e
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/base/atvery
+end-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
 with kernel methods
 )
-\Fld@listcount=\count268
-\c@bookmark@seq@number=\count269
+\Fld@listcount=\count274
+\c@bookmark@seq@number=\count275
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/rerunfilecheck
-/rerunfilecheck.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/rerunfilech
+eck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/generic/uniquecounte
-r/uniquecounter.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/generic/uniquecou
+nter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
@@ -289,16 +287,9 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip54
 )
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/ragged2e/ragge
-d2e.sty
-Package: ragged2e 2021/02/05 v3.0 ragged2e Package
-
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/everysel/every
-sel.sty
-Package: everysel 2021/01/20 v2.1 EverySelectfont Package (MS)
-
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/everysel/every
-sel-2011-10-28.sty))
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/ragged2e/ra
+gged2e.sty
+Package: ragged2e 2021/12/15 v3.1 ragged2e Package
 \CenteringLeftskip=\skip55
 \RaggedLeftLeftskip=\skip56
 \RaggedRightLeftskip=\skip57
@@ -314,17 +305,17 @@ sel-2011-10-28.sty))
 \RaggedRightParindent=\skip67
 \JustifyingParindent=\skip68
 )
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/geometry/geome
-try.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/geometry/ge
+ometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/generic/iftex/ifvtex
-.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/generic/iftex/ifv
+tex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count270
-\Gm@cntv=\count271
-\c@Gm@tempcnt=\count272
+\Gm@cnth=\count276
+\Gm@cntv=\count277
+\c@Gm@tempcnt=\count278
 \Gm@bindingoffset=\dimen151
 \Gm@wd@mp=\dimen152
 \Gm@odd@mp=\dimen153
@@ -333,134 +324,134 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutheight=\dimen156
 \Gm@layouthoffset=\dimen157
 \Gm@layoutvoffset=\dimen158
-\Gm@dimlist=\toks18
+\Gm@dimlist=\toks19
 )
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/changepage/cha
-ngepage.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/changepage/
+changepage.sty
 Package: changepage 2009/10/20 v1.0c check page and change page layout
-\c@cp@cntr=\count273
-\cp@tempcnt=\count274
+\c@cp@cntr=\count279
+\cp@tempcnt=\count280
 )
 \@tufte@overhang=\skip69
 \@tufte@fullwidth=\skip70
 \@tufte@caption@fill=\skip71
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/paralist/paral
-ist.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/paralist/pa
+ralist.sty
 Package: paralist 2017/01/22 v2.7 Extended list environments
 \pltopsep=\skip72
 \plpartopsep=\skip73
 \plitemsep=\skip74
 \plparsep=\skip75
-\pl@lab=\toks19
+\pl@lab=\toks20
 )
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/textcase/textc
-ase.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/textcase/te
+xtcase.sty
 Package: textcase 2019/09/14 v1.00 Text only upper/lower case changing (DPC)
 )
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/microtype/lett
-erspace.sty
-Package: letterspace 2021/03/14 v2.8c Robust letterspacing (RS)
-LaTeX Info: Redefining \lsstyle on input line 346.
-LaTeX Info: Redefining \lslig on input line 347.
-LaTeX Info: Redefining \textls on input line 372.
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/microtype/l
+etterspace.sty
+Package: letterspace 2022/03/14 v3.0d Robust letterspacing (RS)
+LaTeX Info: Redefining \lsstyle on input line 340.
+LaTeX Info: Redefining \lslig on input line 341.
+LaTeX Info: Redefining \textls on input line 369.
 \MT@outer@kern=\dimen159
 )
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/setspace/setsp
-ace.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/setspace/se
+tspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/xcolor/xcolor.
-sty
-Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/xcolor/xcol
+or.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/graphics-cfg/c
-olor.cfg
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/graphics-cf
+g/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Driver file: pdftex.def on input line 227.
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/graphics-def/p
-dftex.def
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/graphics-de
+f/pdftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 )
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
-Package xcolor Info: Model `RGB' extended on input line 1364.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/graphics/dvips
-nam.def
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/graphics/dv
+ipsnam.def
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 )
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/xcolor/svgnam.
-def
-File: svgnam.def 2016/05/11 v2.12 Predefined colors according to SVG 1.1 (UK)
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/xcolor/svgn
+am.def
+File: svgnam.def 2021/10/31 v2.13 Predefined colors according to SVG 1.1 (UK)
 ))
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/natbib/natbib.
-sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/natbib/natb
+ib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip76
 \bibsep=\skip77
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count275
+\c@NAT@ctr=\count281
 )
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/natbib/bibentr
-y.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/natbib/bibe
+ntry.sty
 Package: bibentry 2007/10/30 1.5 (PWD)
 ) (./keamanan.bbl)
-\c@@tufte@num@bibkeys=\count276
+\c@@tufte@num@bibkeys=\count282
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/sauerj/optpara
-ms.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/sauerj/optp
+arams.sty
 Package: optparams 2004/08/14 v0.9 multiple optional parameters in macros
 )
 \@tufte@sidenote@vertical@offset=\skip78
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/placeins/place
-ins.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/placeins/pl
+aceins.sty
 Package: placeins 2005/04/18  v 2.2
 )
-\@tufte@margin@floatbox=\box48
-\@tufte@figure@box=\box49
-\@tufte@caption@box=\box50
+\@tufte@margin@floatbox=\box51
+\@tufte@figure@box=\box52
+\@tufte@caption@box=\box53
 \@tufte@caption@vertical@offset=\skip79
 \@tufte@float@contents@width=\skip80
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/psnfss/mathpaz
-o.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/psnfss/math
+pazo.sty
 Package: mathpazo 2020/03/25 PSNFSS-v9.3 Palatino w/ Pazo Math (D.Puga, WaS) 
 \symupright=\mathgroup4
 )
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/psnfss/helvet.
-sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/psnfss/helv
+et.sty
 Package: helvet 2020/03/25 PSNFSS-v9.3 (WaS) 
 )
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/bera/beramono.
-sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/bera/beramo
+no.sty
 Package: beramono 2004/01/31 (WaS)
 )
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/base/fontenc.s
-ty
-Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/base/fonten
+c.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 LaTeX Font Info:    Trying to load font information for T1+pplj on input line 1
 12.
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/psnfss/t1pplj.
-fd
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/psnfss/t1pp
+lj.fd
 File: t1pplj.fd 2004/09/06 font definitions for T1/pplj.
 ))
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/base/textcomp.
-sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/base/textco
+mp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 )
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/fancyhdr/fancy
-hdr.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/fancyhdr/fa
+ncyhdr.sty
 Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
 rs
 \f@nch@headwidth=\skip81
@@ -475,33 +466,30 @@ rs
 )
 \tufteskipamount=\skip90
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/tools/multicol
-.sty
-Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
-\c@tracingmulticols=\count277
-\mult@box=\box51
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/tools/multi
+col.sty
+Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
+\c@tracingmulticols=\count283
+\mult@box=\box54
 \multicol@leftmargin=\dimen160
-\c@unbalance=\count278
-\c@collectmore=\count279
-\doublecol@number=\count280
-\multicoltolerance=\count281
-\multicolpretolerance=\count282
+\c@unbalance=\count284
+\c@collectmore=\count285
+\doublecol@number=\count286
+\multicoltolerance=\count287
+\multicolpretolerance=\count288
 \full@width=\dimen161
 \page@free=\dimen162
 \premulticols=\dimen163
 \postmulticols=\dimen164
 \multicolsep=\skip91
 \multicolbaselineskip=\skip92
-\partial@page=\box52
-\last@line=\box53
+\partial@page=\box55
+\last@line=\box56
 \maxbalancingoverflow=\dimen165
-\mult@rightbox=\box54
-\mult@grightbox=\box55
-\mult@gfirstbox=\box56
-\mult@firstbox=\box57
-\@tempa=\box58
-\@tempa=\box59
-\@tempa=\box60
+\mult@rightbox=\box57
+\mult@grightbox=\box58
+\mult@firstbox=\box59
+\mult@gfirstbox=\box60
 \@tempa=\box61
 \@tempa=\box62
 \@tempa=\box63
@@ -536,78 +524,78 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \@tempa=\box92
 \@tempa=\box93
 \@tempa=\box94
-\c@minrows=\count283
-\c@columnbadness=\count284
-\c@finalcolumnbadness=\count285
+\@tempa=\box95
+\@tempa=\box96
+\c@minrows=\count289
+\c@columnbadness=\count290
+\c@finalcolumnbadness=\count291
 \last@try=\dimen166
 \multicolovershoot=\dimen167
 \multicolundershoot=\dimen168
-\mult@nat@firstbox=\box95
-\colbreak@box=\box96
-\mc@col@check@num=\count286
+\mult@nat@firstbox=\box97
+\colbreak@box=\box98
+\mc@col@check@num=\count292
 )))
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/doclicense/doc
-license.sty
-Package: doclicense 2021/03/13 v2.3.0 Support for putting documents under a lic
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/doclicense/
+doclicense.sty
+Package: doclicense 2021/07/11 v3.0.0 Support for putting documents under a lic
 ense
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/generic/xstring/xstr
-ing.sty
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/generic/xstring/xstr
-ing.tex
-\integerpart=\count287
-\decimalpart=\count288
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/generic/xstring/x
+string.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/generic/xstring/x
+string.tex
+\integerpart=\count293
+\decimalpart=\count294
 )
-Package: xstring 2019/02/06 v1.83 String manipulations (CT)
+Package: xstring 2021/07/21 v1.84 String manipulations (CT)
 )
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/etoolbox/etool
-box.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/etoolbox/et
+oolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count289
+\etb@tempcnta=\count295
 )
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/tools/xspace.s
-ty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/tools/xspac
+e.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/tools/verbatim
-.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/tools/verba
+tim.sty
 Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks20
-\verbatim@line=\toks21
+\every@verbatim=\toks21
+\verbatim@line=\toks22
 \verbatim@in@stream=\read2
 )
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/hyperxmp/hyper
-xmp.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/hyperxmp/hy
+perxmp.sty
 Package: hyperxmp 2020/11/22 v5.9 Store hyperref metadata in XMP format
-\hyxmp@aep@toks=\toks22
+\hyxmp@aep@toks=\toks23
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/generic/stringenc/st
-ringenc.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/generic/stringenc
+/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/oberdiek/ifdra
-ft.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/oberdiek/if
+draft.sty
 Package: ifdraft 2016/05/16 v1.4 Detect class options draft and final (HO)
 )
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/totpages/totpa
-ges.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/totpages/to
+tpages.sty
 Package: totpages 2005/09/19 v2.00 Totpages Package (muewi)
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/base/everyshi-
-ltx.sty
-Package: everyshi-ltx 2020/08/17 v1.0a Emulation of the original everyshi packa
-ge
-with kernel methods
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/everyshi/ev
+eryshi.sty
+Package: everyshi 2020/11/18 v4.00 EveryShipout Package
 )))
 \doclicense@hsize=\skip93
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/doclicense/doc
-license-english.ldf
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/doclicense/
+doclicense-english.ldf
 File: doclicense-english.ldf 
 ))
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/exercise/exerc
-ise.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/exercise/ex
+ercise.sty
 Package: exercise 2014/10/20 v1.6 Exercise package (P.Pichaureau)
 \ExerciseSkipBefore=\skip94
 \ExerciseSkipAfter=\skip95
@@ -628,72 +616,70 @@ Package: exercise 2014/10/20 v1.6 Exercise package (P.Pichaureau)
 \QuestionIndent=\skip110
 \subQuestionIndent=\skip111
 \subsubQuestionIndent=\skip112
-\c@Exercise=\count290
-\c@Answer=\count291
-\c@ExePart=\count292
-\c@Question=\count293
-\c@subQuestion=\count294
-\c@subsubQuestion=\count295
-\c@savedQuestion=\count296
-\c@savedsubQuestion=\count297
-\c@savedsubsubQuestion=\count298
-\@QuestionLevel=\count299
-\@Exercisebox=\box97
-\all@Exercisebox=\box98
-\temp@Exercisebox=\box99
-\all@Answerbox=\box100
-\temp@Answerbox=\box101
-\ExerciseDifficulty=\count300
-\QuestionDifficulty=\count301
-\subQuestionDifficulty=\count302
-\subsubQuestionDifficulty=\count303
-\ExePartDifficulty=\count304
-\@Answerbox=\box102
-\colonnesLevel=\count305
+\c@Exercise=\count296
+\c@Answer=\count297
+\c@ExePart=\count298
+\c@Question=\count299
+\c@subQuestion=\count300
+\c@subsubQuestion=\count301
+\c@savedQuestion=\count302
+\c@savedsubQuestion=\count303
+\c@savedsubsubQuestion=\count304
+\@QuestionLevel=\count305
+\@Exercisebox=\box99
+\all@Exercisebox=\box100
+\temp@Exercisebox=\box101
+\all@Answerbox=\box102
+\temp@Answerbox=\box103
+\ExerciseDifficulty=\count306
+\QuestionDifficulty=\count307
+\subQuestionDifficulty=\count308
+\subsubQuestionDifficulty=\count309
+\ExePartDifficulty=\count310
+\@Answerbox=\box104
+\colonnesLevel=\count311
 \tempskipa=\skip113
 \tempskipb=\skip114
 \@savedmathindent=\skip115
 )
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/mdframed/mdfra
-med.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/mdframed/md
+framed.sty
 Package: mdframed 2013/07/01 1.9b: mdframed
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/l3packages/xpa
-rse/xparse.sty
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/l3kernel/expl3
-.sty
-Package: expl3 2021-02-18 L3 programming layer (loader) 
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/l3packages/
+xparse/xparse.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/l3kernel/ex
+pl3.sty
+Package: expl3 2022-02-24 L3 programming layer (loader) 
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/l3backend/l3ba
-ckend-pdftex.def
-File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count306
-\l__pdf_internal_box=\box103
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/l3backend/l
+3backend-pdftex.def
+File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count312
+\l__pdf_internal_box=\box105
 ))
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/l3packages/xpa
-rse/xparse-2020-10-01.sty
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/l3packages/xpa
-rse/xparse-generic.tex)))
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/zref/zref-absp
-age.sty
+Package: xparse 2022-01-12 L3 Experimental document command parser
+)
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/zref/zref-a
+bspage.sty
 Package: zref-abspage 2020-07-03 v2.32 Module abspage for zref (HO)
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/zref/zref-base
-.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/zref/zref-b
+ase.sty
 Package: zref-base 2020-07-03 v2.32 Module base for zref (HO)
 Package zref Info: New property list: main on input line 764.
 Package zref Info: New property: default on input line 765.
 Package zref Info: New property: page on input line 766.
 )
-\c@abspage=\count307
+\c@abspage=\count313
 Package zref Info: New property: abspage on input line 66.
 )
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/needspace/need
-space.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/needspace/n
+eedspace.sty
 Package: needspace 2010/09/12 v1.3d reserve vertical space
 )
 \mdf@templength=\skip116
-\c@mdf@globalstyle@cnt=\count308
+\c@mdf@globalstyle@cnt=\count314
 \mdf@skipabove@length=\skip117
 \mdf@skipbelow@length=\skip118
 \mdf@leftmargin@length=\skip119
@@ -734,15 +720,15 @@ Package: needspace 2010/09/12 v1.3d reserve vertical space
 \mdf@subsubtitleinneraboveskip@length=\skip154
 \mdf@subsubtitleinnerbelowskip@length=\skip155
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/mdframed/md-fr
-ame-0.mdf
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/mdframed/md
+-frame-0.mdf
 File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
 )
-\mdf@frametitlebox=\box104
-\mdf@footnotebox=\box105
-\mdf@splitbox@one=\box106
-\mdf@splitbox@two=\box107
-\mdf@splitbox@save=\box108
+\mdf@frametitlebox=\box106
+\mdf@footnotebox=\box107
+\mdf@splitbox@one=\box108
+\mdf@splitbox@two=\box109
+\mdf@splitbox@save=\box110
 \mdfsplitboxwidth=\skip156
 \mdfsplitboxtotalwidth=\skip157
 \mdfsplitboxheight=\skip158
@@ -770,144 +756,144 @@ File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
 \mdf@horizontalspaceofbox=\skip180
 \mdfsubtitleheight=\skip181
 \mdfsubsubtitleheight=\skip182
-\c@mdfcountframes=\count309
+\c@mdfcountframes=\count315
 
 ****** mdframed patching \endmdf@trivlist
 
 ****** -- success******
 
-\mdf@envdepth=\count310
-\c@mdf@env@i=\count311
-\c@mdf@env@ii=\count312
-\c@mdf@zref@counter=\count313
+\mdf@envdepth=\count316
+\c@mdf@env@i=\count317
+\c@mdf@env@ii=\count318
+\c@mdf@zref@counter=\count319
 Package zref Info: New property: mdf@pagevalue on input line 895.
 )
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/amsmath/amsmat
-h.sty
-Package: amsmath 2020/09/23 v2.17i AMS math features
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/amsmath/ams
+math.sty
+Package: amsmath 2021/10/15 v2.17l AMS math features
 \@mathmargin=\skip183
 
 For additional information on amsmath, use the `?' option.
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/amsmath/amstex
-t.sty
-Package: amstext 2000/06/29 v2.01 AMS text
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/amsmath/ams
+text.sty
+Package: amstext 2021/08/26 v2.01 AMS text
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/amsmath/amsgen
-.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/amsmath/ams
+gen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks23
+\@emptytoks=\toks24
 \ex@=\dimen169
 ))
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/amsmath/amsbsy
-.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/amsmath/ams
+bsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen170
 )
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/amsmath/amsopn
-.sty
-Package: amsopn 2016/03/08 v2.02 operator names
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/amsmath/ams
+opn.sty
+Package: amsopn 2021/08/26 v2.02 operator names
 )
-\inf@bad=\count314
+\inf@bad=\count320
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count315
-\leftroot@=\count316
+\uproot@=\count321
+\leftroot@=\count322
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count317
-\DOTSCASE@=\count318
+\classnum@=\count323
+\DOTSCASE@=\count324
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box109
-\strutbox@=\box110
+\Mathstrutbox@=\box111
+\strutbox@=\box112
 \big@size=\dimen171
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count319
-\c@MaxMatrixCols=\count320
+\macc@depth=\count325
+\c@MaxMatrixCols=\count326
 \dotsspace@=\muskip17
-\c@parentequation=\count321
-\dspbrk@lvl=\count322
-\tag@help=\toks24
-\row@=\count323
-\column@=\count324
-\maxfields@=\count325
-\andhelp@=\toks25
+\c@parentequation=\count327
+\dspbrk@lvl=\count328
+\tag@help=\toks25
+\row@=\count329
+\column@=\count330
+\maxfields@=\count331
+\andhelp@=\toks26
 \eqnshift@=\dimen172
 \alignsep@=\dimen173
 \tagshift@=\dimen174
 \tagwidth@=\dimen175
 \totwidth@=\dimen176
 \lineht@=\dimen177
-\@envbody=\toks26
+\@envbody=\toks27
 \multlinegap=\skip184
 \multlinetaggap=\skip185
-\mathdisplay@stack=\toks27
-LaTeX Info: Redefining \[ on input line 2923.
-LaTeX Info: Redefining \] on input line 2924.
+\mathdisplay@stack=\toks28
+LaTeX Info: Redefining \[ on input line 2938.
+LaTeX Info: Redefining \] on input line 2939.
 )
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/appendix/appen
-dix.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/appendix/ap
+pendix.sty
 Package: appendix 2020/02/08 v1.2c extra appendix facilities
-\c@@pps=\count326
-\c@@ppsavesec=\count327
-\c@@ppsaveapp=\count328
+\c@@pps=\count332
+\c@@ppsavesec=\count333
+\c@@ppsaveapp=\count334
 ) (./pythonhighlight.sty
 Package: pythonhighlight 2011/09/19 python code highlighting; provided by Olivi
 er Verdier <olivier.verdier@gmail.com>
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/listings/listi
-ngs.sty
-\lst@mode=\count329
-\lst@gtempboxa=\box111
-\lst@token=\toks28
-\lst@length=\count330
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/listings/li
+stings.sty
+\lst@mode=\count335
+\lst@gtempboxa=\box113
+\lst@token=\toks29
+\lst@length=\count336
 \lst@currlwidth=\dimen178
-\lst@column=\count331
-\lst@pos=\count332
+\lst@column=\count337
+\lst@pos=\count338
 \lst@lostspace=\dimen179
 \lst@width=\dimen180
-\lst@newlines=\count333
-\lst@lineno=\count334
+\lst@newlines=\count339
+\lst@lineno=\count340
 \lst@maxwidth=\dimen181
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/listings/lstmi
-sc.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/listings/ls
+tmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count335
-\lst@skipnumbers=\count336
-\lst@framebox=\box112
+\c@lstnumber=\count341
+\lst@skipnumbers=\count342
+\lst@framebox=\box114
 )
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/listings/listi
-ngs.cfg
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/listings/li
+stings.cfg
 File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
 Package: listings 2020/03/24 1.8d (Carsten Heinz)
 )
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/graphics/graph
-icx.sty
-Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/graphics/gr
+aphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/graphics/graph
-ics.sty
-Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/graphics/gr
+aphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/graphics/trig.
-sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/graphics/tr
+ig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 )
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/graphics-cfg/g
-raphics.cfg
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/graphics-cf
+g/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 105.
+Package graphics Info: Driver file: pdftex.def on input line 107.
 )
 \Gin@req@height=\dimen182
 \Gin@req@width=\dimen183
 )
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/base/makeidx.s
-ty
-Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/base/makeid
+x.sty
+Package: makeidx 2021/10/04 v1.0m Standard LaTeX package
 )
 \@indexfile=\write3
 \openout3 = `keamanan.idx'.
@@ -915,34 +901,35 @@ Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
 
 Writing index file keamanan.idx
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/csquotes/csquo
-tes.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/ccicons/cci
+cons.sty
+Package: ccicons 2017/10/30 v1.6 LaTeX support for Creative Commons icons
+)
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/csquotes/cs
+quotes.sty
 Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
-\csq@reset=\count337
-\csq@gtype=\count338
-\csq@glevel=\count339
-\csq@qlevel=\count340
-\csq@maxlvl=\count341
-\csq@tshold=\count342
-\csq@ltx@everypar=\toks29
+\csq@reset=\count343
+\csq@gtype=\count344
+\csq@glevel=\count345
+\csq@qlevel=\count346
+\csq@maxlvl=\count347
+\csq@tshold=\count348
+\csq@ltx@everypar=\toks30
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/csquotes/csquo
-tes.def
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/csquotes/cs
+quotes.def
 File: csquotes.def 2021-02-22 v5.2l csquotes generic definitions (JAW)
 )
 Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/csquotes/csquo
-tes.cfg
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/csquotes/cs
+quotes.cfg
 File: csquotes.cfg 
-))
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/ccicons/ccicon
-s.sty
-Package: ccicons 2017/10/30 v1.6 LaTeX support for Creative Commons icons
-) (./keamanan.aux (./pengantar.aux) (./pendahuluan.aux) (./prinsip.aux)
-(./crypto.aux) (./hash.aux) (./DNS.aux) (./pgp.aux) (./email.aux) (./web.aux)
-(./soceng.aux) (./incident.aux) (./penutup.aux) (./tcpdump.aux))
+)) (./keamanan.aux (./pengantar.aux) (./pendahuluan.aux)
+(./prinsip.aux) (./crypto.aux) (./hash.aux) (./DNS.aux) (./pgp.aux)
+(./email.aux) (./web.aux) (./soceng.aux) (./incident.aux) (./penutup.aux)
+(./tcpdump.aux))
 \openout1 = `keamanan.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
@@ -965,19 +952,19 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 31.
 LaTeX Font Info:    ... okay on input line 31.
 Package hyperref Info: Link coloring OFF on input line 31.
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/hyperref/namer
-ef.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/hyperref/na
+meref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/refcount/refco
-unt.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/refcount/re
+fcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/generic/gettitlestri
-ng/gettitlestring.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/generic/gettitles
+tring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count343
+\c@section@level=\count349
 )
 LaTeX Info: Redefining \ref on input line 31.
 LaTeX Info: Redefining \pageref on input line 31.
@@ -986,9 +973,6 @@ LaTeX Info: Redefining \nameref on input line 31.
 \@outlinefile=\write4
 \openout4 = `keamanan.out'.
 
-
-ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 31.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1026,38 +1010,38 @@ LaTeX Info: Redefining \selectfont on input line 31.
 
 \langwohyphens=\language87
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/context/base/mkii/su
-pp-pdf.mkii
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/context/base/mkii
+/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count344
+\scratchcounter=\count350
 \scratchdimen=\dimen184
-\scratchbox=\box113
-\nofMPsegments=\count345
-\nofMParguments=\count346
-\everyMPshowfont=\toks30
-\MPscratchCnt=\count347
+\scratchbox=\box115
+\nofMPsegments=\count351
+\nofMParguments=\count352
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count353
 \MPscratchDim=\dimen185
-\MPnumerator=\count348
-\makeMPintoPDFobject=\count349
-\everyMPtoPDFconversion=\toks31
+\MPnumerator=\count354
+\makeMPintoPDFobject=\count355
+\everyMPtoPDFconversion=\toks32
 )
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/epstopdf-pkg/e
-pstopdf-base.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/epstopdf-pk
+g/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/latexconfig/ep
-stopdf-sys.cfg
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/latexconfig
+/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count350
+\c@lstlisting=\count356
 LaTeX Font Info:    Trying to load font information for T1+phv on input line 38
 .
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/psnfss/t1phv.f
-d
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/psnfss/t1ph
+v.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
@@ -1071,8 +1055,8 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
  [1.1
 
 
-{/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/fonts/map/pdftex/updmap/
-pdftex.map}] [2.2
+{/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/fonts/map/pdftex/updm
+ap/pdftex.map}] [2.2
 
 
 ] (./keamanan.toc [3.3])
@@ -1087,36 +1071,36 @@ Chapter 1.
 LaTeX Font Info:    Trying to load font information for OT1+pplx on input line 
 10.
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/psnfss/ot1pplx
-.fd
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/psnfss/ot1p
+plx.fd
 File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
 )
 LaTeX Font Info:    Trying to load font information for OML+zplm on input line 
 10.
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/psnfss/omlzplm
-.fd
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/psnfss/omlz
+plm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 
 10.
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/psnfss/omszplm
-.fd
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/psnfss/omsz
+plm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 
 10.
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/psnfss/omxzplm
-.fd
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/psnfss/omxz
+plm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 
 10.
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/psnfss/ot1zplm
-.fd
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/psnfss/ot1z
+plm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
 
@@ -1145,8 +1129,8 @@ File: doclicense-CC-by-nc-sa-88x31.pdf Graphic file (type pdf)
 Package pdftex.def Info: doclicense-CC-by-nc-sa-88x31.pdf  used on input line 8
 3.
 (pdftex.def)             Requested size: 100.0001pt x 35.00002pt.
-) [6.6 </opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/doclice
-nse/images/doclicense-CC-by-nc-sa-88x31.pdf>]
+) [6.6 </opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/docl
+icense/images/doclicense-CC-by-nc-sa-88x31.pdf>]
 \openout2 = `pendahuluan.aux'.
 
  (./pendahuluan.tex
@@ -1213,56 +1197,70 @@ LaTeX Warning: Marginpar on page 10 moved.
 
 LaTeX Warning: Marginpar on page 10 moved.
 
-[10.10 <./graphics/telegram-down.jpg>] [11.11]
-<graphics/security-life-cycle.png, id=309, 577.15625pt x 481.8pt>
+[10.10 <./graphics/telegram-down.jpg>]
+
+LaTeX Warning: Marginpar on page 11 moved.
+
+[11.11]
+<graphics/biaya-transaksi-palsu.png, id=309, 323.2075pt x 441.65pt>
+File: graphics/biaya-transaksi-palsu.png Graphic file (type png)
+<use graphics/biaya-transaksi-palsu.png>
+Package pdftex.def Info: graphics/biaya-transaksi-palsu.png  used on input line
+ 223.
+(pdftex.def)             Requested size: 234.00134pt x 319.75337pt.
+ [12.12 <./graphics/biaya-transaksi-palsu.png>]
+<graphics/apk-palsu.jpg, id=319, 752.8125pt x 503.8825pt>
+File: graphics/apk-palsu.jpg Graphic file (type jpg)
+<use graphics/apk-palsu.jpg>
+Package pdftex.def Info: graphics/apk-palsu.jpg  used on input line 240.
+(pdftex.def)             Requested size: 234.00124pt x 156.62483pt.
+ [13.13 <./graphics/apk-palsu.jpg>]
+<graphics/security-life-cycle.png, id=327, 577.15625pt x 481.8pt>
 File: graphics/security-life-cycle.png Graphic file (type png)
 <use graphics/security-life-cycle.png>
 Package pdftex.def Info: graphics/security-life-cycle.png  used on input line 2
-33.
+79.
 (pdftex.def)             Requested size: 312.012pt x 260.46219pt.
 
-Overfull \hbox (6.81198pt too wide) in paragraph at lines 233--236
+Overfull \hbox (6.81198pt too wide) in paragraph at lines 279--282
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 233--236
+Underfull \hbox (badness 10000) in paragraph at lines 279--282
 
  []
 
-[12.12 <./graphics/security-life-cycle.png>]
+[14.14 <./graphics/security-life-cycle.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13.13]
-Overfull \hbox (0.99985pt too wide) in paragraph at lines 317--320
+ [15.15]
+Overfull \hbox (0.99985pt too wide) in paragraph at lines 363--366
 []\T1/pplj/m/n/10 Desain penga-manan ini ke-mu-dian dit-er-ap-kan se-cara tek-n
 is melalui 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [14.14])
-[15.15] [16.16]
+[16.16]) [17.17]
 \openout2 = `prinsip.aux'.
 
- (./prinsip.tex
-Chapter 3.
-[17.17
+ (./prinsip.tex [18.18
 
 
 
 
 ]
+Chapter 3.
+[19.19]
 LaTeX Font Info:    Trying to load font information for T1+fvm on input line 54
 .
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/bera/t1fvm.fd
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/bera/t1fvm.
+fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
 (Font)              scaled to size 8.50006pt on input line 54.
-[18.18]) [19.19] [20.20]
+ [20.20]) [21.21] [22.22]
 \openout2 = `crypto.aux'.
 
  (./crypto.tex
@@ -1274,9 +1272,9 @@ grafi,
  []
 
 
-LaTeX Warning: Marginpar on page 21 moved.
+LaTeX Warning: Marginpar on page 23 moved.
 
-<graphics/BR-watermark.png, id=365, 422.5386pt x 298.4751pt>
+<graphics/BR-watermark.png, id=382, 422.5386pt x 298.4751pt>
 File: graphics/BR-watermark.png Graphic file (type png)
 <use graphics/BR-watermark.png>
 Package pdftex.def Info: graphics/BR-watermark.png  used on input line 27.
@@ -1291,20 +1289,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--30
 
  []
 
-[21.21
+[23.23
 
 
 
 
-] [22.22 <./graphics/BR-watermark.png>]
+] [24.24 <./graphics/BR-watermark.png>]
 Package mdframed Info: mdframed works in twoside mode on input line 68.
 Package mdframed Info: mdframed works in twoside mode on input line 91.
 
 
-LaTeX Warning: Marginpar on page 23 moved.
+LaTeX Warning: Marginpar on page 25 moved.
 
 Package mdframed Info: mdframed works in twoside mode on input line 112.
-[23.23]
+[25.25]
 Package mdframed Info: mdframed works in twoside mode on input line 137.
 Package hyperref Info: bookmark level for unknown exercise defaults to 0 on inp
 ut line 139.
@@ -1348,24 +1346,24 @@ Overfull \hbox (24.97984pt too wide) in paragraph at lines 144--147
  []
 
 
-LaTeX Warning: Marginpar on page 24 moved.
+LaTeX Warning: Marginpar on page 26 moved.
 
 LaTeX Font Info:    Trying to load font information for TS1+pplj on input line 
 164.
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/psnfss/ts1pplj
-.fd
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/psnfss/ts1p
+plj.fd
 File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
-) [24.24] [25.25] [26.26]
+) [26.26] [27.27] [28.28]
 
-LaTeX Warning: Marginpar on page 27 moved.
+LaTeX Warning: Marginpar on page 29 moved.
 
-[27.27]) [28.28]
+[29.29]) [30.30]
 \openout2 = `hash.aux'.
 
  (./hash.tex
 
-LaTeX Warning: Marginpar on page 29 moved.
+LaTeX Warning: Marginpar on page 31 moved.
 
 
 Overfull \hbox (35.95837pt too wide) in paragraph at lines 19--19
@@ -1374,8 +1372,8 @@ umnya)[]
  []
 
 
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/latex/listings/lstla
-ng1.sty
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/listings/ls
+tlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
@@ -1384,16 +1382,16 @@ LaTeX Font Info:    Font shape `T1/fvm/b/n' will be
 (Font)              scaled to size 6.80005pt on input line 25.
 LaTeX Font Info:    Font shape `T1/fvm/m/sl' will be
 (Font)              scaled to size 6.80005pt on input line 26.
- [29.29
+ [31.31
 
 
 
 ]
 
-LaTeX Warning: Marginpar on page 30 moved.
+LaTeX Warning: Marginpar on page 32 moved.
 
 Package mdframed Info: mdframed works in twoside mode on input line 55.
-[30.30]
+[32.32]
 Package mdframed Info: mdframed works in twoside mode on input line 66.
 
 Overfull \hbox (6.91985pt too wide) in paragraph at lines 68--69
@@ -1411,23 +1409,23 @@ Overfull \hbox (14.32982pt too wide) in paragraph at lines 68--69
 u-
  []
 
-) [31.31]
+) [33.33]
 \openout2 = `DNS.aux'.
 
- (./DNS.tex [32.32
+ (./DNS.tex [34.34
 
 
 
 
 ]
 Chapter 5.
-[33.33]
+[35.35]
 
-LaTeX Warning: Marginpar on page 34 moved.
+LaTeX Warning: Marginpar on page 36 moved.
 
-[34.34]
+[36.36]
 
-LaTeX Warning: Marginpar on page 35 moved.
+LaTeX Warning: Marginpar on page 37 moved.
 
 
 Overfull \hbox (9.58987pt too wide) in paragraph at lines 108--112
@@ -1441,22 +1439,60 @@ Overfull \hbox (3.33995pt too wide) in paragraph at lines 112--116
 lsi.itb.ac.id, 
  []
 
-[35.35] [36.36] [37.37]) [38.38]
+[37.37] [38.38] [39.39]
+Package mdframed Info: mdframed works in twoside mode on input line 228.
+
+Overfull \hbox (17.44pt too wide) in paragraph at lines 232--235
+[]\T1/pplj/m/n/10 Pilih tiga buah do-main (misal
+ []
+
+
+Overfull \hbox (14.3099pt too wide) in paragraph at lines 232--235
+\T1/pplj/m/n/10 itb.ac.id, ke-mu-dian dua do-main lain). Un-tuk se-tiap do-main
+
+ []
+
+
+Overfull \hbox (14.16986pt too wide) in paragraph at lines 235--237
+[]\T1/pplj/m/n/10 Carilah server DNS (name server) dari do-main terse-
+ []
+
+
+Overfull \hbox (22.53987pt too wide) in paragraph at lines 235--237
+\T1/pplj/m/n/10 but. Ada be-rapa name server? Jika NS hanya ada satu,
+ []
+
+
+Overfull \hbox (22.73987pt too wide) in paragraph at lines 237--240
+[]\T1/pplj/m/n/10 Apalah Anda da-pat melakukan zone trans-fer ter-hadap
+ []
+
+
+Overfull \hbox (9.29987pt too wide) in paragraph at lines 237--240
+\T1/pplj/m/n/10 do-main terse-but? Un-tuk sis-tem yang baik, bi-asanya
+ []
+
+
+Overfull \hbox (1.91994pt too wide) in paragraph at lines 237--240
+\T1/pplj/m/n/10 Anda akan di-to-lak (RE-FUSED). Cari do-main yang
+ []
+
+) [40.40]
 \openout2 = `pgp.aux'.
 
  (./pgp.tex
 Chapter 6.
-[39.39
+[41.41
 
 
 
 
 ]
 
-LaTeX Warning: Marginpar on page 40 moved.
+LaTeX Warning: Marginpar on page 42 moved.
 
 
-LaTeX Warning: Marginpar on page 40 moved.
+LaTeX Warning: Marginpar on page 42 moved.
 
 
 Overfull \hbox (82.01169pt too wide) in paragraph at lines 74--74
@@ -1470,7 +1506,7 @@ Overfull \hbox (25.7243pt too wide) in paragraph at lines 75--75
  it.[] 
  []
 
-[40.40]
+[42.42]
 Overfull \hbox (26.82982pt too wide) in paragraph at lines 108--112
 \T1/pplj/m/n/10 den-gan meng-gu-nakan per-in-tah berikut. Gan-tikan ``ra-hard20
 17@gmail.com'' 
@@ -1518,342 +1554,345 @@ Overfull \hbox (15.49023pt too wide) in paragraph at lines 134--134
 UL[] 
  []
 
-[41.41]
+[43.43]
 Overfull \hbox (66.66058pt too wide) in paragraph at lines 147--147
 []      \T1/fvm/m/n/10 Key fingerprint = 810B 2149 3366 E699 F95E  9E49 07E1 BD
 C5 EB6C EB46[] 
  []
 
-<graphics/pgp-mit.png, id=507, 642.4pt x 557.08125pt>
+
+LaTeX Warning: Marginpar on page 44 moved.
+
+<graphics/pgp-mit.png, id=529, 642.4pt x 557.08125pt>
 File: graphics/pgp-mit.png Graphic file (type png)
 <use graphics/pgp-mit.png>
-Package pdftex.def Info: graphics/pgp-mit.png  used on input line 169.
+Package pdftex.def Info: graphics/pgp-mit.png  used on input line 173.
 (pdftex.def)             Requested size: 312.00473pt x 270.5666pt.
 
-Overfull \hbox (6.80472pt too wide) in paragraph at lines 169--172
+Overfull \hbox (6.80472pt too wide) in paragraph at lines 173--176
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 169--172
+Underfull \hbox (badness 10000) in paragraph at lines 173--176
 
  []
 
-Package mdframed Info: mdframed works in twoside mode on input line 196.
+Package mdframed Info: mdframed works in twoside mode on input line 200.
 
-Overfull \hbox (6.79996pt too wide) in paragraph at lines 199--201
+Overfull \hbox (6.79996pt too wide) in paragraph at lines 203--205
 []\T1/pplj/m/n/10 Buat pasan-gan kunci
  []
 
 
-Overfull \hbox (6.90987pt too wide) in paragraph at lines 199--201
+Overfull \hbox (6.90987pt too wide) in paragraph at lines 203--205
 \T1/pplj/m/n/10 pub-lik dan kunci pri-vat Anda. Gu-nakan pa-ram-e-ter
  []
 
 
-Overfull \hbox (3.35988pt too wide) in paragraph at lines 199--201
+Overfull \hbox (3.35988pt too wide) in paragraph at lines 203--205
 \T1/pplj/m/n/10 de-fault saja (RSA dan RSA). Aso-sisas-ikan dia den-
  []
 
 
-Overfull \hbox (7.06984pt too wide) in paragraph at lines 201--204
+Overfull \hbox (7.06984pt too wide) in paragraph at lines 205--208
 []\T1/pplj/m/n/10 Unggah kunci pub-lik Anda ke salah satu key-server
  []
 
 
-Overfull \hbox (32.56984pt too wide) in paragraph at lines 201--204
+Overfull \hbox (32.56984pt too wide) in paragraph at lines 205--208
 \T1/pplj/m/n/10 yang terse-dia (misal pgp.mit.edu atau pgp.key-server.io).
  []
 
 
-Overfull \hbox (13.21986pt too wide) in paragraph at lines 204--206
+Overfull \hbox (13.21986pt too wide) in paragraph at lines 208--210
 []\T1/pplj/m/n/10 Beritahukan teman-teman Anda ten-tang kunci Anda
  []
 
 
-Overfull \hbox (10.11981pt too wide) in paragraph at lines 204--206
+Overfull \hbox (10.11981pt too wide) in paragraph at lines 208--210
 \T1/pplj/m/n/10 terse-but. Minta mereka un-tuk ikut menan-datan-gani
  []
 
-Package mdframed Info: Not enough space on this page on input line 208.
-[42.42]
-Package mdframed Info: Not enough space on this page on input line 208.
+Package mdframed Info: Not enough space on this page on input line 212.
+[44.44]
+Package mdframed Info: Not enough space on this page on input line 212.
 
-Overfull \hbox (16.0898pt too wide) in paragraph at lines 212--220
+Overfull \hbox (16.0898pt too wide) in paragraph at lines 216--224
 \T1/pplj/m/n/10 mendis-tribusikan kunci pub-lik kita melalui se-buah key-server
 . Bagaimana 
  []
 
-[43.43 <./graphics/pgp-mit.png>]
-Overfull \hbox (82.01169pt too wide) in paragraph at lines 225--225
+[45.45 <./graphics/pgp-mit.png>]
+Overfull \hbox (82.01169pt too wide) in paragraph at lines 229--229
 []  \T1/fvm/m/n/10 3072 bit RSA key 1EE3896FB424863E, created: 2021-02-14, expi
 res: 2023-02-14[] 
  []
 
 
-Overfull \hbox (61.54355pt too wide) in paragraph at lines 226--226
+Overfull \hbox (61.54355pt too wide) in paragraph at lines 230--230
 []\T1/fvm/m/n/10 Keys 1-1 of 1 for "tutorialrahardjo".  Enter number(s), N)ext,
  or Q)uit >[] 
  []
 
 
-Overfull \hbox (112.7139pt too wide) in paragraph at lines 239--239
+Overfull \hbox (112.7139pt too wide) in paragraph at lines 243--243
 []\T1/fvm/m/n/10 gpg: key 1EE3896FB424863E: "Budi Rahardjo <tutorialrahardjo@gm
 ail.com>" not changed[] 
  []
 
 
-Overfull \hbox (10.3732pt too wide) in paragraph at lines 260--260
+Overfull \hbox (10.3732pt too wide) in paragraph at lines 264--264
 []\T1/fvm/m/n/10 gpg: marginals needed: 3  completes needed: 1  trust model: pg
 p[] 
  []
 
 
-Overfull \hbox (41.07541pt too wide) in paragraph at lines 261--261
+Overfull \hbox (41.07541pt too wide) in paragraph at lines 265--265
 []\T1/fvm/m/n/10 gpg: depth: 0  valid:   2  signed:   8  trust: 0-, 0q, 0n, 0m,
  0f, 2u[] 
  []
 
 
-Overfull \hbox (41.07541pt too wide) in paragraph at lines 262--262
+Overfull \hbox (41.07541pt too wide) in paragraph at lines 266--266
 []\T1/fvm/m/n/10 gpg: depth: 1  valid:   8  signed:   0  trust: 8-, 0q, 0n, 0m,
  0f, 0u[] 
  []
 
-[44.44]
-Overfull \hbox (76.89465pt too wide) in paragraph at lines 275--275
+[46.46]
+Overfull \hbox (76.89465pt too wide) in paragraph at lines 279--279
 [] \T1/fvm/m/n/10 Primary key fingerprint: 6A6E 6812 7595 EF7E E961  B692 1EE3 
 896F B424 863E[] 
  []
 
 
-Overfull \hbox (5.25616pt too wide) in paragraph at lines 281--281
+Overfull \hbox (5.25616pt too wide) in paragraph at lines 285--285
 []\T1/fvm/m/n/10 key "Budi Rahardjo <kelasbr2021@gmail.com>" (0686C5957E1023FE)
 [] 
  []
 
 
-LaTeX Warning: Marginpar on page 45 moved.
+LaTeX Warning: Marginpar on page 47 moved.
 
 
-Overfull \hbox (10.3732pt too wide) in paragraph at lines 306--306
+Overfull \hbox (10.3732pt too wide) in paragraph at lines 310--310
 [] \T1/fvm/m/n/10 Fingerprint=6A6E 6812 7595 EF7E E961  B692 1EE3 896F B424 863
 E[] 
  []
 
 
-Overfull \hbox (5.25616pt too wide) in paragraph at lines 309--309
+Overfull \hbox (5.25616pt too wide) in paragraph at lines 313--313
 []\T1/fvm/m/n/10 sig  sig3  B424863E 2021-02-14 __________ 2023-02-14 [selfsig]
 [] 
  []
 
 
-Overfull \hbox (148.53314pt too wide) in paragraph at lines 310--310
+Overfull \hbox (148.53314pt too wide) in paragraph at lines 314--314
 []\T1/fvm/m/n/10 sig  sig   7E1023FE 2021-02-14 __________ __________ Budi Raha
 rdjo <kelasbr2021@gmail.com>[] 
  []
 
-[45.45]
-Package mdframed Info: mdframed works in twoside mode on input line 337.
 
-Overfull \hbox (92.24576pt too wide) in paragraph at lines 350--350
+Overfull \hbox (0.13913pt too wide) in paragraph at lines 326--326
+[]\T1/fvm/m/n/10 gpg --default-key rahard@protonmail.com  ...dan seterusnya...[
+] 
+ []
+
+[47.47]
+Package mdframed Info: mdframed works in twoside mode on input line 350.
+
+Overfull \hbox (92.24576pt too wide) in paragraph at lines 363--363
 []\T1/fvm/m/n/10 gpg --output dokumen.pgp --encrypt --recipient rahard2017@gmai
 l.com dokumen.txt[] 
  []
 
 
-Overfull \hbox (107.59686pt too wide) in paragraph at lines 358--358
+Overfull \hbox (107.59686pt too wide) in paragraph at lines 371--371
 []\T1/fvm/m/n/10 gpg -a --output dokumen.pgp --encrypt --recipient rahard2017@g
 mail.com dokumen.txt[] 
  []
 
 
-Overfull \hbox (1.46986pt too wide) in paragraph at lines 361--362
+Overfull \hbox (1.46986pt too wide) in paragraph at lines 374--375
 []\T1/pplj/m/n/10 Jika kita li-hat berkas ``doku-men.pgp'', isinya adalah seper
 ti berikut.  
  []
 
-Package mdframed Info: mdframed works in twoside mode on input line 363.
-[46.46]
-Package mdframed Info: mdframed works in twoside mode on input line 390.
+Package mdframed Info: mdframed works in twoside mode on input line 376.
+[48.48]
+Package mdframed Info: mdframed works in twoside mode on input line 403.
 
-Overfull \hbox (16.2199pt too wide) in paragraph at lines 416--419
+Overfull \hbox (16.2199pt too wide) in paragraph at lines 429--432
 \T1/pplj/m/n/10 ``doku-men.txt''. (Kita dalam con-toh ini adalah ``ra-hard2017@
 gmail.com''.)  
  []
 
 
-Overfull \hbox (30.84134pt too wide) in paragraph at lines 421--421
+Overfull \hbox (30.84134pt too wide) in paragraph at lines 434--434
 []\T1/fvm/m/n/10 gpg -u rahard2017@gmail.com --output dokumen.sig --sign dokume
 n.txt[] 
  []
 
 
-Overfull \hbox (46.19244pt too wide) in paragraph at lines 432--432
+Overfull \hbox (46.19244pt too wide) in paragraph at lines 445--445
 []\T1/fvm/m/n/10 gpg -a -u rahard2017@gmail.com --output dokumen.sig --sign dok
 umen.txt[] 
  []
 
-[47.47]
-Overfull \hbox (15.49023pt too wide) in paragraph at lines 443--443
+[49.49]
+Overfull \hbox (15.49023pt too wide) in paragraph at lines 456--456
 []\T1/fvm/m/n/10 owGbwMvMwMXI/nDv0dc5r90Y10xI4k7Jzy7NTc3TK6koidipudUzL1MhMSUxJz
 FD[] 
  []
 
 
-Overfull \hbox (15.49023pt too wide) in paragraph at lines 444--444
+Overfull \hbox (15.49023pt too wide) in paragraph at lines 457--457
 []\T1/fvm/m/n/10 ASqjUJpXUpqtUJBalJyflJiYpwAUS08vzUvMBrID3AP03QPc9bhCwYpKEvNSEk
 Fk[] 
  []
 
 
-Overfull \hbox (15.49023pt too wide) in paragraph at lines 445--445
+Overfull \hbox (15.49023pt too wide) in paragraph at lines 458--458
 []\T1/fvm/m/n/10 emKejkJmcWZeJZCbmZKYrZCRWFRarJCSWZyam1SaV5kJ1K3HFZyak5ibWAIyEm
 S4[] 
  []
 
 
-Overfull \hbox (15.49023pt too wide) in paragraph at lines 446--446
+Overfull \hbox (15.49023pt too wide) in paragraph at lines 459--459
 []\T1/fvm/m/n/10 HlcnowwLAyMXAxsrE8g1DFycAjDXcoix//d7pfhQ+pbBxM4ilx/pi054OOkFsf
 S2[] 
  []
 
 
-Overfull \hbox (15.49023pt too wide) in paragraph at lines 447--447
+Overfull \hbox (15.49023pt too wide) in paragraph at lines 460--460
 []\T1/fvm/m/n/10 TDDSVY/Zec58cp/zm9TgDczKn+71Kkqvs/4fNNvRuUr208VdwowLPTliFpR+O2
 /L[] 
  []
 
 
-Overfull \hbox (15.49023pt too wide) in paragraph at lines 448--448
+Overfull \hbox (15.49023pt too wide) in paragraph at lines 461--461
 []\T1/fvm/m/n/10 0cR/KDTuie6h9Xlq3bXTSg6kpeoxblZ323ra4jDfvvs/9RjeSByS0cp4+T/c81
 B6[] 
  []
 
 
-Overfull \hbox (15.49023pt too wide) in paragraph at lines 449--449
+Overfull \hbox (15.49023pt too wide) in paragraph at lines 462--462
 []\T1/fvm/m/n/10 YUepNtO0hLjZZeGxR63yNqxbu7ZX9djt4p6a7/JTbJKepvo3XItlO8x0xVDt3L
 Iv[] 
  []
 
 
-Overfull \hbox (15.49023pt too wide) in paragraph at lines 450--450
+Overfull \hbox (15.49023pt too wide) in paragraph at lines 463--463
 []\T1/fvm/m/n/10 oRc/tc7667WqskaC95zr1E6xREHL5eEKGnkByy7arEnL0Ge++bNd4ET4NOV3FY
 qP[] 
  []
 
 
-Overfull \hbox (15.49023pt too wide) in paragraph at lines 451--451
+Overfull \hbox (15.49023pt too wide) in paragraph at lines 464--464
 []\T1/fvm/m/n/10 L875kT8v8PeVPdqr+SrENG7YNL6+PWXOvNUR6ruMVdSOhzEoeyn4P2EWX6J1dV
 L/[] 
  []
 
 
-Overfull \hbox (56.42651pt too wide) in paragraph at lines 460--460
+Overfull \hbox (56.42651pt too wide) in paragraph at lines 473--473
 []\T1/fvm/m/n/10 gpg -u rahard2017@gmail.com --output dokumen.sig --clearsign d
 okumen.txt[] 
  []
 
-Package mdframed Info: mdframed works in twoside mode on input line 466.
+Package mdframed Info: mdframed works in twoside mode on input line 479.
 
-Overfull \hbox (36.29022pt too wide) in paragraph at lines 477--477
+Overfull \hbox (36.29022pt too wide) in paragraph at lines 490--490
 []\T1/fvm/m/n/10 iQEcBAEBCgAGBQJYuSthAAoJEAfhvcXrbOtG1pkIALaFxIxKObM7p/ZTMpzNCI
 HN[] 
  []
 
 
-Overfull \hbox (36.29022pt too wide) in paragraph at lines 478--478
+Overfull \hbox (36.29022pt too wide) in paragraph at lines 491--491
 []\T1/fvm/m/n/10 GpyR9Q6QQEi+9+0loHdw1TqMEskJ3HxWOnegupMueiIpO0IaEd8qCraLSfRF3G
 1f[] 
  []
 
 
-Overfull \hbox (36.29022pt too wide) in paragraph at lines 479--479
+Overfull \hbox (36.29022pt too wide) in paragraph at lines 492--492
 []\T1/fvm/m/n/10 gBxl837rXnTjDIYABN9T6f5GrZHyeWXEhwDRDuLWsb9v85pNd/RUbQ8L7N/s4S
 Ul[] 
  []
 
 
-Overfull \hbox (36.29022pt too wide) in paragraph at lines 480--480
+Overfull \hbox (36.29022pt too wide) in paragraph at lines 493--493
 []\T1/fvm/m/n/10 NgyPbHKhal+ob047mHE1zF9lvpuRfhWM3ztr8OJN6MWTgb+NYpc0b9YuyqSRiD
 Z0[] 
  []
 
 
-Overfull \hbox (36.29022pt too wide) in paragraph at lines 481--481
+Overfull \hbox (36.29022pt too wide) in paragraph at lines 494--494
 []\T1/fvm/m/n/10 y3fvY3iRexMjLI2dxhXOTWG4IM5ouwbFtheJML1Lssh/pn1KZwicnWGAouWhQT
 OY[] 
  []
 
 
-Overfull \hbox (36.29022pt too wide) in paragraph at lines 482--482
+Overfull \hbox (36.29022pt too wide) in paragraph at lines 495--495
 []\T1/fvm/m/n/10 hGR8zSoy4oeS/hlUmdAu3bse73pcWeybCtYLwvXSBvg7W67sCOERmIfZxXxtq0
 8=[] 
  []
 
-Package mdframed Info: mdframed works in twoside mode on input line 493.
-[48.48]
-Package mdframed Info: Not enough space on this page on input line 496.
+[50.50]
+Package mdframed Info: mdframed works in twoside mode on input line 506.
 
-Overfull \hbox (61.54355pt too wide) in paragraph at lines 505--505
+Overfull \hbox (61.54355pt too wide) in paragraph at lines 518--518
 []\T1/fvm/m/n/10 gpg -u rahard2017@gmail.com --output dokumen.sig --detach-sig 
 dokumen.txt[] 
  []
 
-Package mdframed Info: mdframed works in twoside mode on input line 512.
-Package mdframed Info: mdframed works in twoside mode on input line 517.
+Package mdframed Info: mdframed works in twoside mode on input line 525.
+Package mdframed Info: mdframed works in twoside mode on input line 530.
 
-Overfull \hbox (9.36989pt too wide) in paragraph at lines 520--524
+Overfull \hbox (9.36989pt too wide) in paragraph at lines 533--537
 []\T1/pplj/m/n/10 Menurut Anda, apakah tanda tan-gan
  []
 
 
-Overfull \hbox (26.39977pt too wide) in paragraph at lines 520--524
+Overfull \hbox (26.39977pt too wide) in paragraph at lines 533--537
 \T1/pplj/m/n/10 (sig-na-ture) akan tetap sama un-tuk se-tiap orang meskipun dok
 u-
  []
 
 
-Overfull \hbox (22.20982pt too wide) in paragraph at lines 520--524
+Overfull \hbox (22.20982pt too wide) in paragraph at lines 533--537
 \T1/pplj/m/n/10 men yang di-tan-datan-gani berbeda-beda? Ataukah un-tuk doku-
  []
 
 
-Overfull \hbox (10.64987pt too wide) in paragraph at lines 520--524
+Overfull \hbox (10.64987pt too wide) in paragraph at lines 533--537
 \T1/pplj/m/n/10 men yang berbeda, tanda tan-gan dig-i-tal dari doku-men terse-
  []
 
 
-Overfull \hbox (14.01982pt too wide) in paragraph at lines 524--526
+Overfull \hbox (14.01982pt too wide) in paragraph at lines 537--539
 []\T1/pplj/m/n/10 Verifikasi doku-men den-gan data yang be-nar. Mak-sud-nya jan
 -
  []
 
 
-Overfull \hbox (4.40984pt too wide) in paragraph at lines 526--529
+Overfull \hbox (4.40984pt too wide) in paragraph at lines 539--542
 []\T1/pplj/m/n/10 Verifikasi doku-men den-gan data yang su-dah ter-ce-mar. Edit
 
  []
 
 
-Overfull \hbox (8.07982pt too wide) in paragraph at lines 526--529
+Overfull \hbox (8.07982pt too wide) in paragraph at lines 539--542
 \T1/pplj/m/n/10 berkas doku-men.txt se-hingga berbeda den-gan aslinya. Coba
  []
 
-) [49.49]
+[51.51]) [52.52]
 \openout2 = `email.aux'.
 
- (./email.tex [50.50
-
-
-
-
-]
+ (./email.tex
 Chapter 7.
 
-LaTeX Warning: Marginpar on page 51 moved.
+LaTeX Warning: Marginpar on page 53 moved.
 
-<graphics/email-topologi.png, id=561, 597.9138pt x 183.5658pt>
+<graphics/email-topologi.png, id=582, 597.9138pt x 183.5658pt>
 File: graphics/email-topologi.png Graphic file (type png)
 <use graphics/email-topologi.png>
 Package pdftex.def Info: graphics/email-topologi.png  used on input line 30.
@@ -1868,7 +1907,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--33
 
  []
 
-[51.51]
+[53.53
+
+
+
+
+]
 Package mdframed Info: mdframed works in twoside mode on input line 55.
 
 Overfull \hbox (2.01675pt too wide) in paragraph at lines 56--60
@@ -1894,9 +1938,9 @@ Overfull \hbox (16.36272pt too wide) in paragraph at lines 56--60
 p email meru-pakan satu berkas sendiri
  []
 
-[52.52 <./graphics/email-topologi.png>]
+[54.54 <./graphics/email-topologi.png>]
 
-LaTeX Warning: Marginpar on page 53 moved.
+LaTeX Warning: Marginpar on page 55 moved.
 
 Package mdframed Info: mdframed works in twoside mode on input line 98.
 Package mdframed Info: mdframed works in twoside mode on input line 117.
@@ -1970,15 +2014,15 @@ Overfull \hbox (5.58801pt too wide) in paragraph at lines 130--130
 []\T1/fvm/m/n/10 Message-ID: <04f901c0b63b$16570020$b9370681@antd.nist.gov>[] 
  []
 
-[53.53]
+[55.55]
 Overfull \hbox (18.95988pt too wide) in paragraph at lines 172--179
 \T1/pplj/m/n/10 Rose kepada saya (den-gan ala-mat email budi@alliance.globalnet
 link.com). 
  []
 
-[54.54] [55.55]
+[56.56] [57.57]
 
-LaTeX Warning: Marginpar on page 56 moved.
+LaTeX Warning: Marginpar on page 58 moved.
 
 
 Overfull \hbox (2.84984pt too wide) in paragraph at lines 237--241
@@ -1987,11 +2031,11 @@ enkripsi
  []
 
 Package mdframed Info: mdframed works in twoside mode on input line 260.
-[56.56]
+[58.58]
 Package mdframed Info: mdframed works in twoside mode on input line 289.
 
 
-LaTeX Warning: Marginpar on page 57 moved.
+LaTeX Warning: Marginpar on page 59 moved.
 
 Package mdframed Info: mdframed works in twoside mode on input line 318.
 
@@ -2000,88 +2044,89 @@ Overfull \hbox (41.40726pt too wide) in paragraph at lines 319--319
 txt[] 
  []
 
-[57.57] [58.58]
+[59.59] [60.60]
 Overfull \hbox (2.25984pt too wide) in paragraph at lines 384--389
 []\T1/pplj/m/n/10 Sejarah spam ada be-ber-apa versi. Versi saya adalah se-ba-ga
 i berikut. 
  []
 
-[59.59]
+[61.61]
 Overfull \hbox (2.38956pt too wide) in paragraph at lines 430--430
 $[]$\T1/pplj/m/n/8 https://en.wikipedia.org/wiki/DNSBL  
  []
 
 
-LaTeX Warning: Marginpar on page 60 moved.
+LaTeX Warning: Marginpar on page 62 moved.
 
 )
 
-LaTeX Warning: Marginpar on page 60 moved.
+LaTeX Warning: Marginpar on page 62 moved.
 
-[60.60]
+[62.62]
 \openout2 = `web.aux'.
 
  (./web.tex
 Chapter 8.
 
-LaTeX Warning: Marginpar on page 61 moved.
+LaTeX Warning: Marginpar on page 63 moved.
 
 
-LaTeX Warning: Marginpar on page 61 moved.
+LaTeX Warning: Marginpar on page 63 moved.
 
-[61.61
+[63.63
 
 
 
 
 ]
 
-LaTeX Warning: Marginpar on page 62 moved.
+LaTeX Warning: Marginpar on page 64 moved.
 
 
-LaTeX Warning: Marginpar on page 62 moved.
+LaTeX Warning: Marginpar on page 64 moved.
 
-[62.62]
+[64.64]
 
-LaTeX Warning: Marginpar on page 63 moved.
+LaTeX Warning: Marginpar on page 65 moved.
 
-[63.63] [64.64]) [65.65]
+[65.65] [66.66]) [67.67]
 \openout2 = `soceng.aux'.
 
- (./soceng.tex [66.66
+ (./soceng.tex [68.68
 
 
 
 
 ]
 Chapter 9.
-[67.67]
+[69.69]
 
-LaTeX Warning: Marginpar on page 68 moved.
-
-
-LaTeX Warning: Marginpar on page 68 moved.
+LaTeX Warning: Marginpar on page 70 moved.
 
 
-LaTeX Warning: Marginpar on page 68 moved.
+LaTeX Warning: Marginpar on page 70 moved.
 
-) [68.68]
+
+LaTeX Warning: Marginpar on page 70 moved.
+
+) [70.70]
 \openout2 = `incident.aux'.
 
  (./incident.tex
 Chapter 10.
-[69.69
+[71.71
 
 
 
 
 ]
 
-LaTeX Warning: Marginpar on page 70 moved.
+LaTeX Warning: Marginpar on page 72 moved.
 
-[70.70]
+[72.72]
 
-LaTeX Warning: Marginpar on page 71 moved.
+LaTeX Warning: Marginpar on page 73 moved.
+
 
 pdfTeX warning (ext4): destination with the same identifier (name{cite.mandiain
 cident}) has been already used, duplicate ignored
@@ -2090,19 +2135,20 @@ cident}) has been already used, duplicate ignored
 l.99 ...alah sebagai berikut~\cite{mandiaincident}
                                                   :
 
-LaTeX Warning: Marginpar on page 71 moved.
+LaTeX Warning: Marginpar on page 73 moved.
 
-[71.71pdfTeX warning (ext4): destination with the same identifier (name{cite.ma
-ndiaincident}) has been already used, duplicate ignored
+[73.73
+pdfTeX warning (ext4): destination with the same identifier (name{cite.mandiain
+cident}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
+                                                  \__shipout_drop_firstpage_...
 l.119    \item {
                 \bf Follow-up}. Menindaklanjuti hal-hal yang perlu diperhatikan
 ]
 
-LaTeX Warning: Marginpar on page 72 moved.
+LaTeX Warning: Marginpar on page 74 moved.
 
-<graphics/tte.png, id=686, 791.5974pt x 501.072pt>
+<graphics/tte.png, id=707, 791.5974pt x 501.072pt>
 File: graphics/tte.png Graphic file (type png)
 <use graphics/tte.png>
 Package pdftex.def Info: graphics/tte.png  used on input line 134.
@@ -2117,138 +2163,149 @@ Underfull \hbox (badness 10000) in paragraph at lines 134--137
 
  []
 
-[72.72 <./graphics/tte.png>]) [73.73]
+[74.74 <./graphics/tte.png>]) [75.75]
 \openout2 = `penutup.aux'.
 
- (./penutup.tex [74.74
+ (./penutup.tex [76.76
 
 
 
 
 ]
 Chapter 11.
-) [75.75] (./keamanan.bbl [76.76
+) [77.77] (./keamanan.bbl [78.78
 
 
 
 ]
 Chapter 12.
+
 pdfTeX warning (ext4): destination with the same identifier (name{cite.webbook}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.3 \bibitem{webbook}
-                     pdfTeX warning (ext4): destination with the same identifie
-r (name{cite.rfc822}) has been already used, duplicate ignored
+                     
+pdfTeX warning (ext4): destination with the same identifier (name{cite.rfc822})
+ has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.9 \bibitem{rfc822}
-                    pdfTeX warning (ext4): destination with the same identifier
- (name{cite.RFC2068}) has been already used, duplicate ignored
+                    
+pdfTeX warning (ext4): destination with the same identifier (name{cite.RFC2068}
+) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.14 \bibitem{RFC2068}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{cite.sp800-84}) has been already used, duplicate ignored
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{cite.sp800-84
+}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.19 \bibitem{sp800-84}
-                       pdfTeX warning (ext4): destination with the same identif
-ier (name{cite.davidkahn}) has been already used, duplicate ignored
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{cite.davidkah
+n}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.25 \bibitem{davidkahn}
-                        pdfTeX warning (ext4): destination with the same identi
-fier (name{cite.levycrypto}) has been already used, duplicate ignored
+                        
+pdfTeX warning (ext4): destination with the same identifier (name{cite.levycryp
+to}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.30 \bibitem{levycrypto}
-                         pdfTeX warning (ext4): destination with the same ident
-ifier (name{cite.mandiaincident}) has been already used, duplicate ignored
+                         
+pdfTeX warning (ext4): destination with the same identifier (name{cite.mandiain
+cident}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.36 \bibitem{mandiaincident}
-                             pdfTeX warning (ext4): destination with the same i
-dentifier (name{cite.mitnickdeception}) has been already used, duplicate ignore
-d
+                             
+pdfTeX warning (ext4): destination with the same identifier (name{cite.mitnickd
+eception}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.41 \bibitem{mitnickdeception}
-                               pdfTeX warning (ext4): destination with the same
- identifier (name{cite.BRsecuresoftware}) has been already used, duplicate igno
-red
+                               
+pdfTeX warning (ext4): destination with the same identifier (name{cite.BRsecure
+software}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.47 \bibitem{BRsecuresoftware}
-                               pdfTeX warning (ext4): destination with the same
- identifier (name{cite.brwannacry}) has been already used, duplicate ignored
+                               
+pdfTeX warning (ext4): destination with the same identifier (name{cite.brwannac
+ry}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.52 \bibitem{brwannacry}
-                         pdfTeX warning (ext4): destination with the same ident
-ifier (name{cite.MD5}) has been already used, duplicate ignored
+                         
+pdfTeX warning (ext4): destination with the same identifier (name{cite.MD5}) ha
+s been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.56 \bibitem{MD5}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{cite.takedown}) has been already used, duplicate ignored
+                  
+pdfTeX warning (ext4): destination with the same identifier (name{cite.takedown
+}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.60 \bibitem{takedown}
-                       ) [77.77] [78.78
+                       ) [79.79] [80.80
 
-] [79.79
+] [81.81
 
-] [80.80]
+] [82.82]
 \openout2 = `tcpdump.aux'.
 
  (./tcpdump.tex
 Appendix A.
-) [81.81
+) [83.83
 
 
 ]
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/generic/stringenc/se
--pdfdoc.def
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/generic/stringenc
+/se-pdfdoc.def
 File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
 )
-(/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/tex/generic/stringenc/se
--utf8.def
+(/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/generic/stringenc
+/se-utf8.def
 File: se-utf8.def 2019/11/29 v1.12 stringenc: UTF-8
-) (./keamanan.aux (./pengantar.aux) (./pendahuluan.aux) (./prinsip.aux) (./cryp
-to.aux) (./hash.aux) (./DNS.aux) (./pgp.aux) (./email.aux) (./web.aux) (./socen
-g.aux) (./incident.aux) (./penutup.aux) (./tcpdump.aux))
+) (./keamanan.aux (./pengantar.aux) (./pendahuluan.aux)
+(./prinsip.aux) (./crypto.aux) (./hash.aux) (./DNS.aux) (./pgp.aux)
+(./email.aux) (./web.aux) (./soceng.aux) (./incident.aux) (./penutup.aux)
+(./tcpdump.aux))
 Package rerunfilecheck Info: File `keamanan.out' has not changed.
 (rerunfilecheck)             Checksum: BC48AF8D3E1C96F683D65974B79E0F35;6356.
  ) 
 Here is how much of TeX's memory you used:
- 18509 strings out of 478994
- 280456 string characters out of 5848625
- 914638 words of memory out of 5000000
- 35165 multiletter control sequences out of 15000+600000
- 514525 words of font info for 158 fonts, out of 8000000 for 9000
+ 19891 strings out of 478268
+ 328031 string characters out of 5835367
+ 911397 words of memory out of 5000000
+ 37271 multiletter control sequences out of 15000+600000
+ 580354 words of font info for 159 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 105i,12n,105p,845b,2440s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/fonts/enc/dvips/base/8
-r.enc}</opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr10.pfb></opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmsy10.pfb></opt/homebrew/Cellar/texlive/58837_1/
-share/texmf-dist/fonts/type1/public/fpl/fplbj8a.pfb></opt/homebrew/Cellar/texli
-ve/58837_1/share/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></opt/homebrew/C
-ellar/texlive/58837_1/share/texmf-dist/fonts/type1/public/fpl/fplrij8a.pfb></op
-t/homebrew/Cellar/texlive/58837_1/share/texmf-dist/fonts/type1/public/bera/fvmb
-8a.pfb></opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/fonts/type1/publi
-c/bera/fvmr8a.pfb></opt/homebrew/Cellar/texlive/58837_1/share/texmf-dist/fonts/
-type1/public/bera/fvmro8a.pfb></opt/homebrew/Cellar/texlive/58837_1/share/texmf
--dist/fonts/type1/urw/helvetic/uhvr8a.pfb></opt/homebrew/Cellar/texlive/58837_1
-/share/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></opt/homebrew/Cellar/tex
-live/58837_1/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></opt/homebre
-w/Cellar/texlive/58837_1/share/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-
-Output written on keamanan.pdf (81 pages, 889464 bytes).
+ 94i,12n,101p,845b,2443s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/fonts/enc/dvips/bas
+e/8r.enc}</opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr10.pfb></opt/homebrew/Cellar/texlive/20220321_3/share/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></opt/homebrew/Cellar/texlive
+/20220321_3/share/texmf-dist/fonts/type1/public/fpl/fplbj8a.pfb></opt/homebrew/
+Cellar/texlive/20220321_3/share/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb><
+/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/fonts/type1/public/fpl
+/fplrij8a.pfb></opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/fonts/t
+ype1/public/bera/fvmb8a.pfb></opt/homebrew/Cellar/texlive/20220321_3/share/texm
+f-dist/fonts/type1/public/bera/fvmr8a.pfb></opt/homebrew/Cellar/texlive/2022032
+1_3/share/texmf-dist/fonts/type1/public/bera/fvmro8a.pfb></opt/homebrew/Cellar/
+texlive/20220321_3/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></opt/h
+omebrew/Cellar/texlive/20220321_3/share/texmf-dist/fonts/type1/urw/palatino/upl
+b8a.pfb></opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/fonts/type1/u
+rw/palatino/uplr8a.pfb></opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dis
+t/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on keamanan.pdf (83 pages, 1840560 bytes).
 PDF statistics:
- 834 PDF objects out of 1000 (max. 8388607)
- 706 compressed objects within 8 object streams
- 263 named destinations out of 1000 (max. 500000)
- 5024 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 868 PDF objects out of 1000 (max. 8388607)
+ 723 compressed objects within 8 object streams
+ 272 named destinations out of 1000 (max. 500000)
+ 5034 words of extra memory for PDF output out of 10000 (max. 10000000)
 

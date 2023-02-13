@@ -225,6 +225,23 @@ kebocoran data melalui {\em zone transfer} dapat digunakan sebagai langkah
 awal untuk melakukan penyerangan terhadap sebuah instansi tertentu. Untuk itu,
 zone transfer seharusnya dibatasi.
 
+\begin{mdframed}[backgroundcolor=blue!20,linewidth=0pt,innerrightmargin=50pt]
+   \begin{ExerciseList}
+      \Exercise[title=Eksplorasi DNS.] 
+
+      { } Pilih tiga buah domain (misal itb.ac.id,
+      kemudian dua domain lain). Untuk setiap domain tersebut, lakukan
+      hal-hal di bawah ini.
+      \Question{Carilah server DNS (name server) dari domain tersebut.
+      Ada berapa name server? Jika NS hanya ada satu, maka ini dianggap kurang baik.}
+      \Question{Apalah Anda dapat melakukan zone transfer terhadap domain
+      tersebut? Untuk sistem yang baik, biasanya Anda akan ditolak (REFUSED).
+      Cari domain yang memperkenankan zone transfer.}
+      \Question{Cari MX record dari domain tersebut.}
+   \end{ExerciseList}
+   
+   \end{mdframed}
+
 \section{Random Label Attack}
 {\em Query} terhadap DNS dijawab oleh DNS {\em resolver}, yang biasanya kita
 kenal dengan istilah ``DNS server'' dalam konfigurasi komputer kita. Domain
@@ -233,9 +250,11 @@ mesin resolver ini agar penggunaan jaringan dapat dikurangi. Pendekatan ini
 juga menguntungkan name server karena ini akan mengurangi jumlah {\em query}.
 
 {\em Random label attack} adalah penyerangan terhadap DNS server dengan cara
-melakukan {\em query} kepada domain yang tidak ada. Nama mesin dibuat secara
-random dan kemudian dilakukan {\em query}. Nama yang random ini tentunya tidak
-akan ada dalam cache dan harus ditanyakan kepada name server. Hal ini
+melakukan {\em query} kepada sebuah domain yang tidak ada.
+Nama mesin dibuat secara random, misalnya ``xyz12345'',
+dan kemudian dilakukan {\em query} terhadap nama mesin ini.
+Nama yang random ini tentunya tidak akan ada dalam cache dan harus 
+ditanyakan kepada name server. Hal ini
 menyebabkan beban dari name server bertambah. Jika serangan ini dilakukan
 secara bertubi-tubi dan dari tempat yang jumlahnya banyak, maka serangan ini
 dapat menyebabkan {\em Denial of Service} (DOS) dari mesin name server.

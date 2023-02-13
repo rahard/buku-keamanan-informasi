@@ -135,6 +135,19 @@ tahun kejadiannya) antara lain dapat dilihat dari daftar berikut.
       untuk menggantikan kunci enkripsi dengan semua nol. Setelah kunci diubah
       dengan nol semua maka penyerang dapat melakukan penyadapan\footnote{
          https://arstechnica.com/information-technology/2017/10/severe-flaw-in-wpa2-protocol-leaves-wi-fi-traffic-open-to-eavesdropping/}.
+   \item Desember 2021. Salah satu pustaka (library) yang banyak digunakan
+      dalam bahasa pemrograman Java adalah ``Log4J''.
+      Pustaka ini digunakan untuk melakukan proses {\em logging}.
+      Ternyata ada kerentanan dari salah satu fiturnya sehingga aplikasi (server)
+      yang menggunakan pustakan ini dapat diakses secara jarak jauh
+      (remote code execution, RCE). Level dari user atau proses Log4J ini
+      biasanya setara dengan admin sehingga dampaknya menjadi sangat signifikan.
+      Menurut CVSS, kerentanan ini mendapat nilai 10 (dari skala maksimum 10).
+      Kerentanan ini juga sudah didaftarkan di CVE-2021-44228 dan CVE-2021-45105\footnote{https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44228
+      }.
+      Diberitakan pula kerentanan Log4J ini digunakan oleh penyerang malware
+      untuk menyisipkan ransomware Conti. Dampak yang ditimbulkan kerentanan ini
+      menjadi sangat dahsyat.
 \end{enumerate}
 
 Selain contoh-contoh di atas, tentunya masih banyak kasus-kasus lain.
@@ -195,6 +208,39 @@ dilihat dari daftar berikut.
    memang sudah habis masa operasinya, meskipun diperkirakan masih dapat
    digunakan beberapa tahun lagi. Dipertanyakan kesiapan dari {\em business
    continuity planing} dari layanan ATM bank.
+\item 2022 (dan awal 2023). Ada banyak penipuan melalui pesan WhatsApp
+   yang mengatakan bahwa bank akan menerapkan tarif baru untuk transaksi
+   pengiriman uang. Biasanya setiap transaksi ada biaya Rp.~6500,- per transaksi.
+   Biaya transaksi akan diubah menjadi Rp.~150.000,- (flat rate) sebulannya.
+   Bila pelanggan tidak berkenan, maka pelanggan harus memasukkan datanya ke
+   sebuah situs (yang palsu). Tentu saja banyak orang yang tidak ingin terjadi
+   perubahan tarif tersebut. Pesan palsu ini mencoba mengarahkan pelanggan ke 
+   sebuah situs yang kemudian meminta data pribadi sang korban.
+   Dengan data pribadi tersebut, penyerang berusaha untuk membuat transaksi fiktif
+   atau mengambil alih akun bank korban.
+   Beberapa tampilan pesan palsu tersebut seperti terlihat pada gambar~\ref{fig:transaksi-palsu}.
+   \begin{figure}[ht]
+      \fbox{\includegraphics[width=0.75\linewidth]{graphics/biaya-transaksi-palsu.png}}
+      \caption{Contoh tampilan pesan palsu}
+      \label{fig:transaksi-palsu}
+      \end{figure}
+   Sebagai catatan, meskipun pada gambar tersebut ditampilkan Bank BRI, semua
+   bank di Indonesia mengalami hal yang sama. Ini hanya sekedar contoh tampilan.
+\item 2023. Ada upaya penyerangan baru dilakukan dengan mengirimkan pesan 
+   (misal melalui WhatsApp) yang mengatakan bahwa pelanggan membeli barang dan
+   kurang lengkap alamatnya. Pelanggan diminta untuk memastikan alamatnya benar
+   dengan meng-klik attachment, yang sebetulnya berupa sebuah aplikasi (dalam
+   bentuk APK) yang sesungguhnya adalah sebuah trojan horse. Jika aplikasi ini 
+   dipasang di perangkat handphone kita, maka handphone kita dapat dikuasai
+   oleh penyerang dari jarak jauh. Pesan-pesan kita (misalnya OTP, One Time Password)
+   yang biasanya digunakan oleh aplikasi sebagai bagian dari verifikasi dapat 
+   diakses oleh penyerang sehingga akun kita dapat diambil alih.
+   Contoh tampilan dapat dilihat pada gambar~\ref{fig:apk-palsu}.
+   \begin{figure}[ht]
+   \fbox{\includegraphics[width=0.75\linewidth]{graphics/apk-palsu.jpg}}
+   \caption{Pesan palsu yang membujuk pengguna untuk memasang aplikasi}
+   \label{fig:apk-palsu}
+   \end{figure} 
 \end{enumerate}
 
 Saat ini semakin banyak lagi masalah keamanan yang ditemui.
